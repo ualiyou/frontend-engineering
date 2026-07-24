@@ -90,6 +90,8 @@ Ten peer-reviewed articles are ready to read:
 - [Data & Server State](docs/03-application-architecture/data-server-state/) — fetching strategies, cache identity, staleness, invalidation, mutations, and optimistic updates.
 - [Forms & Validation](docs/03-application-architecture/forms-validation/) — form-state libraries, schema validation, inferred types, and accessible error messaging.
 
+Start with [Fetch-on-Render vs Render-as-You-Fetch](docs/03-application-architecture/data-server-state/fetch-on-render-vs-render-as-you-fetch.md) for data-loading architecture, or [Schema Validation](docs/03-application-architecture/forms-validation/schema-validation.md) for form contracts.
+
 ## Repository structure
 
 ```text
