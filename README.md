@@ -85,7 +85,7 @@ Mid-level to senior frontend engineers making architectural and design decisions
 | If you're deciding… | Start here | You will leave with |
 | --- | --- | --- |
 | When to start a request | [Fetch-on-Render vs Render-as-You-Fetch](docs/03-application-architecture/data-server-state/fetch-on-render-vs-render-as-you-fetch.md) | A loading model that matches the user experience you need. |
-| What makes cached data the same data | [Cache Keys](docs/03-application-architecture/data-server-state/cache-keys.md) | A stable cache identity that avoids subtle duplication and invalidation bugs. |
+| What makes cached data the same data | [Cache Keys & Query Identity](docs/03-application-architecture/data-server-state/cache-keys-and-query-identity.md) | A stable cache identity that avoids subtle duplication and invalidation bugs. |
 | How to keep form input trustworthy | [Schema Validation](docs/03-application-architecture/forms-validation/schema-validation.md) | A contract between UI, validation, and inferred types. |
 
 Browse the complete published collections: [Data & Server State](docs/03-application-architecture/data-server-state/) and [Forms & Validation](docs/03-application-architecture/forms-validation/). If this would save your team a future debate, [star the repository](https://github.com/ualiyou/frontend-engineering/stargazers) and come back when the next one begins.
