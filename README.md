@@ -8,6 +8,8 @@
 
 <p>A long-term, community-driven, peer-reviewed knowledge base of frontend engineering<br/>patterns, trade-offs, and production-ready practices — framework-aware, not framework-bound.</p>
 
+<p><strong>Stop re-litigating frontend decisions from scratch.</strong><br/>Find the trade-offs, choose deliberately, and ship the decision your future team can defend.</p>
+
 <!-- Banner (replace with final art per assets/branding/README.md) -->
 <img src="assets/branding/banner.svg" alt="Frontend Engineering" width="100%" />
 
@@ -29,6 +31,7 @@
 - [Why this project exists](#why-this-project-exists)
 - [What it is — and is not](#what-it-is--and-is-not)
 - [Who it's for](#who-its-for)
+- [Start with a decision](#start-with-a-decision)
 - [Features](#features)
 - [Repository structure](#repository-structure)
 - [The knowledge map](#the-knowledge-map)
@@ -45,6 +48,8 @@
 Frontend engineering knowledge is scattered across blog posts, framework changelogs, conference talks, and tribal experience. Much of it goes stale, contradicts itself, or optimizes for a demo rather than a production system.
 
 **Frontend Engineering** is a durable, versioned, peer-reviewed reference that captures the *decisions* behind good frontend systems — the problem, the options, the trade-offs, and a defensible recommendation — and stays useful for years, independent of any single framework's release cycle. The emphasis is on **reasoning**: *why* one approach is chosen over another, not step-by-step instructions.
+
+Your next data-loading, caching, or validation choice will shape more code than the first pull request suggests. This is the place to make that choice once — with the constraints visible — instead of rediscovering it during the next incident or rewrite.
 
 ## What it is — and is not
 
@@ -73,6 +78,18 @@ Frontend engineering knowledge is scattered across blog posts, framework changel
 
 Mid-level to senior frontend engineers making architectural and design decisions; tech leads and staff engineers setting standards across teams; and engineers preparing for system-design discussions who want structured reasoning rather than recipes. A working knowledge of JavaScript, the browser platform, and at least one component framework is assumed — this is not aimed at absolute beginners.
 
+## Start with a decision
+
+Ten peer-reviewed articles are already available. Start with the decision currently slowing your team down:
+
+| If you're deciding… | Start here | You will leave with |
+| --- | --- | --- |
+| When to start a request | [Fetch-on-Render vs Render-as-You-Fetch](docs/03-application-architecture/data-server-state/fetch-on-render-vs-render-as-you-fetch.md) | A loading model that matches the user experience you need. |
+| What makes cached data the same data | [Cache Keys](docs/03-application-architecture/data-server-state/cache-keys.md) | A stable cache identity that avoids subtle duplication and invalidation bugs. |
+| How to keep form input trustworthy | [Schema Validation](docs/03-application-architecture/forms-validation/schema-validation.md) | A contract between UI, validation, and inferred types. |
+
+Browse the complete published collections: [Data & Server State](docs/03-application-architecture/data-server-state/) and [Forms & Validation](docs/03-application-architecture/forms-validation/). If this would save your team a future debate, [star the repository](https://github.com/ualiyou/frontend-engineering/stargazers) and come back when the next one begins.
+
 ## Features
 
 - **Four-level knowledge map** — Part → Domain → Topic → Article — that scales to 1000+ entries without the root ever widening.
@@ -82,15 +99,6 @@ Mid-level to senior frontend engineers making architectural and design decisions
 - **Standardized template** — every article contrasts a realistic *bad example* with a production-ready *good example*.
 - **Two-stage review** — technical correctness and editorial craft are checked separately before anything ships.
 - **CI-validated** — Markdown lint, link checking, spell checking, and frontmatter validation run on every change.
-
-## Available now
-
-Ten peer-reviewed articles are ready to read:
-
-- [Data & Server State](docs/03-application-architecture/data-server-state/) — fetching strategies, cache identity, staleness, invalidation, mutations, and optimistic updates.
-- [Forms & Validation](docs/03-application-architecture/forms-validation/) — form-state libraries, schema validation, inferred types, and accessible error messaging.
-
-Start with [Fetch-on-Render vs Render-as-You-Fetch](docs/03-application-architecture/data-server-state/fetch-on-render-vs-render-as-you-fetch.md) for data-loading architecture, or [Schema Validation](docs/03-application-architecture/forms-validation/schema-validation.md) for form contracts.
 
 ## Repository structure
 
