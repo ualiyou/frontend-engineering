@@ -15,7 +15,7 @@ react
 software-architecture
 knowledge-base
 learning-resources
-```text
+```
 
 ## Secondary (strong topical relevance)
 
