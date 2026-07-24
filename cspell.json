@@ -28,7 +28,8 @@
     "megamorphic", "navigations", "negotiables", "nominalizations", "paywalled",
     "preconnected", "prereqs", "recomputations", "rollouts", "strawman", "strawmen",
     "unfocusable", "unrepresentable", "unsanitized", "unsourced", "userbase", "versionable",
-    "Clickjacking", "Metaprogramming", "Overcorrecting", "Subresource", "Unshareable", "unreviewed"
+    "Clickjacking", "Metaprogramming", "Overcorrecting", "Subresource", "Unshareable", "unreviewed",
+    "Anson", "endgroup", "lycheeverse", "nullglob", "shopt"
   ],
   "ignorePaths": [
     "_to_delete/**",
