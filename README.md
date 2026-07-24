@@ -102,6 +102,11 @@ Browse the complete published collections: [Data & Server State](docs/03-applica
 </td></tr>
 </table>
 
+<p align="center">
+  <a href="assets/memes/this-is-fine-cache-key.png"><img src="assets/memes/this-is-fine-cache-key.png" alt="This Is Fine meme: using the endpoint URL for the cache key" width="50%" /></a><br/>
+  <strong>A cache key is an identity, not just a URL.</strong> Read <a href="docs/03-application-architecture/data-server-state/cache-keys-and-query-identity.md">Cache Keys &amp; Query Identity</a>.
+</p>
+
 ## Features
 
 - 🗺️ **Four-level knowledge map** — Part → Domain → Topic → Article — that scales to 1000+ entries without the root ever widening.
