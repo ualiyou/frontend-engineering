@@ -8,11 +8,11 @@ By participating, you agree to uphold our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 New here? The best entry points are:
 
-- Issues labeled [`good first issue`](../../issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — small, well-scoped tasks.
-- Issues labeled [`help wanted`](../../issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) — where maintainers actively want contributors.
+- Issues labeled [`good first issue`](https://github.com/ualiyou/frontend-engineering/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — small, well-scoped tasks.
+- Issues labeled [`help wanted`](https://github.com/ualiyou/frontend-engineering/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) — where maintainers actively want contributors.
 - **Content corrections** — spot an error in an article? Open a *Content correction* issue or send a fix directly. These are high-value and low-risk.
 
-Not sure where something fits? Open an issue and ask, or start a [Discussion](../../discussions).
+Not sure where something fits? Open an issue and ask, or start a [Discussion](https://github.com/ualiyou/frontend-engineering/discussions).
 
 ## What We Accept
 
@@ -114,4 +114,4 @@ By contributing, you agree that your contribution is your own original work and 
 
 ## Questions
 
-Open an issue with the `type: question` label or start a [discussion](../../discussions). Maintainers are happy to help you shape a contribution before you invest time writing it.
+Open an issue with the `type: question` label or start a [discussion](https://github.com/ualiyou/frontend-engineering/discussions). Maintainers are happy to help you shape a contribution before you invest time writing it.

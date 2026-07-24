@@ -13,11 +13,11 @@
 
 <p>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-  <a href="../../actions"><img alt="CI" src="https://github.com/ualiyou/frontend-engineering/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/ualiyou/frontend-engineering/actions"><img alt="CI" src="https://github.com/ualiyou/frontend-engineering/actions/workflows/ci.yml/badge.svg"></a>
   <a href="CONTRIBUTING.md"><img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg"></a>
   <a href="CODE_OF_CONDUCT.md"><img alt="Code of Conduct" src="https://img.shields.io/badge/code%20of%20conduct-Contributor%20Covenant-ff69b4.svg"></a>
-  <a href="../../commits"><img alt="Last commit" src="https://img.shields.io/github/last-commit/ualiyou/frontend-engineering"></a>
-  <a href="../../stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/ualiyou/frontend-engineering?style=social"></a>
+  <a href="https://github.com/ualiyou/frontend-engineering/commits"><img alt="Last commit" src="https://img.shields.io/github/last-commit/ualiyou/frontend-engineering"></a>
+  <a href="https://github.com/ualiyou/frontend-engineering/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/ualiyou/frontend-engineering?style=social"></a>
 </p>
 
 </div>
@@ -129,7 +129,7 @@ Rather than reading top to bottom, follow a [role-based path](paths/) curated th
 
 ## Contributing
 
-Contributions are welcome and encouraged. Every entry follows the standard [article template](templates/article-template.md) and passes peer review. Good starting points are issues labeled [`good first issue`](../../issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and content corrections.
+Contributions are welcome and encouraged. Every entry follows the standard [article template](templates/article-template.md) and passes peer review. Good starting points are issues labeled [`good first issue`](https://github.com/ualiyou/frontend-engineering/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and content corrections.
 
 Before opening a pull request, read:
 
@@ -185,8 +185,8 @@ Use the metadata in [`CITATION.cff`](CITATION.cff), and cite a specific release 
 
 ## Community
 
-- 💬 **[Discussions](../../discussions)** — ask conceptual questions and propose topics.
-- 🐞 **[Issues](../../issues)** — report content errors or propose articles using the templates.
+- 💬 **[Discussions](https://github.com/ualiyou/frontend-engineering/discussions)** — ask conceptual questions and propose topics.
+- 🐞 **[Issues](https://github.com/ualiyou/frontend-engineering/issues)** — report content errors or propose articles using the templates.
 - 🔒 **[Security](SECURITY.md)** — privately report unsafe example code or tooling risk.
 - 🙋 **[Support](SUPPORT.md)** — where to go for what.
 
@@ -200,4 +200,4 @@ This project's structure and standards are inspired by the maintainers who set t
 
 Released under the [MIT License](LICENSE). Content contributed to this repository is shared under the same terms.
 
-<div align="center"><sub>Built for engineers making decisions. · <a href="CONTRIBUTING.md">Contribute</a> · <a href="../../discussions">Discuss</a></sub></div>
+<div align="center"><sub>Built for engineers making decisions. · <a href="CONTRIBUTING.md">Contribute</a> · <a href="https://github.com/ualiyou/frontend-engineering/discussions">Discuss</a></sub></div>

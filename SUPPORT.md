@@ -4,7 +4,7 @@ Thanks for using Frontend Engineering. This file explains where to go for what �
 
 ## I have a question about frontend engineering
 
-Open a **[GitHub Discussion](../../discussions)** in the *Q&A* category, or open an issue with the `type: question` label. Note that this repository documents *engineering decisions and trade-offs* — it is not a general help desk for debugging your app. Well-scoped questions about a specific article or trade-off get the best responses.
+Open a **[GitHub Discussion](https://github.com/ualiyou/frontend-engineering/discussions)** in the *Q&A* category, or open an issue with the `type: question` label. Note that this repository documents *engineering decisions and trade-offs* — it is not a general help desk for debugging your app. Well-scoped questions about a specific article or trade-off get the best responses.
 
 ## I found an error in an article
 
@@ -30,7 +30,7 @@ This is a community project maintained by volunteers. There is no SLA. Issues an
 
 | I want to… | Go to |
 | --- | --- |
-| Ask a conceptual question | [Discussions → Q&A](../../discussions) or `type: question` issue |
+| Ask a conceptual question | [Discussions → Q&A](https://github.com/ualiyou/frontend-engineering/discussions) or `type: question` issue |
 | Report a content error | Issue → *Content correction* |
 | Propose an article | Issue → *Article proposal* |
 | Suggest a repo/tooling change | Issue → *Improvement / idea* |
