@@ -1,0 +1,502 @@
+{
+  "domain": "State Management",
+  "part": "03 · Application Architecture",
+  "path": "docs/03-application-architecture/state-management",
+  "depends_on": [
+    "React",
+    "JavaScript"
+  ],
+  "node_count": 18,
+  "estimated_minutes": 231,
+  "nodes": [
+    {
+      "title": "Categories of State",
+      "slug": "categories-of-state.md",
+      "subcategory": "State Taxonomy",
+      "order": 290,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Elements vs Components · React",
+        "Primitives & Wrappers · JavaScript"
+      ],
+      "related": [
+        "Server vs Client State",
+        "UI vs Domain State",
+        "Ephemeral vs Persistent State"
+      ],
+      "next": [
+        "Server vs Client State",
+        "UI vs Domain State",
+        "Ephemeral vs Persistent State",
+        "Local State",
+        "Lifting State Up"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Server vs Client State",
+      "slug": "server-vs-client-state.md",
+      "subcategory": "State Taxonomy",
+      "order": 291,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Categories of State"
+      ],
+      "related": [
+        "Categories of State",
+        "UI vs Domain State",
+        "Ephemeral vs Persistent State"
+      ],
+      "next": [
+        "UI vs Domain State"
+      ],
+      "alternatives": [
+        "UI vs Domain State",
+        "Ephemeral vs Persistent State"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "UI vs Domain State",
+      "slug": "ui-vs-domain-state.md",
+      "subcategory": "State Taxonomy",
+      "order": 292,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Categories of State"
+      ],
+      "related": [
+        "Categories of State",
+        "Server vs Client State",
+        "Ephemeral vs Persistent State"
+      ],
+      "next": [
+        "Ephemeral vs Persistent State"
+      ],
+      "alternatives": [
+        "Server vs Client State",
+        "Ephemeral vs Persistent State"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Ephemeral vs Persistent State",
+      "slug": "ephemeral-vs-persistent-state.md",
+      "subcategory": "State Taxonomy",
+      "order": 293,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Categories of State"
+      ],
+      "related": [
+        "Categories of State",
+        "Server vs Client State",
+        "UI vs Domain State"
+      ],
+      "next": [
+        "Local State"
+      ],
+      "alternatives": [
+        "Server vs Client State",
+        "UI vs Domain State"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Local State",
+      "slug": "local-state.md",
+      "subcategory": "State Ownership",
+      "order": 294,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Categories of State"
+      ],
+      "related": [
+        "Lifting State Up",
+        "Global State",
+        "Colocation vs Centralization"
+      ],
+      "next": [
+        "Lifting State Up",
+        "Global State",
+        "Colocation vs Centralization",
+        "Computed Values",
+        "Selectors & Memoized Selectors"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Lifting State Up",
+      "slug": "lifting-state-up.md",
+      "subcategory": "State Ownership",
+      "order": 295,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Local State",
+        "Categories of State"
+      ],
+      "related": [
+        "Local State",
+        "Global State",
+        "Colocation vs Centralization"
+      ],
+      "next": [
+        "Global State"
+      ],
+      "alternatives": [
+        "Global State",
+        "Colocation vs Centralization"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Global State",
+      "slug": "global-state.md",
+      "subcategory": "State Ownership",
+      "order": 296,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Local State",
+        "Categories of State"
+      ],
+      "related": [
+        "Local State",
+        "Lifting State Up",
+        "Colocation vs Centralization"
+      ],
+      "next": [
+        "Colocation vs Centralization"
+      ],
+      "alternatives": [
+        "Lifting State Up",
+        "Colocation vs Centralization"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Colocation vs Centralization",
+      "slug": "colocation-vs-centralization.md",
+      "subcategory": "State Ownership",
+      "order": 297,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Local State",
+        "Categories of State"
+      ],
+      "related": [
+        "Local State",
+        "Lifting State Up",
+        "Global State"
+      ],
+      "next": [
+        "Computed Values"
+      ],
+      "alternatives": [
+        "Lifting State Up",
+        "Global State"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Computed Values",
+      "slug": "computed-values.md",
+      "subcategory": "Derived State",
+      "order": 298,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Local State"
+      ],
+      "related": [
+        "Selectors & Memoized Selectors",
+        "Store Shape & Normalization"
+      ],
+      "next": [
+        "Selectors & Memoized Selectors",
+        "Store Shape & Normalization",
+        "The Reducer Pattern",
+        "Unidirectional Data Flow",
+        "Event Sourcing & Commands"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Selectors & Memoized Selectors",
+      "slug": "selectors-and-memoized-selectors.md",
+      "subcategory": "Derived State",
+      "order": 299,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Computed Values",
+        "Local State"
+      ],
+      "related": [
+        "Computed Values",
+        "Store Shape & Normalization"
+      ],
+      "next": [
+        "Store Shape & Normalization"
+      ],
+      "alternatives": [
+        "Store Shape & Normalization"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Store Shape & Normalization",
+      "slug": "store-shape-and-normalization.md",
+      "subcategory": "Derived State",
+      "order": 300,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Computed Values",
+        "Local State"
+      ],
+      "related": [
+        "Computed Values",
+        "Selectors & Memoized Selectors"
+      ],
+      "next": [
+        "The Reducer Pattern"
+      ],
+      "alternatives": [
+        "Selectors & Memoized Selectors"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Reducer Pattern",
+      "slug": "the-reducer-pattern.md",
+      "subcategory": "State Patterns",
+      "order": 301,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Computed Values"
+      ],
+      "related": [
+        "Unidirectional Data Flow",
+        "Event Sourcing & Commands",
+        "Modeling UI with State Machines"
+      ],
+      "next": [
+        "Unidirectional Data Flow",
+        "Event Sourcing & Commands",
+        "Modeling UI with State Machines",
+        "Store-Based Libraries",
+        "Atom-Based Libraries"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Unidirectional Data Flow",
+      "slug": "unidirectional-data-flow.md",
+      "subcategory": "State Patterns",
+      "order": 302,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Reducer Pattern",
+        "Computed Values"
+      ],
+      "related": [
+        "The Reducer Pattern",
+        "Event Sourcing & Commands",
+        "Modeling UI with State Machines"
+      ],
+      "next": [
+        "Event Sourcing & Commands"
+      ],
+      "alternatives": [
+        "Event Sourcing & Commands",
+        "Modeling UI with State Machines"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Event Sourcing & Commands",
+      "slug": "event-sourcing-and-commands.md",
+      "subcategory": "State Patterns",
+      "order": 303,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Reducer Pattern",
+        "Computed Values"
+      ],
+      "related": [
+        "The Reducer Pattern",
+        "Unidirectional Data Flow",
+        "Modeling UI with State Machines"
+      ],
+      "next": [
+        "Modeling UI with State Machines"
+      ],
+      "alternatives": [
+        "Unidirectional Data Flow",
+        "Modeling UI with State Machines"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Modeling UI with State Machines",
+      "slug": "modeling-ui-with-state-machines.md",
+      "subcategory": "State Patterns",
+      "order": 304,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Reducer Pattern",
+        "Computed Values"
+      ],
+      "related": [
+        "The Reducer Pattern",
+        "Unidirectional Data Flow",
+        "Event Sourcing & Commands"
+      ],
+      "next": [
+        "Store-Based Libraries"
+      ],
+      "alternatives": [
+        "Unidirectional Data Flow",
+        "Event Sourcing & Commands"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Store-Based Libraries",
+      "slug": "store-based-libraries.md",
+      "subcategory": "Libraries & Models",
+      "order": 305,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Reducer Pattern"
+      ],
+      "related": [
+        "Atom-Based Libraries",
+        "Proxy-Based Reactivity"
+      ],
+      "next": [
+        "Atom-Based Libraries",
+        "Proxy-Based Reactivity"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Atom-Based Libraries",
+      "slug": "atom-based-libraries.md",
+      "subcategory": "Libraries & Models",
+      "order": 306,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Store-Based Libraries",
+        "The Reducer Pattern"
+      ],
+      "related": [
+        "Store-Based Libraries",
+        "Proxy-Based Reactivity"
+      ],
+      "next": [
+        "Proxy-Based Reactivity"
+      ],
+      "alternatives": [
+        "Proxy-Based Reactivity"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Proxy-Based Reactivity",
+      "slug": "proxy-based-reactivity.md",
+      "subcategory": "Libraries & Models",
+      "order": 307,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Store-Based Libraries",
+        "The Reducer Pattern"
+      ],
+      "related": [
+        "Store-Based Libraries",
+        "Atom-Based Libraries"
+      ],
+      "next": [
+        "Fetch-on-Render vs Render-as-You-Fetch"
+      ],
+      "alternatives": [
+        "Atom-Based Libraries"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#state-management",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

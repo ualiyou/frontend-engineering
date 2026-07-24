@@ -1,0 +1,31 @@
+name: "🐞 Content correction"
+description: Report an error, inaccuracy, or broken link in an article or example.
+title: "[fix] <what is wrong>"
+labels: ["type: correction", "status: triage"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File
+      description: Path to the article/example, e.g. docs/05-reliability-quality/security/README.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the incorrect claim or paste the broken link. Explain why it is wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: If you know the fix, describe or paste it. References welcome.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: This is a factual/technical correction, not a stylistic preference.
+          required: false

@@ -1,0 +1,407 @@
+{
+  "domain": "Progressive & Cross-Platform Web",
+  "part": "07 · Platform Reach",
+  "path": "docs/07-platform-reach/progressive-web",
+  "depends_on": [
+    "Browser APIs",
+    "Networking & Protocols",
+    "Performance Engineering"
+  ],
+  "node_count": 15,
+  "estimated_minutes": 246,
+  "nodes": [
+    {
+      "title": "The Service Worker Lifecycle",
+      "slug": "the-service-worker-lifecycle.md",
+      "subcategory": "Service Workers",
+      "order": 586,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Web Storage · Browser APIs",
+        "HTTP/1.1 Semantics · Networking & Protocols",
+        "Core Web Vitals (LCP, INP, CLS) · Performance Engineering"
+      ],
+      "related": [
+        "Fetch Interception",
+        "Update & Activation Strategy"
+      ],
+      "next": [
+        "Fetch Interception",
+        "Update & Activation Strategy",
+        "Runtime Caching Strategies",
+        "Precaching & Offline Shell",
+        "Background Sync"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Fetch Interception",
+      "slug": "fetch-interception.md",
+      "subcategory": "Service Workers",
+      "order": 587,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "The Service Worker Lifecycle"
+      ],
+      "related": [
+        "The Service Worker Lifecycle",
+        "Update & Activation Strategy"
+      ],
+      "next": [
+        "Update & Activation Strategy"
+      ],
+      "alternatives": [
+        "Update & Activation Strategy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Update & Activation Strategy",
+      "slug": "update-and-activation-strategy.md",
+      "subcategory": "Service Workers",
+      "order": 588,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "The Service Worker Lifecycle"
+      ],
+      "related": [
+        "The Service Worker Lifecycle",
+        "Fetch Interception"
+      ],
+      "next": [
+        "Runtime Caching Strategies"
+      ],
+      "alternatives": [
+        "Fetch Interception"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Runtime Caching Strategies",
+      "slug": "runtime-caching-strategies.md",
+      "subcategory": "Offline",
+      "order": 589,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "The Service Worker Lifecycle"
+      ],
+      "related": [
+        "Precaching & Offline Shell",
+        "Background Sync",
+        "Cache Versioning & Cleanup"
+      ],
+      "next": [
+        "Precaching & Offline Shell",
+        "Background Sync",
+        "Cache Versioning & Cleanup",
+        "Web App Manifest",
+        "Install Prompts & Criteria"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Precaching & Offline Shell",
+      "slug": "precaching-and-offline-shell.md",
+      "subcategory": "Offline",
+      "order": 590,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Runtime Caching Strategies",
+        "The Service Worker Lifecycle"
+      ],
+      "related": [
+        "Runtime Caching Strategies",
+        "Background Sync",
+        "Cache Versioning & Cleanup"
+      ],
+      "next": [
+        "Background Sync"
+      ],
+      "alternatives": [
+        "Background Sync",
+        "Cache Versioning & Cleanup"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Background Sync",
+      "slug": "background-sync.md",
+      "subcategory": "Offline",
+      "order": 591,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Runtime Caching Strategies",
+        "The Service Worker Lifecycle"
+      ],
+      "related": [
+        "Runtime Caching Strategies",
+        "Precaching & Offline Shell",
+        "Cache Versioning & Cleanup"
+      ],
+      "next": [
+        "Cache Versioning & Cleanup"
+      ],
+      "alternatives": [
+        "Precaching & Offline Shell",
+        "Cache Versioning & Cleanup"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cache Versioning & Cleanup",
+      "slug": "cache-versioning-and-cleanup.md",
+      "subcategory": "Offline",
+      "order": 592,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Runtime Caching Strategies",
+        "The Service Worker Lifecycle"
+      ],
+      "related": [
+        "Runtime Caching Strategies",
+        "Precaching & Offline Shell",
+        "Background Sync"
+      ],
+      "next": [
+        "Web App Manifest"
+      ],
+      "alternatives": [
+        "Precaching & Offline Shell",
+        "Background Sync"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Web App Manifest",
+      "slug": "web-app-manifest.md",
+      "subcategory": "Installability",
+      "order": 593,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Runtime Caching Strategies"
+      ],
+      "related": [
+        "Install Prompts & Criteria",
+        "Standalone & Display Modes"
+      ],
+      "next": [
+        "Install Prompts & Criteria",
+        "Standalone & Display Modes",
+        "Push Notifications",
+        "Badging & Periodic Sync"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Install Prompts & Criteria",
+      "slug": "install-prompts-and-criteria.md",
+      "subcategory": "Installability",
+      "order": 594,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Web App Manifest",
+        "Runtime Caching Strategies"
+      ],
+      "related": [
+        "Web App Manifest",
+        "Standalone & Display Modes"
+      ],
+      "next": [
+        "Standalone & Display Modes"
+      ],
+      "alternatives": [
+        "Standalone & Display Modes"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Standalone & Display Modes",
+      "slug": "standalone-and-display-modes.md",
+      "subcategory": "Installability",
+      "order": 595,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Web App Manifest",
+        "Runtime Caching Strategies"
+      ],
+      "related": [
+        "Web App Manifest",
+        "Install Prompts & Criteria"
+      ],
+      "next": [
+        "Push Notifications"
+      ],
+      "alternatives": [
+        "Install Prompts & Criteria"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Push Notifications",
+      "slug": "push-notifications.md",
+      "subcategory": "Engagement",
+      "order": 596,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Web App Manifest"
+      ],
+      "related": [
+        "Badging & Periodic Sync"
+      ],
+      "next": [
+        "Badging & Periodic Sync",
+        "Web Views & Hybrid Apps",
+        "Wrapper Models (Capacitor)",
+        "Web-to-Native Bridges"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Badging & Periodic Sync",
+      "slug": "badging-and-periodic-sync.md",
+      "subcategory": "Engagement",
+      "order": 597,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Push Notifications",
+        "Web App Manifest"
+      ],
+      "related": [
+        "Push Notifications"
+      ],
+      "next": [
+        "Web Views & Hybrid Apps"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Web Views & Hybrid Apps",
+      "slug": "web-views-and-hybrid-apps.md",
+      "subcategory": "Native Boundaries",
+      "order": 598,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Push Notifications"
+      ],
+      "related": [
+        "Wrapper Models (Capacitor)",
+        "Web-to-Native Bridges"
+      ],
+      "next": [
+        "Wrapper Models (Capacitor)",
+        "Web-to-Native Bridges"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Wrapper Models (Capacitor)",
+      "slug": "wrapper-models-capacitor.md",
+      "subcategory": "Native Boundaries",
+      "order": 599,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Web Views & Hybrid Apps",
+        "Push Notifications"
+      ],
+      "related": [
+        "Web Views & Hybrid Apps",
+        "Web-to-Native Bridges"
+      ],
+      "next": [
+        "Web-to-Native Bridges"
+      ],
+      "alternatives": [
+        "Web-to-Native Bridges"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Web-to-Native Bridges",
+      "slug": "web-to-native-bridges.md",
+      "subcategory": "Native Boundaries",
+      "order": 600,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Web Views & Hybrid Apps",
+        "Push Notifications"
+      ],
+      "related": [
+        "Web Views & Hybrid Apps",
+        "Wrapper Models (Capacitor)"
+      ],
+      "next": [
+        "The 2D Canvas Model"
+      ],
+      "alternatives": [
+        "Wrapper Models (Capacitor)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#progressive-cross-platform-web",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

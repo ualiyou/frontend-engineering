@@ -1,0 +1,504 @@
+{
+  "domain": "Computer Science for Frontend",
+  "part": "00 · Foundations",
+  "path": "docs/00-foundations/computer-science",
+  "depends_on": [],
+  "node_count": 18,
+  "estimated_minutes": 156,
+  "nodes": [
+    {
+      "title": "Trees & the DOM as a Tree",
+      "slug": "trees-and-the-dom-as-a-tree.md",
+      "subcategory": "Data Structures",
+      "order": 1,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [],
+      "related": [
+        "Graphs & Dependency Modeling",
+        "Hash Maps & Sets",
+        "Stacks & Queues",
+        "Linked & Persistent Lists"
+      ],
+      "next": [
+        "Graphs & Dependency Modeling",
+        "Hash Maps & Sets",
+        "Stacks & Queues",
+        "Linked & Persistent Lists",
+        "Tree Diffing Algorithms"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Graphs & Dependency Modeling",
+      "slug": "graphs-and-dependency-modeling.md",
+      "subcategory": "Data Structures",
+      "order": 2,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Trees & the DOM as a Tree"
+      ],
+      "related": [
+        "Trees & the DOM as a Tree",
+        "Hash Maps & Sets",
+        "Stacks & Queues",
+        "Linked & Persistent Lists"
+      ],
+      "next": [
+        "Hash Maps & Sets"
+      ],
+      "alternatives": [
+        "Hash Maps & Sets",
+        "Stacks & Queues",
+        "Linked & Persistent Lists"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Hash Maps & Sets",
+      "slug": "hash-maps-and-sets.md",
+      "subcategory": "Data Structures",
+      "order": 3,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Trees & the DOM as a Tree"
+      ],
+      "related": [
+        "Trees & the DOM as a Tree",
+        "Graphs & Dependency Modeling",
+        "Stacks & Queues",
+        "Linked & Persistent Lists"
+      ],
+      "next": [
+        "Stacks & Queues"
+      ],
+      "alternatives": [
+        "Graphs & Dependency Modeling",
+        "Stacks & Queues",
+        "Linked & Persistent Lists"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Stacks & Queues",
+      "slug": "stacks-and-queues.md",
+      "subcategory": "Data Structures",
+      "order": 4,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Trees & the DOM as a Tree"
+      ],
+      "related": [
+        "Trees & the DOM as a Tree",
+        "Graphs & Dependency Modeling",
+        "Hash Maps & Sets",
+        "Linked & Persistent Lists"
+      ],
+      "next": [
+        "Linked & Persistent Lists"
+      ],
+      "alternatives": [
+        "Graphs & Dependency Modeling",
+        "Hash Maps & Sets",
+        "Linked & Persistent Lists"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Linked & Persistent Lists",
+      "slug": "linked-and-persistent-lists.md",
+      "subcategory": "Data Structures",
+      "order": 5,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Trees & the DOM as a Tree"
+      ],
+      "related": [
+        "Trees & the DOM as a Tree",
+        "Graphs & Dependency Modeling",
+        "Hash Maps & Sets",
+        "Stacks & Queues"
+      ],
+      "next": [
+        "Tree Diffing Algorithms"
+      ],
+      "alternatives": [
+        "Graphs & Dependency Modeling",
+        "Hash Maps & Sets",
+        "Stacks & Queues"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Tree Diffing Algorithms",
+      "slug": "tree-diffing-algorithms.md",
+      "subcategory": "Algorithms",
+      "order": 6,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Trees & the DOM as a Tree"
+      ],
+      "related": [
+        "Traversal (DFS, BFS)",
+        "Searching & Filtering",
+        "Sorting & Comparators",
+        "Memoization & Dynamic Programming"
+      ],
+      "next": [
+        "Traversal (DFS, BFS)",
+        "Searching & Filtering",
+        "Sorting & Comparators",
+        "Memoization & Dynamic Programming",
+        "Big-O for UI Operations"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Traversal (DFS, BFS)",
+      "slug": "traversal-dfs-bfs.md",
+      "subcategory": "Algorithms",
+      "order": 7,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Tree Diffing Algorithms",
+        "Trees & the DOM as a Tree"
+      ],
+      "related": [
+        "Tree Diffing Algorithms",
+        "Searching & Filtering",
+        "Sorting & Comparators",
+        "Memoization & Dynamic Programming"
+      ],
+      "next": [
+        "Searching & Filtering"
+      ],
+      "alternatives": [
+        "Searching & Filtering",
+        "Sorting & Comparators",
+        "Memoization & Dynamic Programming"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Searching & Filtering",
+      "slug": "searching-and-filtering.md",
+      "subcategory": "Algorithms",
+      "order": 8,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Tree Diffing Algorithms",
+        "Trees & the DOM as a Tree"
+      ],
+      "related": [
+        "Tree Diffing Algorithms",
+        "Traversal (DFS, BFS)",
+        "Sorting & Comparators",
+        "Memoization & Dynamic Programming"
+      ],
+      "next": [
+        "Sorting & Comparators"
+      ],
+      "alternatives": [
+        "Traversal (DFS, BFS)",
+        "Sorting & Comparators",
+        "Memoization & Dynamic Programming"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Sorting & Comparators",
+      "slug": "sorting-and-comparators.md",
+      "subcategory": "Algorithms",
+      "order": 9,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Tree Diffing Algorithms",
+        "Trees & the DOM as a Tree"
+      ],
+      "related": [
+        "Tree Diffing Algorithms",
+        "Traversal (DFS, BFS)",
+        "Searching & Filtering",
+        "Memoization & Dynamic Programming"
+      ],
+      "next": [
+        "Memoization & Dynamic Programming"
+      ],
+      "alternatives": [
+        "Traversal (DFS, BFS)",
+        "Searching & Filtering",
+        "Memoization & Dynamic Programming"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Memoization & Dynamic Programming",
+      "slug": "memoization-and-dynamic-programming.md",
+      "subcategory": "Algorithms",
+      "order": 10,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Tree Diffing Algorithms",
+        "Trees & the DOM as a Tree"
+      ],
+      "related": [
+        "Tree Diffing Algorithms",
+        "Traversal (DFS, BFS)",
+        "Searching & Filtering",
+        "Sorting & Comparators"
+      ],
+      "next": [
+        "Big-O for UI Operations"
+      ],
+      "alternatives": [
+        "Traversal (DFS, BFS)",
+        "Searching & Filtering",
+        "Sorting & Comparators"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Big-O for UI Operations",
+      "slug": "big-o-for-ui-operations.md",
+      "subcategory": "Complexity & Cost",
+      "order": 11,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Tree Diffing Algorithms"
+      ],
+      "related": [
+        "Amortized Cost & Batching",
+        "Space vs Time Trade-offs"
+      ],
+      "next": [
+        "Amortized Cost & Batching",
+        "Space vs Time Trade-offs",
+        "Immutability & Structural Sharing",
+        "Finite State Machines",
+        "Statecharts & Hierarchical States"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Amortized Cost & Batching",
+      "slug": "amortized-cost-and-batching.md",
+      "subcategory": "Complexity & Cost",
+      "order": 12,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Big-O for UI Operations",
+        "Tree Diffing Algorithms"
+      ],
+      "related": [
+        "Big-O for UI Operations",
+        "Space vs Time Trade-offs"
+      ],
+      "next": [
+        "Space vs Time Trade-offs"
+      ],
+      "alternatives": [
+        "Space vs Time Trade-offs"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Space vs Time Trade-offs",
+      "slug": "space-vs-time-trade-offs.md",
+      "subcategory": "Complexity & Cost",
+      "order": 13,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Big-O for UI Operations",
+        "Tree Diffing Algorithms"
+      ],
+      "related": [
+        "Big-O for UI Operations",
+        "Amortized Cost & Batching"
+      ],
+      "next": [
+        "Immutability & Structural Sharing"
+      ],
+      "alternatives": [
+        "Amortized Cost & Batching"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Immutability & Structural Sharing",
+      "slug": "immutability-and-structural-sharing.md",
+      "subcategory": "Modeling Change",
+      "order": 14,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Big-O for UI Operations"
+      ],
+      "related": [
+        "Finite State Machines",
+        "Statecharts & Hierarchical States"
+      ],
+      "next": [
+        "Finite State Machines",
+        "Statecharts & Hierarchical States",
+        "Concurrency vs Parallelism",
+        "Determinism & Idempotency"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Finite State Machines",
+      "slug": "finite-state-machines.md",
+      "subcategory": "Modeling Change",
+      "order": 15,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Immutability & Structural Sharing",
+        "Big-O for UI Operations"
+      ],
+      "related": [
+        "Immutability & Structural Sharing",
+        "Statecharts & Hierarchical States"
+      ],
+      "next": [
+        "Statecharts & Hierarchical States"
+      ],
+      "alternatives": [
+        "Statecharts & Hierarchical States"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Statecharts & Hierarchical States",
+      "slug": "statecharts-and-hierarchical-states.md",
+      "subcategory": "Modeling Change",
+      "order": 16,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Immutability & Structural Sharing",
+        "Big-O for UI Operations"
+      ],
+      "related": [
+        "Immutability & Structural Sharing",
+        "Finite State Machines"
+      ],
+      "next": [
+        "Concurrency vs Parallelism"
+      ],
+      "alternatives": [
+        "Finite State Machines"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Concurrency vs Parallelism",
+      "slug": "concurrency-vs-parallelism.md",
+      "subcategory": "Execution Models",
+      "order": 17,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Immutability & Structural Sharing"
+      ],
+      "related": [
+        "Determinism & Idempotency"
+      ],
+      "next": [
+        "Determinism & Idempotency"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Determinism & Idempotency",
+      "slug": "determinism-and-idempotency.md",
+      "subcategory": "Execution Models",
+      "order": 18,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Concurrency vs Parallelism",
+        "Immutability & Structural Sharing"
+      ],
+      "related": [
+        "Concurrency vs Parallelism"
+      ],
+      "next": [
+        "Process & Thread Architecture"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#computer-science-for-frontend",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "domain": "Systems Thinking & Leadership",
+  "part": "08 · Craft & Leadership",
+  "path": "docs/08-craft-leadership/systems-thinking-leadership",
+  "depends_on": [
+    "Frontend Architecture",
+    "Engineering Practices"
+  ],
+  "node_count": 17,
+  "estimated_minutes": 364,
+  "nodes": [
+    {
+      "title": "Trade-off Analysis",
+      "slug": "trade-off-analysis.md",
+      "subcategory": "Decisions",
+      "order": 635,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Separation of Concerns · Frontend Architecture",
+        "Naming · Engineering Practices"
+      ],
+      "related": [
+        "Decision-Making Under Uncertainty",
+        "Build vs Buy"
+      ],
+      "next": [
+        "Decision-Making Under Uncertainty",
+        "Build vs Buy",
+        "Technical Design & RFCs",
+        "Setting Standards & Guardrails",
+        "Driving Consistency at Scale"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Decision-Making Under Uncertainty",
+      "slug": "decision-making-under-uncertainty.md",
+      "subcategory": "Decisions",
+      "order": 636,
+      "difficulty": "Staff",
+      "reading_time_min": 23,
+      "prerequisites": [
+        "Trade-off Analysis"
+      ],
+      "related": [
+        "Trade-off Analysis",
+        "Build vs Buy"
+      ],
+      "next": [
+        "Build vs Buy"
+      ],
+      "alternatives": [
+        "Build vs Buy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Build vs Buy",
+      "slug": "build-vs-buy.md",
+      "subcategory": "Decisions",
+      "order": 637,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Trade-off Analysis"
+      ],
+      "related": [
+        "Trade-off Analysis",
+        "Decision-Making Under Uncertainty"
+      ],
+      "next": [
+        "Technical Design & RFCs"
+      ],
+      "alternatives": [
+        "Decision-Making Under Uncertainty"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Technical Design & RFCs",
+      "slug": "technical-design-and-rfcs.md",
+      "subcategory": "Technical Direction",
+      "order": 638,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Trade-off Analysis"
+      ],
+      "related": [
+        "Setting Standards & Guardrails",
+        "Driving Consistency at Scale"
+      ],
+      "next": [
+        "Setting Standards & Guardrails",
+        "Driving Consistency at Scale",
+        "Estimation",
+        "Scoping & Slicing Work",
+        "Risk Management"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Setting Standards & Guardrails",
+      "slug": "setting-standards-and-guardrails.md",
+      "subcategory": "Technical Direction",
+      "order": 639,
+      "difficulty": "Staff",
+      "reading_time_min": 23,
+      "prerequisites": [
+        "Technical Design & RFCs",
+        "Trade-off Analysis"
+      ],
+      "related": [
+        "Technical Design & RFCs",
+        "Driving Consistency at Scale"
+      ],
+      "next": [
+        "Driving Consistency at Scale"
+      ],
+      "alternatives": [
+        "Driving Consistency at Scale"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Driving Consistency at Scale",
+      "slug": "driving-consistency-at-scale.md",
+      "subcategory": "Technical Direction",
+      "order": 640,
+      "difficulty": "Staff",
+      "reading_time_min": 23,
+      "prerequisites": [
+        "Technical Design & RFCs",
+        "Trade-off Analysis"
+      ],
+      "related": [
+        "Technical Design & RFCs",
+        "Setting Standards & Guardrails"
+      ],
+      "next": [
+        "Estimation"
+      ],
+      "alternatives": [
+        "Setting Standards & Guardrails"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Estimation",
+      "slug": "estimation.md",
+      "subcategory": "Planning",
+      "order": 641,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Technical Design & RFCs"
+      ],
+      "related": [
+        "Scoping & Slicing Work",
+        "Risk Management"
+      ],
+      "next": [
+        "Scoping & Slicing Work",
+        "Risk Management",
+        "Cross-Functional Partnership",
+        "Influence Without Authority",
+        "Communicating Technical Concepts"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Scoping & Slicing Work",
+      "slug": "scoping-and-slicing-work.md",
+      "subcategory": "Planning",
+      "order": 642,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Estimation",
+        "Technical Design & RFCs"
+      ],
+      "related": [
+        "Estimation",
+        "Risk Management"
+      ],
+      "next": [
+        "Risk Management"
+      ],
+      "alternatives": [
+        "Risk Management"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Risk Management",
+      "slug": "risk-management.md",
+      "subcategory": "Planning",
+      "order": 643,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Estimation",
+        "Technical Design & RFCs"
+      ],
+      "related": [
+        "Estimation",
+        "Scoping & Slicing Work"
+      ],
+      "next": [
+        "Cross-Functional Partnership"
+      ],
+      "alternatives": [
+        "Scoping & Slicing Work"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cross-Functional Partnership",
+      "slug": "cross-functional-partnership.md",
+      "subcategory": "Collaboration",
+      "order": 644,
+      "difficulty": "Staff",
+      "reading_time_min": 23,
+      "prerequisites": [
+        "Estimation"
+      ],
+      "related": [
+        "Influence Without Authority",
+        "Communicating Technical Concepts"
+      ],
+      "next": [
+        "Influence Without Authority",
+        "Communicating Technical Concepts",
+        "Mentorship",
+        "Technical Leadership Styles"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Influence Without Authority",
+      "slug": "influence-without-authority.md",
+      "subcategory": "Collaboration",
+      "order": 645,
+      "difficulty": "Staff",
+      "reading_time_min": 23,
+      "prerequisites": [
+        "Cross-Functional Partnership",
+        "Estimation"
+      ],
+      "related": [
+        "Cross-Functional Partnership",
+        "Communicating Technical Concepts"
+      ],
+      "next": [
+        "Communicating Technical Concepts"
+      ],
+      "alternatives": [
+        "Communicating Technical Concepts"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Communicating Technical Concepts",
+      "slug": "communicating-technical-concepts.md",
+      "subcategory": "Collaboration",
+      "order": 646,
+      "difficulty": "Staff",
+      "reading_time_min": 23,
+      "prerequisites": [
+        "Cross-Functional Partnership",
+        "Estimation"
+      ],
+      "related": [
+        "Cross-Functional Partnership",
+        "Influence Without Authority"
+      ],
+      "next": [
+        "Mentorship"
+      ],
+      "alternatives": [
+        "Influence Without Authority"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Mentorship",
+      "slug": "mentorship.md",
+      "subcategory": "Growth",
+      "order": 647,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Cross-Functional Partnership"
+      ],
+      "related": [
+        "Technical Leadership Styles"
+      ],
+      "next": [
+        "Technical Leadership Styles",
+        "Evaluating Technology",
+        "Adoption & Migration Strategy",
+        "Innovation vs Stability"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Technical Leadership Styles",
+      "slug": "technical-leadership-styles.md",
+      "subcategory": "Growth",
+      "order": 648,
+      "difficulty": "Staff",
+      "reading_time_min": 23,
+      "prerequisites": [
+        "Mentorship",
+        "Cross-Functional Partnership"
+      ],
+      "related": [
+        "Mentorship"
+      ],
+      "next": [
+        "Evaluating Technology"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Evaluating Technology",
+      "slug": "evaluating-technology.md",
+      "subcategory": "Technology Strategy",
+      "order": 649,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Mentorship"
+      ],
+      "related": [
+        "Adoption & Migration Strategy",
+        "Innovation vs Stability"
+      ],
+      "next": [
+        "Adoption & Migration Strategy",
+        "Innovation vs Stability"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Adoption & Migration Strategy",
+      "slug": "adoption-and-migration-strategy.md",
+      "subcategory": "Technology Strategy",
+      "order": 650,
+      "difficulty": "Staff",
+      "reading_time_min": 23,
+      "prerequisites": [
+        "Evaluating Technology",
+        "Mentorship"
+      ],
+      "related": [
+        "Evaluating Technology",
+        "Innovation vs Stability"
+      ],
+      "next": [
+        "Innovation vs Stability"
+      ],
+      "alternatives": [
+        "Innovation vs Stability"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Innovation vs Stability",
+      "slug": "innovation-vs-stability.md",
+      "subcategory": "Technology Strategy",
+      "order": 651,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Evaluating Technology",
+        "Mentorship"
+      ],
+      "related": [
+        "Evaluating Technology",
+        "Adoption & Migration Strategy"
+      ],
+      "next": [],
+      "alternatives": [
+        "Adoption & Migration Strategy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#systems-thinking-leadership",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

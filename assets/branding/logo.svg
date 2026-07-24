@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Frontend Engineering logo">
+  <rect width="120" height="120" rx="26" fill="#0B1220"/>
+  <!-- node-graph motif: decisions connected -->
+  <g stroke="#1e2a44" stroke-width="2">
+    <line x1="60" y1="34" x2="34" y2="74"/>
+    <line x1="60" y1="34" x2="86" y2="74"/>
+    <line x1="34" y1="74" x2="86" y2="74"/>
+  </g>
+  <!-- code brackets -->
+  <path d="M44 46 L32 60 L44 74" fill="none" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M76 46 L88 60 L76 74" fill="none" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- nodes -->
+  <circle cx="60" cy="34" r="6" fill="#38BDF8"/>
+  <circle cx="34" cy="74" r="5" fill="#22D3AA"/>
+  <circle cx="86" cy="74" r="5" fill="#22D3AA"/>
+</svg>

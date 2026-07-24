@@ -1,0 +1,436 @@
+{
+  "domain": "Frontend Architecture",
+  "part": "03 · Application Architecture",
+  "path": "docs/03-application-architecture/architecture",
+  "depends_on": [
+    "React",
+    "TypeScript"
+  ],
+  "node_count": 16,
+  "estimated_minutes": 210,
+  "nodes": [
+    {
+      "title": "Separation of Concerns",
+      "slug": "separation-of-concerns.md",
+      "subcategory": "Structure & Boundaries",
+      "order": 274,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Elements vs Components · React",
+        "Structural Typing · TypeScript"
+      ],
+      "related": [
+        "Layered Architecture",
+        "Module Boundaries",
+        "Dependency Direction & Inversion"
+      ],
+      "next": [
+        "Layered Architecture",
+        "Module Boundaries",
+        "Dependency Direction & Inversion",
+        "Feature-Based Structure",
+        "Domain-Driven Frontend"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Layered Architecture",
+      "slug": "layered-architecture.md",
+      "subcategory": "Structure & Boundaries",
+      "order": 275,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Separation of Concerns"
+      ],
+      "related": [
+        "Separation of Concerns",
+        "Module Boundaries",
+        "Dependency Direction & Inversion"
+      ],
+      "next": [
+        "Module Boundaries"
+      ],
+      "alternatives": [
+        "Module Boundaries",
+        "Dependency Direction & Inversion"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Module Boundaries",
+      "slug": "module-boundaries.md",
+      "subcategory": "Structure & Boundaries",
+      "order": 276,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Separation of Concerns"
+      ],
+      "related": [
+        "Separation of Concerns",
+        "Layered Architecture",
+        "Dependency Direction & Inversion"
+      ],
+      "next": [
+        "Dependency Direction & Inversion"
+      ],
+      "alternatives": [
+        "Layered Architecture",
+        "Dependency Direction & Inversion"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Dependency Direction & Inversion",
+      "slug": "dependency-direction-and-inversion.md",
+      "subcategory": "Structure & Boundaries",
+      "order": 277,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Separation of Concerns"
+      ],
+      "related": [
+        "Separation of Concerns",
+        "Layered Architecture",
+        "Module Boundaries"
+      ],
+      "next": [
+        "Feature-Based Structure"
+      ],
+      "alternatives": [
+        "Layered Architecture",
+        "Module Boundaries"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Feature-Based Structure",
+      "slug": "feature-based-structure.md",
+      "subcategory": "Organizing Code",
+      "order": 278,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Separation of Concerns"
+      ],
+      "related": [
+        "Domain-Driven Frontend",
+        "Colocation Principles"
+      ],
+      "next": [
+        "Domain-Driven Frontend",
+        "Colocation Principles",
+        "Micro-Frontends",
+        "Module Federation",
+        "Shared Kernel & Contracts"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Domain-Driven Frontend",
+      "slug": "domain-driven-frontend.md",
+      "subcategory": "Organizing Code",
+      "order": 279,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Feature-Based Structure",
+        "Separation of Concerns"
+      ],
+      "related": [
+        "Feature-Based Structure",
+        "Colocation Principles"
+      ],
+      "next": [
+        "Colocation Principles"
+      ],
+      "alternatives": [
+        "Colocation Principles"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Colocation Principles",
+      "slug": "colocation-principles.md",
+      "subcategory": "Organizing Code",
+      "order": 280,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Feature-Based Structure",
+        "Separation of Concerns"
+      ],
+      "related": [
+        "Feature-Based Structure",
+        "Domain-Driven Frontend"
+      ],
+      "next": [
+        "Micro-Frontends"
+      ],
+      "alternatives": [
+        "Domain-Driven Frontend"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Micro-Frontends",
+      "slug": "micro-frontends.md",
+      "subcategory": "Composition at Scale",
+      "order": 281,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Feature-Based Structure"
+      ],
+      "related": [
+        "Module Federation",
+        "Shared Kernel & Contracts"
+      ],
+      "next": [
+        "Module Federation",
+        "Shared Kernel & Contracts",
+        "Rendering Boundaries",
+        "Data-Fetching Boundaries",
+        "Client/Server Split"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Module Federation",
+      "slug": "module-federation.md",
+      "subcategory": "Composition at Scale",
+      "order": 282,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Micro-Frontends",
+        "Feature-Based Structure"
+      ],
+      "related": [
+        "Micro-Frontends",
+        "Shared Kernel & Contracts"
+      ],
+      "next": [
+        "Shared Kernel & Contracts"
+      ],
+      "alternatives": [
+        "Shared Kernel & Contracts"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Shared Kernel & Contracts",
+      "slug": "shared-kernel-and-contracts.md",
+      "subcategory": "Composition at Scale",
+      "order": 283,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Micro-Frontends",
+        "Feature-Based Structure"
+      ],
+      "related": [
+        "Micro-Frontends",
+        "Module Federation"
+      ],
+      "next": [
+        "Rendering Boundaries"
+      ],
+      "alternatives": [
+        "Module Federation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Rendering Boundaries",
+      "slug": "rendering-boundaries.md",
+      "subcategory": "Cross-Cutting Boundaries",
+      "order": 284,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Micro-Frontends"
+      ],
+      "related": [
+        "Data-Fetching Boundaries",
+        "Client/Server Split"
+      ],
+      "next": [
+        "Data-Fetching Boundaries",
+        "Client/Server Split",
+        "Architectural Decision Records",
+        "Trade-off Analysis · Frontend Architecture",
+        "Evolutionary Architecture"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Data-Fetching Boundaries",
+      "slug": "data-fetching-boundaries.md",
+      "subcategory": "Cross-Cutting Boundaries",
+      "order": 285,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Rendering Boundaries",
+        "Micro-Frontends"
+      ],
+      "related": [
+        "Rendering Boundaries",
+        "Client/Server Split"
+      ],
+      "next": [
+        "Client/Server Split"
+      ],
+      "alternatives": [
+        "Client/Server Split"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Client/Server Split",
+      "slug": "client-server-split.md",
+      "subcategory": "Cross-Cutting Boundaries",
+      "order": 286,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Rendering Boundaries",
+        "Micro-Frontends"
+      ],
+      "related": [
+        "Rendering Boundaries",
+        "Data-Fetching Boundaries"
+      ],
+      "next": [
+        "Architectural Decision Records"
+      ],
+      "alternatives": [
+        "Data-Fetching Boundaries"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Architectural Decision Records",
+      "slug": "architectural-decision-records.md",
+      "subcategory": "Decision-Making",
+      "order": 287,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Rendering Boundaries"
+      ],
+      "related": [
+        "Trade-off Analysis",
+        "Evolutionary Architecture"
+      ],
+      "next": [
+        "Trade-off Analysis · Frontend Architecture",
+        "Evolutionary Architecture"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Trade-off Analysis",
+      "slug": "trade-off-analysis.md",
+      "subcategory": "Decision-Making",
+      "order": 288,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Architectural Decision Records",
+        "Rendering Boundaries"
+      ],
+      "related": [
+        "Architectural Decision Records",
+        "Evolutionary Architecture"
+      ],
+      "next": [
+        "Evolutionary Architecture"
+      ],
+      "alternatives": [
+        "Evolutionary Architecture"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Evolutionary Architecture",
+      "slug": "evolutionary-architecture.md",
+      "subcategory": "Decision-Making",
+      "order": 289,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Architectural Decision Records",
+        "Rendering Boundaries"
+      ],
+      "related": [
+        "Architectural Decision Records",
+        "Trade-off Analysis"
+      ],
+      "next": [
+        "Categories of State"
+      ],
+      "alternatives": [
+        "Trade-off Analysis · Frontend Architecture"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#frontend-architecture",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

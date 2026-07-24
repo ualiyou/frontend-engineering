@@ -1,0 +1,534 @@
+{
+  "domain": "Networking & Protocols",
+  "part": "00 · Foundations",
+  "path": "docs/00-foundations/networking-protocols",
+  "depends_on": [
+    "The Web Platform"
+  ],
+  "node_count": 19,
+  "estimated_minutes": 170,
+  "nodes": [
+    {
+      "title": "HTTP/1.1 Semantics",
+      "slug": "http-1-1-semantics.md",
+      "subcategory": "HTTP",
+      "order": 78,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Process & Thread Architecture · The Web Platform"
+      ],
+      "related": [
+        "HTTP/2 Multiplexing",
+        "HTTP/3 & QUIC",
+        "Methods, Status Codes & Headers"
+      ],
+      "next": [
+        "HTTP/2 Multiplexing",
+        "HTTP/3 & QUIC",
+        "Methods, Status Codes & Headers",
+        "The HTTP Cache",
+        "Cache-Control & Validators (ETag)"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "HTTP/2 Multiplexing",
+      "slug": "http-2-multiplexing.md",
+      "subcategory": "HTTP",
+      "order": 79,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "HTTP/1.1 Semantics"
+      ],
+      "related": [
+        "HTTP/1.1 Semantics",
+        "HTTP/3 & QUIC",
+        "Methods, Status Codes & Headers"
+      ],
+      "next": [
+        "HTTP/3 & QUIC"
+      ],
+      "alternatives": [
+        "HTTP/3 & QUIC",
+        "Methods, Status Codes & Headers"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "HTTP/3 & QUIC",
+      "slug": "http-3-and-quic.md",
+      "subcategory": "HTTP",
+      "order": 80,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "HTTP/1.1 Semantics"
+      ],
+      "related": [
+        "HTTP/1.1 Semantics",
+        "HTTP/2 Multiplexing",
+        "Methods, Status Codes & Headers"
+      ],
+      "next": [
+        "Methods, Status Codes & Headers"
+      ],
+      "alternatives": [
+        "HTTP/2 Multiplexing",
+        "Methods, Status Codes & Headers"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Methods, Status Codes & Headers",
+      "slug": "methods-status-codes-and-headers.md",
+      "subcategory": "HTTP",
+      "order": 81,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "HTTP/1.1 Semantics"
+      ],
+      "related": [
+        "HTTP/1.1 Semantics",
+        "HTTP/2 Multiplexing",
+        "HTTP/3 & QUIC"
+      ],
+      "next": [
+        "The HTTP Cache"
+      ],
+      "alternatives": [
+        "HTTP/2 Multiplexing",
+        "HTTP/3 & QUIC"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The HTTP Cache",
+      "slug": "the-http-cache.md",
+      "subcategory": "Transport Caching",
+      "order": 82,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "HTTP/1.1 Semantics"
+      ],
+      "related": [
+        "Cache-Control & Validators (ETag)",
+        "CDN Caching Model",
+        "Vary & Cache Keys"
+      ],
+      "next": [
+        "Cache-Control & Validators (ETag)",
+        "CDN Caching Model",
+        "Vary & Cache Keys",
+        "Connection Lifecycle (DNS, TLS)",
+        "Latency, Bandwidth & RTT"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cache-Control & Validators (ETag)",
+      "slug": "cache-control-and-validators-etag.md",
+      "subcategory": "Transport Caching",
+      "order": 83,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "The HTTP Cache",
+        "HTTP/1.1 Semantics"
+      ],
+      "related": [
+        "The HTTP Cache",
+        "CDN Caching Model",
+        "Vary & Cache Keys"
+      ],
+      "next": [
+        "CDN Caching Model"
+      ],
+      "alternatives": [
+        "CDN Caching Model",
+        "Vary & Cache Keys"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "CDN Caching Model",
+      "slug": "cdn-caching-model.md",
+      "subcategory": "Transport Caching",
+      "order": 84,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The HTTP Cache",
+        "HTTP/1.1 Semantics"
+      ],
+      "related": [
+        "The HTTP Cache",
+        "Cache-Control & Validators (ETag)",
+        "Vary & Cache Keys"
+      ],
+      "next": [
+        "Vary & Cache Keys"
+      ],
+      "alternatives": [
+        "Cache-Control & Validators (ETag)",
+        "Vary & Cache Keys"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Vary & Cache Keys",
+      "slug": "vary-and-cache-keys.md",
+      "subcategory": "Transport Caching",
+      "order": 85,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The HTTP Cache",
+        "HTTP/1.1 Semantics"
+      ],
+      "related": [
+        "The HTTP Cache",
+        "Cache-Control & Validators (ETag)",
+        "CDN Caching Model"
+      ],
+      "next": [
+        "Connection Lifecycle (DNS, TLS)"
+      ],
+      "alternatives": [
+        "Cache-Control & Validators (ETag)",
+        "CDN Caching Model"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Connection Lifecycle (DNS, TLS)",
+      "slug": "connection-lifecycle-dns-tls.md",
+      "subcategory": "Connection & Latency",
+      "order": 86,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "The HTTP Cache"
+      ],
+      "related": [
+        "Latency, Bandwidth & RTT",
+        "Preconnect & Priority Hints"
+      ],
+      "next": [
+        "Latency, Bandwidth & RTT",
+        "Preconnect & Priority Hints",
+        "WebSocket",
+        "Server-Sent Events",
+        "WebRTC & Data Channels"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Latency, Bandwidth & RTT",
+      "slug": "latency-bandwidth-and-rtt.md",
+      "subcategory": "Connection & Latency",
+      "order": 87,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Connection Lifecycle (DNS, TLS)",
+        "The HTTP Cache"
+      ],
+      "related": [
+        "Connection Lifecycle (DNS, TLS)",
+        "Preconnect & Priority Hints"
+      ],
+      "next": [
+        "Preconnect & Priority Hints"
+      ],
+      "alternatives": [
+        "Preconnect & Priority Hints"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Preconnect & Priority Hints",
+      "slug": "preconnect-and-priority-hints.md",
+      "subcategory": "Connection & Latency",
+      "order": 88,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Connection Lifecycle (DNS, TLS)",
+        "The HTTP Cache"
+      ],
+      "related": [
+        "Connection Lifecycle (DNS, TLS)",
+        "Latency, Bandwidth & RTT"
+      ],
+      "next": [
+        "WebSocket"
+      ],
+      "alternatives": [
+        "Latency, Bandwidth & RTT"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "WebSocket",
+      "slug": "websocket.md",
+      "subcategory": "Real-Time Protocols",
+      "order": 89,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Connection Lifecycle (DNS, TLS)"
+      ],
+      "related": [
+        "Server-Sent Events",
+        "WebRTC & Data Channels",
+        "Long Polling & Fallbacks"
+      ],
+      "next": [
+        "Server-Sent Events",
+        "WebRTC & Data Channels",
+        "Long Polling & Fallbacks",
+        "JSON & Streaming JSON",
+        "Binary Formats (Protobuf, MessagePack)"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Server-Sent Events",
+      "slug": "server-sent-events.md",
+      "subcategory": "Real-Time Protocols",
+      "order": 90,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "WebSocket",
+        "Connection Lifecycle (DNS, TLS)"
+      ],
+      "related": [
+        "WebSocket",
+        "WebRTC & Data Channels",
+        "Long Polling & Fallbacks"
+      ],
+      "next": [
+        "WebRTC & Data Channels"
+      ],
+      "alternatives": [
+        "WebRTC & Data Channels",
+        "Long Polling & Fallbacks"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "WebRTC & Data Channels",
+      "slug": "webrtc-and-data-channels.md",
+      "subcategory": "Real-Time Protocols",
+      "order": 91,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "WebSocket",
+        "Connection Lifecycle (DNS, TLS)"
+      ],
+      "related": [
+        "WebSocket",
+        "Server-Sent Events",
+        "Long Polling & Fallbacks"
+      ],
+      "next": [
+        "Long Polling & Fallbacks"
+      ],
+      "alternatives": [
+        "Server-Sent Events",
+        "Long Polling & Fallbacks"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Long Polling & Fallbacks",
+      "slug": "long-polling-and-fallbacks.md",
+      "subcategory": "Real-Time Protocols",
+      "order": 92,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "WebSocket",
+        "Connection Lifecycle (DNS, TLS)"
+      ],
+      "related": [
+        "WebSocket",
+        "Server-Sent Events",
+        "WebRTC & Data Channels"
+      ],
+      "next": [
+        "JSON & Streaming JSON"
+      ],
+      "alternatives": [
+        "Server-Sent Events",
+        "WebRTC & Data Channels"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "JSON & Streaming JSON",
+      "slug": "json-and-streaming-json.md",
+      "subcategory": "Data Formats",
+      "order": 93,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "WebSocket"
+      ],
+      "related": [
+        "Binary Formats (Protobuf, MessagePack)",
+        "Multipart & Form Encoding",
+        "Transport Compression (gzip, brotli)"
+      ],
+      "next": [
+        "Binary Formats (Protobuf, MessagePack)",
+        "Multipart & Form Encoding",
+        "Transport Compression (gzip, brotli)"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Binary Formats (Protobuf, MessagePack)",
+      "slug": "binary-formats-protobuf-messagepack.md",
+      "subcategory": "Data Formats",
+      "order": 94,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "JSON & Streaming JSON",
+        "WebSocket"
+      ],
+      "related": [
+        "JSON & Streaming JSON",
+        "Multipart & Form Encoding",
+        "Transport Compression (gzip, brotli)"
+      ],
+      "next": [
+        "Multipart & Form Encoding"
+      ],
+      "alternatives": [
+        "Multipart & Form Encoding",
+        "Transport Compression (gzip, brotli)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Multipart & Form Encoding",
+      "slug": "multipart-and-form-encoding.md",
+      "subcategory": "Data Formats",
+      "order": 95,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "JSON & Streaming JSON",
+        "WebSocket"
+      ],
+      "related": [
+        "JSON & Streaming JSON",
+        "Binary Formats (Protobuf, MessagePack)",
+        "Transport Compression (gzip, brotli)"
+      ],
+      "next": [
+        "Transport Compression (gzip, brotli)"
+      ],
+      "alternatives": [
+        "Binary Formats (Protobuf, MessagePack)",
+        "Transport Compression (gzip, brotli)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Transport Compression (gzip, brotli)",
+      "slug": "transport-compression-gzip-brotli.md",
+      "subcategory": "Data Formats",
+      "order": 96,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "JSON & Streaming JSON",
+        "WebSocket"
+      ],
+      "related": [
+        "JSON & Streaming JSON",
+        "Binary Formats (Protobuf, MessagePack)",
+        "Multipart & Form Encoding"
+      ],
+      "next": [
+        "The Document Outline"
+      ],
+      "alternatives": [
+        "Binary Formats (Protobuf, MessagePack)",
+        "Multipart & Form Encoding"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#networking-protocols",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "domain": "TypeScript",
+  "part": "01 · Core Languages",
+  "path": "docs/01-core-languages/typescript",
+  "depends_on": [
+    "JavaScript"
+  ],
+  "node_count": 25,
+  "estimated_minutes": 234,
+  "nodes": [
+    {
+      "title": "Structural Typing",
+      "slug": "structural-typing.md",
+      "subcategory": "Type Foundations",
+      "order": 173,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Primitives & Wrappers · JavaScript"
+      ],
+      "related": [
+        "Assignability",
+        "unknown, never & any",
+        "Literal & Unit Types"
+      ],
+      "next": [
+        "Assignability",
+        "unknown, never & any",
+        "Literal & Unit Types",
+        "Unions & Intersections",
+        "Generics"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Assignability",
+      "slug": "assignability.md",
+      "subcategory": "Type Foundations",
+      "order": 174,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Structural Typing"
+      ],
+      "related": [
+        "Structural Typing",
+        "unknown, never & any",
+        "Literal & Unit Types"
+      ],
+      "next": [
+        "unknown, never & any"
+      ],
+      "alternatives": [
+        "unknown, never & any",
+        "Literal & Unit Types"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "unknown, never & any",
+      "slug": "unknown-never-and-any.md",
+      "subcategory": "Type Foundations",
+      "order": 175,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Structural Typing"
+      ],
+      "related": [
+        "Structural Typing",
+        "Assignability",
+        "Literal & Unit Types"
+      ],
+      "next": [
+        "Literal & Unit Types"
+      ],
+      "alternatives": [
+        "Assignability",
+        "Literal & Unit Types"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Literal & Unit Types",
+      "slug": "literal-and-unit-types.md",
+      "subcategory": "Type Foundations",
+      "order": 176,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Structural Typing"
+      ],
+      "related": [
+        "Structural Typing",
+        "Assignability",
+        "unknown, never & any"
+      ],
+      "next": [
+        "Unions & Intersections"
+      ],
+      "alternatives": [
+        "Assignability",
+        "unknown, never & any"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Unions & Intersections",
+      "slug": "unions-and-intersections.md",
+      "subcategory": "Composition",
+      "order": 177,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Structural Typing"
+      ],
+      "related": [
+        "Generics",
+        "Generic Constraints",
+        "Indexed Access & keyof"
+      ],
+      "next": [
+        "Generics",
+        "Generic Constraints",
+        "Indexed Access & keyof",
+        "Conditional Types",
+        "Mapped Types"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Generics",
+      "slug": "generics.md",
+      "subcategory": "Composition",
+      "order": 178,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Unions & Intersections",
+        "Structural Typing"
+      ],
+      "related": [
+        "Unions & Intersections",
+        "Generic Constraints",
+        "Indexed Access & keyof"
+      ],
+      "next": [
+        "Generic Constraints"
+      ],
+      "alternatives": [
+        "Generic Constraints",
+        "Indexed Access & keyof"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Generic Constraints",
+      "slug": "generic-constraints.md",
+      "subcategory": "Composition",
+      "order": 179,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Unions & Intersections",
+        "Structural Typing"
+      ],
+      "related": [
+        "Unions & Intersections",
+        "Generics",
+        "Indexed Access & keyof"
+      ],
+      "next": [
+        "Indexed Access & keyof"
+      ],
+      "alternatives": [
+        "Generics",
+        "Indexed Access & keyof"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Indexed Access & keyof",
+      "slug": "indexed-access-and-keyof.md",
+      "subcategory": "Composition",
+      "order": 180,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Unions & Intersections",
+        "Structural Typing"
+      ],
+      "related": [
+        "Unions & Intersections",
+        "Generics",
+        "Generic Constraints"
+      ],
+      "next": [
+        "Conditional Types"
+      ],
+      "alternatives": [
+        "Generics",
+        "Generic Constraints"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Conditional Types",
+      "slug": "conditional-types.md",
+      "subcategory": "Type Transformation",
+      "order": 181,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Unions & Intersections"
+      ],
+      "related": [
+        "Mapped Types",
+        "Template Literal Types",
+        "infer & Type Extraction"
+      ],
+      "next": [
+        "Mapped Types",
+        "Template Literal Types",
+        "infer & Type Extraction",
+        "Type Inference",
+        "Control-Flow Narrowing"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Mapped Types",
+      "slug": "mapped-types.md",
+      "subcategory": "Type Transformation",
+      "order": 182,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Conditional Types",
+        "Unions & Intersections"
+      ],
+      "related": [
+        "Conditional Types",
+        "Template Literal Types",
+        "infer & Type Extraction"
+      ],
+      "next": [
+        "Template Literal Types"
+      ],
+      "alternatives": [
+        "Template Literal Types",
+        "infer & Type Extraction"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Template Literal Types",
+      "slug": "template-literal-types.md",
+      "subcategory": "Type Transformation",
+      "order": 183,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Conditional Types",
+        "Unions & Intersections"
+      ],
+      "related": [
+        "Conditional Types",
+        "Mapped Types",
+        "infer & Type Extraction"
+      ],
+      "next": [
+        "infer & Type Extraction"
+      ],
+      "alternatives": [
+        "Mapped Types",
+        "infer & Type Extraction"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "infer & Type Extraction",
+      "slug": "infer-and-type-extraction.md",
+      "subcategory": "Type Transformation",
+      "order": 184,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Conditional Types",
+        "Unions & Intersections"
+      ],
+      "related": [
+        "Conditional Types",
+        "Mapped Types",
+        "Template Literal Types"
+      ],
+      "next": [
+        "Type Inference"
+      ],
+      "alternatives": [
+        "Mapped Types",
+        "Template Literal Types"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Type Inference",
+      "slug": "type-inference.md",
+      "subcategory": "Inference & Flow",
+      "order": 185,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Conditional Types"
+      ],
+      "related": [
+        "Control-Flow Narrowing",
+        "Type Guards & Predicates",
+        "Discriminated Unions"
+      ],
+      "next": [
+        "Control-Flow Narrowing",
+        "Type Guards & Predicates",
+        "Discriminated Unions",
+        "Variance",
+        "Unsoundness & Escape Hatches"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Control-Flow Narrowing",
+      "slug": "control-flow-narrowing.md",
+      "subcategory": "Inference & Flow",
+      "order": 186,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Type Inference",
+        "Conditional Types"
+      ],
+      "related": [
+        "Type Inference",
+        "Type Guards & Predicates",
+        "Discriminated Unions"
+      ],
+      "next": [
+        "Type Guards & Predicates"
+      ],
+      "alternatives": [
+        "Type Guards & Predicates",
+        "Discriminated Unions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Type Guards & Predicates",
+      "slug": "type-guards-and-predicates.md",
+      "subcategory": "Inference & Flow",
+      "order": 187,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Type Inference",
+        "Conditional Types"
+      ],
+      "related": [
+        "Type Inference",
+        "Control-Flow Narrowing",
+        "Discriminated Unions"
+      ],
+      "next": [
+        "Discriminated Unions"
+      ],
+      "alternatives": [
+        "Control-Flow Narrowing",
+        "Discriminated Unions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Discriminated Unions",
+      "slug": "discriminated-unions.md",
+      "subcategory": "Inference & Flow",
+      "order": 188,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Type Inference",
+        "Conditional Types"
+      ],
+      "related": [
+        "Type Inference",
+        "Control-Flow Narrowing",
+        "Type Guards & Predicates"
+      ],
+      "next": [
+        "Variance"
+      ],
+      "alternatives": [
+        "Control-Flow Narrowing",
+        "Type Guards & Predicates"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Variance",
+      "slug": "variance.md",
+      "subcategory": "Soundness & Safety",
+      "order": 189,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Type Inference"
+      ],
+      "related": [
+        "Unsoundness & Escape Hatches",
+        "Strictness Flags"
+      ],
+      "next": [
+        "Unsoundness & Escape Hatches",
+        "Strictness Flags",
+        "Declaration Files",
+        "Module Augmentation",
+        "Typing Third-Party Code"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Unsoundness & Escape Hatches",
+      "slug": "unsoundness-and-escape-hatches.md",
+      "subcategory": "Soundness & Safety",
+      "order": 190,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Variance",
+        "Type Inference"
+      ],
+      "related": [
+        "Variance",
+        "Strictness Flags"
+      ],
+      "next": [
+        "Strictness Flags"
+      ],
+      "alternatives": [
+        "Strictness Flags"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Strictness Flags",
+      "slug": "strictness-flags.md",
+      "subcategory": "Soundness & Safety",
+      "order": 191,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Variance",
+        "Type Inference"
+      ],
+      "related": [
+        "Variance",
+        "Unsoundness & Escape Hatches"
+      ],
+      "next": [
+        "Declaration Files"
+      ],
+      "alternatives": [
+        "Unsoundness & Escape Hatches"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Declaration Files",
+      "slug": "declaration-files.md",
+      "subcategory": "Ambient & Interop",
+      "order": 192,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Variance"
+      ],
+      "related": [
+        "Module Augmentation",
+        "Typing Third-Party Code"
+      ],
+      "next": [
+        "Module Augmentation",
+        "Typing Third-Party Code",
+        "Branded & Nominal Types",
+        "Exhaustiveness",
+        "Illegal States Unrepresentable"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Module Augmentation",
+      "slug": "module-augmentation.md",
+      "subcategory": "Ambient & Interop",
+      "order": 193,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Declaration Files",
+        "Variance"
+      ],
+      "related": [
+        "Declaration Files",
+        "Typing Third-Party Code"
+      ],
+      "next": [
+        "Typing Third-Party Code"
+      ],
+      "alternatives": [
+        "Typing Third-Party Code"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Typing Third-Party Code",
+      "slug": "typing-third-party-code.md",
+      "subcategory": "Ambient & Interop",
+      "order": 194,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Declaration Files",
+        "Variance"
+      ],
+      "related": [
+        "Declaration Files",
+        "Module Augmentation"
+      ],
+      "next": [
+        "Branded & Nominal Types"
+      ],
+      "alternatives": [
+        "Module Augmentation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Branded & Nominal Types",
+      "slug": "branded-and-nominal-types.md",
+      "subcategory": "Domain Modeling",
+      "order": 195,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Declaration Files"
+      ],
+      "related": [
+        "Exhaustiveness",
+        "Illegal States Unrepresentable"
+      ],
+      "next": [
+        "Exhaustiveness",
+        "Illegal States Unrepresentable"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Exhaustiveness",
+      "slug": "exhaustiveness.md",
+      "subcategory": "Domain Modeling",
+      "order": 196,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Branded & Nominal Types",
+        "Declaration Files"
+      ],
+      "related": [
+        "Branded & Nominal Types",
+        "Illegal States Unrepresentable"
+      ],
+      "next": [
+        "Illegal States Unrepresentable"
+      ],
+      "alternatives": [
+        "Illegal States Unrepresentable"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Illegal States Unrepresentable",
+      "slug": "illegal-states-unrepresentable.md",
+      "subcategory": "Domain Modeling",
+      "order": 197,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Branded & Nominal Types",
+        "Declaration Files"
+      ],
+      "related": [
+        "Branded & Nominal Types",
+        "Exhaustiveness"
+      ],
+      "next": [
+        "The CSR Model"
+      ],
+      "alternatives": [
+        "Exhaustiveness"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#typescript",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

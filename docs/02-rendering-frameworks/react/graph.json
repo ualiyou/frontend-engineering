@@ -1,0 +1,925 @@
+{
+  "domain": "React",
+  "part": "02 · Rendering & Frameworks",
+  "path": "docs/02-rendering-frameworks/react",
+  "depends_on": [
+    "JavaScript",
+    "Rendering Architectures",
+    "HTML & Document Semantics"
+  ],
+  "node_count": 33,
+  "estimated_minutes": 436,
+  "nodes": [
+    {
+      "title": "Elements vs Components",
+      "slug": "elements-vs-components.md",
+      "subcategory": "The Component Model",
+      "order": 215,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Primitives & Wrappers · JavaScript",
+        "The CSR Model · Rendering Architectures",
+        "The Document Outline · HTML & Document Semantics"
+      ],
+      "related": [
+        "JSX Semantics",
+        "Composition & Children"
+      ],
+      "next": [
+        "JSX Semantics",
+        "Composition & Children",
+        "The Render Phase",
+        "Reconciliation & Diffing",
+        "Keys & List Reconciliation"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "JSX Semantics",
+      "slug": "jsx-semantics.md",
+      "subcategory": "The Component Model",
+      "order": 216,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Elements vs Components"
+      ],
+      "related": [
+        "Elements vs Components",
+        "Composition & Children"
+      ],
+      "next": [
+        "Composition & Children"
+      ],
+      "alternatives": [
+        "Composition & Children"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Composition & Children",
+      "slug": "composition-and-children.md",
+      "subcategory": "The Component Model",
+      "order": 217,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Elements vs Components"
+      ],
+      "related": [
+        "Elements vs Components",
+        "JSX Semantics"
+      ],
+      "next": [
+        "The Render Phase"
+      ],
+      "alternatives": [
+        "JSX Semantics"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Render Phase",
+      "slug": "the-render-phase.md",
+      "subcategory": "Rendering & Reconciliation",
+      "order": 218,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Elements vs Components"
+      ],
+      "related": [
+        "Reconciliation & Diffing",
+        "Keys & List Reconciliation",
+        "The Commit Phase"
+      ],
+      "next": [
+        "Reconciliation & Diffing",
+        "Keys & List Reconciliation",
+        "The Commit Phase",
+        "useState",
+        "useReducer"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Reconciliation & Diffing",
+      "slug": "reconciliation-and-diffing.md",
+      "subcategory": "Rendering & Reconciliation",
+      "order": 219,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Render Phase",
+        "Elements vs Components"
+      ],
+      "related": [
+        "The Render Phase",
+        "Keys & List Reconciliation",
+        "The Commit Phase"
+      ],
+      "next": [
+        "Keys & List Reconciliation"
+      ],
+      "alternatives": [
+        "Keys & List Reconciliation",
+        "The Commit Phase"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Keys & List Reconciliation",
+      "slug": "keys-and-list-reconciliation.md",
+      "subcategory": "Rendering & Reconciliation",
+      "order": 220,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Render Phase",
+        "Elements vs Components"
+      ],
+      "related": [
+        "The Render Phase",
+        "Reconciliation & Diffing",
+        "The Commit Phase"
+      ],
+      "next": [
+        "The Commit Phase"
+      ],
+      "alternatives": [
+        "Reconciliation & Diffing",
+        "The Commit Phase"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Commit Phase",
+      "slug": "the-commit-phase.md",
+      "subcategory": "Rendering & Reconciliation",
+      "order": 221,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Render Phase",
+        "Elements vs Components"
+      ],
+      "related": [
+        "The Render Phase",
+        "Reconciliation & Diffing",
+        "Keys & List Reconciliation"
+      ],
+      "next": [
+        "useState"
+      ],
+      "alternatives": [
+        "Reconciliation & Diffing",
+        "Keys & List Reconciliation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "useState",
+      "slug": "usestate.md",
+      "subcategory": "State & Hooks",
+      "order": 222,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Render Phase"
+      ],
+      "related": [
+        "useReducer",
+        "The Rules of Hooks",
+        "State Batching & Updates"
+      ],
+      "next": [
+        "useReducer",
+        "The Rules of Hooks",
+        "State Batching & Updates",
+        "useEffect & Synchronization",
+        "useLayoutEffect"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "useReducer",
+      "slug": "usereducer.md",
+      "subcategory": "State & Hooks",
+      "order": 223,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "useState",
+        "The Render Phase"
+      ],
+      "related": [
+        "useState",
+        "The Rules of Hooks",
+        "State Batching & Updates"
+      ],
+      "next": [
+        "The Rules of Hooks"
+      ],
+      "alternatives": [
+        "The Rules of Hooks",
+        "State Batching & Updates"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Rules of Hooks",
+      "slug": "the-rules-of-hooks.md",
+      "subcategory": "State & Hooks",
+      "order": 224,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "useState",
+        "The Render Phase"
+      ],
+      "related": [
+        "useState",
+        "useReducer",
+        "State Batching & Updates"
+      ],
+      "next": [
+        "State Batching & Updates"
+      ],
+      "alternatives": [
+        "useReducer",
+        "State Batching & Updates"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "State Batching & Updates",
+      "slug": "state-batching-and-updates.md",
+      "subcategory": "State & Hooks",
+      "order": 225,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "useState",
+        "The Render Phase"
+      ],
+      "related": [
+        "useState",
+        "useReducer",
+        "The Rules of Hooks"
+      ],
+      "next": [
+        "useEffect & Synchronization"
+      ],
+      "alternatives": [
+        "useReducer",
+        "The Rules of Hooks"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "useEffect & Synchronization",
+      "slug": "useeffect-and-synchronization.md",
+      "subcategory": "Effects & Lifecycle",
+      "order": 226,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "useState"
+      ],
+      "related": [
+        "useLayoutEffect",
+        "Effect Cleanup & Dependencies",
+        "Refs & useRef",
+        "Error Boundaries"
+      ],
+      "next": [
+        "useLayoutEffect",
+        "Effect Cleanup & Dependencies",
+        "Refs & useRef",
+        "Error Boundaries",
+        "Context & Providers"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "useLayoutEffect",
+      "slug": "uselayouteffect.md",
+      "subcategory": "Effects & Lifecycle",
+      "order": 227,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "useEffect & Synchronization",
+        "useState"
+      ],
+      "related": [
+        "useEffect & Synchronization",
+        "Effect Cleanup & Dependencies",
+        "Refs & useRef",
+        "Error Boundaries"
+      ],
+      "next": [
+        "Effect Cleanup & Dependencies"
+      ],
+      "alternatives": [
+        "Effect Cleanup & Dependencies",
+        "Refs & useRef",
+        "Error Boundaries"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Effect Cleanup & Dependencies",
+      "slug": "effect-cleanup-and-dependencies.md",
+      "subcategory": "Effects & Lifecycle",
+      "order": 228,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "useEffect & Synchronization",
+        "useState"
+      ],
+      "related": [
+        "useEffect & Synchronization",
+        "useLayoutEffect",
+        "Refs & useRef",
+        "Error Boundaries"
+      ],
+      "next": [
+        "Refs & useRef"
+      ],
+      "alternatives": [
+        "useLayoutEffect",
+        "Refs & useRef",
+        "Error Boundaries"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Refs & useRef",
+      "slug": "refs-and-useref.md",
+      "subcategory": "Effects & Lifecycle",
+      "order": 229,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "useEffect & Synchronization",
+        "useState"
+      ],
+      "related": [
+        "useEffect & Synchronization",
+        "useLayoutEffect",
+        "Effect Cleanup & Dependencies",
+        "Error Boundaries"
+      ],
+      "next": [
+        "Error Boundaries"
+      ],
+      "alternatives": [
+        "useLayoutEffect",
+        "Effect Cleanup & Dependencies",
+        "Error Boundaries"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Error Boundaries",
+      "slug": "error-boundaries.md",
+      "subcategory": "Effects & Lifecycle",
+      "order": 230,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "useEffect & Synchronization",
+        "useState"
+      ],
+      "related": [
+        "useEffect & Synchronization",
+        "useLayoutEffect",
+        "Effect Cleanup & Dependencies",
+        "Refs & useRef"
+      ],
+      "next": [
+        "Context & Providers"
+      ],
+      "alternatives": [
+        "useLayoutEffect",
+        "Effect Cleanup & Dependencies",
+        "Refs & useRef"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Context & Providers",
+      "slug": "context-and-providers.md",
+      "subcategory": "Context & Data",
+      "order": 231,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "useEffect & Synchronization"
+      ],
+      "related": [
+        "Context Performance",
+        "useContext Patterns"
+      ],
+      "next": [
+        "Context Performance",
+        "useContext Patterns",
+        "Concurrent Rendering",
+        "Transitions & useTransition",
+        "useDeferredValue"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Context Performance",
+      "slug": "context-performance.md",
+      "subcategory": "Context & Data",
+      "order": 232,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Context & Providers",
+        "useEffect & Synchronization"
+      ],
+      "related": [
+        "Context & Providers",
+        "useContext Patterns"
+      ],
+      "next": [
+        "useContext Patterns"
+      ],
+      "alternatives": [
+        "useContext Patterns"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "useContext Patterns",
+      "slug": "usecontext-patterns.md",
+      "subcategory": "Context & Data",
+      "order": 233,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Context & Providers",
+        "useEffect & Synchronization"
+      ],
+      "related": [
+        "Context & Providers",
+        "Context Performance"
+      ],
+      "next": [
+        "Concurrent Rendering"
+      ],
+      "alternatives": [
+        "Context Performance"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Concurrent Rendering",
+      "slug": "concurrent-rendering.md",
+      "subcategory": "Concurrency",
+      "order": 234,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Context & Providers"
+      ],
+      "related": [
+        "Transitions & useTransition",
+        "useDeferredValue",
+        "Suspense"
+      ],
+      "next": [
+        "Transitions & useTransition",
+        "useDeferredValue",
+        "Suspense",
+        "Server Components",
+        "Server Actions"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Transitions & useTransition",
+      "slug": "transitions-and-usetransition.md",
+      "subcategory": "Concurrency",
+      "order": 235,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Concurrent Rendering",
+        "Context & Providers"
+      ],
+      "related": [
+        "Concurrent Rendering",
+        "useDeferredValue",
+        "Suspense"
+      ],
+      "next": [
+        "useDeferredValue"
+      ],
+      "alternatives": [
+        "useDeferredValue",
+        "Suspense"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "useDeferredValue",
+      "slug": "usedeferredvalue.md",
+      "subcategory": "Concurrency",
+      "order": 236,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Concurrent Rendering",
+        "Context & Providers"
+      ],
+      "related": [
+        "Concurrent Rendering",
+        "Transitions & useTransition",
+        "Suspense"
+      ],
+      "next": [
+        "Suspense"
+      ],
+      "alternatives": [
+        "Transitions & useTransition",
+        "Suspense"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Suspense",
+      "slug": "suspense.md",
+      "subcategory": "Concurrency",
+      "order": 237,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Concurrent Rendering",
+        "Context & Providers"
+      ],
+      "related": [
+        "Concurrent Rendering",
+        "Transitions & useTransition",
+        "useDeferredValue"
+      ],
+      "next": [
+        "Server Components"
+      ],
+      "alternatives": [
+        "Transitions & useTransition",
+        "useDeferredValue"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Server Components",
+      "slug": "server-components.md",
+      "subcategory": "Server React",
+      "order": 238,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Concurrent Rendering"
+      ],
+      "related": [
+        "Server Actions",
+        "The RSC Payload & Boundaries"
+      ],
+      "next": [
+        "Server Actions",
+        "The RSC Payload & Boundaries",
+        "memo, useMemo, useCallback",
+        "Referential Stability",
+        "The React Compiler Model"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Server Actions",
+      "slug": "server-actions.md",
+      "subcategory": "Server React",
+      "order": 239,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Server Components",
+        "Concurrent Rendering"
+      ],
+      "related": [
+        "Server Components",
+        "The RSC Payload & Boundaries"
+      ],
+      "next": [
+        "The RSC Payload & Boundaries"
+      ],
+      "alternatives": [
+        "The RSC Payload & Boundaries"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The RSC Payload & Boundaries",
+      "slug": "the-rsc-payload-and-boundaries.md",
+      "subcategory": "Server React",
+      "order": 240,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Server Components",
+        "Concurrent Rendering"
+      ],
+      "related": [
+        "Server Components",
+        "Server Actions"
+      ],
+      "next": [
+        "memo, useMemo, useCallback"
+      ],
+      "alternatives": [
+        "Server Actions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "memo, useMemo, useCallback",
+      "slug": "memo-usememo-usecallback.md",
+      "subcategory": "Optimization",
+      "order": 241,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Server Components"
+      ],
+      "related": [
+        "Referential Stability",
+        "The React Compiler Model"
+      ],
+      "next": [
+        "Referential Stability",
+        "The React Compiler Model",
+        "Custom Hooks",
+        "Portals",
+        "Higher-Order Components"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Referential Stability",
+      "slug": "referential-stability.md",
+      "subcategory": "Optimization",
+      "order": 242,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "memo, useMemo, useCallback",
+        "Server Components"
+      ],
+      "related": [
+        "memo, useMemo, useCallback",
+        "The React Compiler Model"
+      ],
+      "next": [
+        "The React Compiler Model"
+      ],
+      "alternatives": [
+        "The React Compiler Model"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The React Compiler Model",
+      "slug": "the-react-compiler-model.md",
+      "subcategory": "Optimization",
+      "order": 243,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "memo, useMemo, useCallback",
+        "Server Components"
+      ],
+      "related": [
+        "memo, useMemo, useCallback",
+        "Referential Stability"
+      ],
+      "next": [
+        "Custom Hooks"
+      ],
+      "alternatives": [
+        "Referential Stability"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Custom Hooks",
+      "slug": "custom-hooks.md",
+      "subcategory": "React Composition",
+      "order": 244,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "memo, useMemo, useCallback"
+      ],
+      "related": [
+        "Portals",
+        "Higher-Order Components",
+        "Children Manipulation"
+      ],
+      "next": [
+        "Portals",
+        "Higher-Order Components",
+        "Children Manipulation"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Portals",
+      "slug": "portals.md",
+      "subcategory": "React Composition",
+      "order": 245,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Custom Hooks",
+        "memo, useMemo, useCallback"
+      ],
+      "related": [
+        "Custom Hooks",
+        "Higher-Order Components",
+        "Children Manipulation"
+      ],
+      "next": [
+        "Higher-Order Components"
+      ],
+      "alternatives": [
+        "Higher-Order Components",
+        "Children Manipulation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Higher-Order Components",
+      "slug": "higher-order-components.md",
+      "subcategory": "React Composition",
+      "order": 246,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Custom Hooks",
+        "memo, useMemo, useCallback"
+      ],
+      "related": [
+        "Custom Hooks",
+        "Portals",
+        "Children Manipulation"
+      ],
+      "next": [
+        "Children Manipulation"
+      ],
+      "alternatives": [
+        "Portals",
+        "Children Manipulation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Children Manipulation",
+      "slug": "children-manipulation.md",
+      "subcategory": "React Composition",
+      "order": 247,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Custom Hooks",
+        "memo, useMemo, useCallback"
+      ],
+      "related": [
+        "Custom Hooks",
+        "Portals",
+        "Higher-Order Components"
+      ],
+      "next": [
+        "Signals & Fine-Grained Reactivity"
+      ],
+      "alternatives": [
+        "Portals",
+        "Higher-Order Components"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#react",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

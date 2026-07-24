@@ -1,0 +1,440 @@
+{
+  "domain": "Forms & Validation",
+  "part": "03 · Application Architecture",
+  "path": "docs/03-application-architecture/forms-validation",
+  "depends_on": [
+    "React",
+    "TypeScript",
+    "State Management"
+  ],
+  "node_count": 16,
+  "estimated_minutes": 213,
+  "nodes": [
+    {
+      "title": "Controlled Inputs",
+      "slug": "controlled-inputs.md",
+      "subcategory": "Form State",
+      "order": 328,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Elements vs Components · React",
+        "Structural Typing · TypeScript",
+        "Categories of State · State Management"
+      ],
+      "related": [
+        "Uncontrolled Inputs & Refs",
+        "Form Libraries & State Models",
+        "Field Arrays & Dynamic Fields"
+      ],
+      "next": [
+        "Uncontrolled Inputs & Refs",
+        "Form Libraries & State Models",
+        "Field Arrays & Dynamic Fields",
+        "Client-Side Validation Strategies",
+        "Schema Validation"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Uncontrolled Inputs & Refs",
+      "slug": "uncontrolled-inputs-and-refs.md",
+      "subcategory": "Form State",
+      "order": 329,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Controlled Inputs"
+      ],
+      "related": [
+        "Controlled Inputs",
+        "Form Libraries & State Models",
+        "Field Arrays & Dynamic Fields"
+      ],
+      "next": [
+        "Form Libraries & State Models"
+      ],
+      "alternatives": [
+        "Form Libraries & State Models",
+        "Field Arrays & Dynamic Fields"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Form Libraries & State Models",
+      "slug": "form-libraries-and-state-models.md",
+      "subcategory": "Form State",
+      "order": 330,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Controlled Inputs"
+      ],
+      "related": [
+        "Controlled Inputs",
+        "Uncontrolled Inputs & Refs",
+        "Field Arrays & Dynamic Fields"
+      ],
+      "next": [
+        "Field Arrays & Dynamic Fields"
+      ],
+      "alternatives": [
+        "Uncontrolled Inputs & Refs",
+        "Field Arrays & Dynamic Fields"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Field Arrays & Dynamic Fields",
+      "slug": "field-arrays-and-dynamic-fields.md",
+      "subcategory": "Form State",
+      "order": 331,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Controlled Inputs"
+      ],
+      "related": [
+        "Controlled Inputs",
+        "Uncontrolled Inputs & Refs",
+        "Form Libraries & State Models"
+      ],
+      "next": [
+        "Client-Side Validation Strategies"
+      ],
+      "alternatives": [
+        "Uncontrolled Inputs & Refs",
+        "Form Libraries & State Models"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Client-Side Validation Strategies",
+      "slug": "client-side-validation-strategies.md",
+      "subcategory": "Validation",
+      "order": 332,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Controlled Inputs"
+      ],
+      "related": [
+        "Schema Validation",
+        "Async & Server Validation",
+        "Cross-Field Validation"
+      ],
+      "next": [
+        "Schema Validation",
+        "Async & Server Validation",
+        "Cross-Field Validation",
+        "Schema-Inferred Types",
+        "Shared Client/Server Schemas"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Schema Validation",
+      "slug": "schema-validation.md",
+      "subcategory": "Validation",
+      "order": 333,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Client-Side Validation Strategies",
+        "Controlled Inputs"
+      ],
+      "related": [
+        "Client-Side Validation Strategies",
+        "Async & Server Validation",
+        "Cross-Field Validation"
+      ],
+      "next": [
+        "Async & Server Validation"
+      ],
+      "alternatives": [
+        "Async & Server Validation",
+        "Cross-Field Validation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Async & Server Validation",
+      "slug": "async-and-server-validation.md",
+      "subcategory": "Validation",
+      "order": 334,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Client-Side Validation Strategies",
+        "Controlled Inputs"
+      ],
+      "related": [
+        "Client-Side Validation Strategies",
+        "Schema Validation",
+        "Cross-Field Validation"
+      ],
+      "next": [
+        "Cross-Field Validation"
+      ],
+      "alternatives": [
+        "Schema Validation",
+        "Cross-Field Validation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cross-Field Validation",
+      "slug": "cross-field-validation.md",
+      "subcategory": "Validation",
+      "order": 335,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Client-Side Validation Strategies",
+        "Controlled Inputs"
+      ],
+      "related": [
+        "Client-Side Validation Strategies",
+        "Schema Validation",
+        "Async & Server Validation"
+      ],
+      "next": [
+        "Schema-Inferred Types"
+      ],
+      "alternatives": [
+        "Schema Validation",
+        "Async & Server Validation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Schema-Inferred Types",
+      "slug": "schema-inferred-types.md",
+      "subcategory": "Type-Safe Contracts",
+      "order": 336,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Client-Side Validation Strategies"
+      ],
+      "related": [
+        "Shared Client/Server Schemas"
+      ],
+      "next": [
+        "Shared Client/Server Schemas",
+        "Error Messaging",
+        "Inline vs Submit Validation",
+        "Dirty, Touched & Submit State"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Shared Client/Server Schemas",
+      "slug": "shared-client-server-schemas.md",
+      "subcategory": "Type-Safe Contracts",
+      "order": 337,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Schema-Inferred Types",
+        "Client-Side Validation Strategies"
+      ],
+      "related": [
+        "Schema-Inferred Types"
+      ],
+      "next": [
+        "Error Messaging"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Error Messaging",
+      "slug": "error-messaging.md",
+      "subcategory": "Feedback & UX",
+      "order": 338,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Schema-Inferred Types"
+      ],
+      "related": [
+        "Inline vs Submit Validation",
+        "Dirty, Touched & Submit State"
+      ],
+      "next": [
+        "Inline vs Submit Validation",
+        "Dirty, Touched & Submit State",
+        "Composite & Custom Inputs",
+        "Multi-Step Wizards",
+        "Autosave & Draft Persistence"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Inline vs Submit Validation",
+      "slug": "inline-vs-submit-validation.md",
+      "subcategory": "Feedback & UX",
+      "order": 339,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Error Messaging",
+        "Schema-Inferred Types"
+      ],
+      "related": [
+        "Error Messaging",
+        "Dirty, Touched & Submit State"
+      ],
+      "next": [
+        "Dirty, Touched & Submit State"
+      ],
+      "alternatives": [
+        "Dirty, Touched & Submit State"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Dirty, Touched & Submit State",
+      "slug": "dirty-touched-and-submit-state.md",
+      "subcategory": "Feedback & UX",
+      "order": 340,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Error Messaging",
+        "Schema-Inferred Types"
+      ],
+      "related": [
+        "Error Messaging",
+        "Inline vs Submit Validation"
+      ],
+      "next": [
+        "Composite & Custom Inputs"
+      ],
+      "alternatives": [
+        "Inline vs Submit Validation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Composite & Custom Inputs",
+      "slug": "composite-and-custom-inputs.md",
+      "subcategory": "Complex Flows",
+      "order": 341,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Error Messaging"
+      ],
+      "related": [
+        "Multi-Step Wizards",
+        "Autosave & Draft Persistence"
+      ],
+      "next": [
+        "Multi-Step Wizards",
+        "Autosave & Draft Persistence"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Multi-Step Wizards",
+      "slug": "multi-step-wizards.md",
+      "subcategory": "Complex Flows",
+      "order": 342,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Composite & Custom Inputs",
+        "Error Messaging"
+      ],
+      "related": [
+        "Composite & Custom Inputs",
+        "Autosave & Draft Persistence"
+      ],
+      "next": [
+        "Autosave & Draft Persistence"
+      ],
+      "alternatives": [
+        "Autosave & Draft Persistence"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Autosave & Draft Persistence",
+      "slug": "autosave-and-draft-persistence.md",
+      "subcategory": "Complex Flows",
+      "order": 343,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Composite & Custom Inputs",
+        "Error Messaging"
+      ],
+      "related": [
+        "Composite & Custom Inputs",
+        "Multi-Step Wizards"
+      ],
+      "next": [
+        "REST"
+      ],
+      "alternatives": [
+        "Multi-Step Wizards"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#forms-validation",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

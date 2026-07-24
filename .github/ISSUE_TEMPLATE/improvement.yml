@@ -1,0 +1,26 @@
+name: "💡 Improvement / idea"
+description: Suggest an improvement to the repository itself — structure, tooling, templates, or workflows.
+title: "[idea] <short summary>"
+labels: ["type: enhancement", "status: triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What is awkward, missing, or could be better? Focus on the problem before the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: markdown
+    attributes:
+      value: |
+        Substantial structural changes (knowledge map, taxonomy, templates, governance) go through an RFC — see [GOVERNANCE.md](../blob/main/GOVERNANCE.md).

@@ -1,0 +1,505 @@
+{
+  "domain": "The Web Platform",
+  "part": "00 · Foundations",
+  "path": "docs/00-foundations/web-platform",
+  "depends_on": [
+    "Computer Science for Frontend"
+  ],
+  "node_count": 18,
+  "estimated_minutes": 156,
+  "nodes": [
+    {
+      "title": "Process & Thread Architecture",
+      "slug": "process-and-thread-architecture.md",
+      "subcategory": "Browser Internals",
+      "order": 19,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Trees & the DOM as a Tree · Computer Science for Frontend"
+      ],
+      "related": [
+        "Sandboxing & Site Isolation",
+        "The Main Thread"
+      ],
+      "next": [
+        "Sandboxing & Site Isolation",
+        "The Main Thread",
+        "HTML Parsing & DOM Construction",
+        "Style Calculation",
+        "Layout & Reflow"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Sandboxing & Site Isolation",
+      "slug": "sandboxing-and-site-isolation.md",
+      "subcategory": "Browser Internals",
+      "order": 20,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Process & Thread Architecture"
+      ],
+      "related": [
+        "Process & Thread Architecture",
+        "The Main Thread"
+      ],
+      "next": [
+        "The Main Thread"
+      ],
+      "alternatives": [
+        "The Main Thread"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Main Thread",
+      "slug": "the-main-thread.md",
+      "subcategory": "Browser Internals",
+      "order": 21,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Process & Thread Architecture"
+      ],
+      "related": [
+        "Process & Thread Architecture",
+        "Sandboxing & Site Isolation"
+      ],
+      "next": [
+        "HTML Parsing & DOM Construction"
+      ],
+      "alternatives": [
+        "Sandboxing & Site Isolation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "HTML Parsing & DOM Construction",
+      "slug": "html-parsing-and-dom-construction.md",
+      "subcategory": "The Rendering Pipeline",
+      "order": 22,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Process & Thread Architecture"
+      ],
+      "related": [
+        "Style Calculation",
+        "Layout & Reflow",
+        "Paint & Layerization",
+        "Compositing"
+      ],
+      "next": [
+        "Style Calculation",
+        "Layout & Reflow",
+        "Paint & Layerization",
+        "Compositing",
+        "The DOM as an Abstraction"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Style Calculation",
+      "slug": "style-calculation.md",
+      "subcategory": "The Rendering Pipeline",
+      "order": 23,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "HTML Parsing & DOM Construction",
+        "Process & Thread Architecture"
+      ],
+      "related": [
+        "HTML Parsing & DOM Construction",
+        "Layout & Reflow",
+        "Paint & Layerization",
+        "Compositing"
+      ],
+      "next": [
+        "Layout & Reflow"
+      ],
+      "alternatives": [
+        "Layout & Reflow",
+        "Paint & Layerization",
+        "Compositing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Layout & Reflow",
+      "slug": "layout-and-reflow.md",
+      "subcategory": "The Rendering Pipeline",
+      "order": 24,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "HTML Parsing & DOM Construction",
+        "Process & Thread Architecture"
+      ],
+      "related": [
+        "HTML Parsing & DOM Construction",
+        "Style Calculation",
+        "Paint & Layerization",
+        "Compositing"
+      ],
+      "next": [
+        "Paint & Layerization"
+      ],
+      "alternatives": [
+        "Style Calculation",
+        "Paint & Layerization",
+        "Compositing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Paint & Layerization",
+      "slug": "paint-and-layerization.md",
+      "subcategory": "The Rendering Pipeline",
+      "order": 25,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "HTML Parsing & DOM Construction",
+        "Process & Thread Architecture"
+      ],
+      "related": [
+        "HTML Parsing & DOM Construction",
+        "Style Calculation",
+        "Layout & Reflow",
+        "Compositing"
+      ],
+      "next": [
+        "Compositing"
+      ],
+      "alternatives": [
+        "Style Calculation",
+        "Layout & Reflow",
+        "Compositing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Compositing",
+      "slug": "compositing.md",
+      "subcategory": "The Rendering Pipeline",
+      "order": 26,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "HTML Parsing & DOM Construction",
+        "Process & Thread Architecture"
+      ],
+      "related": [
+        "HTML Parsing & DOM Construction",
+        "Style Calculation",
+        "Layout & Reflow",
+        "Paint & Layerization"
+      ],
+      "next": [
+        "The DOM as an Abstraction"
+      ],
+      "alternatives": [
+        "Style Calculation",
+        "Layout & Reflow",
+        "Paint & Layerization"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The DOM as an Abstraction",
+      "slug": "the-dom-as-an-abstraction.md",
+      "subcategory": "Object Models",
+      "order": 27,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "HTML Parsing & DOM Construction"
+      ],
+      "related": [
+        "The CSSOM",
+        "The Render Tree"
+      ],
+      "next": [
+        "The CSSOM",
+        "The Render Tree",
+        "Tasks & the Callback Queue",
+        "Microtasks & the Job Queue",
+        "Rendering & rAF Timing"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The CSSOM",
+      "slug": "the-cssom.md",
+      "subcategory": "Object Models",
+      "order": 28,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The DOM as an Abstraction",
+        "HTML Parsing & DOM Construction"
+      ],
+      "related": [
+        "The DOM as an Abstraction",
+        "The Render Tree"
+      ],
+      "next": [
+        "The Render Tree"
+      ],
+      "alternatives": [
+        "The Render Tree"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Render Tree",
+      "slug": "the-render-tree.md",
+      "subcategory": "Object Models",
+      "order": 29,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The DOM as an Abstraction",
+        "HTML Parsing & DOM Construction"
+      ],
+      "related": [
+        "The DOM as an Abstraction",
+        "The CSSOM"
+      ],
+      "next": [
+        "Tasks & the Callback Queue"
+      ],
+      "alternatives": [
+        "The CSSOM"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Tasks & the Callback Queue",
+      "slug": "tasks-and-the-callback-queue.md",
+      "subcategory": "The Event Loop",
+      "order": 30,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The DOM as an Abstraction"
+      ],
+      "related": [
+        "Microtasks & the Job Queue",
+        "Rendering & rAF Timing",
+        "Long Tasks & Starvation"
+      ],
+      "next": [
+        "Microtasks & the Job Queue",
+        "Rendering & rAF Timing",
+        "Long Tasks & Starvation",
+        "Origins & Sites",
+        "URL Anatomy"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Microtasks & the Job Queue",
+      "slug": "microtasks-and-the-job-queue.md",
+      "subcategory": "The Event Loop",
+      "order": 31,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Tasks & the Callback Queue",
+        "The DOM as an Abstraction"
+      ],
+      "related": [
+        "Tasks & the Callback Queue",
+        "Rendering & rAF Timing",
+        "Long Tasks & Starvation"
+      ],
+      "next": [
+        "Rendering & rAF Timing"
+      ],
+      "alternatives": [
+        "Rendering & rAF Timing",
+        "Long Tasks & Starvation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Rendering & rAF Timing",
+      "slug": "rendering-and-raf-timing.md",
+      "subcategory": "The Event Loop",
+      "order": 32,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Tasks & the Callback Queue",
+        "The DOM as an Abstraction"
+      ],
+      "related": [
+        "Tasks & the Callback Queue",
+        "Microtasks & the Job Queue",
+        "Long Tasks & Starvation"
+      ],
+      "next": [
+        "Long Tasks & Starvation"
+      ],
+      "alternatives": [
+        "Microtasks & the Job Queue",
+        "Long Tasks & Starvation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Long Tasks & Starvation",
+      "slug": "long-tasks-and-starvation.md",
+      "subcategory": "The Event Loop",
+      "order": 33,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Tasks & the Callback Queue",
+        "The DOM as an Abstraction"
+      ],
+      "related": [
+        "Tasks & the Callback Queue",
+        "Microtasks & the Job Queue",
+        "Rendering & rAF Timing"
+      ],
+      "next": [
+        "Origins & Sites"
+      ],
+      "alternatives": [
+        "Microtasks & the Job Queue",
+        "Rendering & rAF Timing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Origins & Sites",
+      "slug": "origins-and-sites.md",
+      "subcategory": "The Origin Model",
+      "order": 34,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Tasks & the Callback Queue"
+      ],
+      "related": [
+        "URL Anatomy",
+        "Document Lifecycle & bfcache"
+      ],
+      "next": [
+        "URL Anatomy",
+        "Document Lifecycle & bfcache"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "URL Anatomy",
+      "slug": "url-anatomy.md",
+      "subcategory": "The Origin Model",
+      "order": 35,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Origins & Sites",
+        "Tasks & the Callback Queue"
+      ],
+      "related": [
+        "Origins & Sites",
+        "Document Lifecycle & bfcache"
+      ],
+      "next": [
+        "Document Lifecycle & bfcache"
+      ],
+      "alternatives": [
+        "Document Lifecycle & bfcache"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Document Lifecycle & bfcache",
+      "slug": "document-lifecycle-and-bfcache.md",
+      "subcategory": "The Origin Model",
+      "order": 36,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Origins & Sites",
+        "Tasks & the Callback Queue"
+      ],
+      "related": [
+        "Origins & Sites",
+        "URL Anatomy"
+      ],
+      "next": [
+        "Parsing & Bytecode"
+      ],
+      "alternatives": [
+        "URL Anatomy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#the-web-platform",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

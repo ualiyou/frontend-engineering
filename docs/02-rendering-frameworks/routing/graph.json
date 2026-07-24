@@ -1,0 +1,439 @@
+{
+  "domain": "Routing",
+  "part": "02 · Rendering & Frameworks",
+  "path": "docs/02-rendering-frameworks/routing",
+  "depends_on": [
+    "Rendering Architectures",
+    "Browser APIs"
+  ],
+  "node_count": 16,
+  "estimated_minutes": 204,
+  "nodes": [
+    {
+      "title": "Client-Side Routing",
+      "slug": "client-side-routing.md",
+      "subcategory": "Routing Models",
+      "order": 258,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The CSR Model · Rendering Architectures",
+        "Web Storage · Browser APIs"
+      ],
+      "related": [
+        "File-Based & Server Routing",
+        "Hybrid Routing"
+      ],
+      "next": [
+        "File-Based & Server Routing",
+        "Hybrid Routing",
+        "Route Matching & Params",
+        "Nested Routes & Layouts",
+        "Parallel & Intercepting Routes"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "File-Based & Server Routing",
+      "slug": "file-based-and-server-routing.md",
+      "subcategory": "Routing Models",
+      "order": 259,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Client-Side Routing"
+      ],
+      "related": [
+        "Client-Side Routing",
+        "Hybrid Routing"
+      ],
+      "next": [
+        "Hybrid Routing"
+      ],
+      "alternatives": [
+        "Hybrid Routing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Hybrid Routing",
+      "slug": "hybrid-routing.md",
+      "subcategory": "Routing Models",
+      "order": 260,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Client-Side Routing"
+      ],
+      "related": [
+        "Client-Side Routing",
+        "File-Based & Server Routing"
+      ],
+      "next": [
+        "Route Matching & Params"
+      ],
+      "alternatives": [
+        "File-Based & Server Routing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Route Matching & Params",
+      "slug": "route-matching-and-params.md",
+      "subcategory": "Route Structure",
+      "order": 261,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Client-Side Routing"
+      ],
+      "related": [
+        "Nested Routes & Layouts",
+        "Parallel & Intercepting Routes",
+        "The URL as State"
+      ],
+      "next": [
+        "Nested Routes & Layouts",
+        "Parallel & Intercepting Routes",
+        "The URL as State",
+        "Route Loaders & Dependencies",
+        "Deferred & Streaming Route Data"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Nested Routes & Layouts",
+      "slug": "nested-routes-and-layouts.md",
+      "subcategory": "Route Structure",
+      "order": 262,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Route Matching & Params",
+        "Client-Side Routing"
+      ],
+      "related": [
+        "Route Matching & Params",
+        "Parallel & Intercepting Routes",
+        "The URL as State"
+      ],
+      "next": [
+        "Parallel & Intercepting Routes"
+      ],
+      "alternatives": [
+        "Parallel & Intercepting Routes",
+        "The URL as State"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Parallel & Intercepting Routes",
+      "slug": "parallel-and-intercepting-routes.md",
+      "subcategory": "Route Structure",
+      "order": 263,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Route Matching & Params",
+        "Client-Side Routing"
+      ],
+      "related": [
+        "Route Matching & Params",
+        "Nested Routes & Layouts",
+        "The URL as State"
+      ],
+      "next": [
+        "The URL as State"
+      ],
+      "alternatives": [
+        "Nested Routes & Layouts",
+        "The URL as State"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The URL as State",
+      "slug": "the-url-as-state.md",
+      "subcategory": "Route Structure",
+      "order": 264,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Route Matching & Params",
+        "Client-Side Routing"
+      ],
+      "related": [
+        "Route Matching & Params",
+        "Nested Routes & Layouts",
+        "Parallel & Intercepting Routes"
+      ],
+      "next": [
+        "Route Loaders & Dependencies"
+      ],
+      "alternatives": [
+        "Nested Routes & Layouts",
+        "Parallel & Intercepting Routes"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Route Loaders & Dependencies",
+      "slug": "route-loaders-and-dependencies.md",
+      "subcategory": "Route Data",
+      "order": 265,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Route Matching & Params"
+      ],
+      "related": [
+        "Deferred & Streaming Route Data",
+        "Route Actions & Mutations"
+      ],
+      "next": [
+        "Deferred & Streaming Route Data",
+        "Route Actions & Mutations",
+        "Navigation & Linking",
+        "Transitions & Pending UI",
+        "Scroll Restoration"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Deferred & Streaming Route Data",
+      "slug": "deferred-and-streaming-route-data.md",
+      "subcategory": "Route Data",
+      "order": 266,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Route Loaders & Dependencies",
+        "Route Matching & Params"
+      ],
+      "related": [
+        "Route Loaders & Dependencies",
+        "Route Actions & Mutations"
+      ],
+      "next": [
+        "Route Actions & Mutations"
+      ],
+      "alternatives": [
+        "Route Actions & Mutations"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Route Actions & Mutations",
+      "slug": "route-actions-and-mutations.md",
+      "subcategory": "Route Data",
+      "order": 267,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Route Loaders & Dependencies",
+        "Route Matching & Params"
+      ],
+      "related": [
+        "Route Loaders & Dependencies",
+        "Deferred & Streaming Route Data"
+      ],
+      "next": [
+        "Navigation & Linking"
+      ],
+      "alternatives": [
+        "Deferred & Streaming Route Data"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Navigation & Linking",
+      "slug": "navigation-and-linking.md",
+      "subcategory": "Navigation",
+      "order": 268,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Route Loaders & Dependencies"
+      ],
+      "related": [
+        "Transitions & Pending UI",
+        "Scroll Restoration",
+        "Route Prefetching"
+      ],
+      "next": [
+        "Transitions & Pending UI",
+        "Scroll Restoration",
+        "Route Prefetching",
+        "Route-Based Code Splitting",
+        "Route Guards & Redirects"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Transitions & Pending UI",
+      "slug": "transitions-and-pending-ui.md",
+      "subcategory": "Navigation",
+      "order": 269,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Navigation & Linking",
+        "Route Loaders & Dependencies"
+      ],
+      "related": [
+        "Navigation & Linking",
+        "Scroll Restoration",
+        "Route Prefetching"
+      ],
+      "next": [
+        "Scroll Restoration"
+      ],
+      "alternatives": [
+        "Scroll Restoration",
+        "Route Prefetching"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Scroll Restoration",
+      "slug": "scroll-restoration.md",
+      "subcategory": "Navigation",
+      "order": 270,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Navigation & Linking",
+        "Route Loaders & Dependencies"
+      ],
+      "related": [
+        "Navigation & Linking",
+        "Transitions & Pending UI",
+        "Route Prefetching"
+      ],
+      "next": [
+        "Route Prefetching"
+      ],
+      "alternatives": [
+        "Transitions & Pending UI",
+        "Route Prefetching"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Route Prefetching",
+      "slug": "route-prefetching.md",
+      "subcategory": "Navigation",
+      "order": 271,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Navigation & Linking",
+        "Route Loaders & Dependencies"
+      ],
+      "related": [
+        "Navigation & Linking",
+        "Transitions & Pending UI",
+        "Scroll Restoration"
+      ],
+      "next": [
+        "Route-Based Code Splitting"
+      ],
+      "alternatives": [
+        "Transitions & Pending UI",
+        "Scroll Restoration"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Route-Based Code Splitting",
+      "slug": "route-based-code-splitting.md",
+      "subcategory": "Code Organization",
+      "order": 272,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Navigation & Linking"
+      ],
+      "related": [
+        "Route Guards & Redirects"
+      ],
+      "next": [
+        "Route Guards & Redirects"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Route Guards & Redirects",
+      "slug": "route-guards-and-redirects.md",
+      "subcategory": "Code Organization",
+      "order": 273,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Route-Based Code Splitting",
+        "Navigation & Linking"
+      ],
+      "related": [
+        "Route-Based Code Splitting"
+      ],
+      "next": [
+        "Separation of Concerns"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#routing",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

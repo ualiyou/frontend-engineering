@@ -1,0 +1,31 @@
+# Greets first-time contributors so the project feels responsive and human.
+# WHY: the first interaction sets the tone for whether someone comes back.
+name: Welcome
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: >
+            👋 Thanks for opening your first issue in **Frontend Engineering**!
+            A maintainer will triage it soon. If you're proposing content, please
+            confirm it documents an engineering *decision or trade-off* rather than
+            a tutorial (see CONTRIBUTING.md). Questions? Start a Discussion.
+          pr-message: >
+            🎉 Thanks for your first pull request! Please make sure the PR template
+            checklist is complete and that CI is green. A maintainer will review
+            for correctness first, then editorial quality. We appreciate you
+            contributing to the knowledge base.

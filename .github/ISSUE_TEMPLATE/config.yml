@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & discussion
+    url: ../../discussions
+    about: Ask conceptual questions or discuss trade-offs with the community.
+  - name: 🔒 Report a security concern
+    url: ../../security/advisories/new
+    about: Privately report unsafe example code or a workflow/tooling risk. Do not open a public issue.

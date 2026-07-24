@@ -1,0 +1,20 @@
+name: "❓ Question"
+description: Ask a conceptual question about an article or a documented trade-off.
+title: "[question] <your question>"
+labels: ["type: question", "status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For open-ended discussion, prefer [Discussions](../../discussions). Use this for a specific question tied to repository content.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Related file (optional)
+      placeholder: docs/02-rendering-frameworks/react/README.md

@@ -1,0 +1,27 @@
+# Code owners for Frontend Engineering.
+
+# These owners are automatically requested for review on matching paths.
+
+# Docs: https://docs.github.com/articles/about-code-owners
+
+- @ualiyou
+
+# Governance & meta
+
+/.github/ @ualiyou
+/CONTRIBUTING.md @ualiyou
+/GOVERNANCE.md @ualiyou
+/CODE_OF_CONDUCT.md @ualiyou
+/templates/ @ualiyou
+
+# Knowledge domains (assign dedicated maintainers here over time)
+
+/docs/00-foundations/ @ualiyou
+/docs/01-core-languages/ @ualiyou
+/docs/02-rendering-frameworks/ @ualiyou
+/docs/03-application-architecture/ @ualiyou
+/docs/04-interface-engineering/ @ualiyou
+/docs/05-reliability-quality/ @ualiyou
+/docs/06-engineering-systems/ @ualiyou
+/docs/07-platform-reach/ @ualiyou
+/docs/08-craft-leadership/ @ualiyou

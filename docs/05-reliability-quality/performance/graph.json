@@ -1,0 +1,622 @@
+{
+  "domain": "Performance Engineering",
+  "part": "05 · Reliability & Quality",
+  "path": "docs/05-reliability-quality/performance",
+  "depends_on": [
+    "The Web Platform",
+    "Runtime & Execution",
+    "Networking & Protocols"
+  ],
+  "node_count": 22,
+  "estimated_minutes": 303,
+  "nodes": [
+    {
+      "title": "Core Web Vitals (LCP, INP, CLS)",
+      "slug": "core-web-vitals-lcp-inp-cls.md",
+      "subcategory": "Metrics",
+      "order": 422,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Process & Thread Architecture · The Web Platform",
+        "Parsing & Bytecode · Runtime & Execution",
+        "HTTP/1.1 Semantics · Networking & Protocols"
+      ],
+      "related": [
+        "Perceived vs Actual Performance",
+        "Custom Performance Metrics",
+        "Lab vs Field Measurement"
+      ],
+      "next": [
+        "Perceived vs Actual Performance",
+        "Custom Performance Metrics",
+        "Lab vs Field Measurement",
+        "The Critical Rendering Path",
+        "Code Splitting"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Perceived vs Actual Performance",
+      "slug": "perceived-vs-actual-performance.md",
+      "subcategory": "Metrics",
+      "order": 423,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Core Web Vitals (LCP, INP, CLS)"
+      ],
+      "related": [
+        "Core Web Vitals (LCP, INP, CLS)",
+        "Custom Performance Metrics",
+        "Lab vs Field Measurement"
+      ],
+      "next": [
+        "Custom Performance Metrics"
+      ],
+      "alternatives": [
+        "Custom Performance Metrics",
+        "Lab vs Field Measurement"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Custom Performance Metrics",
+      "slug": "custom-performance-metrics.md",
+      "subcategory": "Metrics",
+      "order": 424,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Core Web Vitals (LCP, INP, CLS)"
+      ],
+      "related": [
+        "Core Web Vitals (LCP, INP, CLS)",
+        "Perceived vs Actual Performance",
+        "Lab vs Field Measurement"
+      ],
+      "next": [
+        "Lab vs Field Measurement"
+      ],
+      "alternatives": [
+        "Perceived vs Actual Performance",
+        "Lab vs Field Measurement"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Lab vs Field Measurement",
+      "slug": "lab-vs-field-measurement.md",
+      "subcategory": "Metrics",
+      "order": 425,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Core Web Vitals (LCP, INP, CLS)"
+      ],
+      "related": [
+        "Core Web Vitals (LCP, INP, CLS)",
+        "Perceived vs Actual Performance",
+        "Custom Performance Metrics"
+      ],
+      "next": [
+        "The Critical Rendering Path"
+      ],
+      "alternatives": [
+        "Perceived vs Actual Performance",
+        "Custom Performance Metrics"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Critical Rendering Path",
+      "slug": "the-critical-rendering-path.md",
+      "subcategory": "Loading Performance",
+      "order": 426,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Core Web Vitals (LCP, INP, CLS)"
+      ],
+      "related": [
+        "Code Splitting",
+        "Resource Prefetch & Preload",
+        "Critical CSS & Above-the-Fold",
+        "Font & Asset Loading Strategy"
+      ],
+      "next": [
+        "Code Splitting",
+        "Resource Prefetch & Preload",
+        "Critical CSS & Above-the-Fold",
+        "Font & Asset Loading Strategy",
+        "Image Optimization"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Code Splitting",
+      "slug": "code-splitting.md",
+      "subcategory": "Loading Performance",
+      "order": 427,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Critical Rendering Path",
+        "Core Web Vitals (LCP, INP, CLS)"
+      ],
+      "related": [
+        "The Critical Rendering Path",
+        "Resource Prefetch & Preload",
+        "Critical CSS & Above-the-Fold",
+        "Font & Asset Loading Strategy"
+      ],
+      "next": [
+        "Resource Prefetch & Preload"
+      ],
+      "alternatives": [
+        "Resource Prefetch & Preload",
+        "Critical CSS & Above-the-Fold",
+        "Font & Asset Loading Strategy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Resource Prefetch & Preload",
+      "slug": "resource-prefetch-and-preload.md",
+      "subcategory": "Loading Performance",
+      "order": 428,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Critical Rendering Path",
+        "Core Web Vitals (LCP, INP, CLS)"
+      ],
+      "related": [
+        "The Critical Rendering Path",
+        "Code Splitting",
+        "Critical CSS & Above-the-Fold",
+        "Font & Asset Loading Strategy"
+      ],
+      "next": [
+        "Critical CSS & Above-the-Fold"
+      ],
+      "alternatives": [
+        "Code Splitting",
+        "Critical CSS & Above-the-Fold",
+        "Font & Asset Loading Strategy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Critical CSS & Above-the-Fold",
+      "slug": "critical-css-and-above-the-fold.md",
+      "subcategory": "Loading Performance",
+      "order": 429,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Critical Rendering Path",
+        "Core Web Vitals (LCP, INP, CLS)"
+      ],
+      "related": [
+        "The Critical Rendering Path",
+        "Code Splitting",
+        "Resource Prefetch & Preload",
+        "Font & Asset Loading Strategy"
+      ],
+      "next": [
+        "Font & Asset Loading Strategy"
+      ],
+      "alternatives": [
+        "Code Splitting",
+        "Resource Prefetch & Preload",
+        "Font & Asset Loading Strategy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Font & Asset Loading Strategy",
+      "slug": "font-and-asset-loading-strategy.md",
+      "subcategory": "Loading Performance",
+      "order": 430,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Critical Rendering Path",
+        "Core Web Vitals (LCP, INP, CLS)"
+      ],
+      "related": [
+        "The Critical Rendering Path",
+        "Code Splitting",
+        "Resource Prefetch & Preload",
+        "Critical CSS & Above-the-Fold"
+      ],
+      "next": [
+        "Image Optimization"
+      ],
+      "alternatives": [
+        "Code Splitting",
+        "Resource Prefetch & Preload",
+        "Critical CSS & Above-the-Fold"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Image Optimization",
+      "slug": "image-optimization.md",
+      "subcategory": "Asset Optimization",
+      "order": 431,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Critical Rendering Path"
+      ],
+      "related": [
+        "Media & Video Optimization",
+        "Bundle Size Optimization",
+        "Asset Minification & Compression"
+      ],
+      "next": [
+        "Media & Video Optimization",
+        "Bundle Size Optimization",
+        "Asset Minification & Compression",
+        "Rendering Cost & Re-renders",
+        "Long Tasks & Main-Thread Work"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Media & Video Optimization",
+      "slug": "media-and-video-optimization.md",
+      "subcategory": "Asset Optimization",
+      "order": 432,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Image Optimization",
+        "The Critical Rendering Path"
+      ],
+      "related": [
+        "Image Optimization",
+        "Bundle Size Optimization",
+        "Asset Minification & Compression"
+      ],
+      "next": [
+        "Bundle Size Optimization"
+      ],
+      "alternatives": [
+        "Bundle Size Optimization",
+        "Asset Minification & Compression"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Bundle Size Optimization",
+      "slug": "bundle-size-optimization.md",
+      "subcategory": "Asset Optimization",
+      "order": 433,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Image Optimization",
+        "The Critical Rendering Path"
+      ],
+      "related": [
+        "Image Optimization",
+        "Media & Video Optimization",
+        "Asset Minification & Compression"
+      ],
+      "next": [
+        "Asset Minification & Compression"
+      ],
+      "alternatives": [
+        "Media & Video Optimization",
+        "Asset Minification & Compression"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Asset Minification & Compression",
+      "slug": "asset-minification-and-compression.md",
+      "subcategory": "Asset Optimization",
+      "order": 434,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Image Optimization",
+        "The Critical Rendering Path"
+      ],
+      "related": [
+        "Image Optimization",
+        "Media & Video Optimization",
+        "Bundle Size Optimization"
+      ],
+      "next": [
+        "Rendering Cost & Re-renders"
+      ],
+      "alternatives": [
+        "Media & Video Optimization",
+        "Bundle Size Optimization"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Rendering Cost & Re-renders",
+      "slug": "rendering-cost-and-re-renders.md",
+      "subcategory": "Runtime Performance",
+      "order": 435,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Image Optimization"
+      ],
+      "related": [
+        "Long Tasks & Main-Thread Work",
+        "Debounce, Throttle & Scheduling",
+        "Offloading to Workers"
+      ],
+      "next": [
+        "Long Tasks & Main-Thread Work",
+        "Debounce, Throttle & Scheduling",
+        "Offloading to Workers",
+        "Memory Profiling in Practice",
+        "Long-Session Memory Growth"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Long Tasks & Main-Thread Work",
+      "slug": "long-tasks-and-main-thread-work.md",
+      "subcategory": "Runtime Performance",
+      "order": 436,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Rendering Cost & Re-renders",
+        "Image Optimization"
+      ],
+      "related": [
+        "Rendering Cost & Re-renders",
+        "Debounce, Throttle & Scheduling",
+        "Offloading to Workers"
+      ],
+      "next": [
+        "Debounce, Throttle & Scheduling"
+      ],
+      "alternatives": [
+        "Debounce, Throttle & Scheduling",
+        "Offloading to Workers"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Debounce, Throttle & Scheduling",
+      "slug": "debounce-throttle-and-scheduling.md",
+      "subcategory": "Runtime Performance",
+      "order": 437,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Rendering Cost & Re-renders",
+        "Image Optimization"
+      ],
+      "related": [
+        "Rendering Cost & Re-renders",
+        "Long Tasks & Main-Thread Work",
+        "Offloading to Workers"
+      ],
+      "next": [
+        "Offloading to Workers"
+      ],
+      "alternatives": [
+        "Long Tasks & Main-Thread Work",
+        "Offloading to Workers"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Offloading to Workers",
+      "slug": "offloading-to-workers.md",
+      "subcategory": "Runtime Performance",
+      "order": 438,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Rendering Cost & Re-renders",
+        "Image Optimization"
+      ],
+      "related": [
+        "Rendering Cost & Re-renders",
+        "Long Tasks & Main-Thread Work",
+        "Debounce, Throttle & Scheduling"
+      ],
+      "next": [
+        "Memory Profiling in Practice"
+      ],
+      "alternatives": [
+        "Long Tasks & Main-Thread Work",
+        "Debounce, Throttle & Scheduling"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Memory Profiling in Practice",
+      "slug": "memory-profiling-in-practice.md",
+      "subcategory": "Memory Performance",
+      "order": 439,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Rendering Cost & Re-renders"
+      ],
+      "related": [
+        "Long-Session Memory Growth"
+      ],
+      "next": [
+        "Long-Session Memory Growth",
+        "Performance Budgets",
+        "Regression Prevention & CI Gates",
+        "Caching for Performance (cross-layer)"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Long-Session Memory Growth",
+      "slug": "long-session-memory-growth.md",
+      "subcategory": "Memory Performance",
+      "order": 440,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Memory Profiling in Practice",
+        "Rendering Cost & Re-renders"
+      ],
+      "related": [
+        "Memory Profiling in Practice"
+      ],
+      "next": [
+        "Performance Budgets"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Performance Budgets",
+      "slug": "performance-budgets.md",
+      "subcategory": "Performance Culture",
+      "order": 441,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Memory Profiling in Practice"
+      ],
+      "related": [
+        "Regression Prevention & CI Gates",
+        "Caching for Performance (cross-layer)"
+      ],
+      "next": [
+        "Regression Prevention & CI Gates",
+        "Caching for Performance (cross-layer)"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Regression Prevention & CI Gates",
+      "slug": "regression-prevention-and-ci-gates.md",
+      "subcategory": "Performance Culture",
+      "order": 442,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Performance Budgets",
+        "Memory Profiling in Practice"
+      ],
+      "related": [
+        "Performance Budgets",
+        "Caching for Performance (cross-layer)"
+      ],
+      "next": [
+        "Caching for Performance (cross-layer)"
+      ],
+      "alternatives": [
+        "Caching for Performance (cross-layer)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Caching for Performance (cross-layer)",
+      "slug": "caching-for-performance-cross-layer.md",
+      "subcategory": "Performance Culture",
+      "order": 443,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Performance Budgets",
+        "Memory Profiling in Practice"
+      ],
+      "related": [
+        "Performance Budgets",
+        "Regression Prevention & CI Gates"
+      ],
+      "next": [
+        "Same-Origin Policy"
+      ],
+      "alternatives": [
+        "Regression Prevention & CI Gates"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#performance-engineering",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

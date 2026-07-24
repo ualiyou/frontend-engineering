@@ -1,0 +1,278 @@
+{
+  "domain": "Reactivity & Framework Models",
+  "part": "02 · Rendering & Frameworks",
+  "path": "docs/02-rendering-frameworks/reactivity-models",
+  "depends_on": [
+    "JavaScript",
+    "Rendering Architectures"
+  ],
+  "node_count": 10,
+  "estimated_minutes": 169,
+  "nodes": [
+    {
+      "title": "Signals & Fine-Grained Reactivity",
+      "slug": "signals-and-fine-grained-reactivity.md",
+      "subcategory": "Reactivity Paradigms",
+      "order": 248,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Primitives & Wrappers · JavaScript",
+        "The CSR Model · Rendering Architectures"
+      ],
+      "related": [
+        "The Virtual DOM",
+        "Compiled Reactivity",
+        "Push-Based vs Dirty Checking"
+      ],
+      "next": [
+        "The Virtual DOM",
+        "Compiled Reactivity",
+        "Push-Based vs Dirty Checking",
+        "Observables",
+        "Atoms & Derived Values"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#reactivity-framework-models",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Virtual DOM",
+      "slug": "the-virtual-dom.md",
+      "subcategory": "Reactivity Paradigms",
+      "order": 249,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Signals & Fine-Grained Reactivity"
+      ],
+      "related": [
+        "Signals & Fine-Grained Reactivity",
+        "Compiled Reactivity",
+        "Push-Based vs Dirty Checking"
+      ],
+      "next": [
+        "Compiled Reactivity"
+      ],
+      "alternatives": [
+        "Compiled Reactivity",
+        "Push-Based vs Dirty Checking"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#reactivity-framework-models",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Compiled Reactivity",
+      "slug": "compiled-reactivity.md",
+      "subcategory": "Reactivity Paradigms",
+      "order": 250,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Signals & Fine-Grained Reactivity"
+      ],
+      "related": [
+        "Signals & Fine-Grained Reactivity",
+        "The Virtual DOM",
+        "Push-Based vs Dirty Checking"
+      ],
+      "next": [
+        "Push-Based vs Dirty Checking"
+      ],
+      "alternatives": [
+        "The Virtual DOM",
+        "Push-Based vs Dirty Checking"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#reactivity-framework-models",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Push-Based vs Dirty Checking",
+      "slug": "push-based-vs-dirty-checking.md",
+      "subcategory": "Reactivity Paradigms",
+      "order": 251,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Signals & Fine-Grained Reactivity"
+      ],
+      "related": [
+        "Signals & Fine-Grained Reactivity",
+        "The Virtual DOM",
+        "Compiled Reactivity"
+      ],
+      "next": [
+        "Observables"
+      ],
+      "alternatives": [
+        "The Virtual DOM",
+        "Compiled Reactivity"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#reactivity-framework-models",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Observables",
+      "slug": "observables.md",
+      "subcategory": "Primitives",
+      "order": 252,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Signals & Fine-Grained Reactivity"
+      ],
+      "related": [
+        "Atoms & Derived Values",
+        "Effects & Reactions"
+      ],
+      "next": [
+        "Atoms & Derived Values",
+        "Effects & Reactions",
+        "Declarative vs Imperative UI",
+        "Data Binding Models",
+        "Framework Comparison Axes"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#reactivity-framework-models",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Atoms & Derived Values",
+      "slug": "atoms-and-derived-values.md",
+      "subcategory": "Primitives",
+      "order": 253,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Observables",
+        "Signals & Fine-Grained Reactivity"
+      ],
+      "related": [
+        "Observables",
+        "Effects & Reactions"
+      ],
+      "next": [
+        "Effects & Reactions"
+      ],
+      "alternatives": [
+        "Effects & Reactions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#reactivity-framework-models",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Effects & Reactions",
+      "slug": "effects-and-reactions.md",
+      "subcategory": "Primitives",
+      "order": 254,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Observables",
+        "Signals & Fine-Grained Reactivity"
+      ],
+      "related": [
+        "Observables",
+        "Atoms & Derived Values"
+      ],
+      "next": [
+        "Declarative vs Imperative UI"
+      ],
+      "alternatives": [
+        "Atoms & Derived Values"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#reactivity-framework-models",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Declarative vs Imperative UI",
+      "slug": "declarative-vs-imperative-ui.md",
+      "subcategory": "Mental Models",
+      "order": 255,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Observables"
+      ],
+      "related": [
+        "Data Binding Models",
+        "Framework Comparison Axes"
+      ],
+      "next": [
+        "Data Binding Models",
+        "Framework Comparison Axes"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#reactivity-framework-models",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Data Binding Models",
+      "slug": "data-binding-models.md",
+      "subcategory": "Mental Models",
+      "order": 256,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Declarative vs Imperative UI",
+        "Observables"
+      ],
+      "related": [
+        "Declarative vs Imperative UI",
+        "Framework Comparison Axes"
+      ],
+      "next": [
+        "Framework Comparison Axes"
+      ],
+      "alternatives": [
+        "Framework Comparison Axes"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#reactivity-framework-models",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Framework Comparison Axes",
+      "slug": "framework-comparison-axes.md",
+      "subcategory": "Mental Models",
+      "order": 257,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Declarative vs Imperative UI",
+        "Observables"
+      ],
+      "related": [
+        "Declarative vs Imperative UI",
+        "Data Binding Models"
+      ],
+      "next": [
+        "Client-Side Routing"
+      ],
+      "alternatives": [
+        "Data Binding Models"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#reactivity-framework-models",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

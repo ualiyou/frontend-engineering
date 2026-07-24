@@ -1,0 +1,471 @@
+{
+  "domain": "Rendering Architectures",
+  "part": "02 · Rendering & Frameworks",
+  "path": "docs/02-rendering-frameworks/rendering-architectures",
+  "depends_on": [
+    "The Web Platform",
+    "Networking & Protocols"
+  ],
+  "node_count": 17,
+  "estimated_minutes": 225,
+  "nodes": [
+    {
+      "title": "The CSR Model",
+      "slug": "the-csr-model.md",
+      "subcategory": "Client Rendering",
+      "order": 198,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Process & Thread Architecture · The Web Platform",
+        "HTTP/1.1 Semantics · Networking & Protocols"
+      ],
+      "related": [
+        "The App Shell Pattern",
+        "Client-Side Data Loading"
+      ],
+      "next": [
+        "The App Shell Pattern",
+        "Client-Side Data Loading",
+        "The SSR Model",
+        "Hydration",
+        "Selective & Progressive Hydration"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The App Shell Pattern",
+      "slug": "the-app-shell-pattern.md",
+      "subcategory": "Client Rendering",
+      "order": 199,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The CSR Model"
+      ],
+      "related": [
+        "The CSR Model",
+        "Client-Side Data Loading"
+      ],
+      "next": [
+        "Client-Side Data Loading"
+      ],
+      "alternatives": [
+        "Client-Side Data Loading"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Client-Side Data Loading",
+      "slug": "client-side-data-loading.md",
+      "subcategory": "Client Rendering",
+      "order": 200,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The CSR Model"
+      ],
+      "related": [
+        "The CSR Model",
+        "The App Shell Pattern"
+      ],
+      "next": [
+        "The SSR Model"
+      ],
+      "alternatives": [
+        "The App Shell Pattern"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The SSR Model",
+      "slug": "the-ssr-model.md",
+      "subcategory": "Server Rendering",
+      "order": 201,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The CSR Model"
+      ],
+      "related": [
+        "Hydration",
+        "Selective & Progressive Hydration",
+        "Hydration Mismatches"
+      ],
+      "next": [
+        "Hydration",
+        "Selective & Progressive Hydration",
+        "Hydration Mismatches",
+        "Static Site Generation",
+        "Incremental Static Regeneration"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Hydration",
+      "slug": "hydration.md",
+      "subcategory": "Server Rendering",
+      "order": 202,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The SSR Model",
+        "The CSR Model"
+      ],
+      "related": [
+        "The SSR Model",
+        "Selective & Progressive Hydration",
+        "Hydration Mismatches"
+      ],
+      "next": [
+        "Selective & Progressive Hydration"
+      ],
+      "alternatives": [
+        "Selective & Progressive Hydration",
+        "Hydration Mismatches"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Selective & Progressive Hydration",
+      "slug": "selective-and-progressive-hydration.md",
+      "subcategory": "Server Rendering",
+      "order": 203,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The SSR Model",
+        "The CSR Model"
+      ],
+      "related": [
+        "The SSR Model",
+        "Hydration",
+        "Hydration Mismatches"
+      ],
+      "next": [
+        "Hydration Mismatches"
+      ],
+      "alternatives": [
+        "Hydration",
+        "Hydration Mismatches"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Hydration Mismatches",
+      "slug": "hydration-mismatches.md",
+      "subcategory": "Server Rendering",
+      "order": 204,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The SSR Model",
+        "The CSR Model"
+      ],
+      "related": [
+        "The SSR Model",
+        "Hydration",
+        "Selective & Progressive Hydration"
+      ],
+      "next": [
+        "Static Site Generation"
+      ],
+      "alternatives": [
+        "Hydration",
+        "Selective & Progressive Hydration"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Static Site Generation",
+      "slug": "static-site-generation.md",
+      "subcategory": "Static & Hybrid",
+      "order": 205,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The SSR Model"
+      ],
+      "related": [
+        "Incremental Static Regeneration",
+        "On-Demand Revalidation"
+      ],
+      "next": [
+        "Incremental Static Regeneration",
+        "On-Demand Revalidation",
+        "Streaming SSR",
+        "Progressive Rendering & Flushing",
+        "Out-of-Order Streaming"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Incremental Static Regeneration",
+      "slug": "incremental-static-regeneration.md",
+      "subcategory": "Static & Hybrid",
+      "order": 206,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Static Site Generation",
+        "The SSR Model"
+      ],
+      "related": [
+        "Static Site Generation",
+        "On-Demand Revalidation"
+      ],
+      "next": [
+        "On-Demand Revalidation"
+      ],
+      "alternatives": [
+        "On-Demand Revalidation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "On-Demand Revalidation",
+      "slug": "on-demand-revalidation.md",
+      "subcategory": "Static & Hybrid",
+      "order": 207,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Static Site Generation",
+        "The SSR Model"
+      ],
+      "related": [
+        "Static Site Generation",
+        "Incremental Static Regeneration"
+      ],
+      "next": [
+        "Streaming SSR"
+      ],
+      "alternatives": [
+        "Incremental Static Regeneration"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Streaming SSR",
+      "slug": "streaming-ssr.md",
+      "subcategory": "Streaming",
+      "order": 208,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Static Site Generation"
+      ],
+      "related": [
+        "Progressive Rendering & Flushing",
+        "Out-of-Order Streaming"
+      ],
+      "next": [
+        "Progressive Rendering & Flushing",
+        "Out-of-Order Streaming",
+        "The Server/Client Boundary",
+        "Islands Architecture",
+        "Resumability vs Hydration"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Progressive Rendering & Flushing",
+      "slug": "progressive-rendering-and-flushing.md",
+      "subcategory": "Streaming",
+      "order": 209,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Streaming SSR",
+        "Static Site Generation"
+      ],
+      "related": [
+        "Streaming SSR",
+        "Out-of-Order Streaming"
+      ],
+      "next": [
+        "Out-of-Order Streaming"
+      ],
+      "alternatives": [
+        "Out-of-Order Streaming"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Out-of-Order Streaming",
+      "slug": "out-of-order-streaming.md",
+      "subcategory": "Streaming",
+      "order": 210,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Streaming SSR",
+        "Static Site Generation"
+      ],
+      "related": [
+        "Streaming SSR",
+        "Progressive Rendering & Flushing"
+      ],
+      "next": [
+        "The Server/Client Boundary"
+      ],
+      "alternatives": [
+        "Progressive Rendering & Flushing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Server/Client Boundary",
+      "slug": "the-server-client-boundary.md",
+      "subcategory": "Boundaries & Models",
+      "order": 211,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Streaming SSR"
+      ],
+      "related": [
+        "Islands Architecture",
+        "Resumability vs Hydration",
+        "Edge vs Origin Rendering"
+      ],
+      "next": [
+        "Islands Architecture",
+        "Resumability vs Hydration",
+        "Edge vs Origin Rendering"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Islands Architecture",
+      "slug": "islands-architecture.md",
+      "subcategory": "Boundaries & Models",
+      "order": 212,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Server/Client Boundary",
+        "Streaming SSR"
+      ],
+      "related": [
+        "The Server/Client Boundary",
+        "Resumability vs Hydration",
+        "Edge vs Origin Rendering"
+      ],
+      "next": [
+        "Resumability vs Hydration"
+      ],
+      "alternatives": [
+        "Resumability vs Hydration",
+        "Edge vs Origin Rendering"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Resumability vs Hydration",
+      "slug": "resumability-vs-hydration.md",
+      "subcategory": "Boundaries & Models",
+      "order": 213,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Server/Client Boundary",
+        "Streaming SSR"
+      ],
+      "related": [
+        "The Server/Client Boundary",
+        "Islands Architecture",
+        "Edge vs Origin Rendering"
+      ],
+      "next": [
+        "Edge vs Origin Rendering"
+      ],
+      "alternatives": [
+        "Islands Architecture",
+        "Edge vs Origin Rendering"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Edge vs Origin Rendering",
+      "slug": "edge-vs-origin-rendering.md",
+      "subcategory": "Boundaries & Models",
+      "order": 214,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Server/Client Boundary",
+        "Streaming SSR"
+      ],
+      "related": [
+        "The Server/Client Boundary",
+        "Islands Architecture",
+        "Resumability vs Hydration"
+      ],
+      "next": [
+        "Elements vs Components"
+      ],
+      "alternatives": [
+        "Islands Architecture",
+        "Resumability vs Hydration"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#rendering-architectures",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

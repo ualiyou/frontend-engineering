@@ -1,0 +1,404 @@
+{
+  "domain": "Design Systems",
+  "part": "04 · Interface Engineering",
+  "path": "docs/04-interface-engineering/design-systems",
+  "depends_on": [
+    "CSS & Visual Systems",
+    "Component & Interaction Design"
+  ],
+  "node_count": 15,
+  "estimated_minutes": 192,
+  "nodes": [
+    {
+      "title": "Design Primitives",
+      "slug": "design-primitives.md",
+      "subcategory": "Foundations",
+      "order": 374,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Specificity · CSS & Visual Systems",
+        "Prop Design & Contracts · Component & Interaction Design"
+      ],
+      "related": [
+        "Spacing & Layout Scales",
+        "Elevation & Surfaces"
+      ],
+      "next": [
+        "Spacing & Layout Scales",
+        "Elevation & Surfaces",
+        "Token Architecture",
+        "Semantic Token Layers",
+        "Token Transformation & Distribution"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Spacing & Layout Scales",
+      "slug": "spacing-and-layout-scales.md",
+      "subcategory": "Foundations",
+      "order": 375,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Design Primitives"
+      ],
+      "related": [
+        "Design Primitives",
+        "Elevation & Surfaces"
+      ],
+      "next": [
+        "Elevation & Surfaces"
+      ],
+      "alternatives": [
+        "Elevation & Surfaces"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Elevation & Surfaces",
+      "slug": "elevation-and-surfaces.md",
+      "subcategory": "Foundations",
+      "order": 376,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Design Primitives"
+      ],
+      "related": [
+        "Design Primitives",
+        "Spacing & Layout Scales"
+      ],
+      "next": [
+        "Token Architecture"
+      ],
+      "alternatives": [
+        "Spacing & Layout Scales"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Token Architecture",
+      "slug": "token-architecture.md",
+      "subcategory": "Tokens",
+      "order": 377,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Design Primitives"
+      ],
+      "related": [
+        "Semantic Token Layers",
+        "Token Transformation & Distribution"
+      ],
+      "next": [
+        "Semantic Token Layers",
+        "Token Transformation & Distribution",
+        "Light/Dark & Color Modes",
+        "Multi-Brand Theming",
+        "Runtime vs Build-Time Theming"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Semantic Token Layers",
+      "slug": "semantic-token-layers.md",
+      "subcategory": "Tokens",
+      "order": 378,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Token Architecture",
+        "Design Primitives"
+      ],
+      "related": [
+        "Token Architecture",
+        "Token Transformation & Distribution"
+      ],
+      "next": [
+        "Token Transformation & Distribution"
+      ],
+      "alternatives": [
+        "Token Transformation & Distribution"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Token Transformation & Distribution",
+      "slug": "token-transformation-and-distribution.md",
+      "subcategory": "Tokens",
+      "order": 379,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Token Architecture",
+        "Design Primitives"
+      ],
+      "related": [
+        "Token Architecture",
+        "Semantic Token Layers"
+      ],
+      "next": [
+        "Light/Dark & Color Modes"
+      ],
+      "alternatives": [
+        "Semantic Token Layers"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Light/Dark & Color Modes",
+      "slug": "light-dark-and-color-modes.md",
+      "subcategory": "Theming",
+      "order": 380,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Token Architecture"
+      ],
+      "related": [
+        "Multi-Brand Theming",
+        "Runtime vs Build-Time Theming"
+      ],
+      "next": [
+        "Multi-Brand Theming",
+        "Runtime vs Build-Time Theming",
+        "Contribution Model",
+        "Versioning & Deprecation",
+        "Breaking Changes & Migration"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Multi-Brand Theming",
+      "slug": "multi-brand-theming.md",
+      "subcategory": "Theming",
+      "order": 381,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Light/Dark & Color Modes",
+        "Token Architecture"
+      ],
+      "related": [
+        "Light/Dark & Color Modes",
+        "Runtime vs Build-Time Theming"
+      ],
+      "next": [
+        "Runtime vs Build-Time Theming"
+      ],
+      "alternatives": [
+        "Runtime vs Build-Time Theming"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Runtime vs Build-Time Theming",
+      "slug": "runtime-vs-build-time-theming.md",
+      "subcategory": "Theming",
+      "order": 382,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Light/Dark & Color Modes",
+        "Token Architecture"
+      ],
+      "related": [
+        "Light/Dark & Color Modes",
+        "Multi-Brand Theming"
+      ],
+      "next": [
+        "Contribution Model"
+      ],
+      "alternatives": [
+        "Multi-Brand Theming"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Contribution Model",
+      "slug": "contribution-model.md",
+      "subcategory": "Governance",
+      "order": 383,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Light/Dark & Color Modes"
+      ],
+      "related": [
+        "Versioning & Deprecation",
+        "Breaking Changes & Migration"
+      ],
+      "next": [
+        "Versioning & Deprecation",
+        "Breaking Changes & Migration",
+        "Usage Guidelines",
+        "Living Docs & Playgrounds",
+        "Adoption & Coverage Metrics"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Versioning & Deprecation",
+      "slug": "versioning-and-deprecation.md",
+      "subcategory": "Governance",
+      "order": 384,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Contribution Model",
+        "Light/Dark & Color Modes"
+      ],
+      "related": [
+        "Contribution Model",
+        "Breaking Changes & Migration"
+      ],
+      "next": [
+        "Breaking Changes & Migration"
+      ],
+      "alternatives": [
+        "Breaking Changes & Migration"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Breaking Changes & Migration",
+      "slug": "breaking-changes-and-migration.md",
+      "subcategory": "Governance",
+      "order": 385,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Contribution Model",
+        "Light/Dark & Color Modes"
+      ],
+      "related": [
+        "Contribution Model",
+        "Versioning & Deprecation"
+      ],
+      "next": [
+        "Usage Guidelines"
+      ],
+      "alternatives": [
+        "Versioning & Deprecation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Usage Guidelines",
+      "slug": "usage-guidelines.md",
+      "subcategory": "Adoption",
+      "order": 386,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Contribution Model"
+      ],
+      "related": [
+        "Living Docs & Playgrounds",
+        "Adoption & Coverage Metrics"
+      ],
+      "next": [
+        "Living Docs & Playgrounds",
+        "Adoption & Coverage Metrics"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Living Docs & Playgrounds",
+      "slug": "living-docs-and-playgrounds.md",
+      "subcategory": "Adoption",
+      "order": 387,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Usage Guidelines",
+        "Contribution Model"
+      ],
+      "related": [
+        "Usage Guidelines",
+        "Adoption & Coverage Metrics"
+      ],
+      "next": [
+        "Adoption & Coverage Metrics"
+      ],
+      "alternatives": [
+        "Adoption & Coverage Metrics"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Adoption & Coverage Metrics",
+      "slug": "adoption-and-coverage-metrics.md",
+      "subcategory": "Adoption",
+      "order": 388,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Usage Guidelines",
+        "Contribution Model"
+      ],
+      "related": [
+        "Usage Guidelines",
+        "Living Docs & Playgrounds"
+      ],
+      "next": [
+        "WCAG Principles (POUR)"
+      ],
+      "alternatives": [
+        "Living Docs & Playgrounds"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#design-systems",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# Scheduled EXTERNAL link check. Separate from CI because external links rot over
+# time (not on every PR) and 404s here shouldn't block merges — they open an issue.
+name: Dead link detection
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  external-links:
+    name: Check external links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lychee (external only)
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --exclude-path _to_delete
+            --scheme https --scheme http
+            './**/*.md'
+          fail: false
+      - name: Open/update issue on failure
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "🔗 Dead links detected"
+          content-filepath: ./lychee/out.md
+          labels: |
+            type: correction
+            status: triage

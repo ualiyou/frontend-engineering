@@ -1,0 +1,11 @@
+{
+  // Markdown style for Frontend Engineering. Prose-friendly, not pedantic.
+  "default": true,
+  "MD013": false,   // line length — prose wraps naturally
+  "MD033": false,   // inline HTML — allowed for badges/anchors
+  "MD041": false,   // first line need not be a top-level heading (frontmatter)
+  "MD025": { "front_matter_title": "" }, // template mandates frontmatter `title` + an H1
+  "MD036": false,   // template uses bold labels (Advantages/Disadvantages) in Trade-offs
+  "MD024": { "siblings_only": true }, // duplicate headings ok across sections
+  "MD029": { "style": "ordered" }
+}

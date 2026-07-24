@@ -1,0 +1,390 @@
+{
+  "domain": "API Design & Contracts",
+  "part": "03 · Application Architecture",
+  "path": "docs/03-application-architecture/api-design",
+  "depends_on": [
+    "Networking & Protocols",
+    "TypeScript"
+  ],
+  "node_count": 14,
+  "estimated_minutes": 233,
+  "nodes": [
+    {
+      "title": "REST",
+      "slug": "rest.md",
+      "subcategory": "Paradigms",
+      "order": 344,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "HTTP/1.1 Semantics · Networking & Protocols",
+        "Structural Typing · TypeScript"
+      ],
+      "related": [
+        "GraphQL",
+        "RPC",
+        "Realtime & Subscriptions"
+      ],
+      "next": [
+        "GraphQL",
+        "RPC",
+        "Realtime & Subscriptions",
+        "Resource & Schema Design",
+        "Versioning Strategies"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "GraphQL",
+      "slug": "graphql.md",
+      "subcategory": "Paradigms",
+      "order": 345,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "REST"
+      ],
+      "related": [
+        "REST",
+        "RPC",
+        "Realtime & Subscriptions"
+      ],
+      "next": [
+        "RPC"
+      ],
+      "alternatives": [
+        "RPC",
+        "Realtime & Subscriptions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "RPC",
+      "slug": "rpc.md",
+      "subcategory": "Paradigms",
+      "order": 346,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "REST"
+      ],
+      "related": [
+        "REST",
+        "GraphQL",
+        "Realtime & Subscriptions"
+      ],
+      "next": [
+        "Realtime & Subscriptions"
+      ],
+      "alternatives": [
+        "GraphQL",
+        "Realtime & Subscriptions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Realtime & Subscriptions",
+      "slug": "realtime-and-subscriptions.md",
+      "subcategory": "Paradigms",
+      "order": 347,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "REST"
+      ],
+      "related": [
+        "REST",
+        "GraphQL",
+        "RPC"
+      ],
+      "next": [
+        "Resource & Schema Design"
+      ],
+      "alternatives": [
+        "GraphQL",
+        "RPC"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Resource & Schema Design",
+      "slug": "resource-and-schema-design.md",
+      "subcategory": "Contract Design",
+      "order": 348,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "REST"
+      ],
+      "related": [
+        "Versioning Strategies",
+        "Pagination & Filtering Conventions",
+        "Error Contract Design"
+      ],
+      "next": [
+        "Versioning Strategies",
+        "Pagination & Filtering Conventions",
+        "Error Contract Design",
+        "End-to-End Type Safety (tRPC)",
+        "Code Generation from Schemas"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Versioning Strategies",
+      "slug": "versioning-strategies.md",
+      "subcategory": "Contract Design",
+      "order": 349,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Resource & Schema Design",
+        "REST"
+      ],
+      "related": [
+        "Resource & Schema Design",
+        "Pagination & Filtering Conventions",
+        "Error Contract Design"
+      ],
+      "next": [
+        "Pagination & Filtering Conventions"
+      ],
+      "alternatives": [
+        "Pagination & Filtering Conventions",
+        "Error Contract Design"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Pagination & Filtering Conventions",
+      "slug": "pagination-and-filtering-conventions.md",
+      "subcategory": "Contract Design",
+      "order": 350,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Resource & Schema Design",
+        "REST"
+      ],
+      "related": [
+        "Resource & Schema Design",
+        "Versioning Strategies",
+        "Error Contract Design"
+      ],
+      "next": [
+        "Error Contract Design"
+      ],
+      "alternatives": [
+        "Versioning Strategies",
+        "Error Contract Design"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Error Contract Design",
+      "slug": "error-contract-design.md",
+      "subcategory": "Contract Design",
+      "order": 351,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Resource & Schema Design",
+        "REST"
+      ],
+      "related": [
+        "Resource & Schema Design",
+        "Versioning Strategies",
+        "Pagination & Filtering Conventions"
+      ],
+      "next": [
+        "End-to-End Type Safety (tRPC)"
+      ],
+      "alternatives": [
+        "Versioning Strategies",
+        "Pagination & Filtering Conventions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "End-to-End Type Safety (tRPC)",
+      "slug": "end-to-end-type-safety-trpc.md",
+      "subcategory": "Type Safety Across the Wire",
+      "order": 352,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Resource & Schema Design"
+      ],
+      "related": [
+        "Code Generation from Schemas",
+        "Contract Testing"
+      ],
+      "next": [
+        "Code Generation from Schemas",
+        "Contract Testing",
+        "Backend-for-Frontend",
+        "API Gateways & Aggregation",
+        "Response Shaping"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Code Generation from Schemas",
+      "slug": "code-generation-from-schemas.md",
+      "subcategory": "Type Safety Across the Wire",
+      "order": 353,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "End-to-End Type Safety (tRPC)",
+        "Resource & Schema Design"
+      ],
+      "related": [
+        "End-to-End Type Safety (tRPC)",
+        "Contract Testing"
+      ],
+      "next": [
+        "Contract Testing"
+      ],
+      "alternatives": [
+        "Contract Testing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Contract Testing",
+      "slug": "contract-testing.md",
+      "subcategory": "Type Safety Across the Wire",
+      "order": 354,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "End-to-End Type Safety (tRPC)",
+        "Resource & Schema Design"
+      ],
+      "related": [
+        "End-to-End Type Safety (tRPC)",
+        "Code Generation from Schemas"
+      ],
+      "next": [
+        "Backend-for-Frontend"
+      ],
+      "alternatives": [
+        "Code Generation from Schemas"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Backend-for-Frontend",
+      "slug": "backend-for-frontend.md",
+      "subcategory": "BFF & Aggregation",
+      "order": 355,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "End-to-End Type Safety (tRPC)"
+      ],
+      "related": [
+        "API Gateways & Aggregation",
+        "Response Shaping"
+      ],
+      "next": [
+        "API Gateways & Aggregation",
+        "Response Shaping"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "API Gateways & Aggregation",
+      "slug": "api-gateways-and-aggregation.md",
+      "subcategory": "BFF & Aggregation",
+      "order": 356,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Backend-for-Frontend",
+        "End-to-End Type Safety (tRPC)"
+      ],
+      "related": [
+        "Backend-for-Frontend",
+        "Response Shaping"
+      ],
+      "next": [
+        "Response Shaping"
+      ],
+      "alternatives": [
+        "Response Shaping"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Response Shaping",
+      "slug": "response-shaping.md",
+      "subcategory": "BFF & Aggregation",
+      "order": 357,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Backend-for-Frontend",
+        "End-to-End Type Safety (tRPC)"
+      ],
+      "related": [
+        "Backend-for-Frontend",
+        "API Gateways & Aggregation"
+      ],
+      "next": [
+        "Prop Design & Contracts"
+      ],
+      "alternatives": [
+        "API Gateways & Aggregation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#api-design-contracts",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

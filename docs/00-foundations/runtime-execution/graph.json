@@ -1,0 +1,500 @@
+{
+  "domain": "Runtime & Execution",
+  "part": "00 · Foundations",
+  "path": "docs/00-foundations/runtime-execution",
+  "depends_on": [
+    "The Web Platform"
+  ],
+  "node_count": 18,
+  "estimated_minutes": 243,
+  "nodes": [
+    {
+      "title": "Parsing & Bytecode",
+      "slug": "parsing-and-bytecode.md",
+      "subcategory": "Engine Internals",
+      "order": 37,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Process & Thread Architecture · The Web Platform"
+      ],
+      "related": [
+        "JIT Compilation & Deoptimization",
+        "Hidden Classes & Shapes",
+        "Inline Caches"
+      ],
+      "next": [
+        "JIT Compilation & Deoptimization",
+        "Hidden Classes & Shapes",
+        "Inline Caches",
+        "The Call Stack",
+        "Async Stack Frames & Continuations"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "JIT Compilation & Deoptimization",
+      "slug": "jit-compilation-and-deoptimization.md",
+      "subcategory": "Engine Internals",
+      "order": 38,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Parsing & Bytecode"
+      ],
+      "related": [
+        "Parsing & Bytecode",
+        "Hidden Classes & Shapes",
+        "Inline Caches"
+      ],
+      "next": [
+        "Hidden Classes & Shapes"
+      ],
+      "alternatives": [
+        "Hidden Classes & Shapes",
+        "Inline Caches"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Hidden Classes & Shapes",
+      "slug": "hidden-classes-and-shapes.md",
+      "subcategory": "Engine Internals",
+      "order": 39,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Parsing & Bytecode"
+      ],
+      "related": [
+        "Parsing & Bytecode",
+        "JIT Compilation & Deoptimization",
+        "Inline Caches"
+      ],
+      "next": [
+        "Inline Caches"
+      ],
+      "alternatives": [
+        "JIT Compilation & Deoptimization",
+        "Inline Caches"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Inline Caches",
+      "slug": "inline-caches.md",
+      "subcategory": "Engine Internals",
+      "order": 40,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Parsing & Bytecode"
+      ],
+      "related": [
+        "Parsing & Bytecode",
+        "JIT Compilation & Deoptimization",
+        "Hidden Classes & Shapes"
+      ],
+      "next": [
+        "The Call Stack"
+      ],
+      "alternatives": [
+        "JIT Compilation & Deoptimization",
+        "Hidden Classes & Shapes"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Call Stack",
+      "slug": "the-call-stack.md",
+      "subcategory": "Execution Context",
+      "order": 41,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Parsing & Bytecode"
+      ],
+      "related": [
+        "Async Stack Frames & Continuations",
+        "Stack Traces & Debug Symbols"
+      ],
+      "next": [
+        "Async Stack Frames & Continuations",
+        "Stack Traces & Debug Symbols",
+        "The Memory Model & the Heap",
+        "Garbage Collection Strategies",
+        "Retained Memory & Leak Detection"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Async Stack Frames & Continuations",
+      "slug": "async-stack-frames-and-continuations.md",
+      "subcategory": "Execution Context",
+      "order": 42,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Call Stack",
+        "Parsing & Bytecode"
+      ],
+      "related": [
+        "The Call Stack",
+        "Stack Traces & Debug Symbols"
+      ],
+      "next": [
+        "Stack Traces & Debug Symbols"
+      ],
+      "alternatives": [
+        "Stack Traces & Debug Symbols"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Stack Traces & Debug Symbols",
+      "slug": "stack-traces-and-debug-symbols.md",
+      "subcategory": "Execution Context",
+      "order": 43,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Call Stack",
+        "Parsing & Bytecode"
+      ],
+      "related": [
+        "The Call Stack",
+        "Async Stack Frames & Continuations"
+      ],
+      "next": [
+        "The Memory Model & the Heap"
+      ],
+      "alternatives": [
+        "Async Stack Frames & Continuations"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Memory Model & the Heap",
+      "slug": "the-memory-model-and-the-heap.md",
+      "subcategory": "Memory Management",
+      "order": 44,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Call Stack"
+      ],
+      "related": [
+        "Garbage Collection Strategies",
+        "Retained Memory & Leak Detection",
+        "Weak References & Finalizers"
+      ],
+      "next": [
+        "Garbage Collection Strategies",
+        "Retained Memory & Leak Detection",
+        "Weak References & Finalizers",
+        "Web Workers",
+        "Shared Workers & Message Passing"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Garbage Collection Strategies",
+      "slug": "garbage-collection-strategies.md",
+      "subcategory": "Memory Management",
+      "order": 45,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Memory Model & the Heap",
+        "The Call Stack"
+      ],
+      "related": [
+        "The Memory Model & the Heap",
+        "Retained Memory & Leak Detection",
+        "Weak References & Finalizers"
+      ],
+      "next": [
+        "Retained Memory & Leak Detection"
+      ],
+      "alternatives": [
+        "Retained Memory & Leak Detection",
+        "Weak References & Finalizers"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Retained Memory & Leak Detection",
+      "slug": "retained-memory-and-leak-detection.md",
+      "subcategory": "Memory Management",
+      "order": 46,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Memory Model & the Heap",
+        "The Call Stack"
+      ],
+      "related": [
+        "The Memory Model & the Heap",
+        "Garbage Collection Strategies",
+        "Weak References & Finalizers"
+      ],
+      "next": [
+        "Weak References & Finalizers"
+      ],
+      "alternatives": [
+        "Garbage Collection Strategies",
+        "Weak References & Finalizers"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Weak References & Finalizers",
+      "slug": "weak-references-and-finalizers.md",
+      "subcategory": "Memory Management",
+      "order": 47,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Memory Model & the Heap",
+        "The Call Stack"
+      ],
+      "related": [
+        "The Memory Model & the Heap",
+        "Garbage Collection Strategies",
+        "Retained Memory & Leak Detection"
+      ],
+      "next": [
+        "Web Workers"
+      ],
+      "alternatives": [
+        "Garbage Collection Strategies",
+        "Retained Memory & Leak Detection"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Web Workers",
+      "slug": "web-workers.md",
+      "subcategory": "Multithreading",
+      "order": 48,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Memory Model & the Heap"
+      ],
+      "related": [
+        "Shared Workers & Message Passing",
+        "SharedArrayBuffer & Atomics",
+        "Worklets"
+      ],
+      "next": [
+        "Shared Workers & Message Passing",
+        "SharedArrayBuffer & Atomics",
+        "Worklets",
+        "WebAssembly Fundamentals",
+        "JS ↔ Wasm Interop"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Shared Workers & Message Passing",
+      "slug": "shared-workers-and-message-passing.md",
+      "subcategory": "Multithreading",
+      "order": 49,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Web Workers",
+        "The Memory Model & the Heap"
+      ],
+      "related": [
+        "Web Workers",
+        "SharedArrayBuffer & Atomics",
+        "Worklets"
+      ],
+      "next": [
+        "SharedArrayBuffer & Atomics"
+      ],
+      "alternatives": [
+        "SharedArrayBuffer & Atomics",
+        "Worklets"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "SharedArrayBuffer & Atomics",
+      "slug": "sharedarraybuffer-and-atomics.md",
+      "subcategory": "Multithreading",
+      "order": 50,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Web Workers",
+        "The Memory Model & the Heap"
+      ],
+      "related": [
+        "Web Workers",
+        "Shared Workers & Message Passing",
+        "Worklets"
+      ],
+      "next": [
+        "Worklets"
+      ],
+      "alternatives": [
+        "Shared Workers & Message Passing",
+        "Worklets"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Worklets",
+      "slug": "worklets.md",
+      "subcategory": "Multithreading",
+      "order": 51,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Web Workers",
+        "The Memory Model & the Heap"
+      ],
+      "related": [
+        "Web Workers",
+        "Shared Workers & Message Passing",
+        "SharedArrayBuffer & Atomics"
+      ],
+      "next": [
+        "WebAssembly Fundamentals"
+      ],
+      "alternatives": [
+        "Shared Workers & Message Passing",
+        "SharedArrayBuffer & Atomics"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "WebAssembly Fundamentals",
+      "slug": "webassembly-fundamentals.md",
+      "subcategory": "Beyond JavaScript",
+      "order": 52,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Web Workers"
+      ],
+      "related": [
+        "JS ↔ Wasm Interop",
+        "Polyglot Runtime Targets"
+      ],
+      "next": [
+        "JS ↔ Wasm Interop",
+        "Polyglot Runtime Targets"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "JS ↔ Wasm Interop",
+      "slug": "js-wasm-interop.md",
+      "subcategory": "Beyond JavaScript",
+      "order": 53,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "WebAssembly Fundamentals",
+        "Web Workers"
+      ],
+      "related": [
+        "WebAssembly Fundamentals",
+        "Polyglot Runtime Targets"
+      ],
+      "next": [
+        "Polyglot Runtime Targets"
+      ],
+      "alternatives": [
+        "Polyglot Runtime Targets"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Polyglot Runtime Targets",
+      "slug": "polyglot-runtime-targets.md",
+      "subcategory": "Beyond JavaScript",
+      "order": 54,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "WebAssembly Fundamentals",
+        "Web Workers"
+      ],
+      "related": [
+        "WebAssembly Fundamentals",
+        "JS ↔ Wasm Interop"
+      ],
+      "next": [
+        "Web Storage"
+      ],
+      "alternatives": [
+        "JS ↔ Wasm Interop"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#runtime-execution",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

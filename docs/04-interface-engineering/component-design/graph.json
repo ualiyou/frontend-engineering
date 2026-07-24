@@ -1,0 +1,457 @@
+{
+  "domain": "Component & Interaction Design",
+  "part": "04 · Interface Engineering",
+  "path": "docs/04-interface-engineering/component-design",
+  "depends_on": [
+    "React",
+    "CSS & Visual Systems"
+  ],
+  "node_count": 16,
+  "estimated_minutes": 207,
+  "nodes": [
+    {
+      "title": "Prop Design & Contracts",
+      "slug": "prop-design-and-contracts.md",
+      "subcategory": "Component APIs",
+      "order": 358,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Elements vs Components · React",
+        "Specificity · CSS & Visual Systems"
+      ],
+      "related": [
+        "Composition vs Configuration",
+        "Polymorphic Components (as)",
+        "Slots & Children APIs"
+      ],
+      "next": [
+        "Composition vs Configuration",
+        "Polymorphic Components (as)",
+        "Slots & Children APIs",
+        "Headless Components",
+        "Controlled vs Uncontrolled Pattern"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Composition vs Configuration",
+      "slug": "composition-vs-configuration.md",
+      "subcategory": "Component APIs",
+      "order": 359,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Prop Design & Contracts"
+      ],
+      "related": [
+        "Prop Design & Contracts",
+        "Polymorphic Components (as)",
+        "Slots & Children APIs"
+      ],
+      "next": [
+        "Polymorphic Components (as)"
+      ],
+      "alternatives": [
+        "Polymorphic Components (as)",
+        "Slots & Children APIs"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Polymorphic Components (as)",
+      "slug": "polymorphic-components-as.md",
+      "subcategory": "Component APIs",
+      "order": 360,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Prop Design & Contracts"
+      ],
+      "related": [
+        "Prop Design & Contracts",
+        "Composition vs Configuration",
+        "Slots & Children APIs"
+      ],
+      "next": [
+        "Slots & Children APIs"
+      ],
+      "alternatives": [
+        "Composition vs Configuration",
+        "Slots & Children APIs"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Slots & Children APIs",
+      "slug": "slots-and-children-apis.md",
+      "subcategory": "Component APIs",
+      "order": 361,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Prop Design & Contracts"
+      ],
+      "related": [
+        "Prop Design & Contracts",
+        "Composition vs Configuration",
+        "Polymorphic Components (as)"
+      ],
+      "next": [
+        "Headless Components"
+      ],
+      "alternatives": [
+        "Composition vs Configuration",
+        "Polymorphic Components (as)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Headless Components",
+      "slug": "headless-components.md",
+      "subcategory": "Behavior Patterns",
+      "order": 362,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Prop Design & Contracts"
+      ],
+      "related": [
+        "Controlled vs Uncontrolled Pattern",
+        "Compound Components",
+        "Render Props"
+      ],
+      "next": [
+        "Controlled vs Uncontrolled Pattern",
+        "Compound Components",
+        "Render Props",
+        "Pointer & Mouse Interaction",
+        "Drag & Drop"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Controlled vs Uncontrolled Pattern",
+      "slug": "controlled-vs-uncontrolled-pattern.md",
+      "subcategory": "Behavior Patterns",
+      "order": 363,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Headless Components",
+        "Prop Design & Contracts"
+      ],
+      "related": [
+        "Headless Components",
+        "Compound Components",
+        "Render Props"
+      ],
+      "next": [
+        "Compound Components"
+      ],
+      "alternatives": [
+        "Compound Components",
+        "Render Props"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Compound Components",
+      "slug": "compound-components.md",
+      "subcategory": "Behavior Patterns",
+      "order": 364,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Headless Components",
+        "Prop Design & Contracts"
+      ],
+      "related": [
+        "Headless Components",
+        "Controlled vs Uncontrolled Pattern",
+        "Render Props"
+      ],
+      "next": [
+        "Render Props"
+      ],
+      "alternatives": [
+        "Controlled vs Uncontrolled Pattern",
+        "Render Props"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Render Props",
+      "slug": "render-props.md",
+      "subcategory": "Behavior Patterns",
+      "order": 365,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Headless Components",
+        "Prop Design & Contracts"
+      ],
+      "related": [
+        "Headless Components",
+        "Controlled vs Uncontrolled Pattern",
+        "Compound Components"
+      ],
+      "next": [
+        "Pointer & Mouse Interaction"
+      ],
+      "alternatives": [
+        "Controlled vs Uncontrolled Pattern",
+        "Compound Components"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Pointer & Mouse Interaction",
+      "slug": "pointer-and-mouse-interaction.md",
+      "subcategory": "Interaction",
+      "order": 366,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Headless Components"
+      ],
+      "related": [
+        "Drag & Drop",
+        "Hover, Press & Long-Press States",
+        "Gesture Handling"
+      ],
+      "next": [
+        "Drag & Drop",
+        "Hover, Press & Long-Press States",
+        "Gesture Handling",
+        "Loading & Skeleton States",
+        "Empty States"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Drag & Drop",
+      "slug": "drag-and-drop.md",
+      "subcategory": "Interaction",
+      "order": 367,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Pointer & Mouse Interaction",
+        "Headless Components"
+      ],
+      "related": [
+        "Pointer & Mouse Interaction",
+        "Hover, Press & Long-Press States",
+        "Gesture Handling"
+      ],
+      "next": [
+        "Hover, Press & Long-Press States"
+      ],
+      "alternatives": [
+        "Hover, Press & Long-Press States",
+        "Gesture Handling"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Hover, Press & Long-Press States",
+      "slug": "hover-press-and-long-press-states.md",
+      "subcategory": "Interaction",
+      "order": 368,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Pointer & Mouse Interaction",
+        "Headless Components"
+      ],
+      "related": [
+        "Pointer & Mouse Interaction",
+        "Drag & Drop",
+        "Gesture Handling"
+      ],
+      "next": [
+        "Gesture Handling"
+      ],
+      "alternatives": [
+        "Drag & Drop",
+        "Gesture Handling"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Gesture Handling",
+      "slug": "gesture-handling.md",
+      "subcategory": "Interaction",
+      "order": 369,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Pointer & Mouse Interaction",
+        "Headless Components"
+      ],
+      "related": [
+        "Pointer & Mouse Interaction",
+        "Drag & Drop",
+        "Hover, Press & Long-Press States"
+      ],
+      "next": [
+        "Loading & Skeleton States"
+      ],
+      "alternatives": [
+        "Drag & Drop",
+        "Hover, Press & Long-Press States"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Loading & Skeleton States",
+      "slug": "loading-and-skeleton-states.md",
+      "subcategory": "Interface State",
+      "order": 370,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Pointer & Mouse Interaction"
+      ],
+      "related": [
+        "Empty States",
+        "Error & Retry States",
+        "Disabled & Busy States"
+      ],
+      "next": [
+        "Empty States",
+        "Error & Retry States",
+        "Disabled & Busy States"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Empty States",
+      "slug": "empty-states.md",
+      "subcategory": "Interface State",
+      "order": 371,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Loading & Skeleton States",
+        "Pointer & Mouse Interaction"
+      ],
+      "related": [
+        "Loading & Skeleton States",
+        "Error & Retry States",
+        "Disabled & Busy States"
+      ],
+      "next": [
+        "Error & Retry States"
+      ],
+      "alternatives": [
+        "Error & Retry States",
+        "Disabled & Busy States"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Error & Retry States",
+      "slug": "error-and-retry-states.md",
+      "subcategory": "Interface State",
+      "order": 372,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Loading & Skeleton States",
+        "Pointer & Mouse Interaction"
+      ],
+      "related": [
+        "Loading & Skeleton States",
+        "Empty States",
+        "Disabled & Busy States"
+      ],
+      "next": [
+        "Disabled & Busy States"
+      ],
+      "alternatives": [
+        "Empty States",
+        "Disabled & Busy States"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Disabled & Busy States",
+      "slug": "disabled-and-busy-states.md",
+      "subcategory": "Interface State",
+      "order": 373,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Loading & Skeleton States",
+        "Pointer & Mouse Interaction"
+      ],
+      "related": [
+        "Loading & Skeleton States",
+        "Empty States",
+        "Error & Retry States"
+      ],
+      "next": [
+        "Design Primitives"
+      ],
+      "alternatives": [
+        "Empty States",
+        "Error & Retry States"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#component-interaction-design",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

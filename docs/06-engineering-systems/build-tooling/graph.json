@@ -1,0 +1,437 @@
+{
+  "domain": "Build Systems & Tooling",
+  "part": "06 · Engineering Systems",
+  "path": "docs/06-engineering-systems/build-tooling",
+  "depends_on": [
+    "JavaScript",
+    "Package Architecture"
+  ],
+  "node_count": 16,
+  "estimated_minutes": 216,
+  "nodes": [
+    {
+      "title": "The Dependency Graph",
+      "slug": "the-dependency-graph.md",
+      "subcategory": "Module Bundling",
+      "order": 501,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Primitives & Wrappers · JavaScript",
+        "Dependency Resolution · Package Architecture"
+      ],
+      "related": [
+        "Bundler Models",
+        "Entry Points & Output"
+      ],
+      "next": [
+        "Bundler Models",
+        "Entry Points & Output",
+        "Transpilation & Targets",
+        "Source-to-Source Compilers",
+        "AST Transforms & Plugins"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Bundler Models",
+      "slug": "bundler-models.md",
+      "subcategory": "Module Bundling",
+      "order": 502,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Dependency Graph"
+      ],
+      "related": [
+        "The Dependency Graph",
+        "Entry Points & Output"
+      ],
+      "next": [
+        "Entry Points & Output"
+      ],
+      "alternatives": [
+        "Entry Points & Output"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Entry Points & Output",
+      "slug": "entry-points-and-output.md",
+      "subcategory": "Module Bundling",
+      "order": 503,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Dependency Graph"
+      ],
+      "related": [
+        "The Dependency Graph",
+        "Bundler Models"
+      ],
+      "next": [
+        "Transpilation & Targets"
+      ],
+      "alternatives": [
+        "Bundler Models"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Transpilation & Targets",
+      "slug": "transpilation-and-targets.md",
+      "subcategory": "Compilation",
+      "order": 504,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "The Dependency Graph"
+      ],
+      "related": [
+        "Source-to-Source Compilers",
+        "AST Transforms & Plugins"
+      ],
+      "next": [
+        "Source-to-Source Compilers",
+        "AST Transforms & Plugins",
+        "Tree Shaking",
+        "Dead Code Elimination",
+        "Chunking & Split Points"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Source-to-Source Compilers",
+      "slug": "source-to-source-compilers.md",
+      "subcategory": "Compilation",
+      "order": 505,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Transpilation & Targets",
+        "The Dependency Graph"
+      ],
+      "related": [
+        "Transpilation & Targets",
+        "AST Transforms & Plugins"
+      ],
+      "next": [
+        "AST Transforms & Plugins"
+      ],
+      "alternatives": [
+        "AST Transforms & Plugins"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "AST Transforms & Plugins",
+      "slug": "ast-transforms-and-plugins.md",
+      "subcategory": "Compilation",
+      "order": 506,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Transpilation & Targets",
+        "The Dependency Graph"
+      ],
+      "related": [
+        "Transpilation & Targets",
+        "Source-to-Source Compilers"
+      ],
+      "next": [
+        "Tree Shaking"
+      ],
+      "alternatives": [
+        "Source-to-Source Compilers"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Tree Shaking",
+      "slug": "tree-shaking.md",
+      "subcategory": "Optimization",
+      "order": 507,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Transpilation & Targets"
+      ],
+      "related": [
+        "Dead Code Elimination",
+        "Chunking & Split Points",
+        "Scope Hoisting"
+      ],
+      "next": [
+        "Dead Code Elimination",
+        "Chunking & Split Points",
+        "Scope Hoisting",
+        "Source Maps",
+        "Hot Module Replacement"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Dead Code Elimination",
+      "slug": "dead-code-elimination.md",
+      "subcategory": "Optimization",
+      "order": 508,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Tree Shaking",
+        "Transpilation & Targets"
+      ],
+      "related": [
+        "Tree Shaking",
+        "Chunking & Split Points",
+        "Scope Hoisting"
+      ],
+      "next": [
+        "Chunking & Split Points"
+      ],
+      "alternatives": [
+        "Chunking & Split Points",
+        "Scope Hoisting"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Chunking & Split Points",
+      "slug": "chunking-and-split-points.md",
+      "subcategory": "Optimization",
+      "order": 509,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Tree Shaking",
+        "Transpilation & Targets"
+      ],
+      "related": [
+        "Tree Shaking",
+        "Dead Code Elimination",
+        "Scope Hoisting"
+      ],
+      "next": [
+        "Scope Hoisting"
+      ],
+      "alternatives": [
+        "Dead Code Elimination",
+        "Scope Hoisting"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Scope Hoisting",
+      "slug": "scope-hoisting.md",
+      "subcategory": "Optimization",
+      "order": 510,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Tree Shaking",
+        "Transpilation & Targets"
+      ],
+      "related": [
+        "Tree Shaking",
+        "Dead Code Elimination",
+        "Chunking & Split Points"
+      ],
+      "next": [
+        "Source Maps"
+      ],
+      "alternatives": [
+        "Dead Code Elimination",
+        "Chunking & Split Points"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Source Maps",
+      "slug": "source-maps.md",
+      "subcategory": "Developer Aids",
+      "order": 511,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Tree Shaking"
+      ],
+      "related": [
+        "Hot Module Replacement",
+        "Dev Server Architecture"
+      ],
+      "next": [
+        "Hot Module Replacement",
+        "Dev Server Architecture",
+        "Incremental Builds",
+        "Persistent & Remote Cache",
+        "Cache Invalidation Keys"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Hot Module Replacement",
+      "slug": "hot-module-replacement.md",
+      "subcategory": "Developer Aids",
+      "order": 512,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Source Maps",
+        "Tree Shaking"
+      ],
+      "related": [
+        "Source Maps",
+        "Dev Server Architecture"
+      ],
+      "next": [
+        "Dev Server Architecture"
+      ],
+      "alternatives": [
+        "Dev Server Architecture"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Dev Server Architecture",
+      "slug": "dev-server-architecture.md",
+      "subcategory": "Developer Aids",
+      "order": 513,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Source Maps",
+        "Tree Shaking"
+      ],
+      "related": [
+        "Source Maps",
+        "Hot Module Replacement"
+      ],
+      "next": [
+        "Incremental Builds"
+      ],
+      "alternatives": [
+        "Hot Module Replacement"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Incremental Builds",
+      "slug": "incremental-builds.md",
+      "subcategory": "Build Cache",
+      "order": 514,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Source Maps"
+      ],
+      "related": [
+        "Persistent & Remote Cache",
+        "Cache Invalidation Keys"
+      ],
+      "next": [
+        "Persistent & Remote Cache",
+        "Cache Invalidation Keys"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Persistent & Remote Cache",
+      "slug": "persistent-and-remote-cache.md",
+      "subcategory": "Build Cache",
+      "order": 515,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Incremental Builds",
+        "Source Maps"
+      ],
+      "related": [
+        "Incremental Builds",
+        "Cache Invalidation Keys"
+      ],
+      "next": [
+        "Cache Invalidation Keys"
+      ],
+      "alternatives": [
+        "Cache Invalidation Keys"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cache Invalidation Keys",
+      "slug": "cache-invalidation-keys.md",
+      "subcategory": "Build Cache",
+      "order": 516,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Incremental Builds",
+        "Source Maps"
+      ],
+      "related": [
+        "Incremental Builds",
+        "Persistent & Remote Cache"
+      ],
+      "next": [
+        "Lockfiles & Determinism"
+      ],
+      "alternatives": [
+        "Persistent & Remote Cache"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#build-systems-tooling",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

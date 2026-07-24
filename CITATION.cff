@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you reference this knowledge base, please cite it as below."
+title: "Frontend Engineering: A Knowledge Base of Engineering Decisions and Trade-offs"
+abstract: "A peer-reviewed, versioned knowledge base documenting frontend engineering decisions, patterns, and trade-offs — framework-aware but not framework-bound."
+type: dataset
+authors:
+  - given-names: Aly
+    alias: ualiyou
+repository-code: "https://github.com/ualiyou/frontend-engineering"
+url: "https://github.com/ualiyou/frontend-engineering"
+license: MIT
+keywords:
+  - frontend
+  - web-development
+  - software-architecture
+  - engineering-decisions
+  - knowledge-base

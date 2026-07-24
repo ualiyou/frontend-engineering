@@ -1,0 +1,5 @@
+# URLs to skip in link checking (patterns, one per line).
+# Localhost and example placeholders.
+^https?://localhost
+^https?://127\.0\.0\.1
+^https?://example\.com

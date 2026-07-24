@@ -1,0 +1,356 @@
+{
+  "domain": "Package Architecture",
+  "part": "06 · Engineering Systems",
+  "path": "docs/06-engineering-systems/package-architecture",
+  "depends_on": [
+    "JavaScript"
+  ],
+  "node_count": 13,
+  "estimated_minutes": 220,
+  "nodes": [
+    {
+      "title": "Dependency Resolution",
+      "slug": "dependency-resolution.md",
+      "subcategory": "Package Management",
+      "order": 517,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Primitives & Wrappers · JavaScript"
+      ],
+      "related": [
+        "Lockfiles & Determinism",
+        "Node Modules & Hoisting Models"
+      ],
+      "next": [
+        "The Dependency Graph",
+        "Lockfiles & Determinism",
+        "Node Modules & Hoisting Models",
+        "Exports Map & Entry Points",
+        "Module Formats (ESM/CJS/UMD)"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Lockfiles & Determinism",
+      "slug": "lockfiles-and-determinism.md",
+      "subcategory": "Package Management",
+      "order": 518,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Dependency Resolution"
+      ],
+      "related": [
+        "Dependency Resolution",
+        "Node Modules & Hoisting Models"
+      ],
+      "next": [
+        "Node Modules & Hoisting Models"
+      ],
+      "alternatives": [
+        "Node Modules & Hoisting Models"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Node Modules & Hoisting Models",
+      "slug": "node-modules-and-hoisting-models.md",
+      "subcategory": "Package Management",
+      "order": 519,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Dependency Resolution"
+      ],
+      "related": [
+        "Dependency Resolution",
+        "Lockfiles & Determinism"
+      ],
+      "next": [
+        "Exports Map & Entry Points"
+      ],
+      "alternatives": [
+        "Lockfiles & Determinism"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Exports Map & Entry Points",
+      "slug": "exports-map-and-entry-points.md",
+      "subcategory": "Package Design",
+      "order": 520,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Dependency Resolution"
+      ],
+      "related": [
+        "Module Formats (ESM/CJS/UMD)",
+        "Conditional & Dual Exports",
+        "Types Distribution"
+      ],
+      "next": [
+        "Module Formats (ESM/CJS/UMD)",
+        "Conditional & Dual Exports",
+        "Types Distribution",
+        "Semantic Versioning",
+        "Release Automation & Changelogs"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Module Formats (ESM/CJS/UMD)",
+      "slug": "module-formats-esm-cjs-umd.md",
+      "subcategory": "Package Design",
+      "order": 521,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Exports Map & Entry Points",
+        "Dependency Resolution"
+      ],
+      "related": [
+        "Exports Map & Entry Points",
+        "Conditional & Dual Exports",
+        "Types Distribution"
+      ],
+      "next": [
+        "Conditional & Dual Exports"
+      ],
+      "alternatives": [
+        "Conditional & Dual Exports",
+        "Types Distribution"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Conditional & Dual Exports",
+      "slug": "conditional-and-dual-exports.md",
+      "subcategory": "Package Design",
+      "order": 522,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Exports Map & Entry Points",
+        "Dependency Resolution"
+      ],
+      "related": [
+        "Exports Map & Entry Points",
+        "Module Formats (ESM/CJS/UMD)",
+        "Types Distribution"
+      ],
+      "next": [
+        "Types Distribution"
+      ],
+      "alternatives": [
+        "Module Formats (ESM/CJS/UMD)",
+        "Types Distribution"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Types Distribution",
+      "slug": "types-distribution.md",
+      "subcategory": "Package Design",
+      "order": 523,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Exports Map & Entry Points",
+        "Dependency Resolution"
+      ],
+      "related": [
+        "Exports Map & Entry Points",
+        "Module Formats (ESM/CJS/UMD)",
+        "Conditional & Dual Exports"
+      ],
+      "next": [
+        "Semantic Versioning"
+      ],
+      "alternatives": [
+        "Module Formats (ESM/CJS/UMD)",
+        "Conditional & Dual Exports"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Semantic Versioning",
+      "slug": "semantic-versioning.md",
+      "subcategory": "Publishing",
+      "order": 524,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Exports Map & Entry Points"
+      ],
+      "related": [
+        "Release Automation & Changelogs",
+        "Provenance & Signing"
+      ],
+      "next": [
+        "Release Automation & Changelogs",
+        "Provenance & Signing",
+        "Peer Dependencies",
+        "Bundling vs Externalizing",
+        "Dependency Hygiene & Updates"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Release Automation & Changelogs",
+      "slug": "release-automation-and-changelogs.md",
+      "subcategory": "Publishing",
+      "order": 525,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Semantic Versioning",
+        "Exports Map & Entry Points"
+      ],
+      "related": [
+        "Semantic Versioning",
+        "Provenance & Signing"
+      ],
+      "next": [
+        "Provenance & Signing"
+      ],
+      "alternatives": [
+        "Provenance & Signing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Provenance & Signing",
+      "slug": "provenance-and-signing.md",
+      "subcategory": "Publishing",
+      "order": 526,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Semantic Versioning",
+        "Exports Map & Entry Points"
+      ],
+      "related": [
+        "Semantic Versioning",
+        "Release Automation & Changelogs"
+      ],
+      "next": [
+        "Peer Dependencies"
+      ],
+      "alternatives": [
+        "Release Automation & Changelogs"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Peer Dependencies",
+      "slug": "peer-dependencies.md",
+      "subcategory": "Dependency Strategy",
+      "order": 527,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Semantic Versioning"
+      ],
+      "related": [
+        "Bundling vs Externalizing",
+        "Dependency Hygiene & Updates"
+      ],
+      "next": [
+        "Bundling vs Externalizing",
+        "Dependency Hygiene & Updates"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Bundling vs Externalizing",
+      "slug": "bundling-vs-externalizing.md",
+      "subcategory": "Dependency Strategy",
+      "order": 528,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Peer Dependencies",
+        "Semantic Versioning"
+      ],
+      "related": [
+        "Peer Dependencies",
+        "Dependency Hygiene & Updates"
+      ],
+      "next": [
+        "Dependency Hygiene & Updates"
+      ],
+      "alternatives": [
+        "Dependency Hygiene & Updates"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Dependency Hygiene & Updates",
+      "slug": "dependency-hygiene-and-updates.md",
+      "subcategory": "Dependency Strategy",
+      "order": 529,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Peer Dependencies",
+        "Semantic Versioning"
+      ],
+      "related": [
+        "Peer Dependencies",
+        "Bundling vs Externalizing"
+      ],
+      "next": [
+        "Monorepo Architecture"
+      ],
+      "alternatives": [
+        "Bundling vs Externalizing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#package-architecture",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

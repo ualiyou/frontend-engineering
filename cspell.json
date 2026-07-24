@@ -1,0 +1,49 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "frontend", "kebab", "middleware", "monorepo", "monorepos", "hydration",
+    "reactivity", "memoize", "memoization", "runtimes", "toolchain", "bundlers",
+    "treeshaking", "serverless", "webhooks", "changelog", "changelogs",
+    "roadmap", "roadmaps", "taxonomy", "frontmatter", "linter", "linters",
+    "lychee", "cspell", "markdownlint", "shields", "svg", "png", "jsonc",
+    "alidevjs", "TanStack", "shadcn", "Vitest", "Astro", "Vite", "Turbopack",
+    "Zustand", "signMark", "grotesk", "geist", "opengraph", "vignette",
+    "accessibility", "internationalization", "observability", "immersive",
+    "preconnect", "prefetch", "srcset", "dialog", "aria", "vitals",
+    "zod", "Tailwind", "refetch", "refetches", "refetching", "refetched",
+    "revalidate", "revalidates", "revalidation", "revalidating", "dedupe",
+    "dedupes", "deduplication", "backoff", "invalidations", "serializable",
+    "misdescribe", "misdescribes", "prefetches", "prefetching", "unmount",
+    "unmounts", "describedby", "labelledby", "zodResolver",
+    "chattiness", "laggy", "unmessaged", "autocompleted", "autocompletion",
+    "autocompletes", "destructure", "destructured", "idempotent", "reorderable",
+    "Asynchrony", "Automatable", "Blockquotes", "CSSOM", "COEP", "Codemods",
+    "Deoptimization", "Finalizers", "Flexbox", "FOUT", "FOIT", "Frontends",
+    "Geolocation", "Layerization", "Lockfiles", "Microtasks", "Precaching", "QUIC",
+    "Resumability", "Sandboxing", "Setext", "Statecharts", "Subgrid", "Symbolication",
+    "TTFB", "Unrepresentable", "VDOM", "WCAG", "WHATWG", "Waterfalled", "Waterfalling",
+    "Worklets", "backpressure", "bfcache", "blockquotes", "bookmarkable", "bypassable",
+    "copyability", "deopts", "desyncs", "diffable", "flin", "greppable", "jank", "janks",
+    "megamorphic", "navigations", "negotiables", "nominalizations", "paywalled",
+    "preconnected", "prereqs", "recomputations", "rollouts", "strawman", "strawmen",
+    "unfocusable", "unrepresentable", "unsanitized", "unsourced", "userbase", "versionable",
+    "Clickjacking", "Metaprogramming", "Overcorrecting", "Subresource", "Unshareable", "unreviewed"
+  ],
+  "ignorePaths": [
+    "_to_delete/**",
+    "node_modules/**",
+    "**/*.json",
+    "**/graph.json",
+    "assets/**",
+    "examples/**",
+    "INTERNAL_LINKS.md",
+    "ARTICLE_INVENTORY.md"
+  ],
+  "ignoreRegExpList": [
+    "/\\]\\(.*?\\)/",
+    "/`[^`]+`/",
+    "/https?:\\/\\/\\S+/",
+    "/```[\\s\\S]*?```/g"
+  ]
+}

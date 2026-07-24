@@ -1,0 +1,836 @@
+{
+  "domain": "CSS & Visual Systems",
+  "part": "01 · Core Languages",
+  "path": "docs/01-core-languages/css",
+  "depends_on": [
+    "The Web Platform"
+  ],
+  "node_count": 29,
+  "estimated_minutes": 250,
+  "nodes": [
+    {
+      "title": "Specificity",
+      "slug": "specificity.md",
+      "subcategory": "The Cascade",
+      "order": 113,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Process & Thread Architecture · The Web Platform"
+      ],
+      "related": [
+        "Inheritance & Initial Values",
+        "Cascade Layers (@layer)",
+        "Custom Properties"
+      ],
+      "next": [
+        "Inheritance & Initial Values",
+        "Cascade Layers (@layer)",
+        "Custom Properties",
+        "The Box Model",
+        "Formatting Contexts"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Inheritance & Initial Values",
+      "slug": "inheritance-and-initial-values.md",
+      "subcategory": "The Cascade",
+      "order": 114,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Specificity"
+      ],
+      "related": [
+        "Specificity",
+        "Cascade Layers (@layer)",
+        "Custom Properties"
+      ],
+      "next": [
+        "Cascade Layers (@layer)"
+      ],
+      "alternatives": [
+        "Cascade Layers (@layer)",
+        "Custom Properties"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cascade Layers (@layer)",
+      "slug": "cascade-layers-layer.md",
+      "subcategory": "The Cascade",
+      "order": 115,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Specificity"
+      ],
+      "related": [
+        "Specificity",
+        "Inheritance & Initial Values",
+        "Custom Properties"
+      ],
+      "next": [
+        "Custom Properties"
+      ],
+      "alternatives": [
+        "Inheritance & Initial Values",
+        "Custom Properties"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Custom Properties",
+      "slug": "custom-properties.md",
+      "subcategory": "The Cascade",
+      "order": 116,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Specificity"
+      ],
+      "related": [
+        "Specificity",
+        "Inheritance & Initial Values",
+        "Cascade Layers (@layer)"
+      ],
+      "next": [
+        "The Box Model"
+      ],
+      "alternatives": [
+        "Inheritance & Initial Values",
+        "Cascade Layers (@layer)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Box Model",
+      "slug": "the-box-model.md",
+      "subcategory": "Box & Formatting",
+      "order": 117,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Specificity"
+      ],
+      "related": [
+        "Formatting Contexts",
+        "Stacking Contexts & z-index",
+        "Containment & content-visibility"
+      ],
+      "next": [
+        "Formatting Contexts",
+        "Stacking Contexts & z-index",
+        "Containment & content-visibility",
+        "Normal Flow",
+        "Flexbox"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Formatting Contexts",
+      "slug": "formatting-contexts.md",
+      "subcategory": "Box & Formatting",
+      "order": 118,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The Box Model",
+        "Specificity"
+      ],
+      "related": [
+        "The Box Model",
+        "Stacking Contexts & z-index",
+        "Containment & content-visibility"
+      ],
+      "next": [
+        "Stacking Contexts & z-index"
+      ],
+      "alternatives": [
+        "Stacking Contexts & z-index",
+        "Containment & content-visibility"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Stacking Contexts & z-index",
+      "slug": "stacking-contexts-and-z-index.md",
+      "subcategory": "Box & Formatting",
+      "order": 119,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "The Box Model",
+        "Specificity"
+      ],
+      "related": [
+        "The Box Model",
+        "Formatting Contexts",
+        "Containment & content-visibility"
+      ],
+      "next": [
+        "Containment & content-visibility"
+      ],
+      "alternatives": [
+        "Formatting Contexts",
+        "Containment & content-visibility"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Containment & content-visibility",
+      "slug": "containment-and-content-visibility.md",
+      "subcategory": "Box & Formatting",
+      "order": 120,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "The Box Model",
+        "Specificity"
+      ],
+      "related": [
+        "The Box Model",
+        "Formatting Contexts",
+        "Stacking Contexts & z-index"
+      ],
+      "next": [
+        "Normal Flow"
+      ],
+      "alternatives": [
+        "Formatting Contexts",
+        "Stacking Contexts & z-index"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Normal Flow",
+      "slug": "normal-flow.md",
+      "subcategory": "Layout Systems",
+      "order": 121,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The Box Model"
+      ],
+      "related": [
+        "Flexbox",
+        "Grid & Subgrid",
+        "Positioning & Sticky",
+        "Intrinsic Sizing"
+      ],
+      "next": [
+        "Flexbox",
+        "Grid & Subgrid",
+        "Positioning & Sticky",
+        "Intrinsic Sizing",
+        "Media Queries"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Flexbox",
+      "slug": "flexbox.md",
+      "subcategory": "Layout Systems",
+      "order": 122,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Normal Flow",
+        "The Box Model"
+      ],
+      "related": [
+        "Normal Flow",
+        "Grid & Subgrid",
+        "Positioning & Sticky",
+        "Intrinsic Sizing"
+      ],
+      "next": [
+        "Grid & Subgrid"
+      ],
+      "alternatives": [
+        "Grid & Subgrid",
+        "Positioning & Sticky",
+        "Intrinsic Sizing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Grid & Subgrid",
+      "slug": "grid-and-subgrid.md",
+      "subcategory": "Layout Systems",
+      "order": 123,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Normal Flow",
+        "The Box Model"
+      ],
+      "related": [
+        "Normal Flow",
+        "Flexbox",
+        "Positioning & Sticky",
+        "Intrinsic Sizing"
+      ],
+      "next": [
+        "Positioning & Sticky"
+      ],
+      "alternatives": [
+        "Flexbox",
+        "Positioning & Sticky",
+        "Intrinsic Sizing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Positioning & Sticky",
+      "slug": "positioning-and-sticky.md",
+      "subcategory": "Layout Systems",
+      "order": 124,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Normal Flow",
+        "The Box Model"
+      ],
+      "related": [
+        "Normal Flow",
+        "Flexbox",
+        "Grid & Subgrid",
+        "Intrinsic Sizing"
+      ],
+      "next": [
+        "Intrinsic Sizing"
+      ],
+      "alternatives": [
+        "Flexbox",
+        "Grid & Subgrid",
+        "Intrinsic Sizing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Intrinsic Sizing",
+      "slug": "intrinsic-sizing.md",
+      "subcategory": "Layout Systems",
+      "order": 125,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Normal Flow",
+        "The Box Model"
+      ],
+      "related": [
+        "Normal Flow",
+        "Flexbox",
+        "Grid & Subgrid",
+        "Positioning & Sticky"
+      ],
+      "next": [
+        "Media Queries"
+      ],
+      "alternatives": [
+        "Flexbox",
+        "Grid & Subgrid",
+        "Positioning & Sticky"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Media Queries",
+      "slug": "media-queries.md",
+      "subcategory": "Responsive Design",
+      "order": 126,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Normal Flow"
+      ],
+      "related": [
+        "Container Queries",
+        "Fluid Type & Space",
+        "Viewport & Responsive Units"
+      ],
+      "next": [
+        "Container Queries",
+        "Fluid Type & Space",
+        "Viewport & Responsive Units",
+        "Font Loading & FOUT/FOIT",
+        "Type Scale & Rhythm"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Container Queries",
+      "slug": "container-queries.md",
+      "subcategory": "Responsive Design",
+      "order": 127,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Media Queries",
+        "Normal Flow"
+      ],
+      "related": [
+        "Media Queries",
+        "Fluid Type & Space",
+        "Viewport & Responsive Units"
+      ],
+      "next": [
+        "Fluid Type & Space"
+      ],
+      "alternatives": [
+        "Fluid Type & Space",
+        "Viewport & Responsive Units"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Fluid Type & Space",
+      "slug": "fluid-type-and-space.md",
+      "subcategory": "Responsive Design",
+      "order": 128,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Media Queries",
+        "Normal Flow"
+      ],
+      "related": [
+        "Media Queries",
+        "Container Queries",
+        "Viewport & Responsive Units"
+      ],
+      "next": [
+        "Viewport & Responsive Units"
+      ],
+      "alternatives": [
+        "Container Queries",
+        "Viewport & Responsive Units"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Viewport & Responsive Units",
+      "slug": "viewport-and-responsive-units.md",
+      "subcategory": "Responsive Design",
+      "order": 129,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Media Queries",
+        "Normal Flow"
+      ],
+      "related": [
+        "Media Queries",
+        "Container Queries",
+        "Fluid Type & Space"
+      ],
+      "next": [
+        "Font Loading & FOUT/FOIT"
+      ],
+      "alternatives": [
+        "Container Queries",
+        "Fluid Type & Space"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Font Loading & FOUT/FOIT",
+      "slug": "font-loading-and-fout-foit.md",
+      "subcategory": "Typography",
+      "order": 130,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Media Queries"
+      ],
+      "related": [
+        "Type Scale & Rhythm",
+        "Text Overflow & Truncation"
+      ],
+      "next": [
+        "Type Scale & Rhythm",
+        "Text Overflow & Truncation",
+        "Color Spaces & Gamut",
+        "Color Functions & Mixing",
+        "Perceptual Contrast & Readability"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Type Scale & Rhythm",
+      "slug": "type-scale-and-rhythm.md",
+      "subcategory": "Typography",
+      "order": 131,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Font Loading & FOUT/FOIT",
+        "Media Queries"
+      ],
+      "related": [
+        "Font Loading & FOUT/FOIT",
+        "Text Overflow & Truncation"
+      ],
+      "next": [
+        "Text Overflow & Truncation"
+      ],
+      "alternatives": [
+        "Text Overflow & Truncation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Text Overflow & Truncation",
+      "slug": "text-overflow-and-truncation.md",
+      "subcategory": "Typography",
+      "order": 132,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Font Loading & FOUT/FOIT",
+        "Media Queries"
+      ],
+      "related": [
+        "Font Loading & FOUT/FOIT",
+        "Type Scale & Rhythm"
+      ],
+      "next": [
+        "Color Spaces & Gamut"
+      ],
+      "alternatives": [
+        "Type Scale & Rhythm"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Color Spaces & Gamut",
+      "slug": "color-spaces-and-gamut.md",
+      "subcategory": "Color",
+      "order": 133,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Font Loading & FOUT/FOIT"
+      ],
+      "related": [
+        "Color Functions & Mixing",
+        "Perceptual Contrast & Readability"
+      ],
+      "next": [
+        "Color Functions & Mixing",
+        "Perceptual Contrast & Readability",
+        "Naming Methodologies",
+        "Scoping & Isolation",
+        "Utility-First Styling"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Color Functions & Mixing",
+      "slug": "color-functions-and-mixing.md",
+      "subcategory": "Color",
+      "order": 134,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Color Spaces & Gamut",
+        "Font Loading & FOUT/FOIT"
+      ],
+      "related": [
+        "Color Spaces & Gamut",
+        "Perceptual Contrast & Readability"
+      ],
+      "next": [
+        "Perceptual Contrast & Readability"
+      ],
+      "alternatives": [
+        "Perceptual Contrast & Readability"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Perceptual Contrast & Readability",
+      "slug": "perceptual-contrast-and-readability.md",
+      "subcategory": "Color",
+      "order": 135,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Color Spaces & Gamut",
+        "Font Loading & FOUT/FOIT"
+      ],
+      "related": [
+        "Color Spaces & Gamut",
+        "Color Functions & Mixing"
+      ],
+      "next": [
+        "Naming Methodologies"
+      ],
+      "alternatives": [
+        "Color Functions & Mixing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Naming Methodologies",
+      "slug": "naming-methodologies.md",
+      "subcategory": "Styling Architecture",
+      "order": 136,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Color Spaces & Gamut"
+      ],
+      "related": [
+        "Scoping & Isolation",
+        "Utility-First Styling",
+        "CSS-in-JS Models",
+        "Zero-Runtime / Compiled CSS"
+      ],
+      "next": [
+        "Scoping & Isolation",
+        "Utility-First Styling",
+        "CSS-in-JS Models",
+        "Zero-Runtime / Compiled CSS",
+        "Consuming Design Tokens"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Scoping & Isolation",
+      "slug": "scoping-and-isolation.md",
+      "subcategory": "Styling Architecture",
+      "order": 137,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Naming Methodologies",
+        "Color Spaces & Gamut"
+      ],
+      "related": [
+        "Naming Methodologies",
+        "Utility-First Styling",
+        "CSS-in-JS Models",
+        "Zero-Runtime / Compiled CSS"
+      ],
+      "next": [
+        "Utility-First Styling"
+      ],
+      "alternatives": [
+        "Utility-First Styling",
+        "CSS-in-JS Models",
+        "Zero-Runtime / Compiled CSS",
+        "Consuming Design Tokens"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Utility-First Styling",
+      "slug": "utility-first-styling.md",
+      "subcategory": "Styling Architecture",
+      "order": 138,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Naming Methodologies",
+        "Color Spaces & Gamut"
+      ],
+      "related": [
+        "Naming Methodologies",
+        "Scoping & Isolation",
+        "CSS-in-JS Models",
+        "Zero-Runtime / Compiled CSS"
+      ],
+      "next": [
+        "CSS-in-JS Models"
+      ],
+      "alternatives": [
+        "Scoping & Isolation",
+        "CSS-in-JS Models",
+        "Zero-Runtime / Compiled CSS",
+        "Consuming Design Tokens"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "CSS-in-JS Models",
+      "slug": "css-in-js-models.md",
+      "subcategory": "Styling Architecture",
+      "order": 139,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Naming Methodologies",
+        "Color Spaces & Gamut"
+      ],
+      "related": [
+        "Naming Methodologies",
+        "Scoping & Isolation",
+        "Utility-First Styling",
+        "Zero-Runtime / Compiled CSS"
+      ],
+      "next": [
+        "Zero-Runtime / Compiled CSS"
+      ],
+      "alternatives": [
+        "Scoping & Isolation",
+        "Utility-First Styling",
+        "Zero-Runtime / Compiled CSS",
+        "Consuming Design Tokens"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Zero-Runtime / Compiled CSS",
+      "slug": "zero-runtime-compiled-css.md",
+      "subcategory": "Styling Architecture",
+      "order": 140,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Naming Methodologies",
+        "Color Spaces & Gamut"
+      ],
+      "related": [
+        "Naming Methodologies",
+        "Scoping & Isolation",
+        "Utility-First Styling",
+        "CSS-in-JS Models"
+      ],
+      "next": [
+        "Consuming Design Tokens"
+      ],
+      "alternatives": [
+        "Scoping & Isolation",
+        "Utility-First Styling",
+        "CSS-in-JS Models",
+        "Consuming Design Tokens"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Consuming Design Tokens",
+      "slug": "consuming-design-tokens.md",
+      "subcategory": "Styling Architecture",
+      "order": 141,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Naming Methodologies",
+        "Color Spaces & Gamut"
+      ],
+      "related": [
+        "Naming Methodologies",
+        "Scoping & Isolation",
+        "Utility-First Styling",
+        "CSS-in-JS Models"
+      ],
+      "next": [
+        "Primitives & Wrappers"
+      ],
+      "alternatives": [
+        "Scoping & Isolation",
+        "Utility-First Styling",
+        "CSS-in-JS Models",
+        "Zero-Runtime / Compiled CSS"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#css-visual-systems",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

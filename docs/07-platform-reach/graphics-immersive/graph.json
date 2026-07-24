@@ -1,0 +1,372 @@
+{
+  "domain": "Graphics & Immersive",
+  "part": "07 · Platform Reach",
+  "path": "docs/07-platform-reach/graphics-immersive",
+  "depends_on": [
+    "The Web Platform",
+    "Runtime & Execution"
+  ],
+  "node_count": 14,
+  "estimated_minutes": 283,
+  "nodes": [
+    {
+      "title": "The 2D Canvas Model",
+      "slug": "the-2d-canvas-model.md",
+      "subcategory": "Canvas",
+      "order": 601,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Process & Thread Architecture · The Web Platform",
+        "Parsing & Bytecode · Runtime & Execution"
+      ],
+      "related": [
+        "OffscreenCanvas",
+        "Text & Path Rendering"
+      ],
+      "next": [
+        "OffscreenCanvas",
+        "Text & Path Rendering",
+        "SVG Rendering & Scripting",
+        "SVG Performance"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "OffscreenCanvas",
+      "slug": "offscreencanvas.md",
+      "subcategory": "Canvas",
+      "order": 602,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "The 2D Canvas Model"
+      ],
+      "related": [
+        "The 2D Canvas Model",
+        "Text & Path Rendering"
+      ],
+      "next": [
+        "Text & Path Rendering"
+      ],
+      "alternatives": [
+        "Text & Path Rendering"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Text & Path Rendering",
+      "slug": "text-and-path-rendering.md",
+      "subcategory": "Canvas",
+      "order": 603,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "The 2D Canvas Model"
+      ],
+      "related": [
+        "The 2D Canvas Model",
+        "OffscreenCanvas"
+      ],
+      "next": [
+        "SVG Rendering & Scripting"
+      ],
+      "alternatives": [
+        "OffscreenCanvas"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "SVG Rendering & Scripting",
+      "slug": "svg-rendering-and-scripting.md",
+      "subcategory": "Vector",
+      "order": 604,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "The 2D Canvas Model"
+      ],
+      "related": [
+        "SVG Performance"
+      ],
+      "next": [
+        "SVG Performance",
+        "WebGL Fundamentals",
+        "WebGPU",
+        "Shaders & Pipelines"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "SVG Performance",
+      "slug": "svg-performance.md",
+      "subcategory": "Vector",
+      "order": 605,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "SVG Rendering & Scripting",
+        "The 2D Canvas Model"
+      ],
+      "related": [
+        "SVG Rendering & Scripting"
+      ],
+      "next": [
+        "WebGL Fundamentals"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "WebGL Fundamentals",
+      "slug": "webgl-fundamentals.md",
+      "subcategory": "GPU",
+      "order": 606,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "SVG Rendering & Scripting"
+      ],
+      "related": [
+        "WebGPU",
+        "Shaders & Pipelines"
+      ],
+      "next": [
+        "WebGPU",
+        "Shaders & Pipelines",
+        "Data-Viz Rendering Models",
+        "Coordinate Systems & Scales",
+        "Large-Dataset Rendering"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "WebGPU",
+      "slug": "webgpu.md",
+      "subcategory": "GPU",
+      "order": 607,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "WebGL Fundamentals",
+        "SVG Rendering & Scripting"
+      ],
+      "related": [
+        "WebGL Fundamentals",
+        "Shaders & Pipelines"
+      ],
+      "next": [
+        "Shaders & Pipelines"
+      ],
+      "alternatives": [
+        "Shaders & Pipelines"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Shaders & Pipelines",
+      "slug": "shaders-and-pipelines.md",
+      "subcategory": "GPU",
+      "order": 608,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "WebGL Fundamentals",
+        "SVG Rendering & Scripting"
+      ],
+      "related": [
+        "WebGL Fundamentals",
+        "WebGPU"
+      ],
+      "next": [
+        "Data-Viz Rendering Models"
+      ],
+      "alternatives": [
+        "WebGPU"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Data-Viz Rendering Models",
+      "slug": "data-viz-rendering-models.md",
+      "subcategory": "Visualization",
+      "order": 609,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "WebGL Fundamentals"
+      ],
+      "related": [
+        "Coordinate Systems & Scales",
+        "Large-Dataset Rendering"
+      ],
+      "next": [
+        "Coordinate Systems & Scales",
+        "Large-Dataset Rendering",
+        "WebXR",
+        "Spatial Interaction",
+        "3D Scene Models"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Coordinate Systems & Scales",
+      "slug": "coordinate-systems-and-scales.md",
+      "subcategory": "Visualization",
+      "order": 610,
+      "difficulty": "Staff",
+      "reading_time_min": 23,
+      "prerequisites": [
+        "Data-Viz Rendering Models",
+        "WebGL Fundamentals"
+      ],
+      "related": [
+        "Data-Viz Rendering Models",
+        "Large-Dataset Rendering"
+      ],
+      "next": [
+        "Large-Dataset Rendering"
+      ],
+      "alternatives": [
+        "Large-Dataset Rendering"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Large-Dataset Rendering",
+      "slug": "large-dataset-rendering.md",
+      "subcategory": "Visualization",
+      "order": 611,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Data-Viz Rendering Models",
+        "WebGL Fundamentals"
+      ],
+      "related": [
+        "Data-Viz Rendering Models",
+        "Coordinate Systems & Scales"
+      ],
+      "next": [
+        "WebXR"
+      ],
+      "alternatives": [
+        "Coordinate Systems & Scales"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "WebXR",
+      "slug": "webxr.md",
+      "subcategory": "Immersive",
+      "order": 612,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Data-Viz Rendering Models"
+      ],
+      "related": [
+        "Spatial Interaction",
+        "3D Scene Models"
+      ],
+      "next": [
+        "Spatial Interaction",
+        "3D Scene Models"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Spatial Interaction",
+      "slug": "spatial-interaction.md",
+      "subcategory": "Immersive",
+      "order": 613,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "WebXR",
+        "Data-Viz Rendering Models"
+      ],
+      "related": [
+        "WebXR",
+        "3D Scene Models"
+      ],
+      "next": [
+        "3D Scene Models"
+      ],
+      "alternatives": [
+        "3D Scene Models"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "3D Scene Models",
+      "slug": "3d-scene-models.md",
+      "subcategory": "Immersive",
+      "order": 614,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "WebXR",
+        "Data-Viz Rendering Models"
+      ],
+      "related": [
+        "WebXR",
+        "Spatial Interaction"
+      ],
+      "next": [
+        "Naming"
+      ],
+      "alternatives": [
+        "Spatial Interaction"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#graphics-immersive",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

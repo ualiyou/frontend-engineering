@@ -1,0 +1,65 @@
+name: "📝 Article proposal"
+description: Propose a new article documenting an engineering decision, pattern, or trade-off.
+title: "[article] <topic>"
+labels: ["type: article", "status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing an article. Propose the *decision or trade-off*, not a tutorial. A maintainer will confirm scope before you start writing.
+  - type: input
+    id: title
+    attributes:
+      label: Proposed title
+      placeholder: "Server state vs client state: when to reach for a cache"
+    validations:
+      required: true
+  - type: dropdown
+    id: part
+    attributes:
+      label: Part (top-level domain)
+      options:
+        - "00 · Foundations"
+        - "01 · Core Languages"
+        - "02 · Rendering & Frameworks"
+        - "03 · Application Architecture"
+        - "04 · Interface Engineering"
+        - "05 · Reliability & Quality"
+        - "06 · Engineering Systems"
+        - "07 · Platform Reach"
+        - "08 · Craft & Leadership"
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: The decision / trade-off
+      description: What engineering question does this answer? What are the competing options?
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who needs this and why
+      description: Which reader hits this problem, and what does getting it wrong cost them?
+    validations:
+      required: true
+  - type: input
+    id: difficulty
+    attributes:
+      label: Estimated difficulty
+      placeholder: "beginner | intermediate | advanced"
+  - type: input
+    id: author
+    attributes:
+      label: Will you write it?
+      placeholder: "@your-handle, or leave blank to offer it to others"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submit checks
+      options:
+        - label: I searched existing issues and the Article Inventory and this is not a duplicate.
+          required: true
+        - label: This proposes reasoning and trade-offs, not a step-by-step tutorial.
+          required: true

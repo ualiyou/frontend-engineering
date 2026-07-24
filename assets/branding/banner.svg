@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Frontend Engineering banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <!-- subtle node graph, right side -->
+  <g opacity="0.5" stroke="#1e2a44" stroke-width="2" fill="none">
+    <line x1="980" y1="90" x2="1080" y2="150"/><line x1="1080" y1="150" x2="1010" y2="240"/>
+    <line x1="1080" y1="150" x2="1180" y2="120"/><line x1="1080" y1="150" x2="1150" y2="230"/>
+  </g>
+  <g fill="#22D3AA" opacity="0.9">
+    <circle cx="980" cy="90" r="6"/><circle cx="1010" cy="240" r="6"/><circle cx="1180" cy="120" r="6"/><circle cx="1150" cy="230" r="6"/>
+  </g>
+  <circle cx="1080" cy="150" r="9" fill="#38BDF8"/>
+  <!-- brackets mark -->
+  <g transform="translate(96,120)">
+    <path d="M40 10 L14 50 L40 90" fill="none" stroke="#38BDF8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M150 10 L176 50 L150 90" fill="none" stroke="#38BDF8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="320" y="150" font-family="Inter, Segoe UI, sans-serif" font-size="58" font-weight="700" fill="#F5F7FA">Frontend Engineering</text>
+  <text x="322" y="205" font-family="Inter, Segoe UI, sans-serif" font-size="30" fill="#94A3B8">Engineering decisions, not tutorials.</text>
+</svg>

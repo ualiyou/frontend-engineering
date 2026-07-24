@@ -1,0 +1,516 @@
+{
+  "domain": "Accessibility",
+  "part": "04 · Interface Engineering",
+  "path": "docs/04-interface-engineering/accessibility",
+  "depends_on": [
+    "HTML & Document Semantics",
+    "Component & Interaction Design"
+  ],
+  "node_count": 19,
+  "estimated_minutes": 237,
+  "nodes": [
+    {
+      "title": "WCAG Principles (POUR)",
+      "slug": "wcag-principles-pour.md",
+      "subcategory": "Standards",
+      "order": 389,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Document Outline · HTML & Document Semantics",
+        "Prop Design & Contracts · Component & Interaction Design"
+      ],
+      "related": [
+        "Conformance Levels",
+        "The ARIA Model",
+        "Accessible Name Computation"
+      ],
+      "next": [
+        "Conformance Levels",
+        "The ARIA Model",
+        "Accessible Name Computation",
+        "Role, Name, State",
+        "The Tree & Assistive Tech"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Conformance Levels",
+      "slug": "conformance-levels.md",
+      "subcategory": "Standards",
+      "order": 390,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "WCAG Principles (POUR)"
+      ],
+      "related": [
+        "WCAG Principles (POUR)",
+        "The ARIA Model",
+        "Accessible Name Computation"
+      ],
+      "next": [
+        "The ARIA Model"
+      ],
+      "alternatives": [
+        "The ARIA Model",
+        "Accessible Name Computation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The ARIA Model",
+      "slug": "the-aria-model.md",
+      "subcategory": "Standards",
+      "order": 391,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "WCAG Principles (POUR)"
+      ],
+      "related": [
+        "WCAG Principles (POUR)",
+        "Conformance Levels",
+        "Accessible Name Computation"
+      ],
+      "next": [
+        "Accessible Name Computation"
+      ],
+      "alternatives": [
+        "Conformance Levels",
+        "Accessible Name Computation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Accessible Name Computation",
+      "slug": "accessible-name-computation.md",
+      "subcategory": "Standards",
+      "order": 392,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "WCAG Principles (POUR)"
+      ],
+      "related": [
+        "WCAG Principles (POUR)",
+        "Conformance Levels",
+        "The ARIA Model"
+      ],
+      "next": [
+        "Role, Name, State"
+      ],
+      "alternatives": [
+        "Conformance Levels",
+        "The ARIA Model"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Role, Name, State",
+      "slug": "role-name-state.md",
+      "subcategory": "The Accessibility Tree",
+      "order": 393,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "WCAG Principles (POUR)"
+      ],
+      "related": [
+        "The Tree & Assistive Tech",
+        "Screen Reader Behavior"
+      ],
+      "next": [
+        "The Tree & Assistive Tech",
+        "Screen Reader Behavior",
+        "Keyboard Navigation",
+        "Focus Management",
+        "Focus Order & Tab Trapping"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Tree & Assistive Tech",
+      "slug": "the-tree-and-assistive-tech.md",
+      "subcategory": "The Accessibility Tree",
+      "order": 394,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Role, Name, State",
+        "WCAG Principles (POUR)"
+      ],
+      "related": [
+        "Role, Name, State",
+        "Screen Reader Behavior"
+      ],
+      "next": [
+        "Screen Reader Behavior"
+      ],
+      "alternatives": [
+        "Screen Reader Behavior"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Screen Reader Behavior",
+      "slug": "screen-reader-behavior.md",
+      "subcategory": "The Accessibility Tree",
+      "order": 395,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Role, Name, State",
+        "WCAG Principles (POUR)"
+      ],
+      "related": [
+        "Role, Name, State",
+        "The Tree & Assistive Tech"
+      ],
+      "next": [
+        "Keyboard Navigation"
+      ],
+      "alternatives": [
+        "The Tree & Assistive Tech"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Keyboard Navigation",
+      "slug": "keyboard-navigation.md",
+      "subcategory": "Keyboard & Focus",
+      "order": 396,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Role, Name, State"
+      ],
+      "related": [
+        "Focus Management",
+        "Focus Order & Tab Trapping",
+        "Skip Links & Landmarks"
+      ],
+      "next": [
+        "Focus Management",
+        "Focus Order & Tab Trapping",
+        "Skip Links & Landmarks",
+        "Color Contrast Conformance",
+        "Text Alternatives"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Focus Management",
+      "slug": "focus-management.md",
+      "subcategory": "Keyboard & Focus",
+      "order": 397,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Keyboard Navigation",
+        "Role, Name, State"
+      ],
+      "related": [
+        "Keyboard Navigation",
+        "Focus Order & Tab Trapping",
+        "Skip Links & Landmarks"
+      ],
+      "next": [
+        "Focus Order & Tab Trapping"
+      ],
+      "alternatives": [
+        "Focus Order & Tab Trapping",
+        "Skip Links & Landmarks"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Focus Order & Tab Trapping",
+      "slug": "focus-order-and-tab-trapping.md",
+      "subcategory": "Keyboard & Focus",
+      "order": 398,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Keyboard Navigation",
+        "Role, Name, State"
+      ],
+      "related": [
+        "Keyboard Navigation",
+        "Focus Management",
+        "Skip Links & Landmarks"
+      ],
+      "next": [
+        "Skip Links & Landmarks"
+      ],
+      "alternatives": [
+        "Focus Management",
+        "Skip Links & Landmarks"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Skip Links & Landmarks",
+      "slug": "skip-links-and-landmarks.md",
+      "subcategory": "Keyboard & Focus",
+      "order": 399,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Keyboard Navigation",
+        "Role, Name, State"
+      ],
+      "related": [
+        "Keyboard Navigation",
+        "Focus Management",
+        "Focus Order & Tab Trapping"
+      ],
+      "next": [
+        "Color Contrast Conformance"
+      ],
+      "alternatives": [
+        "Focus Management",
+        "Focus Order & Tab Trapping"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Color Contrast Conformance",
+      "slug": "color-contrast-conformance.md",
+      "subcategory": "Perceivable UI",
+      "order": 400,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Keyboard Navigation"
+      ],
+      "related": [
+        "Text Alternatives",
+        "Reduced Motion & Vestibular Safety"
+      ],
+      "next": [
+        "Text Alternatives",
+        "Reduced Motion & Vestibular Safety",
+        "WAI-ARIA Widget Patterns",
+        "Accessible Forms",
+        "Live Regions & Announcements"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Text Alternatives",
+      "slug": "text-alternatives.md",
+      "subcategory": "Perceivable UI",
+      "order": 401,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Color Contrast Conformance",
+        "Keyboard Navigation"
+      ],
+      "related": [
+        "Color Contrast Conformance",
+        "Reduced Motion & Vestibular Safety"
+      ],
+      "next": [
+        "Reduced Motion & Vestibular Safety"
+      ],
+      "alternatives": [
+        "Reduced Motion & Vestibular Safety"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Reduced Motion & Vestibular Safety",
+      "slug": "reduced-motion-and-vestibular-safety.md",
+      "subcategory": "Perceivable UI",
+      "order": 402,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Color Contrast Conformance",
+        "Keyboard Navigation"
+      ],
+      "related": [
+        "Color Contrast Conformance",
+        "Text Alternatives"
+      ],
+      "next": [
+        "WAI-ARIA Widget Patterns"
+      ],
+      "alternatives": [
+        "Text Alternatives"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "WAI-ARIA Widget Patterns",
+      "slug": "wai-aria-widget-patterns.md",
+      "subcategory": "Accessible Patterns",
+      "order": 403,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Color Contrast Conformance"
+      ],
+      "related": [
+        "Accessible Forms",
+        "Live Regions & Announcements"
+      ],
+      "next": [
+        "Accessible Forms",
+        "Live Regions & Announcements",
+        "Automated Auditing",
+        "Manual & AT Testing"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Accessible Forms",
+      "slug": "accessible-forms.md",
+      "subcategory": "Accessible Patterns",
+      "order": 404,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "WAI-ARIA Widget Patterns",
+        "Color Contrast Conformance"
+      ],
+      "related": [
+        "WAI-ARIA Widget Patterns",
+        "Live Regions & Announcements"
+      ],
+      "next": [
+        "Live Regions & Announcements"
+      ],
+      "alternatives": [
+        "Live Regions & Announcements"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Live Regions & Announcements",
+      "slug": "live-regions-and-announcements.md",
+      "subcategory": "Accessible Patterns",
+      "order": 405,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "WAI-ARIA Widget Patterns",
+        "Color Contrast Conformance"
+      ],
+      "related": [
+        "WAI-ARIA Widget Patterns",
+        "Accessible Forms"
+      ],
+      "next": [
+        "Automated Auditing"
+      ],
+      "alternatives": [
+        "Accessible Forms"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Automated Auditing",
+      "slug": "automated-auditing.md",
+      "subcategory": "Verification",
+      "order": 406,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "WAI-ARIA Widget Patterns"
+      ],
+      "related": [
+        "Manual & AT Testing"
+      ],
+      "next": [
+        "Manual & AT Testing"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Manual & AT Testing",
+      "slug": "manual-and-at-testing.md",
+      "subcategory": "Verification",
+      "order": 407,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Automated Auditing",
+        "WAI-ARIA Widget Patterns"
+      ],
+      "related": [
+        "Automated Auditing"
+      ],
+      "next": [
+        "Easing & Timing"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#accessibility",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

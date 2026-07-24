@@ -1,0 +1,550 @@
+{
+  "domain": "Data & Server State",
+  "part": "03 · Application Architecture",
+  "path": "docs/03-application-architecture/data-server-state",
+  "depends_on": [
+    "Networking & Protocols",
+    "React",
+    "State Management"
+  ],
+  "node_count": 20,
+  "estimated_minutes": 255,
+  "nodes": [
+    {
+      "title": "Fetch-on-Render vs Render-as-You-Fetch",
+      "slug": "fetch-on-render-vs-render-as-you-fetch.md",
+      "subcategory": "Fetching Strategies",
+      "order": 308,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "HTTP/1.1 Semantics · Networking & Protocols",
+        "Elements vs Components · React",
+        "Categories of State · State Management"
+      ],
+      "related": [
+        "Parallel vs Waterfall Requests",
+        "Request Deduplication",
+        "Data Prefetching"
+      ],
+      "next": [
+        "Parallel vs Waterfall Requests",
+        "Request Deduplication",
+        "Data Prefetching",
+        "Cache Keys & Query Identity",
+        "Staleness & Revalidation"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Parallel vs Waterfall Requests",
+      "slug": "parallel-vs-waterfall-requests.md",
+      "subcategory": "Fetching Strategies",
+      "order": 309,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Fetch-on-Render vs Render-as-You-Fetch"
+      ],
+      "related": [
+        "Fetch-on-Render vs Render-as-You-Fetch",
+        "Request Deduplication",
+        "Data Prefetching"
+      ],
+      "next": [
+        "Request Deduplication"
+      ],
+      "alternatives": [
+        "Request Deduplication",
+        "Data Prefetching"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Request Deduplication",
+      "slug": "request-deduplication.md",
+      "subcategory": "Fetching Strategies",
+      "order": 310,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Fetch-on-Render vs Render-as-You-Fetch"
+      ],
+      "related": [
+        "Fetch-on-Render vs Render-as-You-Fetch",
+        "Parallel vs Waterfall Requests",
+        "Data Prefetching"
+      ],
+      "next": [
+        "Data Prefetching"
+      ],
+      "alternatives": [
+        "Parallel vs Waterfall Requests",
+        "Data Prefetching"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Data Prefetching",
+      "slug": "data-prefetching.md",
+      "subcategory": "Fetching Strategies",
+      "order": 311,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Fetch-on-Render vs Render-as-You-Fetch"
+      ],
+      "related": [
+        "Fetch-on-Render vs Render-as-You-Fetch",
+        "Parallel vs Waterfall Requests",
+        "Request Deduplication"
+      ],
+      "next": [
+        "Cache Keys & Query Identity"
+      ],
+      "alternatives": [
+        "Parallel vs Waterfall Requests",
+        "Request Deduplication"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cache Keys & Query Identity",
+      "slug": "cache-keys-and-query-identity.md",
+      "subcategory": "Server-State Cache",
+      "order": 312,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Fetch-on-Render vs Render-as-You-Fetch"
+      ],
+      "related": [
+        "Staleness & Revalidation",
+        "Cache Invalidation",
+        "Background Refetching"
+      ],
+      "next": [
+        "Staleness & Revalidation",
+        "Cache Invalidation",
+        "Background Refetching",
+        "Mutation Lifecycle",
+        "Optimistic Updates"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Staleness & Revalidation",
+      "slug": "staleness-and-revalidation.md",
+      "subcategory": "Server-State Cache",
+      "order": 313,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Cache Keys & Query Identity",
+        "Fetch-on-Render vs Render-as-You-Fetch"
+      ],
+      "related": [
+        "Cache Keys & Query Identity",
+        "Cache Invalidation",
+        "Background Refetching"
+      ],
+      "next": [
+        "Cache Invalidation"
+      ],
+      "alternatives": [
+        "Cache Invalidation",
+        "Background Refetching"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cache Invalidation",
+      "slug": "cache-invalidation.md",
+      "subcategory": "Server-State Cache",
+      "order": 314,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Cache Keys & Query Identity",
+        "Fetch-on-Render vs Render-as-You-Fetch"
+      ],
+      "related": [
+        "Cache Keys & Query Identity",
+        "Staleness & Revalidation",
+        "Background Refetching"
+      ],
+      "next": [
+        "Background Refetching"
+      ],
+      "alternatives": [
+        "Staleness & Revalidation",
+        "Background Refetching"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Background Refetching",
+      "slug": "background-refetching.md",
+      "subcategory": "Server-State Cache",
+      "order": 315,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Cache Keys & Query Identity",
+        "Fetch-on-Render vs Render-as-You-Fetch"
+      ],
+      "related": [
+        "Cache Keys & Query Identity",
+        "Staleness & Revalidation",
+        "Cache Invalidation"
+      ],
+      "next": [
+        "Mutation Lifecycle"
+      ],
+      "alternatives": [
+        "Staleness & Revalidation",
+        "Cache Invalidation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Mutation Lifecycle",
+      "slug": "mutation-lifecycle.md",
+      "subcategory": "Mutations",
+      "order": 316,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Cache Keys & Query Identity"
+      ],
+      "related": [
+        "Optimistic Updates",
+        "Rollback & Conflict Resolution"
+      ],
+      "next": [
+        "Optimistic Updates",
+        "Rollback & Conflict Resolution",
+        "Pagination",
+        "Infinite & Cursor Loading",
+        "List Virtualization"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Optimistic Updates",
+      "slug": "optimistic-updates.md",
+      "subcategory": "Mutations",
+      "order": 317,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Mutation Lifecycle",
+        "Cache Keys & Query Identity"
+      ],
+      "related": [
+        "Mutation Lifecycle",
+        "Rollback & Conflict Resolution"
+      ],
+      "next": [
+        "Rollback & Conflict Resolution"
+      ],
+      "alternatives": [
+        "Rollback & Conflict Resolution"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Rollback & Conflict Resolution",
+      "slug": "rollback-and-conflict-resolution.md",
+      "subcategory": "Mutations",
+      "order": 318,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Mutation Lifecycle",
+        "Cache Keys & Query Identity"
+      ],
+      "related": [
+        "Mutation Lifecycle",
+        "Optimistic Updates"
+      ],
+      "next": [
+        "Pagination"
+      ],
+      "alternatives": [
+        "Optimistic Updates"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Pagination",
+      "slug": "pagination.md",
+      "subcategory": "Large Data Sets",
+      "order": 319,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Mutation Lifecycle"
+      ],
+      "related": [
+        "Infinite & Cursor Loading",
+        "List Virtualization"
+      ],
+      "next": [
+        "Infinite & Cursor Loading",
+        "List Virtualization",
+        "Normalizing Server Responses",
+        "Client-Side Relations",
+        "Derived Server Data"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Infinite & Cursor Loading",
+      "slug": "infinite-and-cursor-loading.md",
+      "subcategory": "Large Data Sets",
+      "order": 320,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Pagination",
+        "Mutation Lifecycle"
+      ],
+      "related": [
+        "Pagination",
+        "List Virtualization"
+      ],
+      "next": [
+        "List Virtualization"
+      ],
+      "alternatives": [
+        "List Virtualization"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "List Virtualization",
+      "slug": "list-virtualization.md",
+      "subcategory": "Large Data Sets",
+      "order": 321,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Pagination",
+        "Mutation Lifecycle"
+      ],
+      "related": [
+        "Pagination",
+        "Infinite & Cursor Loading"
+      ],
+      "next": [
+        "Normalizing Server Responses"
+      ],
+      "alternatives": [
+        "Infinite & Cursor Loading"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Normalizing Server Responses",
+      "slug": "normalizing-server-responses.md",
+      "subcategory": "Data Modeling",
+      "order": 322,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Pagination"
+      ],
+      "related": [
+        "Client-Side Relations",
+        "Derived Server Data"
+      ],
+      "next": [
+        "Client-Side Relations",
+        "Derived Server Data",
+        "Retries & Backoff",
+        "Loading & Error States",
+        "Offline & Local-First Sync"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Client-Side Relations",
+      "slug": "client-side-relations.md",
+      "subcategory": "Data Modeling",
+      "order": 323,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Normalizing Server Responses",
+        "Pagination"
+      ],
+      "related": [
+        "Normalizing Server Responses",
+        "Derived Server Data"
+      ],
+      "next": [
+        "Derived Server Data"
+      ],
+      "alternatives": [
+        "Derived Server Data"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Derived Server Data",
+      "slug": "derived-server-data.md",
+      "subcategory": "Data Modeling",
+      "order": 324,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Normalizing Server Responses",
+        "Pagination"
+      ],
+      "related": [
+        "Normalizing Server Responses",
+        "Client-Side Relations"
+      ],
+      "next": [
+        "Retries & Backoff"
+      ],
+      "alternatives": [
+        "Client-Side Relations"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Retries & Backoff",
+      "slug": "retries-and-backoff.md",
+      "subcategory": "Resilience",
+      "order": 325,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Normalizing Server Responses"
+      ],
+      "related": [
+        "Loading & Error States",
+        "Offline & Local-First Sync"
+      ],
+      "next": [
+        "Loading & Error States",
+        "Offline & Local-First Sync"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Loading & Error States",
+      "slug": "loading-and-error-states.md",
+      "subcategory": "Resilience",
+      "order": 326,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Retries & Backoff",
+        "Normalizing Server Responses"
+      ],
+      "related": [
+        "Retries & Backoff",
+        "Offline & Local-First Sync"
+      ],
+      "next": [
+        "Offline & Local-First Sync"
+      ],
+      "alternatives": [
+        "Offline & Local-First Sync"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Offline & Local-First Sync",
+      "slug": "offline-and-local-first-sync.md",
+      "subcategory": "Resilience",
+      "order": 327,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Retries & Backoff",
+        "Normalizing Server Responses"
+      ],
+      "related": [
+        "Retries & Backoff",
+        "Loading & Error States"
+      ],
+      "next": [
+        "Controlled Inputs"
+      ],
+      "alternatives": [
+        "Loading & Error States"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#data-server-state",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

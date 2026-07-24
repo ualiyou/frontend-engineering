@@ -1,0 +1,627 @@
+{
+  "domain": "Developer Experience & Workflow",
+  "part": "06 · Engineering Systems",
+  "path": "docs/06-engineering-systems/developer-experience",
+  "depends_on": [
+    "Build Systems & Tooling",
+    "Testing & Quality"
+  ],
+  "node_count": 23,
+  "estimated_minutes": 285,
+  "nodes": [
+    {
+      "title": "Monorepo Architecture",
+      "slug": "monorepo-architecture.md",
+      "subcategory": "Monorepo",
+      "order": 530,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Dependency Graph · Build Systems & Tooling",
+        "The Testing Pyramid/Trophy · Testing & Quality"
+      ],
+      "related": [
+        "Task Orchestration & Pipelines",
+        "Workspace Dependency Graphs",
+        "Remote Caching & Affected Builds"
+      ],
+      "next": [
+        "Task Orchestration & Pipelines",
+        "Workspace Dependency Graphs",
+        "Remote Caching & Affected Builds",
+        "Linting",
+        "Formatting"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Task Orchestration & Pipelines",
+      "slug": "task-orchestration-and-pipelines.md",
+      "subcategory": "Monorepo",
+      "order": 531,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Monorepo Architecture"
+      ],
+      "related": [
+        "Monorepo Architecture",
+        "Workspace Dependency Graphs",
+        "Remote Caching & Affected Builds"
+      ],
+      "next": [
+        "Workspace Dependency Graphs"
+      ],
+      "alternatives": [
+        "Workspace Dependency Graphs",
+        "Remote Caching & Affected Builds"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Workspace Dependency Graphs",
+      "slug": "workspace-dependency-graphs.md",
+      "subcategory": "Monorepo",
+      "order": 532,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Monorepo Architecture"
+      ],
+      "related": [
+        "Monorepo Architecture",
+        "Task Orchestration & Pipelines",
+        "Remote Caching & Affected Builds"
+      ],
+      "next": [
+        "Remote Caching & Affected Builds"
+      ],
+      "alternatives": [
+        "Task Orchestration & Pipelines",
+        "Remote Caching & Affected Builds"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Remote Caching & Affected Builds",
+      "slug": "remote-caching-and-affected-builds.md",
+      "subcategory": "Monorepo",
+      "order": 533,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Monorepo Architecture"
+      ],
+      "related": [
+        "Monorepo Architecture",
+        "Task Orchestration & Pipelines",
+        "Workspace Dependency Graphs"
+      ],
+      "next": [
+        "Linting"
+      ],
+      "alternatives": [
+        "Task Orchestration & Pipelines",
+        "Workspace Dependency Graphs"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Linting",
+      "slug": "linting.md",
+      "subcategory": "Code Quality",
+      "order": 534,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Monorepo Architecture"
+      ],
+      "related": [
+        "Formatting",
+        "Type Checking in CI"
+      ],
+      "next": [
+        "Formatting",
+        "Type Checking in CI",
+        "Fast Feedback Loops",
+        "Environment Consistency",
+        "Local Service Mocking"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Formatting",
+      "slug": "formatting.md",
+      "subcategory": "Code Quality",
+      "order": 535,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Linting",
+        "Monorepo Architecture"
+      ],
+      "related": [
+        "Linting",
+        "Type Checking in CI"
+      ],
+      "next": [
+        "Type Checking in CI"
+      ],
+      "alternatives": [
+        "Type Checking in CI"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Type Checking in CI",
+      "slug": "type-checking-in-ci.md",
+      "subcategory": "Code Quality",
+      "order": 536,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Linting",
+        "Monorepo Architecture"
+      ],
+      "related": [
+        "Linting",
+        "Formatting"
+      ],
+      "next": [
+        "Fast Feedback Loops"
+      ],
+      "alternatives": [
+        "Formatting"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Fast Feedback Loops",
+      "slug": "fast-feedback-loops.md",
+      "subcategory": "Local Development",
+      "order": 537,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Linting"
+      ],
+      "related": [
+        "Environment Consistency",
+        "Local Service Mocking"
+      ],
+      "next": [
+        "Environment Consistency",
+        "Local Service Mocking",
+        "Browser DevTools",
+        "Debugging Techniques",
+        "Framework DevTools"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Environment Consistency",
+      "slug": "environment-consistency.md",
+      "subcategory": "Local Development",
+      "order": 538,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Fast Feedback Loops",
+        "Linting"
+      ],
+      "related": [
+        "Fast Feedback Loops",
+        "Local Service Mocking"
+      ],
+      "next": [
+        "Local Service Mocking"
+      ],
+      "alternatives": [
+        "Local Service Mocking"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Local Service Mocking",
+      "slug": "local-service-mocking.md",
+      "subcategory": "Local Development",
+      "order": 539,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Fast Feedback Loops",
+        "Linting"
+      ],
+      "related": [
+        "Fast Feedback Loops",
+        "Environment Consistency"
+      ],
+      "next": [
+        "Browser DevTools"
+      ],
+      "alternatives": [
+        "Environment Consistency"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Browser DevTools",
+      "slug": "browser-devtools.md",
+      "subcategory": "Debugging",
+      "order": 540,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Fast Feedback Loops"
+      ],
+      "related": [
+        "Debugging Techniques",
+        "Framework DevTools"
+      ],
+      "next": [
+        "Debugging Techniques",
+        "Framework DevTools",
+        "Branching Models",
+        "Commit Conventions",
+        "PR & Review Tooling"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Debugging Techniques",
+      "slug": "debugging-techniques.md",
+      "subcategory": "Debugging",
+      "order": 541,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Browser DevTools",
+        "Fast Feedback Loops"
+      ],
+      "related": [
+        "Browser DevTools",
+        "Framework DevTools"
+      ],
+      "next": [
+        "Framework DevTools"
+      ],
+      "alternatives": [
+        "Framework DevTools"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Framework DevTools",
+      "slug": "framework-devtools.md",
+      "subcategory": "Debugging",
+      "order": 542,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Browser DevTools",
+        "Fast Feedback Loops"
+      ],
+      "related": [
+        "Browser DevTools",
+        "Debugging Techniques"
+      ],
+      "next": [
+        "Branching Models"
+      ],
+      "alternatives": [
+        "Debugging Techniques"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Branching Models",
+      "slug": "branching-models.md",
+      "subcategory": "Version Control",
+      "order": 543,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Browser DevTools"
+      ],
+      "related": [
+        "Commit Conventions",
+        "PR & Review Tooling"
+      ],
+      "next": [
+        "Commit Conventions",
+        "PR & Review Tooling",
+        "CI Pipeline Design",
+        "Build & Test Automation",
+        "Deployment Automation"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Commit Conventions",
+      "slug": "commit-conventions.md",
+      "subcategory": "Version Control",
+      "order": 544,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Branching Models",
+        "Browser DevTools"
+      ],
+      "related": [
+        "Branching Models",
+        "PR & Review Tooling"
+      ],
+      "next": [
+        "PR & Review Tooling"
+      ],
+      "alternatives": [
+        "PR & Review Tooling"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "PR & Review Tooling",
+      "slug": "pr-and-review-tooling.md",
+      "subcategory": "Version Control",
+      "order": 545,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Branching Models",
+        "Browser DevTools"
+      ],
+      "related": [
+        "Branching Models",
+        "Commit Conventions"
+      ],
+      "next": [
+        "CI Pipeline Design"
+      ],
+      "alternatives": [
+        "Commit Conventions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "CI Pipeline Design",
+      "slug": "ci-pipeline-design.md",
+      "subcategory": "Continuous Delivery",
+      "order": 546,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Branching Models"
+      ],
+      "related": [
+        "Build & Test Automation",
+        "Deployment Automation",
+        "Pipeline Caching & Speed"
+      ],
+      "next": [
+        "Build & Test Automation",
+        "Deployment Automation",
+        "Pipeline Caching & Speed",
+        "Codemods & Migrations",
+        "Scaffolding & Generators"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Build & Test Automation",
+      "slug": "build-and-test-automation.md",
+      "subcategory": "Continuous Delivery",
+      "order": 547,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "CI Pipeline Design",
+        "Branching Models"
+      ],
+      "related": [
+        "CI Pipeline Design",
+        "Deployment Automation",
+        "Pipeline Caching & Speed"
+      ],
+      "next": [
+        "Deployment Automation"
+      ],
+      "alternatives": [
+        "Deployment Automation",
+        "Pipeline Caching & Speed"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Deployment Automation",
+      "slug": "deployment-automation.md",
+      "subcategory": "Continuous Delivery",
+      "order": 548,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "CI Pipeline Design",
+        "Branching Models"
+      ],
+      "related": [
+        "CI Pipeline Design",
+        "Build & Test Automation",
+        "Pipeline Caching & Speed"
+      ],
+      "next": [
+        "Pipeline Caching & Speed"
+      ],
+      "alternatives": [
+        "Build & Test Automation",
+        "Pipeline Caching & Speed"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Pipeline Caching & Speed",
+      "slug": "pipeline-caching-and-speed.md",
+      "subcategory": "Continuous Delivery",
+      "order": 549,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "CI Pipeline Design",
+        "Branching Models"
+      ],
+      "related": [
+        "CI Pipeline Design",
+        "Build & Test Automation",
+        "Deployment Automation"
+      ],
+      "next": [
+        "Codemods & Migrations"
+      ],
+      "alternatives": [
+        "Build & Test Automation",
+        "Deployment Automation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Codemods & Migrations",
+      "slug": "codemods-and-migrations.md",
+      "subcategory": "Automation",
+      "order": 550,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "CI Pipeline Design"
+      ],
+      "related": [
+        "Scaffolding & Generators",
+        "Git Hooks & Pre-commit"
+      ],
+      "next": [
+        "Scaffolding & Generators",
+        "Git Hooks & Pre-commit"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Scaffolding & Generators",
+      "slug": "scaffolding-and-generators.md",
+      "subcategory": "Automation",
+      "order": 551,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Codemods & Migrations",
+        "CI Pipeline Design"
+      ],
+      "related": [
+        "Codemods & Migrations",
+        "Git Hooks & Pre-commit"
+      ],
+      "next": [
+        "Git Hooks & Pre-commit"
+      ],
+      "alternatives": [
+        "Git Hooks & Pre-commit"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Git Hooks & Pre-commit",
+      "slug": "git-hooks-and-pre-commit.md",
+      "subcategory": "Automation",
+      "order": 552,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Codemods & Migrations",
+        "CI Pipeline Design"
+      ],
+      "related": [
+        "Codemods & Migrations",
+        "Scaffolding & Generators"
+      ],
+      "next": [
+        "Static Hosting"
+      ],
+      "alternatives": [
+        "Scaffolding & Generators"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#developer-experience-workflow",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

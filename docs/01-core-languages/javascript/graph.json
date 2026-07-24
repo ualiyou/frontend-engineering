@@ -1,0 +1,851 @@
+{
+  "domain": "JavaScript",
+  "part": "01 · Core Languages",
+  "path": "docs/01-core-languages/javascript",
+  "depends_on": [
+    "Computer Science for Frontend",
+    "Runtime & Execution"
+  ],
+  "node_count": 31,
+  "estimated_minutes": 275,
+  "nodes": [
+    {
+      "title": "Primitives & Wrappers",
+      "slug": "primitives-and-wrappers.md",
+      "subcategory": "Runtime Types",
+      "order": 142,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Trees & the DOM as a Tree · Computer Science for Frontend",
+        "Parsing & Bytecode · Runtime & Execution"
+      ],
+      "related": [
+        "Coercion & Conversion",
+        "Equality & Comparison",
+        "null, undefined & Nullish"
+      ],
+      "next": [
+        "Coercion & Conversion",
+        "Equality & Comparison",
+        "null, undefined & Nullish",
+        "Lexical Scope",
+        "Closures"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Coercion & Conversion",
+      "slug": "coercion-and-conversion.md",
+      "subcategory": "Runtime Types",
+      "order": 143,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Primitives & Wrappers"
+      ],
+      "related": [
+        "Primitives & Wrappers",
+        "Equality & Comparison",
+        "null, undefined & Nullish"
+      ],
+      "next": [
+        "Equality & Comparison"
+      ],
+      "alternatives": [
+        "Equality & Comparison",
+        "null, undefined & Nullish"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Equality & Comparison",
+      "slug": "equality-and-comparison.md",
+      "subcategory": "Runtime Types",
+      "order": 144,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Primitives & Wrappers"
+      ],
+      "related": [
+        "Primitives & Wrappers",
+        "Coercion & Conversion",
+        "null, undefined & Nullish"
+      ],
+      "next": [
+        "null, undefined & Nullish"
+      ],
+      "alternatives": [
+        "Coercion & Conversion",
+        "null, undefined & Nullish"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "null, undefined & Nullish",
+      "slug": "null-undefined-and-nullish.md",
+      "subcategory": "Runtime Types",
+      "order": 145,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Primitives & Wrappers"
+      ],
+      "related": [
+        "Primitives & Wrappers",
+        "Coercion & Conversion",
+        "Equality & Comparison"
+      ],
+      "next": [
+        "Lexical Scope"
+      ],
+      "alternatives": [
+        "Coercion & Conversion",
+        "Equality & Comparison"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Lexical Scope",
+      "slug": "lexical-scope.md",
+      "subcategory": "Scope & Closures",
+      "order": 146,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Primitives & Wrappers"
+      ],
+      "related": [
+        "Closures",
+        "Hoisting & TDZ",
+        "Block vs Function Scope"
+      ],
+      "next": [
+        "Closures",
+        "Hoisting & TDZ",
+        "Block vs Function Scope",
+        "Property Descriptors",
+        "The Prototype Chain"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Closures",
+      "slug": "closures.md",
+      "subcategory": "Scope & Closures",
+      "order": 147,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Lexical Scope",
+        "Primitives & Wrappers"
+      ],
+      "related": [
+        "Lexical Scope",
+        "Hoisting & TDZ",
+        "Block vs Function Scope"
+      ],
+      "next": [
+        "Hoisting & TDZ"
+      ],
+      "alternatives": [
+        "Hoisting & TDZ",
+        "Block vs Function Scope"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Hoisting & TDZ",
+      "slug": "hoisting-and-tdz.md",
+      "subcategory": "Scope & Closures",
+      "order": 148,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Lexical Scope",
+        "Primitives & Wrappers"
+      ],
+      "related": [
+        "Lexical Scope",
+        "Closures",
+        "Block vs Function Scope"
+      ],
+      "next": [
+        "Block vs Function Scope"
+      ],
+      "alternatives": [
+        "Closures",
+        "Block vs Function Scope"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Block vs Function Scope",
+      "slug": "block-vs-function-scope.md",
+      "subcategory": "Scope & Closures",
+      "order": 149,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Lexical Scope",
+        "Primitives & Wrappers"
+      ],
+      "related": [
+        "Lexical Scope",
+        "Closures",
+        "Hoisting & TDZ"
+      ],
+      "next": [
+        "Property Descriptors"
+      ],
+      "alternatives": [
+        "Closures",
+        "Hoisting & TDZ"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Property Descriptors",
+      "slug": "property-descriptors.md",
+      "subcategory": "Objects & Prototypes",
+      "order": 150,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Lexical Scope"
+      ],
+      "related": [
+        "The Prototype Chain",
+        "Inheritance Patterns",
+        "Proxies & Reflect"
+      ],
+      "next": [
+        "The Prototype Chain",
+        "Inheritance Patterns",
+        "Proxies & Reflect",
+        "Binding Rules",
+        "call / apply / bind"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Prototype Chain",
+      "slug": "the-prototype-chain.md",
+      "subcategory": "Objects & Prototypes",
+      "order": 151,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Property Descriptors",
+        "Lexical Scope"
+      ],
+      "related": [
+        "Property Descriptors",
+        "Inheritance Patterns",
+        "Proxies & Reflect"
+      ],
+      "next": [
+        "Inheritance Patterns"
+      ],
+      "alternatives": [
+        "Inheritance Patterns",
+        "Proxies & Reflect"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Inheritance Patterns",
+      "slug": "inheritance-patterns.md",
+      "subcategory": "Objects & Prototypes",
+      "order": 152,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Property Descriptors",
+        "Lexical Scope"
+      ],
+      "related": [
+        "Property Descriptors",
+        "The Prototype Chain",
+        "Proxies & Reflect"
+      ],
+      "next": [
+        "Proxies & Reflect"
+      ],
+      "alternatives": [
+        "The Prototype Chain",
+        "Proxies & Reflect"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Proxies & Reflect",
+      "slug": "proxies-and-reflect.md",
+      "subcategory": "Objects & Prototypes",
+      "order": 153,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Property Descriptors",
+        "Lexical Scope"
+      ],
+      "related": [
+        "Property Descriptors",
+        "The Prototype Chain",
+        "Inheritance Patterns"
+      ],
+      "next": [
+        "Binding Rules"
+      ],
+      "alternatives": [
+        "The Prototype Chain",
+        "Inheritance Patterns"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Binding Rules",
+      "slug": "binding-rules.md",
+      "subcategory": "The `this` Model",
+      "order": 154,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Property Descriptors"
+      ],
+      "related": [
+        "call / apply / bind",
+        "Arrow Functions & Lexical this"
+      ],
+      "next": [
+        "call / apply / bind",
+        "Arrow Functions & Lexical this",
+        "Higher-Order Functions",
+        "Currying & Partial Application",
+        "Composition"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "call / apply / bind",
+      "slug": "call-apply-bind.md",
+      "subcategory": "The `this` Model",
+      "order": 155,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Binding Rules",
+        "Property Descriptors"
+      ],
+      "related": [
+        "Binding Rules",
+        "Arrow Functions & Lexical this"
+      ],
+      "next": [
+        "Arrow Functions & Lexical this"
+      ],
+      "alternatives": [
+        "Arrow Functions & Lexical this"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Arrow Functions & Lexical this",
+      "slug": "arrow-functions-and-lexical-this.md",
+      "subcategory": "The `this` Model",
+      "order": 156,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Binding Rules",
+        "Property Descriptors"
+      ],
+      "related": [
+        "Binding Rules",
+        "call / apply / bind"
+      ],
+      "next": [
+        "Higher-Order Functions"
+      ],
+      "alternatives": [
+        "call / apply / bind"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Higher-Order Functions",
+      "slug": "higher-order-functions.md",
+      "subcategory": "Functions",
+      "order": 157,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Binding Rules"
+      ],
+      "related": [
+        "Currying & Partial Application",
+        "Composition"
+      ],
+      "next": [
+        "Currying & Partial Application",
+        "Composition",
+        "Iterators & Iterables",
+        "Generators",
+        "Async Iterators"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Currying & Partial Application",
+      "slug": "currying-and-partial-application.md",
+      "subcategory": "Functions",
+      "order": 158,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Higher-Order Functions",
+        "Binding Rules"
+      ],
+      "related": [
+        "Higher-Order Functions",
+        "Composition"
+      ],
+      "next": [
+        "Composition"
+      ],
+      "alternatives": [
+        "Composition"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Composition",
+      "slug": "composition.md",
+      "subcategory": "Functions",
+      "order": 159,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Higher-Order Functions",
+        "Binding Rules"
+      ],
+      "related": [
+        "Higher-Order Functions",
+        "Currying & Partial Application"
+      ],
+      "next": [
+        "Iterators & Iterables"
+      ],
+      "alternatives": [
+        "Currying & Partial Application"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Iterators & Iterables",
+      "slug": "iterators-and-iterables.md",
+      "subcategory": "Iteration Protocols",
+      "order": 160,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Higher-Order Functions"
+      ],
+      "related": [
+        "Generators",
+        "Async Iterators"
+      ],
+      "next": [
+        "Generators",
+        "Async Iterators",
+        "The Callback Model",
+        "Promises",
+        "async / await"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Generators",
+      "slug": "generators.md",
+      "subcategory": "Iteration Protocols",
+      "order": 161,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Iterators & Iterables",
+        "Higher-Order Functions"
+      ],
+      "related": [
+        "Iterators & Iterables",
+        "Async Iterators"
+      ],
+      "next": [
+        "Async Iterators"
+      ],
+      "alternatives": [
+        "Async Iterators"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Async Iterators",
+      "slug": "async-iterators.md",
+      "subcategory": "Iteration Protocols",
+      "order": 162,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Iterators & Iterables",
+        "Higher-Order Functions"
+      ],
+      "related": [
+        "Iterators & Iterables",
+        "Generators"
+      ],
+      "next": [
+        "The Callback Model"
+      ],
+      "alternatives": [
+        "Generators"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Callback Model",
+      "slug": "the-callback-model.md",
+      "subcategory": "Asynchrony",
+      "order": 163,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Iterators & Iterables"
+      ],
+      "related": [
+        "Promises",
+        "async / await",
+        "Cancellation & AbortController"
+      ],
+      "next": [
+        "Promises",
+        "async / await",
+        "Cancellation & AbortController",
+        "ES Modules",
+        "Dynamic Import"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Promises",
+      "slug": "promises.md",
+      "subcategory": "Asynchrony",
+      "order": 164,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The Callback Model",
+        "Iterators & Iterables"
+      ],
+      "related": [
+        "The Callback Model",
+        "async / await",
+        "Cancellation & AbortController"
+      ],
+      "next": [
+        "async / await"
+      ],
+      "alternatives": [
+        "async / await",
+        "Cancellation & AbortController"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "async / await",
+      "slug": "async-await.md",
+      "subcategory": "Asynchrony",
+      "order": 165,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The Callback Model",
+        "Iterators & Iterables"
+      ],
+      "related": [
+        "The Callback Model",
+        "Promises",
+        "Cancellation & AbortController"
+      ],
+      "next": [
+        "Cancellation & AbortController"
+      ],
+      "alternatives": [
+        "Promises",
+        "Cancellation & AbortController"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cancellation & AbortController",
+      "slug": "cancellation-and-abortcontroller.md",
+      "subcategory": "Asynchrony",
+      "order": 166,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "The Callback Model",
+        "Iterators & Iterables"
+      ],
+      "related": [
+        "The Callback Model",
+        "Promises",
+        "async / await"
+      ],
+      "next": [
+        "ES Modules"
+      ],
+      "alternatives": [
+        "Promises",
+        "async / await"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "ES Modules",
+      "slug": "es-modules.md",
+      "subcategory": "Modules",
+      "order": 167,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The Callback Model"
+      ],
+      "related": [
+        "Dynamic Import",
+        "Module Resolution Semantics"
+      ],
+      "next": [
+        "Dynamic Import",
+        "Module Resolution Semantics",
+        "Symbols & Well-Known Symbols",
+        "Reflection",
+        "Tagged Templates"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Dynamic Import",
+      "slug": "dynamic-import.md",
+      "subcategory": "Modules",
+      "order": 168,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "ES Modules",
+        "The Callback Model"
+      ],
+      "related": [
+        "ES Modules",
+        "Module Resolution Semantics"
+      ],
+      "next": [
+        "Module Resolution Semantics"
+      ],
+      "alternatives": [
+        "Module Resolution Semantics"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Module Resolution Semantics",
+      "slug": "module-resolution-semantics.md",
+      "subcategory": "Modules",
+      "order": 169,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "ES Modules",
+        "The Callback Model"
+      ],
+      "related": [
+        "ES Modules",
+        "Dynamic Import"
+      ],
+      "next": [
+        "Symbols & Well-Known Symbols"
+      ],
+      "alternatives": [
+        "Dynamic Import"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Symbols & Well-Known Symbols",
+      "slug": "symbols-and-well-known-symbols.md",
+      "subcategory": "Metaprogramming",
+      "order": 170,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "ES Modules"
+      ],
+      "related": [
+        "Reflection",
+        "Tagged Templates"
+      ],
+      "next": [
+        "Reflection",
+        "Tagged Templates"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Reflection",
+      "slug": "reflection.md",
+      "subcategory": "Metaprogramming",
+      "order": 171,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Symbols & Well-Known Symbols",
+        "ES Modules"
+      ],
+      "related": [
+        "Symbols & Well-Known Symbols",
+        "Tagged Templates"
+      ],
+      "next": [
+        "Tagged Templates"
+      ],
+      "alternatives": [
+        "Tagged Templates"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Tagged Templates",
+      "slug": "tagged-templates.md",
+      "subcategory": "Metaprogramming",
+      "order": 172,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Symbols & Well-Known Symbols",
+        "ES Modules"
+      ],
+      "related": [
+        "Symbols & Well-Known Symbols",
+        "Reflection"
+      ],
+      "next": [
+        "Structural Typing"
+      ],
+      "alternatives": [
+        "Reflection"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#javascript",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

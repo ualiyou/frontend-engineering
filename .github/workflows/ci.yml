@@ -1,0 +1,89 @@
+# Content quality gate. Runs on every push/PR that touches content.
+# One workflow = one CI badge; each job is an independent check so failures are precise.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  markdown-lint:
+    # WHY: enforce consistent Markdown so every article reads and renders the same.
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: |
+            **/*.md
+            !_to_delete
+            !node_modules
+
+  link-check:
+    # WHY: catch broken internal links before they reach a reader. Fast, offline-friendly.
+    name: Internal link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --offline
+            --include-fragments
+            --no-progress
+            './**/*.md'
+          fail: true
+
+  spell-check:
+    # WHY: typos in a reference erode trust. cspell with a project dictionary keeps it low-noise.
+    name: Spell check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: streetsidesoftware/cspell-action@v6
+        with:
+          config: cspell.json
+          incremental_files_only: true
+
+  frontmatter:
+    # WHY: every article must carry valid metadata so the graph, inventory, and paths stay in sync.
+    name: Frontmatter validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/validate-frontmatter.py
+
+  examples:
+    # WHY: example code must actually compile/type-check, or it teaches the wrong thing.
+    # No-op-safe until examples with a package.json exist.
+    name: Example validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Type-check / build examples if present
+        run: |
+          shopt -s nullglob
+          found=0
+          for pkg in examples/**/package.json recipes/**/package.json; do
+            found=1
+            dir=$(dirname "$pkg")
+            echo "::group::$dir"
+            (cd "$dir" && npm ci --no-audit --no-fund && npm run --if-present typecheck && npm run --if-present build)
+            echo "::endgroup::"
+          done
+          [ "$found" -eq 0 ] && echo "No example packages yet — skipping." || true

@@ -1,0 +1,42 @@
+# Auto-labeling rules for pull requests (actions/labeler v5).
+# Applies area labels based on changed file paths.
+
+"area: foundations":
+  - changed-files:
+      - any-glob-to-any-file: "docs/00-foundations/**"
+"area: core-languages":
+  - changed-files:
+      - any-glob-to-any-file: "docs/01-core-languages/**"
+"area: rendering-frameworks":
+  - changed-files:
+      - any-glob-to-any-file: "docs/02-rendering-frameworks/**"
+"area: app-architecture":
+  - changed-files:
+      - any-glob-to-any-file: "docs/03-application-architecture/**"
+"area: interface-engineering":
+  - changed-files:
+      - any-glob-to-any-file: "docs/04-interface-engineering/**"
+"area: reliability-quality":
+  - changed-files:
+      - any-glob-to-any-file: "docs/05-reliability-quality/**"
+"area: engineering-systems":
+  - changed-files:
+      - any-glob-to-any-file: "docs/06-engineering-systems/**"
+"area: platform-reach":
+  - changed-files:
+      - any-glob-to-any-file: "docs/07-platform-reach/**"
+"area: craft-leadership":
+  - changed-files:
+      - any-glob-to-any-file: "docs/08-craft-leadership/**"
+"type: anti-pattern":
+  - changed-files:
+      - any-glob-to-any-file: "anti-patterns/**"
+"type: example":
+  - changed-files:
+      - any-glob-to-any-file: ["examples/**", "recipes/**"]
+"area: tooling":
+  - changed-files:
+      - any-glob-to-any-file: [".github/workflows/**", "scripts/**"]
+"area: meta":
+  - changed-files:
+      - any-glob-to-any-file: [".github/**", "templates/**", "*.md"]

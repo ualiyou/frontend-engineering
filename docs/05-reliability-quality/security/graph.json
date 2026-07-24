@@ -1,0 +1,665 @@
+{
+  "domain": "Security",
+  "part": "05 · Reliability & Quality",
+  "path": "docs/05-reliability-quality/security",
+  "depends_on": [
+    "Networking & Protocols",
+    "Browser APIs"
+  ],
+  "node_count": 24,
+  "estimated_minutes": 387,
+  "nodes": [
+    {
+      "title": "Same-Origin Policy",
+      "slug": "same-origin-policy.md",
+      "subcategory": "The Security Model",
+      "order": 444,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "HTTP/1.1 Semantics · Networking & Protocols",
+        "Web Storage · Browser APIs"
+      ],
+      "related": [
+        "CORS",
+        "Isolation (COOP/COEP)"
+      ],
+      "next": [
+        "CORS",
+        "Isolation (COOP/COEP)",
+        "Cross-Site Scripting (XSS)",
+        "DOM-Based XSS",
+        "HTML/Template Injection"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "CORS",
+      "slug": "cors.md",
+      "subcategory": "The Security Model",
+      "order": 445,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Same-Origin Policy"
+      ],
+      "related": [
+        "Same-Origin Policy",
+        "Isolation (COOP/COEP)"
+      ],
+      "next": [
+        "Isolation (COOP/COEP)"
+      ],
+      "alternatives": [
+        "Isolation (COOP/COEP)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Isolation (COOP/COEP)",
+      "slug": "isolation-coop-coep.md",
+      "subcategory": "The Security Model",
+      "order": 446,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Same-Origin Policy"
+      ],
+      "related": [
+        "Same-Origin Policy",
+        "CORS"
+      ],
+      "next": [
+        "Cross-Site Scripting (XSS)"
+      ],
+      "alternatives": [
+        "CORS"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cross-Site Scripting (XSS)",
+      "slug": "cross-site-scripting-xss.md",
+      "subcategory": "Injection Attacks",
+      "order": 447,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Same-Origin Policy"
+      ],
+      "related": [
+        "DOM-Based XSS",
+        "HTML/Template Injection",
+        "Sanitization & Encoding"
+      ],
+      "next": [
+        "DOM-Based XSS",
+        "HTML/Template Injection",
+        "Sanitization & Encoding",
+        "Cross-Site Request Forgery",
+        "Clickjacking"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "DOM-Based XSS",
+      "slug": "dom-based-xss.md",
+      "subcategory": "Injection Attacks",
+      "order": 448,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Cross-Site Scripting (XSS)",
+        "Same-Origin Policy"
+      ],
+      "related": [
+        "Cross-Site Scripting (XSS)",
+        "HTML/Template Injection",
+        "Sanitization & Encoding"
+      ],
+      "next": [
+        "HTML/Template Injection"
+      ],
+      "alternatives": [
+        "HTML/Template Injection",
+        "Sanitization & Encoding"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "HTML/Template Injection",
+      "slug": "html-template-injection.md",
+      "subcategory": "Injection Attacks",
+      "order": 449,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Cross-Site Scripting (XSS)",
+        "Same-Origin Policy"
+      ],
+      "related": [
+        "Cross-Site Scripting (XSS)",
+        "DOM-Based XSS",
+        "Sanitization & Encoding"
+      ],
+      "next": [
+        "Sanitization & Encoding"
+      ],
+      "alternatives": [
+        "DOM-Based XSS",
+        "Sanitization & Encoding"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Sanitization & Encoding",
+      "slug": "sanitization-and-encoding.md",
+      "subcategory": "Injection Attacks",
+      "order": 450,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Cross-Site Scripting (XSS)",
+        "Same-Origin Policy"
+      ],
+      "related": [
+        "Cross-Site Scripting (XSS)",
+        "DOM-Based XSS",
+        "HTML/Template Injection"
+      ],
+      "next": [
+        "Cross-Site Request Forgery"
+      ],
+      "alternatives": [
+        "DOM-Based XSS",
+        "HTML/Template Injection"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cross-Site Request Forgery",
+      "slug": "cross-site-request-forgery.md",
+      "subcategory": "Request Attacks",
+      "order": 451,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Cross-Site Scripting (XSS)"
+      ],
+      "related": [
+        "Clickjacking",
+        "Client-Edge SSRF"
+      ],
+      "next": [
+        "Clickjacking",
+        "Client-Edge SSRF",
+        "Content Security Policy",
+        "Trusted Types",
+        "Subresource Integrity"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Clickjacking",
+      "slug": "clickjacking.md",
+      "subcategory": "Request Attacks",
+      "order": 452,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Cross-Site Request Forgery",
+        "Cross-Site Scripting (XSS)"
+      ],
+      "related": [
+        "Cross-Site Request Forgery",
+        "Client-Edge SSRF"
+      ],
+      "next": [
+        "Client-Edge SSRF"
+      ],
+      "alternatives": [
+        "Client-Edge SSRF"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Client-Edge SSRF",
+      "slug": "client-edge-ssrf.md",
+      "subcategory": "Request Attacks",
+      "order": 453,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Cross-Site Request Forgery",
+        "Cross-Site Scripting (XSS)"
+      ],
+      "related": [
+        "Cross-Site Request Forgery",
+        "Clickjacking"
+      ],
+      "next": [
+        "Content Security Policy"
+      ],
+      "alternatives": [
+        "Clickjacking"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Content Security Policy",
+      "slug": "content-security-policy.md",
+      "subcategory": "Content Security",
+      "order": 454,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Cross-Site Request Forgery"
+      ],
+      "related": [
+        "Trusted Types",
+        "Subresource Integrity"
+      ],
+      "next": [
+        "Trusted Types",
+        "Subresource Integrity",
+        "Session Management",
+        "Token Types (JWT, opaque)",
+        "Token Storage Trade-offs"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Trusted Types",
+      "slug": "trusted-types.md",
+      "subcategory": "Content Security",
+      "order": 455,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Content Security Policy",
+        "Cross-Site Request Forgery"
+      ],
+      "related": [
+        "Content Security Policy",
+        "Subresource Integrity"
+      ],
+      "next": [
+        "Subresource Integrity"
+      ],
+      "alternatives": [
+        "Subresource Integrity"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Subresource Integrity",
+      "slug": "subresource-integrity.md",
+      "subcategory": "Content Security",
+      "order": 456,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Content Security Policy",
+        "Cross-Site Request Forgery"
+      ],
+      "related": [
+        "Content Security Policy",
+        "Trusted Types"
+      ],
+      "next": [
+        "Session Management"
+      ],
+      "alternatives": [
+        "Trusted Types"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Session Management",
+      "slug": "session-management.md",
+      "subcategory": "Authentication & Sessions",
+      "order": 457,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Content Security Policy"
+      ],
+      "related": [
+        "Token Types (JWT, opaque)",
+        "Token Storage Trade-offs",
+        "OAuth & OIDC Flows",
+        "Client Auth (guards, refresh)"
+      ],
+      "next": [
+        "Token Types (JWT, opaque)",
+        "Token Storage Trade-offs",
+        "OAuth & OIDC Flows",
+        "Client Auth (guards, refresh)",
+        "Dependency Vulnerabilities"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Token Types (JWT, opaque)",
+      "slug": "token-types-jwt-opaque.md",
+      "subcategory": "Authentication & Sessions",
+      "order": 458,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Session Management",
+        "Content Security Policy"
+      ],
+      "related": [
+        "Session Management",
+        "Token Storage Trade-offs",
+        "OAuth & OIDC Flows",
+        "Client Auth (guards, refresh)"
+      ],
+      "next": [
+        "Token Storage Trade-offs"
+      ],
+      "alternatives": [
+        "Token Storage Trade-offs",
+        "OAuth & OIDC Flows",
+        "Client Auth (guards, refresh)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Token Storage Trade-offs",
+      "slug": "token-storage-trade-offs.md",
+      "subcategory": "Authentication & Sessions",
+      "order": 459,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Session Management",
+        "Content Security Policy"
+      ],
+      "related": [
+        "Session Management",
+        "Token Types (JWT, opaque)",
+        "OAuth & OIDC Flows",
+        "Client Auth (guards, refresh)"
+      ],
+      "next": [
+        "OAuth & OIDC Flows"
+      ],
+      "alternatives": [
+        "Token Types (JWT, opaque)",
+        "OAuth & OIDC Flows",
+        "Client Auth (guards, refresh)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "OAuth & OIDC Flows",
+      "slug": "oauth-and-oidc-flows.md",
+      "subcategory": "Authentication & Sessions",
+      "order": 460,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Session Management",
+        "Content Security Policy"
+      ],
+      "related": [
+        "Session Management",
+        "Token Types (JWT, opaque)",
+        "Token Storage Trade-offs",
+        "Client Auth (guards, refresh)"
+      ],
+      "next": [
+        "Client Auth (guards, refresh)"
+      ],
+      "alternatives": [
+        "Token Types (JWT, opaque)",
+        "Token Storage Trade-offs",
+        "Client Auth (guards, refresh)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Client Auth (guards, refresh)",
+      "slug": "client-auth-guards-refresh.md",
+      "subcategory": "Authentication & Sessions",
+      "order": 461,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Session Management",
+        "Content Security Policy"
+      ],
+      "related": [
+        "Session Management",
+        "Token Types (JWT, opaque)",
+        "Token Storage Trade-offs",
+        "OAuth & OIDC Flows"
+      ],
+      "next": [
+        "Dependency Vulnerabilities"
+      ],
+      "alternatives": [
+        "Token Types (JWT, opaque)",
+        "Token Storage Trade-offs",
+        "OAuth & OIDC Flows"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Dependency Vulnerabilities",
+      "slug": "dependency-vulnerabilities.md",
+      "subcategory": "Supply Chain",
+      "order": 462,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Session Management"
+      ],
+      "related": [
+        "Lockfiles & Provenance",
+        "Third-Party Script Risk"
+      ],
+      "next": [
+        "Lockfiles & Provenance",
+        "Third-Party Script Risk",
+        "Data Handling & PII",
+        "Consent & Tracking",
+        "Regulatory Compliance"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Lockfiles & Provenance",
+      "slug": "lockfiles-and-provenance.md",
+      "subcategory": "Supply Chain",
+      "order": 463,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Dependency Vulnerabilities",
+        "Session Management"
+      ],
+      "related": [
+        "Dependency Vulnerabilities",
+        "Third-Party Script Risk"
+      ],
+      "next": [
+        "Third-Party Script Risk"
+      ],
+      "alternatives": [
+        "Third-Party Script Risk"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Third-Party Script Risk",
+      "slug": "third-party-script-risk.md",
+      "subcategory": "Supply Chain",
+      "order": 464,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Dependency Vulnerabilities",
+        "Session Management"
+      ],
+      "related": [
+        "Dependency Vulnerabilities",
+        "Lockfiles & Provenance"
+      ],
+      "next": [
+        "Data Handling & PII"
+      ],
+      "alternatives": [
+        "Lockfiles & Provenance"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Data Handling & PII",
+      "slug": "data-handling-and-pii.md",
+      "subcategory": "Privacy",
+      "order": 465,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Dependency Vulnerabilities"
+      ],
+      "related": [
+        "Consent & Tracking",
+        "Regulatory Compliance"
+      ],
+      "next": [
+        "Consent & Tracking",
+        "Regulatory Compliance"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Consent & Tracking",
+      "slug": "consent-and-tracking.md",
+      "subcategory": "Privacy",
+      "order": 466,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Data Handling & PII",
+        "Dependency Vulnerabilities"
+      ],
+      "related": [
+        "Data Handling & PII",
+        "Regulatory Compliance"
+      ],
+      "next": [
+        "Regulatory Compliance"
+      ],
+      "alternatives": [
+        "Regulatory Compliance"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Regulatory Compliance",
+      "slug": "regulatory-compliance.md",
+      "subcategory": "Privacy",
+      "order": 467,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Data Handling & PII",
+        "Dependency Vulnerabilities"
+      ],
+      "related": [
+        "Data Handling & PII",
+        "Consent & Tracking"
+      ],
+      "next": [
+        "The Testing Pyramid/Trophy"
+      ],
+      "alternatives": [
+        "Consent & Tracking"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#security",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

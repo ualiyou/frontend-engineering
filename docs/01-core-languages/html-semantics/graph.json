@@ -1,0 +1,455 @@
+{
+  "domain": "HTML & Document Semantics",
+  "part": "01 · Core Languages",
+  "path": "docs/01-core-languages/html-semantics",
+  "depends_on": [
+    "The Web Platform"
+  ],
+  "node_count": 16,
+  "estimated_minutes": 128,
+  "nodes": [
+    {
+      "title": "The Document Outline",
+      "slug": "the-document-outline.md",
+      "subcategory": "Document Structure",
+      "order": 97,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Process & Thread Architecture · The Web Platform"
+      ],
+      "related": [
+        "Sectioning & Landmarks",
+        "Headings Hierarchy",
+        "Tables & Data Semantics"
+      ],
+      "next": [
+        "Sectioning & Landmarks",
+        "Headings Hierarchy",
+        "Tables & Data Semantics",
+        "Native Form Controls",
+        "Buttons, Links & Actions"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Sectioning & Landmarks",
+      "slug": "sectioning-and-landmarks.md",
+      "subcategory": "Document Structure",
+      "order": 98,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The Document Outline"
+      ],
+      "related": [
+        "The Document Outline",
+        "Headings Hierarchy",
+        "Tables & Data Semantics"
+      ],
+      "next": [
+        "Headings Hierarchy"
+      ],
+      "alternatives": [
+        "Headings Hierarchy",
+        "Tables & Data Semantics"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Headings Hierarchy",
+      "slug": "headings-hierarchy.md",
+      "subcategory": "Document Structure",
+      "order": 99,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The Document Outline"
+      ],
+      "related": [
+        "The Document Outline",
+        "Sectioning & Landmarks",
+        "Tables & Data Semantics"
+      ],
+      "next": [
+        "Tables & Data Semantics"
+      ],
+      "alternatives": [
+        "Sectioning & Landmarks",
+        "Tables & Data Semantics"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Tables & Data Semantics",
+      "slug": "tables-and-data-semantics.md",
+      "subcategory": "Document Structure",
+      "order": 100,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The Document Outline"
+      ],
+      "related": [
+        "The Document Outline",
+        "Sectioning & Landmarks",
+        "Headings Hierarchy"
+      ],
+      "next": [
+        "Native Form Controls"
+      ],
+      "alternatives": [
+        "Sectioning & Landmarks",
+        "Headings Hierarchy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Native Form Controls",
+      "slug": "native-form-controls.md",
+      "subcategory": "Interactive Elements",
+      "order": 101,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The Document Outline"
+      ],
+      "related": [
+        "Buttons, Links & Actions",
+        "Dialog, Details & Popover",
+        "The Contenteditable Model"
+      ],
+      "next": [
+        "Buttons, Links & Actions",
+        "Dialog, Details & Popover",
+        "The Contenteditable Model",
+        "Responsive Images (srcset)",
+        "Audio & Video"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Buttons, Links & Actions",
+      "slug": "buttons-links-and-actions.md",
+      "subcategory": "Interactive Elements",
+      "order": 102,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Native Form Controls",
+        "The Document Outline"
+      ],
+      "related": [
+        "Native Form Controls",
+        "Dialog, Details & Popover",
+        "The Contenteditable Model"
+      ],
+      "next": [
+        "Dialog, Details & Popover"
+      ],
+      "alternatives": [
+        "Dialog, Details & Popover",
+        "The Contenteditable Model"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Dialog, Details & Popover",
+      "slug": "dialog-details-and-popover.md",
+      "subcategory": "Interactive Elements",
+      "order": 103,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Native Form Controls",
+        "The Document Outline"
+      ],
+      "related": [
+        "Native Form Controls",
+        "Buttons, Links & Actions",
+        "The Contenteditable Model"
+      ],
+      "next": [
+        "The Contenteditable Model"
+      ],
+      "alternatives": [
+        "Buttons, Links & Actions",
+        "The Contenteditable Model"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Contenteditable Model",
+      "slug": "the-contenteditable-model.md",
+      "subcategory": "Interactive Elements",
+      "order": 104,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Native Form Controls",
+        "The Document Outline"
+      ],
+      "related": [
+        "Native Form Controls",
+        "Buttons, Links & Actions",
+        "Dialog, Details & Popover"
+      ],
+      "next": [
+        "Responsive Images (srcset)"
+      ],
+      "alternatives": [
+        "Buttons, Links & Actions",
+        "Dialog, Details & Popover"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Responsive Images (srcset)",
+      "slug": "responsive-images-srcset.md",
+      "subcategory": "Embedded Content",
+      "order": 105,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Native Form Controls"
+      ],
+      "related": [
+        "Audio & Video",
+        "Iframes & Embedding",
+        "Inline SVG"
+      ],
+      "next": [
+        "Audio & Video",
+        "Iframes & Embedding",
+        "Inline SVG",
+        "Head Metadata",
+        "SEO Semantics"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Audio & Video",
+      "slug": "audio-and-video.md",
+      "subcategory": "Embedded Content",
+      "order": 106,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Responsive Images (srcset)",
+        "Native Form Controls"
+      ],
+      "related": [
+        "Responsive Images (srcset)",
+        "Iframes & Embedding",
+        "Inline SVG"
+      ],
+      "next": [
+        "Iframes & Embedding"
+      ],
+      "alternatives": [
+        "Iframes & Embedding",
+        "Inline SVG"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Iframes & Embedding",
+      "slug": "iframes-and-embedding.md",
+      "subcategory": "Embedded Content",
+      "order": 107,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Responsive Images (srcset)",
+        "Native Form Controls"
+      ],
+      "related": [
+        "Responsive Images (srcset)",
+        "Audio & Video",
+        "Inline SVG"
+      ],
+      "next": [
+        "Inline SVG"
+      ],
+      "alternatives": [
+        "Audio & Video",
+        "Inline SVG"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Inline SVG",
+      "slug": "inline-svg.md",
+      "subcategory": "Embedded Content",
+      "order": 108,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Responsive Images (srcset)",
+        "Native Form Controls"
+      ],
+      "related": [
+        "Responsive Images (srcset)",
+        "Audio & Video",
+        "Iframes & Embedding"
+      ],
+      "next": [
+        "Head Metadata"
+      ],
+      "alternatives": [
+        "Audio & Video",
+        "Iframes & Embedding"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Head Metadata",
+      "slug": "head-metadata.md",
+      "subcategory": "Metadata & Discovery",
+      "order": 109,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Responsive Images (srcset)"
+      ],
+      "related": [
+        "SEO Semantics",
+        "Open Graph & Social Cards",
+        "Structured Data (JSON-LD)"
+      ],
+      "next": [
+        "SEO Semantics",
+        "Open Graph & Social Cards",
+        "Structured Data (JSON-LD)"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "SEO Semantics",
+      "slug": "seo-semantics.md",
+      "subcategory": "Metadata & Discovery",
+      "order": 110,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Head Metadata",
+        "Responsive Images (srcset)"
+      ],
+      "related": [
+        "Head Metadata",
+        "Open Graph & Social Cards",
+        "Structured Data (JSON-LD)"
+      ],
+      "next": [
+        "Open Graph & Social Cards"
+      ],
+      "alternatives": [
+        "Open Graph & Social Cards",
+        "Structured Data (JSON-LD)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Open Graph & Social Cards",
+      "slug": "open-graph-and-social-cards.md",
+      "subcategory": "Metadata & Discovery",
+      "order": 111,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Head Metadata",
+        "Responsive Images (srcset)"
+      ],
+      "related": [
+        "Head Metadata",
+        "SEO Semantics",
+        "Structured Data (JSON-LD)"
+      ],
+      "next": [
+        "Structured Data (JSON-LD)"
+      ],
+      "alternatives": [
+        "SEO Semantics",
+        "Structured Data (JSON-LD)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Structured Data (JSON-LD)",
+      "slug": "structured-data-json-ld.md",
+      "subcategory": "Metadata & Discovery",
+      "order": 112,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Head Metadata",
+        "Responsive Images (srcset)"
+      ],
+      "related": [
+        "Head Metadata",
+        "SEO Semantics",
+        "Open Graph & Social Cards"
+      ],
+      "next": [
+        "Specificity"
+      ],
+      "alternatives": [
+        "SEO Semantics",
+        "Open Graph & Social Cards"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#html-document-semantics",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

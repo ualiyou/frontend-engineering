@@ -1,0 +1,395 @@
+{
+  "domain": "Animation & Motion",
+  "part": "04 · Interface Engineering",
+  "path": "docs/04-interface-engineering/animation-motion",
+  "depends_on": [
+    "CSS & Visual Systems",
+    "The Web Platform"
+  ],
+  "node_count": 14,
+  "estimated_minutes": 168,
+  "nodes": [
+    {
+      "title": "Easing & Timing",
+      "slug": "easing-and-timing.md",
+      "subcategory": "Motion Principles",
+      "order": 408,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Specificity · CSS & Visual Systems",
+        "Process & Thread Architecture · The Web Platform"
+      ],
+      "related": [
+        "Choreography & Sequencing",
+        "Purposeful Motion"
+      ],
+      "next": [
+        "Choreography & Sequencing",
+        "Purposeful Motion",
+        "CSS Transitions",
+        "CSS Animations & Keyframes",
+        "The Web Animations API"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Choreography & Sequencing",
+      "slug": "choreography-and-sequencing.md",
+      "subcategory": "Motion Principles",
+      "order": 409,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Easing & Timing"
+      ],
+      "related": [
+        "Easing & Timing",
+        "Purposeful Motion"
+      ],
+      "next": [
+        "Purposeful Motion"
+      ],
+      "alternatives": [
+        "Purposeful Motion"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Purposeful Motion",
+      "slug": "purposeful-motion.md",
+      "subcategory": "Motion Principles",
+      "order": 410,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Easing & Timing"
+      ],
+      "related": [
+        "Easing & Timing",
+        "Choreography & Sequencing"
+      ],
+      "next": [
+        "CSS Transitions"
+      ],
+      "alternatives": [
+        "Choreography & Sequencing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "CSS Transitions",
+      "slug": "css-transitions.md",
+      "subcategory": "Techniques",
+      "order": 411,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Easing & Timing"
+      ],
+      "related": [
+        "CSS Animations & Keyframes",
+        "The Web Animations API",
+        "The View Transitions API",
+        "Spring & Physics Animation"
+      ],
+      "next": [
+        "CSS Animations & Keyframes",
+        "The Web Animations API",
+        "The View Transitions API",
+        "Spring & Physics Animation",
+        "Compositor-Only Properties"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "CSS Animations & Keyframes",
+      "slug": "css-animations-and-keyframes.md",
+      "subcategory": "Techniques",
+      "order": 412,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "CSS Transitions",
+        "Easing & Timing"
+      ],
+      "related": [
+        "CSS Transitions",
+        "The Web Animations API",
+        "The View Transitions API",
+        "Spring & Physics Animation"
+      ],
+      "next": [
+        "The Web Animations API"
+      ],
+      "alternatives": [
+        "The Web Animations API",
+        "The View Transitions API",
+        "Spring & Physics Animation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Web Animations API",
+      "slug": "the-web-animations-api.md",
+      "subcategory": "Techniques",
+      "order": 413,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "CSS Transitions",
+        "Easing & Timing"
+      ],
+      "related": [
+        "CSS Transitions",
+        "CSS Animations & Keyframes",
+        "The View Transitions API",
+        "Spring & Physics Animation"
+      ],
+      "next": [
+        "The View Transitions API"
+      ],
+      "alternatives": [
+        "CSS Animations & Keyframes",
+        "The View Transitions API",
+        "Spring & Physics Animation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The View Transitions API",
+      "slug": "the-view-transitions-api.md",
+      "subcategory": "Techniques",
+      "order": 414,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "CSS Transitions",
+        "Easing & Timing"
+      ],
+      "related": [
+        "CSS Transitions",
+        "CSS Animations & Keyframes",
+        "The Web Animations API",
+        "Spring & Physics Animation"
+      ],
+      "next": [
+        "Spring & Physics Animation"
+      ],
+      "alternatives": [
+        "CSS Animations & Keyframes",
+        "The Web Animations API",
+        "Spring & Physics Animation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Spring & Physics Animation",
+      "slug": "spring-and-physics-animation.md",
+      "subcategory": "Techniques",
+      "order": 415,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "CSS Transitions",
+        "Easing & Timing"
+      ],
+      "related": [
+        "CSS Transitions",
+        "CSS Animations & Keyframes",
+        "The Web Animations API",
+        "The View Transitions API"
+      ],
+      "next": [
+        "Compositor-Only Properties"
+      ],
+      "alternatives": [
+        "CSS Animations & Keyframes",
+        "The Web Animations API",
+        "The View Transitions API"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Compositor-Only Properties",
+      "slug": "compositor-only-properties.md",
+      "subcategory": "Performance",
+      "order": 416,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "CSS Transitions"
+      ],
+      "related": [
+        "Avoiding Layout Thrash",
+        "The FLIP Technique"
+      ],
+      "next": [
+        "Avoiding Layout Thrash",
+        "The FLIP Technique",
+        "Gesture-Driven Animation",
+        "Scroll-Linked Animation",
+        "Shared-Element Transitions"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Avoiding Layout Thrash",
+      "slug": "avoiding-layout-thrash.md",
+      "subcategory": "Performance",
+      "order": 417,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Compositor-Only Properties",
+        "CSS Transitions"
+      ],
+      "related": [
+        "Compositor-Only Properties",
+        "The FLIP Technique"
+      ],
+      "next": [
+        "The FLIP Technique"
+      ],
+      "alternatives": [
+        "The FLIP Technique"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The FLIP Technique",
+      "slug": "the-flip-technique.md",
+      "subcategory": "Performance",
+      "order": 418,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Compositor-Only Properties",
+        "CSS Transitions"
+      ],
+      "related": [
+        "Compositor-Only Properties",
+        "Avoiding Layout Thrash"
+      ],
+      "next": [
+        "Gesture-Driven Animation"
+      ],
+      "alternatives": [
+        "Avoiding Layout Thrash"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Gesture-Driven Animation",
+      "slug": "gesture-driven-animation.md",
+      "subcategory": "Interaction Motion",
+      "order": 419,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Compositor-Only Properties"
+      ],
+      "related": [
+        "Scroll-Linked Animation",
+        "Shared-Element Transitions"
+      ],
+      "next": [
+        "Scroll-Linked Animation",
+        "Shared-Element Transitions"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Scroll-Linked Animation",
+      "slug": "scroll-linked-animation.md",
+      "subcategory": "Interaction Motion",
+      "order": 420,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Gesture-Driven Animation",
+        "Compositor-Only Properties"
+      ],
+      "related": [
+        "Gesture-Driven Animation",
+        "Shared-Element Transitions"
+      ],
+      "next": [
+        "Shared-Element Transitions"
+      ],
+      "alternatives": [
+        "Shared-Element Transitions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Shared-Element Transitions",
+      "slug": "shared-element-transitions.md",
+      "subcategory": "Interaction Motion",
+      "order": 421,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Gesture-Driven Animation",
+        "Compositor-Only Properties"
+      ],
+      "related": [
+        "Gesture-Driven Animation",
+        "Scroll-Linked Animation"
+      ],
+      "next": [
+        "Core Web Vitals (LCP, INP, CLS)"
+      ],
+      "alternatives": [
+        "Scroll-Linked Animation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#animation-motion",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

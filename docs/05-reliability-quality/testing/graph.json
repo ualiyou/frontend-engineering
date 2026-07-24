@@ -1,0 +1,483 @@
+{
+  "domain": "Testing & Quality",
+  "part": "05 · Reliability & Quality",
+  "path": "docs/05-reliability-quality/testing",
+  "depends_on": [
+    "React",
+    "JavaScript"
+  ],
+  "node_count": 18,
+  "estimated_minutes": 231,
+  "nodes": [
+    {
+      "title": "The Testing Pyramid/Trophy",
+      "slug": "the-testing-pyramid-trophy.md",
+      "subcategory": "Strategy",
+      "order": 468,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Elements vs Components · React",
+        "Primitives & Wrappers · JavaScript"
+      ],
+      "related": [
+        "What to Test & Coverage Goals",
+        "Test Doubles (mocks, stubs, fakes)"
+      ],
+      "next": [
+        "What to Test & Coverage Goals",
+        "Test Doubles (mocks, stubs, fakes)",
+        "Pure Logic Testing",
+        "Testing Hooks & Utilities",
+        "Property-Based Testing"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "What to Test & Coverage Goals",
+      "slug": "what-to-test-and-coverage-goals.md",
+      "subcategory": "Strategy",
+      "order": 469,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Testing Pyramid/Trophy"
+      ],
+      "related": [
+        "The Testing Pyramid/Trophy",
+        "Test Doubles (mocks, stubs, fakes)"
+      ],
+      "next": [
+        "Test Doubles (mocks, stubs, fakes)"
+      ],
+      "alternatives": [
+        "Test Doubles (mocks, stubs, fakes)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Test Doubles (mocks, stubs, fakes)",
+      "slug": "test-doubles-mocks-stubs-fakes.md",
+      "subcategory": "Strategy",
+      "order": 470,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "The Testing Pyramid/Trophy"
+      ],
+      "related": [
+        "The Testing Pyramid/Trophy",
+        "What to Test & Coverage Goals"
+      ],
+      "next": [
+        "Pure Logic Testing"
+      ],
+      "alternatives": [
+        "What to Test & Coverage Goals"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Pure Logic Testing",
+      "slug": "pure-logic-testing.md",
+      "subcategory": "Unit Testing",
+      "order": 471,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "The Testing Pyramid/Trophy"
+      ],
+      "related": [
+        "Testing Hooks & Utilities",
+        "Property-Based Testing"
+      ],
+      "next": [
+        "Testing Hooks & Utilities",
+        "Property-Based Testing",
+        "Rendering & Querying",
+        "User-Event Simulation",
+        "Accessibility-Tree Assertions"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Testing Hooks & Utilities",
+      "slug": "testing-hooks-and-utilities.md",
+      "subcategory": "Unit Testing",
+      "order": 472,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Pure Logic Testing",
+        "The Testing Pyramid/Trophy"
+      ],
+      "related": [
+        "Pure Logic Testing",
+        "Property-Based Testing"
+      ],
+      "next": [
+        "Property-Based Testing"
+      ],
+      "alternatives": [
+        "Property-Based Testing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Property-Based Testing",
+      "slug": "property-based-testing.md",
+      "subcategory": "Unit Testing",
+      "order": 473,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Pure Logic Testing",
+        "The Testing Pyramid/Trophy"
+      ],
+      "related": [
+        "Pure Logic Testing",
+        "Testing Hooks & Utilities"
+      ],
+      "next": [
+        "Rendering & Querying"
+      ],
+      "alternatives": [
+        "Testing Hooks & Utilities"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Rendering & Querying",
+      "slug": "rendering-and-querying.md",
+      "subcategory": "Component Testing",
+      "order": 474,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Pure Logic Testing"
+      ],
+      "related": [
+        "User-Event Simulation",
+        "Accessibility-Tree Assertions"
+      ],
+      "next": [
+        "User-Event Simulation",
+        "Accessibility-Tree Assertions",
+        "Testing with Real Providers",
+        "Network Mocking",
+        "Testing State & Data Flows"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "User-Event Simulation",
+      "slug": "user-event-simulation.md",
+      "subcategory": "Component Testing",
+      "order": 475,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Rendering & Querying",
+        "Pure Logic Testing"
+      ],
+      "related": [
+        "Rendering & Querying",
+        "Accessibility-Tree Assertions"
+      ],
+      "next": [
+        "Accessibility-Tree Assertions"
+      ],
+      "alternatives": [
+        "Accessibility-Tree Assertions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Accessibility-Tree Assertions",
+      "slug": "accessibility-tree-assertions.md",
+      "subcategory": "Component Testing",
+      "order": 476,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Rendering & Querying",
+        "Pure Logic Testing"
+      ],
+      "related": [
+        "Rendering & Querying",
+        "User-Event Simulation"
+      ],
+      "next": [
+        "Testing with Real Providers"
+      ],
+      "alternatives": [
+        "User-Event Simulation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Testing with Real Providers",
+      "slug": "testing-with-real-providers.md",
+      "subcategory": "Integration Testing",
+      "order": 477,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Rendering & Querying"
+      ],
+      "related": [
+        "Network Mocking",
+        "Testing State & Data Flows"
+      ],
+      "next": [
+        "Network Mocking",
+        "Testing State & Data Flows",
+        "E2E User Flows",
+        "Cross-Browser Testing",
+        "Visual Regression Testing"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Network Mocking",
+      "slug": "network-mocking.md",
+      "subcategory": "Integration Testing",
+      "order": 478,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Testing with Real Providers",
+        "Rendering & Querying"
+      ],
+      "related": [
+        "Testing with Real Providers",
+        "Testing State & Data Flows"
+      ],
+      "next": [
+        "Testing State & Data Flows"
+      ],
+      "alternatives": [
+        "Testing State & Data Flows"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Testing State & Data Flows",
+      "slug": "testing-state-and-data-flows.md",
+      "subcategory": "Integration Testing",
+      "order": 479,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Testing with Real Providers",
+        "Rendering & Querying"
+      ],
+      "related": [
+        "Testing with Real Providers",
+        "Network Mocking"
+      ],
+      "next": [
+        "E2E User Flows"
+      ],
+      "alternatives": [
+        "Network Mocking"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "E2E User Flows",
+      "slug": "e2e-user-flows.md",
+      "subcategory": "End-to-End",
+      "order": 480,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Testing with Real Providers"
+      ],
+      "related": [
+        "Cross-Browser Testing",
+        "Visual Regression Testing"
+      ],
+      "next": [
+        "Cross-Browser Testing",
+        "Visual Regression Testing",
+        "Flakiness & Determinism",
+        "Test Performance & Parallelism",
+        "Test Maintenance"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cross-Browser Testing",
+      "slug": "cross-browser-testing.md",
+      "subcategory": "End-to-End",
+      "order": 481,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "E2E User Flows",
+        "Testing with Real Providers"
+      ],
+      "related": [
+        "E2E User Flows",
+        "Visual Regression Testing"
+      ],
+      "next": [
+        "Visual Regression Testing"
+      ],
+      "alternatives": [
+        "Visual Regression Testing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Visual Regression Testing",
+      "slug": "visual-regression-testing.md",
+      "subcategory": "End-to-End",
+      "order": 482,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "E2E User Flows",
+        "Testing with Real Providers"
+      ],
+      "related": [
+        "E2E User Flows",
+        "Cross-Browser Testing"
+      ],
+      "next": [
+        "Flakiness & Determinism"
+      ],
+      "alternatives": [
+        "Cross-Browser Testing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Flakiness & Determinism",
+      "slug": "flakiness-and-determinism.md",
+      "subcategory": "Test Health",
+      "order": 483,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "E2E User Flows"
+      ],
+      "related": [
+        "Test Performance & Parallelism",
+        "Test Maintenance"
+      ],
+      "next": [
+        "Test Performance & Parallelism",
+        "Test Maintenance"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Test Performance & Parallelism",
+      "slug": "test-performance-and-parallelism.md",
+      "subcategory": "Test Health",
+      "order": 484,
+      "difficulty": "Intermediate",
+      "reading_time_min": 15,
+      "prerequisites": [
+        "Flakiness & Determinism",
+        "E2E User Flows"
+      ],
+      "related": [
+        "Flakiness & Determinism",
+        "Test Maintenance"
+      ],
+      "next": [
+        "Test Maintenance"
+      ],
+      "alternatives": [
+        "Test Maintenance"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Test Maintenance",
+      "slug": "test-maintenance.md",
+      "subcategory": "Test Health",
+      "order": 485,
+      "difficulty": "Intermediate",
+      "reading_time_min": 12,
+      "prerequisites": [
+        "Flakiness & Determinism",
+        "E2E User Flows"
+      ],
+      "related": [
+        "Flakiness & Determinism",
+        "Test Performance & Parallelism"
+      ],
+      "next": [
+        "Client Error Capture"
+      ],
+      "alternatives": [
+        "Test Performance & Parallelism"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#testing-quality",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

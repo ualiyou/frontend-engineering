@@ -1,0 +1,469 @@
+{
+  "domain": "Delivery & Infrastructure",
+  "part": "06 · Engineering Systems",
+  "path": "docs/06-engineering-systems/delivery-infrastructure",
+  "depends_on": [
+    "Build Systems & Tooling",
+    "Networking & Protocols"
+  ],
+  "node_count": 17,
+  "estimated_minutes": 278,
+  "nodes": [
+    {
+      "title": "Static Hosting",
+      "slug": "static-hosting.md",
+      "subcategory": "Hosting Models",
+      "order": 553,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "The Dependency Graph · Build Systems & Tooling",
+        "HTTP/1.1 Semantics · Networking & Protocols"
+      ],
+      "related": [
+        "Server & SSR Hosting",
+        "Serverless Functions",
+        "Edge Runtimes"
+      ],
+      "next": [
+        "Client Error Capture",
+        "Server & SSR Hosting",
+        "Serverless Functions",
+        "Edge Runtimes",
+        "CDN Architecture"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Server & SSR Hosting",
+      "slug": "server-and-ssr-hosting.md",
+      "subcategory": "Hosting Models",
+      "order": 554,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Static Hosting"
+      ],
+      "related": [
+        "Static Hosting",
+        "Serverless Functions",
+        "Edge Runtimes"
+      ],
+      "next": [
+        "Serverless Functions"
+      ],
+      "alternatives": [
+        "Serverless Functions",
+        "Edge Runtimes"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Serverless Functions",
+      "slug": "serverless-functions.md",
+      "subcategory": "Hosting Models",
+      "order": 555,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Static Hosting"
+      ],
+      "related": [
+        "Static Hosting",
+        "Server & SSR Hosting",
+        "Edge Runtimes"
+      ],
+      "next": [
+        "Edge Runtimes"
+      ],
+      "alternatives": [
+        "Server & SSR Hosting",
+        "Edge Runtimes"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Edge Runtimes",
+      "slug": "edge-runtimes.md",
+      "subcategory": "Hosting Models",
+      "order": 556,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Static Hosting"
+      ],
+      "related": [
+        "Static Hosting",
+        "Server & SSR Hosting",
+        "Serverless Functions"
+      ],
+      "next": [
+        "CDN Architecture"
+      ],
+      "alternatives": [
+        "Server & SSR Hosting",
+        "Serverless Functions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "CDN Architecture",
+      "slug": "cdn-architecture.md",
+      "subcategory": "Content Delivery",
+      "order": 557,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Static Hosting"
+      ],
+      "related": [
+        "Edge Compute & Routing",
+        "Immutable Asset URLs"
+      ],
+      "next": [
+        "Edge Compute & Routing",
+        "Immutable Asset URLs",
+        "Environment Configuration",
+        "Secrets Management",
+        "Feature Configuration"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Edge Compute & Routing",
+      "slug": "edge-compute-and-routing.md",
+      "subcategory": "Content Delivery",
+      "order": 558,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "CDN Architecture",
+        "Static Hosting"
+      ],
+      "related": [
+        "CDN Architecture",
+        "Immutable Asset URLs"
+      ],
+      "next": [
+        "Immutable Asset URLs"
+      ],
+      "alternatives": [
+        "Immutable Asset URLs"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Immutable Asset URLs",
+      "slug": "immutable-asset-urls.md",
+      "subcategory": "Content Delivery",
+      "order": 559,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "CDN Architecture",
+        "Static Hosting"
+      ],
+      "related": [
+        "CDN Architecture",
+        "Edge Compute & Routing"
+      ],
+      "next": [
+        "Environment Configuration"
+      ],
+      "alternatives": [
+        "Edge Compute & Routing"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Environment Configuration",
+      "slug": "environment-configuration.md",
+      "subcategory": "Configuration",
+      "order": 560,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "CDN Architecture"
+      ],
+      "related": [
+        "Secrets Management",
+        "Feature Configuration"
+      ],
+      "next": [
+        "Secrets Management",
+        "Feature Configuration",
+        "Deployment Strategies (canary, blue-green)",
+        "Rollbacks & Kill Switches",
+        "Feature Flags"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Secrets Management",
+      "slug": "secrets-management.md",
+      "subcategory": "Configuration",
+      "order": 561,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Environment Configuration",
+        "CDN Architecture"
+      ],
+      "related": [
+        "Environment Configuration",
+        "Feature Configuration"
+      ],
+      "next": [
+        "Feature Configuration"
+      ],
+      "alternatives": [
+        "Feature Configuration"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Feature Configuration",
+      "slug": "feature-configuration.md",
+      "subcategory": "Configuration",
+      "order": 562,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Environment Configuration",
+        "CDN Architecture"
+      ],
+      "related": [
+        "Environment Configuration",
+        "Secrets Management"
+      ],
+      "next": [
+        "Deployment Strategies (canary, blue-green)"
+      ],
+      "alternatives": [
+        "Secrets Management"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Deployment Strategies (canary, blue-green)",
+      "slug": "deployment-strategies-canary-blue-green.md",
+      "subcategory": "Release Management",
+      "order": 563,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Environment Configuration"
+      ],
+      "related": [
+        "Rollbacks & Kill Switches",
+        "Feature Flags",
+        "Progressive Delivery & Experiments"
+      ],
+      "next": [
+        "Rollbacks & Kill Switches",
+        "Feature Flags",
+        "Progressive Delivery & Experiments",
+        "Scaling & Capacity",
+        "Cost Optimization"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Rollbacks & Kill Switches",
+      "slug": "rollbacks-and-kill-switches.md",
+      "subcategory": "Release Management",
+      "order": 564,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Deployment Strategies (canary, blue-green)",
+        "Environment Configuration"
+      ],
+      "related": [
+        "Deployment Strategies (canary, blue-green)",
+        "Feature Flags",
+        "Progressive Delivery & Experiments"
+      ],
+      "next": [
+        "Feature Flags"
+      ],
+      "alternatives": [
+        "Feature Flags",
+        "Progressive Delivery & Experiments"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Feature Flags",
+      "slug": "feature-flags.md",
+      "subcategory": "Release Management",
+      "order": 565,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Deployment Strategies (canary, blue-green)",
+        "Environment Configuration"
+      ],
+      "related": [
+        "Deployment Strategies (canary, blue-green)",
+        "Rollbacks & Kill Switches",
+        "Progressive Delivery & Experiments"
+      ],
+      "next": [
+        "Progressive Delivery & Experiments"
+      ],
+      "alternatives": [
+        "Rollbacks & Kill Switches",
+        "Progressive Delivery & Experiments"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Progressive Delivery & Experiments",
+      "slug": "progressive-delivery-and-experiments.md",
+      "subcategory": "Release Management",
+      "order": 566,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Deployment Strategies (canary, blue-green)",
+        "Environment Configuration"
+      ],
+      "related": [
+        "Deployment Strategies (canary, blue-green)",
+        "Rollbacks & Kill Switches",
+        "Feature Flags"
+      ],
+      "next": [
+        "Scaling & Capacity"
+      ],
+      "alternatives": [
+        "Rollbacks & Kill Switches",
+        "Feature Flags"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Scaling & Capacity",
+      "slug": "scaling-and-capacity.md",
+      "subcategory": "Operations",
+      "order": 567,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Deployment Strategies (canary, blue-green)"
+      ],
+      "related": [
+        "Cost Optimization",
+        "Uptime & Health Checks"
+      ],
+      "next": [
+        "Cost Optimization",
+        "Uptime & Health Checks"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cost Optimization",
+      "slug": "cost-optimization.md",
+      "subcategory": "Operations",
+      "order": 568,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Scaling & Capacity",
+        "Deployment Strategies (canary, blue-green)"
+      ],
+      "related": [
+        "Scaling & Capacity",
+        "Uptime & Health Checks"
+      ],
+      "next": [
+        "Uptime & Health Checks"
+      ],
+      "alternatives": [
+        "Uptime & Health Checks"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Uptime & Health Checks",
+      "slug": "uptime-and-health-checks.md",
+      "subcategory": "Operations",
+      "order": 569,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Scaling & Capacity",
+        "Deployment Strategies (canary, blue-green)"
+      ],
+      "related": [
+        "Scaling & Capacity",
+        "Cost Optimization"
+      ],
+      "next": [
+        "Locale Modeling & Negotiation"
+      ],
+      "alternatives": [
+        "Cost Optimization"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#delivery-infrastructure",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

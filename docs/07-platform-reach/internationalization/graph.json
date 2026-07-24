@@ -1,0 +1,421 @@
+{
+  "domain": "Internationalization & Localization",
+  "part": "07 · Platform Reach",
+  "path": "docs/07-platform-reach/internationalization",
+  "depends_on": [
+    "CSS & Visual Systems",
+    "JavaScript"
+  ],
+  "node_count": 16,
+  "estimated_minutes": 265,
+  "nodes": [
+    {
+      "title": "Locale Modeling & Negotiation",
+      "slug": "locale-modeling-and-negotiation.md",
+      "subcategory": "Locale",
+      "order": 570,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Specificity · CSS & Visual Systems",
+        "Primitives & Wrappers · JavaScript"
+      ],
+      "related": [
+        "Language Detection"
+      ],
+      "next": [
+        "Language Detection",
+        "Number, Date & Currency Formatting",
+        "The Intl API",
+        "Relative & Duration Formatting"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Language Detection",
+      "slug": "language-detection.md",
+      "subcategory": "Locale",
+      "order": 571,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Locale Modeling & Negotiation"
+      ],
+      "related": [
+        "Locale Modeling & Negotiation"
+      ],
+      "next": [
+        "Number, Date & Currency Formatting"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Number, Date & Currency Formatting",
+      "slug": "number-date-and-currency-formatting.md",
+      "subcategory": "Formatting",
+      "order": 572,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Locale Modeling & Negotiation"
+      ],
+      "related": [
+        "The Intl API",
+        "Relative & Duration Formatting"
+      ],
+      "next": [
+        "The Intl API",
+        "Relative & Duration Formatting",
+        "Message Catalogs",
+        "Translation Workflow & TMS",
+        "Interpolation & Rich Text"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Intl API",
+      "slug": "the-intl-api.md",
+      "subcategory": "Formatting",
+      "order": 573,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Number, Date & Currency Formatting",
+        "Locale Modeling & Negotiation"
+      ],
+      "related": [
+        "Number, Date & Currency Formatting",
+        "Relative & Duration Formatting"
+      ],
+      "next": [
+        "Relative & Duration Formatting"
+      ],
+      "alternatives": [
+        "Relative & Duration Formatting"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Relative & Duration Formatting",
+      "slug": "relative-and-duration-formatting.md",
+      "subcategory": "Formatting",
+      "order": 574,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Number, Date & Currency Formatting",
+        "Locale Modeling & Negotiation"
+      ],
+      "related": [
+        "Number, Date & Currency Formatting",
+        "The Intl API"
+      ],
+      "next": [
+        "Message Catalogs"
+      ],
+      "alternatives": [
+        "The Intl API"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Message Catalogs",
+      "slug": "message-catalogs.md",
+      "subcategory": "Translation",
+      "order": 575,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Number, Date & Currency Formatting"
+      ],
+      "related": [
+        "Translation Workflow & TMS",
+        "Interpolation & Rich Text"
+      ],
+      "next": [
+        "Translation Workflow & TMS",
+        "Interpolation & Rich Text",
+        "Pluralization",
+        "Gender & Select",
+        "Collation & Sorting"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Translation Workflow & TMS",
+      "slug": "translation-workflow-and-tms.md",
+      "subcategory": "Translation",
+      "order": 576,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Message Catalogs",
+        "Number, Date & Currency Formatting"
+      ],
+      "related": [
+        "Message Catalogs",
+        "Interpolation & Rich Text"
+      ],
+      "next": [
+        "Interpolation & Rich Text"
+      ],
+      "alternatives": [
+        "Interpolation & Rich Text"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Interpolation & Rich Text",
+      "slug": "interpolation-and-rich-text.md",
+      "subcategory": "Translation",
+      "order": 577,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Message Catalogs",
+        "Number, Date & Currency Formatting"
+      ],
+      "related": [
+        "Message Catalogs",
+        "Translation Workflow & TMS"
+      ],
+      "next": [
+        "Pluralization"
+      ],
+      "alternatives": [
+        "Translation Workflow & TMS"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Pluralization",
+      "slug": "pluralization.md",
+      "subcategory": "Grammar",
+      "order": 578,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Message Catalogs"
+      ],
+      "related": [
+        "Gender & Select",
+        "Collation & Sorting"
+      ],
+      "next": [
+        "Gender & Select",
+        "Collation & Sorting",
+        "Bidirectional Text (RTL)",
+        "Logical Properties",
+        "Complex Scripts & Shaping"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Gender & Select",
+      "slug": "gender-and-select.md",
+      "subcategory": "Grammar",
+      "order": 579,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Pluralization",
+        "Message Catalogs"
+      ],
+      "related": [
+        "Pluralization",
+        "Collation & Sorting"
+      ],
+      "next": [
+        "Collation & Sorting"
+      ],
+      "alternatives": [
+        "Collation & Sorting"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Collation & Sorting",
+      "slug": "collation-and-sorting.md",
+      "subcategory": "Grammar",
+      "order": 580,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Pluralization",
+        "Message Catalogs"
+      ],
+      "related": [
+        "Pluralization",
+        "Gender & Select"
+      ],
+      "next": [
+        "Bidirectional Text (RTL)"
+      ],
+      "alternatives": [
+        "Gender & Select"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Bidirectional Text (RTL)",
+      "slug": "bidirectional-text-rtl.md",
+      "subcategory": "Layout",
+      "order": 581,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Pluralization"
+      ],
+      "related": [
+        "Logical Properties",
+        "Complex Scripts & Shaping"
+      ],
+      "next": [
+        "Logical Properties",
+        "Complex Scripts & Shaping",
+        "Locale-Aware Routing",
+        "Cultural Adaptation"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Logical Properties",
+      "slug": "logical-properties.md",
+      "subcategory": "Layout",
+      "order": 582,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Bidirectional Text (RTL)",
+        "Pluralization"
+      ],
+      "related": [
+        "Bidirectional Text (RTL)",
+        "Complex Scripts & Shaping"
+      ],
+      "next": [
+        "Complex Scripts & Shaping"
+      ],
+      "alternatives": [
+        "Complex Scripts & Shaping"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Complex Scripts & Shaping",
+      "slug": "complex-scripts-and-shaping.md",
+      "subcategory": "Layout",
+      "order": 583,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Bidirectional Text (RTL)",
+        "Pluralization"
+      ],
+      "related": [
+        "Bidirectional Text (RTL)",
+        "Logical Properties"
+      ],
+      "next": [
+        "Locale-Aware Routing"
+      ],
+      "alternatives": [
+        "Logical Properties"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Locale-Aware Routing",
+      "slug": "locale-aware-routing.md",
+      "subcategory": "Content",
+      "order": 584,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Bidirectional Text (RTL)"
+      ],
+      "related": [
+        "Cultural Adaptation"
+      ],
+      "next": [
+        "Cultural Adaptation"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cultural Adaptation",
+      "slug": "cultural-adaptation.md",
+      "subcategory": "Content",
+      "order": 585,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Locale-Aware Routing",
+        "Bidirectional Text (RTL)"
+      ],
+      "related": [
+        "Locale-Aware Routing"
+      ],
+      "next": [
+        "The Service Worker Lifecycle"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#internationalization-localization",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

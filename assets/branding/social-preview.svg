@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Frontend Engineering social preview">
+  <rect width="1280" height="640" fill="#0B1220"/>
+  <rect width="1280" height="640" fill="#111a2e" opacity="0.35"/>
+  <!-- node graph motif lower-right -->
+  <g opacity="0.55" stroke="#1e2a44" stroke-width="3" fill="none">
+    <line x1="900" y1="380" x2="1030" y2="450"/><line x1="1030" y1="450" x2="960" y2="560"/>
+    <line x1="1030" y1="450" x2="1150" y2="410"/><line x1="1030" y1="450" x2="1120" y2="560"/>
+  </g>
+  <g fill="#22D3AA"><circle cx="900" cy="380" r="8"/><circle cx="960" cy="560" r="8"/><circle cx="1150" cy="410" r="8"/><circle cx="1120" cy="560" r="8"/></g>
+  <circle cx="1030" cy="450" r="12" fill="#38BDF8"/>
+  <!-- mark -->
+  <g transform="translate(110,96)">
+    <path d="M34 6 L12 40 L34 74" fill="none" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M120 6 L142 40 L120 74" fill="none" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="270" y="165" font-family="Inter, Segoe UI, sans-serif" font-size="44" font-weight="700" fill="#F5F7FA">Frontend Engineering</text>
+  <text x="110" y="300" font-family="Inter, Segoe UI, sans-serif" font-size="88" font-weight="800" fill="#F5F7FA">Engineering decisions,</text>
+  <text x="110" y="390" font-family="Inter, Segoe UI, sans-serif" font-size="88" font-weight="800" fill="#38BDF8">not tutorials.</text>
+  <text x="112" y="470" font-family="Inter, Segoe UI, sans-serif" font-size="36" fill="#94A3B8">A peer-reviewed knowledge base of patterns,</text>
+  <text x="112" y="516" font-family="Inter, Segoe UI, sans-serif" font-size="36" fill="#94A3B8">trade-offs, and production-ready practices.</text>
+  <text x="112" y="596" font-family="JetBrains Mono, monospace" font-size="24" fill="#64748B">github.com/ualiyou/frontend-engineering · MIT</text>
+</svg>

@@ -1,0 +1,404 @@
+{
+  "domain": "Observability & Reliability",
+  "part": "05 · Reliability & Quality",
+  "path": "docs/05-reliability-quality/observability",
+  "depends_on": [
+    "Performance Engineering",
+    "Delivery & Infrastructure"
+  ],
+  "node_count": 15,
+  "estimated_minutes": 255,
+  "nodes": [
+    {
+      "title": "Client Error Capture",
+      "slug": "client-error-capture.md",
+      "subcategory": "Error Tracking",
+      "order": 486,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Core Web Vitals (LCP, INP, CLS) · Performance Engineering",
+        "Static Hosting · Delivery & Infrastructure"
+      ],
+      "related": [
+        "Source Maps & Symbolication",
+        "Error Grouping & Alerting"
+      ],
+      "next": [
+        "Source Maps & Symbolication",
+        "Error Grouping & Alerting",
+        "RUM & Field Vitals",
+        "Session Replay",
+        "Sampling Strategies"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Source Maps & Symbolication",
+      "slug": "source-maps-and-symbolication.md",
+      "subcategory": "Error Tracking",
+      "order": 487,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Client Error Capture"
+      ],
+      "related": [
+        "Client Error Capture",
+        "Error Grouping & Alerting"
+      ],
+      "next": [
+        "Error Grouping & Alerting"
+      ],
+      "alternatives": [
+        "Error Grouping & Alerting"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Error Grouping & Alerting",
+      "slug": "error-grouping-and-alerting.md",
+      "subcategory": "Error Tracking",
+      "order": 488,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Client Error Capture"
+      ],
+      "related": [
+        "Client Error Capture",
+        "Source Maps & Symbolication"
+      ],
+      "next": [
+        "RUM & Field Vitals"
+      ],
+      "alternatives": [
+        "Source Maps & Symbolication"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "RUM & Field Vitals",
+      "slug": "rum-and-field-vitals.md",
+      "subcategory": "Real-User Monitoring",
+      "order": 489,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Client Error Capture"
+      ],
+      "related": [
+        "Session Replay",
+        "Sampling Strategies"
+      ],
+      "next": [
+        "Session Replay",
+        "Sampling Strategies",
+        "Structured Logging",
+        "Frontend Tracing & Spans",
+        "Custom Metrics & Events"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Session Replay",
+      "slug": "session-replay.md",
+      "subcategory": "Real-User Monitoring",
+      "order": 490,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "RUM & Field Vitals",
+        "Client Error Capture"
+      ],
+      "related": [
+        "RUM & Field Vitals",
+        "Sampling Strategies"
+      ],
+      "next": [
+        "Sampling Strategies"
+      ],
+      "alternatives": [
+        "Sampling Strategies"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Sampling Strategies",
+      "slug": "sampling-strategies.md",
+      "subcategory": "Real-User Monitoring",
+      "order": 491,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "RUM & Field Vitals",
+        "Client Error Capture"
+      ],
+      "related": [
+        "RUM & Field Vitals",
+        "Session Replay"
+      ],
+      "next": [
+        "Structured Logging"
+      ],
+      "alternatives": [
+        "Session Replay"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Structured Logging",
+      "slug": "structured-logging.md",
+      "subcategory": "Instrumentation",
+      "order": 492,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "RUM & Field Vitals"
+      ],
+      "related": [
+        "Frontend Tracing & Spans",
+        "Custom Metrics & Events"
+      ],
+      "next": [
+        "Frontend Tracing & Spans",
+        "Custom Metrics & Events",
+        "Analytics Events",
+        "Funnels & Conversion",
+        "Privacy-Safe Analytics"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Frontend Tracing & Spans",
+      "slug": "frontend-tracing-and-spans.md",
+      "subcategory": "Instrumentation",
+      "order": 493,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Structured Logging",
+        "RUM & Field Vitals"
+      ],
+      "related": [
+        "Structured Logging",
+        "Custom Metrics & Events"
+      ],
+      "next": [
+        "Custom Metrics & Events"
+      ],
+      "alternatives": [
+        "Custom Metrics & Events"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Custom Metrics & Events",
+      "slug": "custom-metrics-and-events.md",
+      "subcategory": "Instrumentation",
+      "order": 494,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Structured Logging",
+        "RUM & Field Vitals"
+      ],
+      "related": [
+        "Structured Logging",
+        "Frontend Tracing & Spans"
+      ],
+      "next": [
+        "Analytics Events"
+      ],
+      "alternatives": [
+        "Frontend Tracing & Spans"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Analytics Events",
+      "slug": "analytics-events.md",
+      "subcategory": "Product Telemetry",
+      "order": 495,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Structured Logging"
+      ],
+      "related": [
+        "Funnels & Conversion",
+        "Privacy-Safe Analytics"
+      ],
+      "next": [
+        "Funnels & Conversion",
+        "Privacy-Safe Analytics",
+        "On-Call & Alerting",
+        "Postmortems & RCA",
+        "Error Budgets & SLOs"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Funnels & Conversion",
+      "slug": "funnels-and-conversion.md",
+      "subcategory": "Product Telemetry",
+      "order": 496,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Analytics Events",
+        "Structured Logging"
+      ],
+      "related": [
+        "Analytics Events",
+        "Privacy-Safe Analytics"
+      ],
+      "next": [
+        "Privacy-Safe Analytics"
+      ],
+      "alternatives": [
+        "Privacy-Safe Analytics"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Privacy-Safe Analytics",
+      "slug": "privacy-safe-analytics.md",
+      "subcategory": "Product Telemetry",
+      "order": 497,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Analytics Events",
+        "Structured Logging"
+      ],
+      "related": [
+        "Analytics Events",
+        "Funnels & Conversion"
+      ],
+      "next": [
+        "On-Call & Alerting"
+      ],
+      "alternatives": [
+        "Funnels & Conversion"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "On-Call & Alerting",
+      "slug": "on-call-and-alerting.md",
+      "subcategory": "Incident Response",
+      "order": 498,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "Analytics Events"
+      ],
+      "related": [
+        "Postmortems & RCA",
+        "Error Budgets & SLOs"
+      ],
+      "next": [
+        "Postmortems & RCA",
+        "Error Budgets & SLOs"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Postmortems & RCA",
+      "slug": "postmortems-and-rca.md",
+      "subcategory": "Incident Response",
+      "order": 499,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "On-Call & Alerting",
+        "Analytics Events"
+      ],
+      "related": [
+        "On-Call & Alerting",
+        "Error Budgets & SLOs"
+      ],
+      "next": [
+        "Error Budgets & SLOs"
+      ],
+      "alternatives": [
+        "Error Budgets & SLOs"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Error Budgets & SLOs",
+      "slug": "error-budgets-and-slos.md",
+      "subcategory": "Incident Response",
+      "order": 500,
+      "difficulty": "Staff",
+      "reading_time_min": 20,
+      "prerequisites": [
+        "On-Call & Alerting",
+        "Analytics Events"
+      ],
+      "related": [
+        "On-Call & Alerting",
+        "Postmortems & RCA"
+      ],
+      "next": [
+        "Bundler Models"
+      ],
+      "alternatives": [
+        "Postmortems & RCA"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#observability-reliability",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

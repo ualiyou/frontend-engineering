@@ -1,0 +1,19 @@
+# macOS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local environment files
+.env
+.env.*
+!.env.example

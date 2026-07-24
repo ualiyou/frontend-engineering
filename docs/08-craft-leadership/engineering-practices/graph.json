@@ -1,0 +1,532 @@
+{
+  "domain": "Engineering Practices",
+  "part": "08 · Craft & Leadership",
+  "path": "docs/08-craft-leadership/engineering-practices",
+  "depends_on": [
+    "Frontend Architecture",
+    "Testing & Quality"
+  ],
+  "node_count": 20,
+  "estimated_minutes": 335,
+  "nodes": [
+    {
+      "title": "Naming",
+      "slug": "naming.md",
+      "subcategory": "Readable Code",
+      "order": 615,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Separation of Concerns · Frontend Architecture",
+        "The Testing Pyramid/Trophy · Testing & Quality"
+      ],
+      "related": [
+        "Function & Module Size",
+        "Comments & Intent"
+      ],
+      "next": [
+        "Function & Module Size",
+        "Comments & Intent",
+        "Refactoring",
+        "Managing Technical Debt",
+        "Legacy Code Strategy"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Function & Module Size",
+      "slug": "function-and-module-size.md",
+      "subcategory": "Readable Code",
+      "order": 616,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Naming"
+      ],
+      "related": [
+        "Naming",
+        "Comments & Intent"
+      ],
+      "next": [
+        "Comments & Intent"
+      ],
+      "alternatives": [
+        "Comments & Intent"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Comments & Intent",
+      "slug": "comments-and-intent.md",
+      "subcategory": "Readable Code",
+      "order": 617,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Naming"
+      ],
+      "related": [
+        "Naming",
+        "Function & Module Size"
+      ],
+      "next": [
+        "Refactoring"
+      ],
+      "alternatives": [
+        "Function & Module Size"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Refactoring",
+      "slug": "refactoring.md",
+      "subcategory": "Change & Debt",
+      "order": 618,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Naming"
+      ],
+      "related": [
+        "Managing Technical Debt",
+        "Legacy Code Strategy"
+      ],
+      "next": [
+        "Managing Technical Debt",
+        "Legacy Code Strategy",
+        "Abstraction & Leaky Abstractions",
+        "Coupling & Cohesion",
+        "SOLID for Frontend"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Managing Technical Debt",
+      "slug": "managing-technical-debt.md",
+      "subcategory": "Change & Debt",
+      "order": 619,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Refactoring",
+        "Naming"
+      ],
+      "related": [
+        "Refactoring",
+        "Legacy Code Strategy"
+      ],
+      "next": [
+        "Legacy Code Strategy"
+      ],
+      "alternatives": [
+        "Legacy Code Strategy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Legacy Code Strategy",
+      "slug": "legacy-code-strategy.md",
+      "subcategory": "Change & Debt",
+      "order": 620,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Refactoring",
+        "Naming"
+      ],
+      "related": [
+        "Refactoring",
+        "Managing Technical Debt"
+      ],
+      "next": [
+        "Abstraction & Leaky Abstractions"
+      ],
+      "alternatives": [
+        "Managing Technical Debt"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Abstraction & Leaky Abstractions",
+      "slug": "abstraction-and-leaky-abstractions.md",
+      "subcategory": "Design Principles",
+      "order": 621,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Refactoring"
+      ],
+      "related": [
+        "Coupling & Cohesion",
+        "SOLID for Frontend",
+        "YAGNI & Simplicity"
+      ],
+      "next": [
+        "Coupling & Cohesion",
+        "SOLID for Frontend",
+        "YAGNI & Simplicity",
+        "Code Review as a Discipline",
+        "Giving & Receiving Feedback"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Coupling & Cohesion",
+      "slug": "coupling-and-cohesion.md",
+      "subcategory": "Design Principles",
+      "order": 622,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Abstraction & Leaky Abstractions",
+        "Refactoring"
+      ],
+      "related": [
+        "Abstraction & Leaky Abstractions",
+        "SOLID for Frontend",
+        "YAGNI & Simplicity"
+      ],
+      "next": [
+        "SOLID for Frontend"
+      ],
+      "alternatives": [
+        "SOLID for Frontend",
+        "YAGNI & Simplicity"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "SOLID for Frontend",
+      "slug": "solid-for-frontend.md",
+      "subcategory": "Design Principles",
+      "order": 623,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Abstraction & Leaky Abstractions",
+        "Refactoring"
+      ],
+      "related": [
+        "Abstraction & Leaky Abstractions",
+        "Coupling & Cohesion",
+        "YAGNI & Simplicity"
+      ],
+      "next": [
+        "YAGNI & Simplicity"
+      ],
+      "alternatives": [
+        "Coupling & Cohesion",
+        "YAGNI & Simplicity"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "YAGNI & Simplicity",
+      "slug": "yagni-and-simplicity.md",
+      "subcategory": "Design Principles",
+      "order": 624,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Abstraction & Leaky Abstractions",
+        "Refactoring"
+      ],
+      "related": [
+        "Abstraction & Leaky Abstractions",
+        "Coupling & Cohesion",
+        "SOLID for Frontend"
+      ],
+      "next": [
+        "Code Review as a Discipline"
+      ],
+      "alternatives": [
+        "Coupling & Cohesion",
+        "SOLID for Frontend"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Code Review as a Discipline",
+      "slug": "code-review-as-a-discipline.md",
+      "subcategory": "Review",
+      "order": 625,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Abstraction & Leaky Abstractions"
+      ],
+      "related": [
+        "Giving & Receiving Feedback"
+      ],
+      "next": [
+        "Giving & Receiving Feedback",
+        "Error-Handling Philosophy",
+        "Defensive vs Offensive Programming",
+        "Graceful Degradation"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Giving & Receiving Feedback",
+      "slug": "giving-and-receiving-feedback.md",
+      "subcategory": "Review",
+      "order": 626,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Code Review as a Discipline",
+        "Abstraction & Leaky Abstractions"
+      ],
+      "related": [
+        "Code Review as a Discipline"
+      ],
+      "next": [
+        "Error-Handling Philosophy"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Error-Handling Philosophy",
+      "slug": "error-handling-philosophy.md",
+      "subcategory": "Robustness",
+      "order": 627,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Code Review as a Discipline"
+      ],
+      "related": [
+        "Defensive vs Offensive Programming",
+        "Graceful Degradation"
+      ],
+      "next": [
+        "Defensive vs Offensive Programming",
+        "Graceful Degradation",
+        "Documentation Practices",
+        "Knowledge Sharing & Bus Factor"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Defensive vs Offensive Programming",
+      "slug": "defensive-vs-offensive-programming.md",
+      "subcategory": "Robustness",
+      "order": 628,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Error-Handling Philosophy",
+        "Code Review as a Discipline"
+      ],
+      "related": [
+        "Error-Handling Philosophy",
+        "Graceful Degradation"
+      ],
+      "next": [
+        "Graceful Degradation"
+      ],
+      "alternatives": [
+        "Graceful Degradation"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Graceful Degradation",
+      "slug": "graceful-degradation.md",
+      "subcategory": "Robustness",
+      "order": 629,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Error-Handling Philosophy",
+        "Code Review as a Discipline"
+      ],
+      "related": [
+        "Error-Handling Philosophy",
+        "Defensive vs Offensive Programming"
+      ],
+      "next": [
+        "Documentation Practices"
+      ],
+      "alternatives": [
+        "Defensive vs Offensive Programming"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Documentation Practices",
+      "slug": "documentation-practices.md",
+      "subcategory": "Knowledge",
+      "order": 630,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Error-Handling Philosophy"
+      ],
+      "related": [
+        "Knowledge Sharing & Bus Factor"
+      ],
+      "next": [
+        "Knowledge Sharing & Bus Factor",
+        "API & Interface Stability",
+        "Backward Compatibility",
+        "Deprecation Strategy"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Knowledge Sharing & Bus Factor",
+      "slug": "knowledge-sharing-and-bus-factor.md",
+      "subcategory": "Knowledge",
+      "order": 631,
+      "difficulty": "Advanced",
+      "reading_time_min": 19,
+      "prerequisites": [
+        "Documentation Practices",
+        "Error-Handling Philosophy"
+      ],
+      "related": [
+        "Documentation Practices"
+      ],
+      "next": [
+        "API & Interface Stability"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "API & Interface Stability",
+      "slug": "api-and-interface-stability.md",
+      "subcategory": "Interfaces",
+      "order": 632,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "Documentation Practices"
+      ],
+      "related": [
+        "Backward Compatibility",
+        "Deprecation Strategy"
+      ],
+      "next": [
+        "Backward Compatibility",
+        "Deprecation Strategy"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Backward Compatibility",
+      "slug": "backward-compatibility.md",
+      "subcategory": "Interfaces",
+      "order": 633,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "API & Interface Stability",
+        "Documentation Practices"
+      ],
+      "related": [
+        "API & Interface Stability",
+        "Deprecation Strategy"
+      ],
+      "next": [
+        "Deprecation Strategy"
+      ],
+      "alternatives": [
+        "Deprecation Strategy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Deprecation Strategy",
+      "slug": "deprecation-strategy.md",
+      "subcategory": "Interfaces",
+      "order": 634,
+      "difficulty": "Advanced",
+      "reading_time_min": 16,
+      "prerequisites": [
+        "API & Interface Stability",
+        "Documentation Practices"
+      ],
+      "related": [
+        "API & Interface Stability",
+        "Backward Compatibility"
+      ],
+      "next": [
+        "Trade-off Analysis · Systems Thinking & Leadership"
+      ],
+      "alternatives": [
+        "Backward Compatibility"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#engineering-practices",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

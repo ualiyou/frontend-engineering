@@ -1,0 +1,652 @@
+{
+  "domain": "Browser APIs",
+  "part": "00 · Foundations",
+  "path": "docs/00-foundations/browser-apis",
+  "depends_on": [
+    "The Web Platform"
+  ],
+  "node_count": 23,
+  "estimated_minutes": 199,
+  "nodes": [
+    {
+      "title": "Web Storage",
+      "slug": "web-storage.md",
+      "subcategory": "Storage",
+      "order": 55,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Process & Thread Architecture · The Web Platform"
+      ],
+      "related": [
+        "IndexedDB",
+        "The Cache Storage API",
+        "Cookies & Partitioned Storage",
+        "Storage Quotas & Eviction"
+      ],
+      "next": [
+        "IndexedDB",
+        "The Cache Storage API",
+        "Cookies & Partitioned Storage",
+        "Storage Quotas & Eviction",
+        "Intersection Observer"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "IndexedDB",
+      "slug": "indexeddb.md",
+      "subcategory": "Storage",
+      "order": 56,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Web Storage"
+      ],
+      "related": [
+        "Web Storage",
+        "The Cache Storage API",
+        "Cookies & Partitioned Storage",
+        "Storage Quotas & Eviction"
+      ],
+      "next": [
+        "The Cache Storage API"
+      ],
+      "alternatives": [
+        "The Cache Storage API",
+        "Cookies & Partitioned Storage",
+        "Storage Quotas & Eviction"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Cache Storage API",
+      "slug": "the-cache-storage-api.md",
+      "subcategory": "Storage",
+      "order": 57,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Web Storage"
+      ],
+      "related": [
+        "Web Storage",
+        "IndexedDB",
+        "Cookies & Partitioned Storage",
+        "Storage Quotas & Eviction"
+      ],
+      "next": [
+        "Cookies & Partitioned Storage"
+      ],
+      "alternatives": [
+        "IndexedDB",
+        "Cookies & Partitioned Storage",
+        "Storage Quotas & Eviction"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Cookies & Partitioned Storage",
+      "slug": "cookies-and-partitioned-storage.md",
+      "subcategory": "Storage",
+      "order": 58,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Web Storage"
+      ],
+      "related": [
+        "Web Storage",
+        "IndexedDB",
+        "The Cache Storage API",
+        "Storage Quotas & Eviction"
+      ],
+      "next": [
+        "Storage Quotas & Eviction"
+      ],
+      "alternatives": [
+        "IndexedDB",
+        "The Cache Storage API",
+        "Storage Quotas & Eviction"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Storage Quotas & Eviction",
+      "slug": "storage-quotas-and-eviction.md",
+      "subcategory": "Storage",
+      "order": 59,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Web Storage"
+      ],
+      "related": [
+        "Web Storage",
+        "IndexedDB",
+        "The Cache Storage API",
+        "Cookies & Partitioned Storage"
+      ],
+      "next": [
+        "Intersection Observer"
+      ],
+      "alternatives": [
+        "IndexedDB",
+        "The Cache Storage API",
+        "Cookies & Partitioned Storage"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Intersection Observer",
+      "slug": "intersection-observer.md",
+      "subcategory": "Observers",
+      "order": 60,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Web Storage"
+      ],
+      "related": [
+        "Resize Observer",
+        "Mutation Observer",
+        "Performance Observer"
+      ],
+      "next": [
+        "Resize Observer",
+        "Mutation Observer",
+        "Performance Observer",
+        "Media Capture & Streams",
+        "The Clipboard API"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Resize Observer",
+      "slug": "resize-observer.md",
+      "subcategory": "Observers",
+      "order": 61,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Intersection Observer",
+        "Web Storage"
+      ],
+      "related": [
+        "Intersection Observer",
+        "Mutation Observer",
+        "Performance Observer"
+      ],
+      "next": [
+        "Mutation Observer"
+      ],
+      "alternatives": [
+        "Mutation Observer",
+        "Performance Observer"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Mutation Observer",
+      "slug": "mutation-observer.md",
+      "subcategory": "Observers",
+      "order": 62,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Intersection Observer",
+        "Web Storage"
+      ],
+      "related": [
+        "Intersection Observer",
+        "Resize Observer",
+        "Performance Observer"
+      ],
+      "next": [
+        "Performance Observer"
+      ],
+      "alternatives": [
+        "Resize Observer",
+        "Performance Observer"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Performance Observer",
+      "slug": "performance-observer.md",
+      "subcategory": "Observers",
+      "order": 63,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Intersection Observer",
+        "Web Storage"
+      ],
+      "related": [
+        "Intersection Observer",
+        "Resize Observer",
+        "Mutation Observer"
+      ],
+      "next": [
+        "Media Capture & Streams"
+      ],
+      "alternatives": [
+        "Resize Observer",
+        "Mutation Observer"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Media Capture & Streams",
+      "slug": "media-capture-and-streams.md",
+      "subcategory": "Device & Media",
+      "order": 64,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Intersection Observer"
+      ],
+      "related": [
+        "The Clipboard API",
+        "File & File System Access",
+        "Geolocation & Sensors",
+        "Notifications & Permissions"
+      ],
+      "next": [
+        "The Clipboard API",
+        "File & File System Access",
+        "Geolocation & Sensors",
+        "Notifications & Permissions",
+        "The History API"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Clipboard API",
+      "slug": "the-clipboard-api.md",
+      "subcategory": "Device & Media",
+      "order": 65,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Media Capture & Streams",
+        "Intersection Observer"
+      ],
+      "related": [
+        "Media Capture & Streams",
+        "File & File System Access",
+        "Geolocation & Sensors",
+        "Notifications & Permissions"
+      ],
+      "next": [
+        "File & File System Access"
+      ],
+      "alternatives": [
+        "File & File System Access",
+        "Geolocation & Sensors",
+        "Notifications & Permissions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "File & File System Access",
+      "slug": "file-and-file-system-access.md",
+      "subcategory": "Device & Media",
+      "order": 66,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Media Capture & Streams",
+        "Intersection Observer"
+      ],
+      "related": [
+        "Media Capture & Streams",
+        "The Clipboard API",
+        "Geolocation & Sensors",
+        "Notifications & Permissions"
+      ],
+      "next": [
+        "Geolocation & Sensors"
+      ],
+      "alternatives": [
+        "The Clipboard API",
+        "Geolocation & Sensors",
+        "Notifications & Permissions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Geolocation & Sensors",
+      "slug": "geolocation-and-sensors.md",
+      "subcategory": "Device & Media",
+      "order": 67,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Media Capture & Streams",
+        "Intersection Observer"
+      ],
+      "related": [
+        "Media Capture & Streams",
+        "The Clipboard API",
+        "File & File System Access",
+        "Notifications & Permissions"
+      ],
+      "next": [
+        "Notifications & Permissions"
+      ],
+      "alternatives": [
+        "The Clipboard API",
+        "File & File System Access",
+        "Notifications & Permissions"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Notifications & Permissions",
+      "slug": "notifications-and-permissions.md",
+      "subcategory": "Device & Media",
+      "order": 68,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Media Capture & Streams",
+        "Intersection Observer"
+      ],
+      "related": [
+        "Media Capture & Streams",
+        "The Clipboard API",
+        "File & File System Access",
+        "Geolocation & Sensors"
+      ],
+      "next": [
+        "The History API"
+      ],
+      "alternatives": [
+        "The Clipboard API",
+        "File & File System Access",
+        "Geolocation & Sensors"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The History API",
+      "slug": "the-history-api.md",
+      "subcategory": "Navigation & History",
+      "order": 69,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Media Capture & Streams"
+      ],
+      "related": [
+        "The Navigation API",
+        "URL & URLSearchParams"
+      ],
+      "next": [
+        "The Navigation API",
+        "URL & URLSearchParams",
+        "Timers & requestIdleCallback",
+        "requestAnimationFrame",
+        "The Scheduler API (postTask)"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Navigation API",
+      "slug": "the-navigation-api.md",
+      "subcategory": "Navigation & History",
+      "order": 70,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The History API",
+        "Media Capture & Streams"
+      ],
+      "related": [
+        "The History API",
+        "URL & URLSearchParams"
+      ],
+      "next": [
+        "URL & URLSearchParams"
+      ],
+      "alternatives": [
+        "URL & URLSearchParams"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "URL & URLSearchParams",
+      "slug": "url-and-urlsearchparams.md",
+      "subcategory": "Navigation & History",
+      "order": 71,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "The History API",
+        "Media Capture & Streams"
+      ],
+      "related": [
+        "The History API",
+        "The Navigation API"
+      ],
+      "next": [
+        "Timers & requestIdleCallback"
+      ],
+      "alternatives": [
+        "The Navigation API"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Timers & requestIdleCallback",
+      "slug": "timers-and-requestidlecallback.md",
+      "subcategory": "Timing & Scheduling",
+      "order": 72,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "The History API"
+      ],
+      "related": [
+        "requestAnimationFrame",
+        "The Scheduler API (postTask)"
+      ],
+      "next": [
+        "requestAnimationFrame",
+        "The Scheduler API (postTask)",
+        "Feature Detection",
+        "Permissions Policy",
+        "Progressive Enhancement Strategy"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "requestAnimationFrame",
+      "slug": "requestanimationframe.md",
+      "subcategory": "Timing & Scheduling",
+      "order": 73,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Timers & requestIdleCallback",
+        "The History API"
+      ],
+      "related": [
+        "Timers & requestIdleCallback",
+        "The Scheduler API (postTask)"
+      ],
+      "next": [
+        "The Scheduler API (postTask)"
+      ],
+      "alternatives": [
+        "The Scheduler API (postTask)"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "The Scheduler API (postTask)",
+      "slug": "the-scheduler-api-posttask.md",
+      "subcategory": "Timing & Scheduling",
+      "order": 74,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Timers & requestIdleCallback",
+        "The History API"
+      ],
+      "related": [
+        "Timers & requestIdleCallback",
+        "requestAnimationFrame"
+      ],
+      "next": [
+        "Feature Detection"
+      ],
+      "alternatives": [
+        "requestAnimationFrame"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Feature Detection",
+      "slug": "feature-detection.md",
+      "subcategory": "Capability Model",
+      "order": 75,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Timers & requestIdleCallback"
+      ],
+      "related": [
+        "Permissions Policy",
+        "Progressive Enhancement Strategy"
+      ],
+      "next": [
+        "Permissions Policy",
+        "Progressive Enhancement Strategy"
+      ],
+      "alternatives": [],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Permissions Policy",
+      "slug": "permissions-policy.md",
+      "subcategory": "Capability Model",
+      "order": 76,
+      "difficulty": "Foundational",
+      "reading_time_min": 8,
+      "prerequisites": [
+        "Feature Detection",
+        "Timers & requestIdleCallback"
+      ],
+      "related": [
+        "Feature Detection",
+        "Progressive Enhancement Strategy"
+      ],
+      "next": [
+        "Progressive Enhancement Strategy"
+      ],
+      "alternatives": [
+        "Progressive Enhancement Strategy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    },
+    {
+      "title": "Progressive Enhancement Strategy",
+      "slug": "progressive-enhancement-strategy.md",
+      "subcategory": "Capability Model",
+      "order": 77,
+      "difficulty": "Foundational",
+      "reading_time_min": 11,
+      "prerequisites": [
+        "Feature Detection",
+        "Timers & requestIdleCallback"
+      ],
+      "related": [
+        "Feature Detection",
+        "Permissions Policy"
+      ],
+      "next": [
+        "HTTP/1.1 Semantics"
+      ],
+      "alternatives": [
+        "Permissions Policy"
+      ],
+      "common_mistakes": [
+        "anti-patterns/README.md#browser-apis",
+        "#common-mistakes"
+      ]
+    }
+  ]
+}

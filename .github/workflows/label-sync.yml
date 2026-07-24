@@ -1,0 +1,22 @@
+# Keeps GitHub labels identical to .github/labels.yml (the source of truth).
+# WHY: labels edited by hand drift across a project's life; this makes them declarative.
+name: Label sync
+
+on:
+  push:
+    branches: [main]
+    paths: [".github/labels.yml"]
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: EndBug/label-sync@v2
+        with:
+          config-file: .github/labels.yml
+          delete-other-labels: false   # flip to true once fully migrated
