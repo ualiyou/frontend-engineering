@@ -90,6 +90,25 @@ Mid-level to senior frontend engineers making architectural and design decisions
 
 Browse the complete published collections: [Data & Server State](docs/03-application-architecture/data-server-state/) and [Forms & Validation](docs/03-application-architecture/forms-validation/). If this would save your team a future debate, [star the repository](https://github.com/ualiyou/frontend-engineering/stargazers) and come back when the next one begins.
 
+### ⚡ The familiar feeling
+
+<table>
+<tr><td width="50%" align="center">
+
+<a href="https://imgflip.com/memegenerator/87743020/Two-Buttons"><img src="https://i.imgflip.com/1g8my4.jpg" alt="Two Buttons meme template" width="90%" /></a>
+
+<strong>Open 14 tabs</strong> &nbsp;↔&nbsp; <strong>Compare trade-offs</strong><br/>
+<sub>Frontend engineer, 20 minutes before review.</sub>
+
+</td><td width="50%" align="center">
+
+<img src="https://api.memegen.link/images/drake/another_generic_tutorial/a_decision_guide_with_trade-offs.png?width=900" alt="Drake meme: rejecting another generic tutorial and approving a decision guide with trade-offs" width="90%" />
+
+<strong>Less recipe.</strong> More reasoning.
+
+</td></tr>
+</table>
+
 ## Features
 
 - 🗺️ **Four-level knowledge map** — Part → Domain → Topic → Article — that scales to 1000+ entries without the root ever widening.
