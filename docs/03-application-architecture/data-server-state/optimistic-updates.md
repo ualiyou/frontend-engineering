@@ -144,7 +144,7 @@ The alternative is the plain mutation flow — show pending, wait, invalidate �
 | --- | --- | --- | --- |
 | Optimistic update (this article) | Frequent, low-stakes, near-always-successful writes | Needs hand-built rollback | (this article) |
 | Pending-then-invalidate | Rare or high-stakes writes; simplicity wins | User waits a round trip | [Mutation Lifecycle](./mutation-lifecycle.md) |
-| Rollback & conflict resolution | Concurrent edits can conflict | More logic to merge/resolve | *Rollback & Conflict Resolution* (planned — see the [domain index](./README.md)) |
+| [Rollback & conflict resolution](./rollback-and-conflict-resolution.md) | Concurrent edits can conflict | More logic to merge/resolve | `Rollback & Conflict Resolution` |
 
 ## Bad Example
 
@@ -311,7 +311,7 @@ See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#dat
 
 - [Mutation Lifecycle](./mutation-lifecycle.md) — the callbacks optimism hooks into.
 - [Cache Invalidation](./cache-invalidation.md) — the reconciliation step in `onSettled`.
-- *Rollback & Conflict Resolution* handles concurrent-edit conflicts (planned — see the [Data & Server State index](./README.md)).
+- [Rollback & Conflict Resolution](./rollback-and-conflict-resolution.md) — handles concurrent-edit conflicts.
 
 ## Related Recipes
 

@@ -137,7 +137,7 @@ Invalidation is the *event-driven* way to keep data fresh; its alternatives are 
 | --- | --- | --- | --- |
 | Invalidation (this article) | A discrete event changed the data | Must know the affected keys | (this article) |
 | [Staleness & Revalidation](./staleness-and-revalidation.md) | Data changes on its own over time | Fails silently if `staleTime` is too high | `Staleness & Revalidation` |
-| Background refetching | Near-real-time freshness needed | Polling cost | *Background Refetching* (planned — see the [domain index](./README.md)) |
+| [Background refetching](./background-refetching.md) | Near-real-time freshness needed | Polling cost | `Background Refetching` |
 
 ## Bad Example
 
