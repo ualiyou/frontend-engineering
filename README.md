@@ -82,10 +82,6 @@ Mid-level to senior frontend engineers making architectural and design decisions
 
 🧭 **Ten peer-reviewed articles are already available.** Start with the decision currently slowing your team down.
 
-> 🧠 The familiar loop: collect links, debate in circles, and revisit the same choice next sprint. This repository turns that loop into an explicit trade-off.
-
-<img src="assets/branding/decision-before-after.svg" alt="Before and after using Frontend Engineering: scattered debate becomes a defensible decision" width="100%" />
-
 | If you're deciding… | Start here | You will leave with |
 | --- | --- | --- |
 | When to start a request | [Fetch-on-Render vs Render-as-You-Fetch](docs/03-application-architecture/data-server-state/fetch-on-render-vs-render-as-you-fetch.md) | A loading model that matches the user experience you need. |
