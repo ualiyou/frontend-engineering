@@ -80,7 +80,11 @@ Mid-level to senior frontend engineers making architectural and design decisions
 
 ## Start with a decision
 
-Ten peer-reviewed articles are already available. Start with the decision currently slowing your team down:
+🧭 **Ten peer-reviewed articles are already available.** Start with the decision currently slowing your team down.
+
+> 🧠 The familiar loop: collect links, debate in circles, and revisit the same choice next sprint. This repository turns that loop into an explicit trade-off.
+
+<img src="assets/branding/decision-before-after.svg" alt="Before and after using Frontend Engineering: scattered debate becomes a defensible decision" width="100%" />
 
 | If you're deciding… | Start here | You will leave with |
 | --- | --- | --- |
@@ -92,13 +96,13 @@ Browse the complete published collections: [Data & Server State](docs/03-applica
 
 ## Features
 
-- **Four-level knowledge map** — Part → Domain → Topic → Article — that scales to 1000+ entries without the root ever widening.
-- **Typed cross-links** between every article: prerequisites, next, related, alternatives, and common mistakes.
-- **Dependency graph** with difficulty, reading time, and recommended order for every entry.
-- **Role-based learning paths** — curated journeys for beginners, React developers, architects, and specialists.
-- **Standardized template** — every article contrasts a realistic *bad example* with a production-ready *good example*.
-- **Two-stage review** — technical correctness and editorial craft are checked separately before anything ships.
-- **CI-validated** — Markdown lint, link checking, spell checking, and frontmatter validation run on every change.
+- 🗺️ **Four-level knowledge map** — Part → Domain → Topic → Article — that scales to 1000+ entries without the root ever widening.
+- 🔗 **Typed cross-links** between every article: prerequisites, next, related, alternatives, and common mistakes.
+- 🧩 **Dependency graph** with difficulty, reading time, and recommended order for every entry.
+- 🧭 **Role-based learning paths** — curated journeys for beginners, React developers, architects, and specialists.
+- ⚖️ **Standardized template** — every article contrasts a realistic *bad example* with a production-ready *good example*.
+- ✅ **Two-stage review** — technical correctness and editorial craft are checked separately before anything ships.
+- 🛡️ **CI-validated** — Markdown lint, link checking, spell checking, and frontmatter validation run on every change.
 
 ## Repository structure
 

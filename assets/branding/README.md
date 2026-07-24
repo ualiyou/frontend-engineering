@@ -6,6 +6,7 @@ Source brand assets for Frontend Engineering. The SVGs are production-ready vect
 | --- | --- | --- |
 | `logo.svg` | Square mark (README hero, avatar) | Final |
 | `banner.svg` | 1280×320 README banner | Final |
+| `decision-before-after.svg` | 1280×520 README decision-loop meme | Final |
 | `social-preview.svg` | 1280×640 Open Graph layout | Final — export to `social-preview.png` for GitHub Settings → Social preview |
 
 ## Brand tokens

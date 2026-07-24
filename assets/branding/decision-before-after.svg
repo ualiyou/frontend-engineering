@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-label="Before and after using Frontend Engineering: scattered debate becomes a defensible decision">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#07111f"/><stop offset="1" stop-color="#111a2e"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#46617f" stroke-opacity=".12"/></pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="520" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="520" rx="18" fill="url(#grid)"/>
+  <text x="64" y="62" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700" letter-spacing="2.8" fill="#5ee5ff">THE FRONTEND DECISION LOOP</text>
+  <text x="64" y="105" font-family="Inter,Segoe UI,sans-serif" font-size="32" font-weight="750" fill="#f8fafc">Same question. Very different outcome.</text>
+
+  <g transform="translate(64 142)">
+    <rect width="540" height="310" rx="16" fill="#111a2e" stroke="#55354a"/>
+    <rect width="540" height="54" rx="16" fill="#21192b"/>
+    <path d="M0 38h540v16H0z" fill="#21192b"/>
+    <circle cx="29" cy="27" r="6" fill="#fb7185"/><circle cx="49" cy="27" r="6" fill="#fbbf24"/><circle cx="69" cy="27" r="6" fill="#38bdf8"/>
+    <text x="95" y="33" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#fda4af">BEFORE</text>
+    <text x="34" y="103" font-family="Inter,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#f8fafc">“How should we load this?”</text>
+    <g font-family="JetBrains Mono,ui-monospace,monospace" font-size="14" fill="#a7b8d1">
+      <text x="34" y="144">→ 14 browser tabs</text><text x="34" y="178">→ 3 conflicting blog posts</text><text x="34" y="212">→ “it depends” in Slack</text><text x="34" y="246">→ a decision revisited next sprint</text>
+    </g>
+    <path d="M392 130c39 6 66 39 54 78-10 34-52 54-88 37-29-14-42-52-27-81 13-25 35-39 61-34Z" fill="none" stroke="#fb7185" stroke-width="5" stroke-dasharray="8 9"/>
+    <text x="342" y="172" font-family="Inter,Segoe UI,sans-serif" font-size="38" font-weight="800" fill="#fb7185">?</text>
+    <text x="390" y="226" font-family="Inter,Segoe UI,sans-serif" font-size="38" font-weight="800" fill="#fb7185">?</text>
+  </g>
+
+  <path d="M628 297h58" stroke="#5ee5ff" stroke-width="3" stroke-linecap="round"/>
+  <path d="m680 286 14 11-14 11" fill="none" stroke="#5ee5ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="657" cy="297" r="9" fill="#22d3aa" filter="url(#glow)"/>
+
+  <g transform="translate(710 142)">
+    <rect width="506" height="310" rx="16" fill="#0e2235" stroke="#24715f"/>
+    <rect width="506" height="54" rx="16" fill="#0d2a38"/>
+    <path d="M0 38h506v16H0z" fill="#0d2a38"/>
+    <circle cx="29" cy="27" r="6" fill="#22d3aa"/><circle cx="49" cy="27" r="6" fill="#5ee5ff"/><circle cx="69" cy="27" r="6" fill="#a7f3d0"/>
+    <text x="95" y="33" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#8cefd5">AFTER</text>
+    <text x="34" y="103" font-family="Inter,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#f8fafc">“Which trade-off fits our constraints?”</text>
+    <g font-family="JetBrains Mono,ui-monospace,monospace" font-size="14" fill="#c3d6e9">
+      <text x="34" y="144">✓ Compare viable approaches</text><text x="34" y="178">✓ See failure modes early</text><text x="34" y="212">✓ Make the choice explicit</text><text x="34" y="246">✓ Leave a decision worth keeping</text>
+    </g>
+    <path d="m412 129 17 17 35-40" fill="none" stroke="#22d3aa" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="432" cy="137" r="42" fill="none" stroke="#22d3aa" stroke-opacity=".3" stroke-width="2"/>
+  </g>
+  <text x="64" y="491" font-family="JetBrains Mono,ui-monospace,monospace" font-size="13" font-weight="700" letter-spacing="1.1" fill="#68809e">FRONTEND ENGINEERING  /  DECISIONS · TRADE-OFFS · PRACTICE</text>
+</svg>
