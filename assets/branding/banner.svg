@@ -1,25 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Frontend Engineering banner">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#111a2e"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#07111f"/><stop offset=".56" stop-color="#0c1930"/><stop offset="1" stop-color="#111a2e"/></linearGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientTransform="translate(1050 118) rotate(136) scale(315 280)" gradientUnits="userSpaceOnUse"><stop stop-color="#38bdf8" stop-opacity=".23"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="mintGlow" cx="0" cy="0" r="1" gradientTransform="translate(935 250) rotate(55) scale(230 220)" gradientUnits="userSpaceOnUse"><stop stop-color="#22d3aa" stop-opacity=".12"/><stop offset="1" stop-color="#22d3aa" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#46617f" stroke-opacity=".12"/></pattern>
+    <linearGradient id="line" x1="812" y1="80" x2="1210" y2="244" gradientUnits="userSpaceOnUse"><stop stop-color="#38bdf8" stop-opacity=".2"/><stop offset="1" stop-color="#22d3aa" stop-opacity=".72"/></linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="1280" height="320" fill="url(#bg)"/>
-  <!-- subtle node graph, right side -->
-  <g opacity="0.5" stroke="#1e2a44" stroke-width="2" fill="none">
-    <line x1="980" y1="90" x2="1080" y2="150"/><line x1="1080" y1="150" x2="1010" y2="240"/>
-    <line x1="1080" y1="150" x2="1180" y2="120"/><line x1="1080" y1="150" x2="1150" y2="230"/>
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#grid)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#cyanGlow)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#mintGlow)"/>
+  <path d="M0 280C190 235 345 360 585 282S929 204 1280 278V320H0Z" fill="#38bdf8" fill-opacity=".035"/>
+  <g transform="translate(82 82)">
+    <rect width="82" height="82" rx="24" fill="#0f213b" stroke="#365170"/>
+    <path d="m30 24-12 17 12 17m22-34 12 17-12 17" fill="none" stroke="#5ee5ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m35 56 6-9 6 9m-6-9V31" fill="none" stroke="#a5f3fc" stroke-opacity=".7" stroke-width="1.5"/>
+    <circle cx="41" cy="30" r="4" fill="#22d3aa"/><circle cx="35" cy="56" r="3" fill="#38bdf8"/><circle cx="47" cy="56" r="3" fill="#38bdf8"/>
   </g>
-  <g fill="#22D3AA" opacity="0.9">
-    <circle cx="980" cy="90" r="6"/><circle cx="1010" cy="240" r="6"/><circle cx="1180" cy="120" r="6"/><circle cx="1150" cy="230" r="6"/>
+  <text x="190" y="99" font-family="Inter,Segoe UI,sans-serif" font-size="13" font-weight="700" letter-spacing="2.8" fill="#5ee5ff">FRONTEND · KNOWLEDGE BASE</text>
+  <text x="190" y="158" font-family="Inter,Segoe UI,sans-serif" font-size="56" font-weight="750" letter-spacing="-1.8" fill="#f8fafc">Frontend Engineering</text>
+  <text x="192" y="202" font-family="Inter,Segoe UI,sans-serif" font-size="25" fill="#a7b8d1">Engineering decisions, not tutorials.</text>
+  <g transform="translate(192 232)" font-family="JetBrains Mono,ui-monospace,monospace" font-size="11" font-weight="700" letter-spacing="1.2">
+    <text fill="#5ee5ff">DECISIONS</text><text x="100" fill="#526985">/</text><text x="119" fill="#8cefd5">TRADE-OFFS</text><text x="234" fill="#526985">/</text><text x="253" fill="#9fc7e8">PRACTICE</text>
   </g>
-  <circle cx="1080" cy="150" r="9" fill="#38BDF8"/>
-  <!-- brackets mark -->
-  <g transform="translate(96,120)">
-    <path d="M40 10 L14 50 L40 90" fill="none" stroke="#38BDF8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M150 10 L176 50 L150 90" fill="none" stroke="#38BDF8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="none" stroke="url(#line)" stroke-width="2">
+    <path d="M820 83 936 142 1038 80 1176 128"/><path d="m936 142-42 105 142 25 140-91"/><path d="m936 142 100 130"/><path d="m1038 80-2 192"/><path d="m1176 128-140 144"/>
   </g>
-  <text x="320" y="150" font-family="Inter, Segoe UI, sans-serif" font-size="58" font-weight="700" fill="#F5F7FA">Frontend Engineering</text>
-  <text x="322" y="205" font-family="Inter, Segoe UI, sans-serif" font-size="30" fill="#94A3B8">Engineering decisions, not tutorials.</text>
+  <g fill="#22d3aa"><circle cx="820" cy="83" r="5"/><circle cx="1038" cy="80" r="5"/><circle cx="1176" cy="128" r="5"/><circle cx="894" cy="247" r="5"/><circle cx="1176" cy="181" r="5"/></g>
+  <circle cx="936" cy="142" r="12" fill="#38bdf8" filter="url(#softGlow)"/><circle cx="936" cy="142" r="4" fill="#e0f2fe"/>
+  <circle cx="1036" cy="272" r="9" fill="#38bdf8"/><circle cx="1036" cy="272" r="3" fill="#e0f2fe"/>
+  <text x="82" y="292" font-family="JetBrains Mono,ui-monospace,monospace" font-size="11" letter-spacing="1" fill="#68809e">651 CONCEPTS  ·  10 PUBLISHED ARTICLES  ·  OPEN SOURCE</text>
 </svg>

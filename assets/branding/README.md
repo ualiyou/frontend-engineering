@@ -1,12 +1,12 @@
 # Brand Assets
 
-Source and placeholder brand assets for Frontend Engineering. The SVGs here are **functional placeholders** — clean enough to ship today, meant to be replaced by final art.
+Source brand assets for Frontend Engineering. The SVGs are production-ready vector originals built around the project's code-and-decision-graph visual language.
 
 | File | Purpose | Status |
 | --- | --- | --- |
-| `logo.svg` | Square mark (README hero, avatar) | Placeholder — usable |
-| `banner.svg` | 1280×320 README banner | Placeholder — usable |
-| `social-preview.svg` | 1280×640 Open Graph layout | Placeholder — export to `social-preview.png` for GitHub Settings → Social preview |
+| `logo.svg` | Square mark (README hero, avatar) | Final |
+| `banner.svg` | 1280×320 README banner | Final |
+| `social-preview.svg` | 1280×640 Open Graph layout | Final — export to `social-preview.png` for GitHub Settings → Social preview |
 
 ## Brand tokens
 
