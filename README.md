@@ -95,7 +95,7 @@ Browse the complete published collections: [Data & Server State](docs/03-applica
 <table>
 <tr><td align="center">
 
-<a href="assets/memes/drake-decision-guide.png"><img src="assets/memes/drake-decision-guide.png" alt="Drake meme: rejecting another generic tutorial and approving a decision guide with trade-offs" width="90%" /></a>
+<a href="assets/memes/drake-decision-guide.png"><img src="assets/memes/drake-decision-guide.png" alt="Drake meme: rejecting another generic tutorial and approving a decision guide with trade-offs" width="50%" /></a>
 
 <strong>Less recipe.</strong> More reasoning.
 
