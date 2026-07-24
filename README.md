@@ -95,14 +95,14 @@ Browse the complete published collections: [Data & Server State](docs/03-applica
 <table>
 <tr><td width="50%" align="center">
 
-<a href="https://imgflip.com/memegenerator/87743020/Two-Buttons"><img src="https://i.imgflip.com/1g8my4.jpg" alt="Two Buttons meme template" width="90%" /></a>
+<a href="assets/memes/two-buttons.png"><img src="assets/memes/two-buttons.png" alt="Two Buttons meme: Open 14 tabs or Compare trade-offs" width="90%" /></a>
 
 <strong>Open 14 tabs</strong> &nbsp;↔&nbsp; <strong>Compare trade-offs</strong><br/>
 <sub>Frontend engineer, 20 minutes before review.</sub>
 
 </td><td width="50%" align="center">
 
-<img src="https://api.memegen.link/images/drake/another_generic_tutorial/a_decision_guide_with_trade-offs.png?width=900" alt="Drake meme: rejecting another generic tutorial and approving a decision guide with trade-offs" width="90%" />
+<a href="assets/memes/drake-decision-guide.png"><img src="assets/memes/drake-decision-guide.png" alt="Drake meme: rejecting another generic tutorial and approving a decision guide with trade-offs" width="90%" /></a>
 
 <strong>Less recipe.</strong> More reasoning.
 
