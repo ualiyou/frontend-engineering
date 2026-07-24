@@ -83,6 +83,13 @@ Mid-level to senior frontend engineers making architectural and design decisions
 - **Two-stage review** — technical correctness and editorial craft are checked separately before anything ships.
 - **CI-validated** — Markdown lint, link checking, spell checking, and frontmatter validation run on every change.
 
+## Available now
+
+Ten peer-reviewed articles are ready to read:
+
+- [Data & Server State](docs/03-application-architecture/data-server-state/) — fetching strategies, cache identity, staleness, invalidation, mutations, and optimistic updates.
+- [Forms & Validation](docs/03-application-architecture/forms-validation/) — form-state libraries, schema validation, inferred types, and accessible error messaging.
+
 ## Repository structure
 
 ```text
