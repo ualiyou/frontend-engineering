@@ -138,7 +138,7 @@ Staleness is the *time-driven* half of keeping data current; its true alternativ
 | --- | --- | --- | --- |
 | `staleTime` (this article) | Data changes on its own at a knowable rate | Wrong value fails silently | (this article) |
 | [Cache Invalidation](./cache-invalidation.md) | Data changes because of a user action | Requires knowing which keys a change affects | `Cache Invalidation` |
-| Background refetching (interval/focus) | Near-real-time freshness needed | Polling cost; battery and bandwidth | *Background Refetching* (planned — see the [domain index](./README.md)) |
+| [Background refetching (interval/focus)](./background-refetching.md) | Near-real-time freshness needed | Polling cost; battery and bandwidth | `Background Refetching` |
 
 ## Bad Example
 
@@ -262,7 +262,7 @@ See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#dat
 
 - [Cache Invalidation](./cache-invalidation.md) — the event-driven counterpart to time-driven staleness.
 - [Cache Keys & Query Identity](./cache-keys-and-query-identity.md) — staleness is tracked per key.
-- *Background Refetching* extends this to interval and focus revalidation (planned — see the [Data & Server State index](./README.md)).
+- [Background Refetching](./background-refetching.md) — extends this to interval and focus revalidation.
 
 ## Related Recipes
 

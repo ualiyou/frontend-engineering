@@ -10,8 +10,10 @@
 - [Cache Keys & Query Identity](cache-keys-and-query-identity.md)
 - [Staleness & Revalidation](staleness-and-revalidation.md)
 - [Cache Invalidation](cache-invalidation.md)
+- [Background Refetching](background-refetching.md)
 - [Mutation Lifecycle](mutation-lifecycle.md)
 - [Optimistic Updates](optimistic-updates.md)
+- [Rollback & Conflict Resolution](rollback-and-conflict-resolution.md)
 
 ## Taxonomy
 

@@ -135,7 +135,7 @@ Keep `mutationFn` pure and typed at the boundary. It takes typed `variables`, pe
 
 ## Alternative Approaches
 
-The lifecycle itself has no substitute — every write passes through these states whether or not you model them. What varies is the *cache-update strategy* layered on top: invalidate-after-success (simple, a round trip of latency) versus optimistic update (instant, needs rollback). Those are covered in [Optimistic Updates](./optimistic-updates.md) and *Rollback & Conflict Resolution* (planned). `alternatives: []` here because there is no competing way to *be* a mutation.
+The lifecycle itself has no substitute — every write passes through these states whether or not you model them. What varies is the *cache-update strategy* layered on top: invalidate-after-success (simple, a round trip of latency) versus optimistic update (instant, needs rollback). Those are covered in [Optimistic Updates](./optimistic-updates.md) and [Rollback & Conflict Resolution](./rollback-and-conflict-resolution.md). `alternatives: []` here because there is no competing way to *be* a mutation.
 
 ## Bad Example
 
@@ -297,7 +297,7 @@ See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#dat
 
 - [Optimistic Updates](./optimistic-updates.md) — using `onMutate`/`onError` to apply and roll back a write instantly.
 - [Cache Invalidation](./cache-invalidation.md) — what to do in `onSettled`.
-- *Rollback & Conflict Resolution* extends the error path (planned — see the [Data & Server State index](./README.md)).
+- [Rollback & Conflict Resolution](./rollback-and-conflict-resolution.md) — extends the error path.
 
 ## Related Recipes
 

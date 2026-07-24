@@ -261,7 +261,7 @@ See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#dat
 
 - [Cache Invalidation](./cache-invalidation.md) — how prefix keys let one mutation refresh a subtree.
 - [Staleness & Revalidation](./staleness-and-revalidation.md) — what a keyed entry does between reads.
-- *Background Refetching* is a sibling here (planned — see the [Data & Server State index](./README.md)).
+- [Background Refetching](./background-refetching.md) — interval and focus revalidation for the same keys.
 
 ## Related Recipes
 
