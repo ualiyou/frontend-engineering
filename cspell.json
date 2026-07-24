@@ -7,7 +7,7 @@
     "treeshaking", "serverless", "webhooks", "changelog", "changelogs",
     "roadmap", "roadmaps", "taxonomy", "frontmatter", "linter", "linters",
     "lychee", "cspell", "markdownlint", "shields", "svg", "png", "jsonc",
-    "alidevjs", "TanStack", "shadcn", "Vitest", "Astro", "Vite", "Turbopack",
+    "TanStack", "shadcn", "Vitest", "Astro", "Vite", "Turbopack",
     "Zustand", "signMark", "grotesk", "geist", "opengraph", "vignette",
     "accessibility", "internationalization", "observability", "immersive",
     "preconnect", "prefetch", "srcset", "dialog", "aria", "vitals",

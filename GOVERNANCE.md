@@ -24,8 +24,8 @@ There is no application. Contribute consistently, review others' work well, and 
 
 | Area | Maintainer |
 | --- | --- |
-| Lead maintainer | @alidevjs |
-| All Parts (interim) | @alidevjs |
+| Lead maintainer | @ualiyou |
+| All Parts (interim) | @ualiyou |
 
 As domains find dedicated owners, this table and [`CODEOWNERS`](.github/CODEOWNERS) will be updated.
 
