@@ -7,6 +7,7 @@
 ## Published articles
 
 - [Fetch-on-Render vs Render-as-You-Fetch](fetch-on-render-vs-render-as-you-fetch.md)
+- [Parallel vs Waterfall Requests](parallel-vs-waterfall-requests.md)
 - [Cache Keys & Query Identity](cache-keys-and-query-identity.md)
 - [Staleness & Revalidation](staleness-and-revalidation.md)
 - [Cache Invalidation](cache-invalidation.md)
