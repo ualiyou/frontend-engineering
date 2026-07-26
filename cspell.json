@@ -29,7 +29,8 @@
     "preconnected", "prereqs", "recomputations", "rollouts", "strawman", "strawmen",
     "unfocusable", "unrepresentable", "unsanitized", "unsourced", "userbase", "versionable",
     "Clickjacking", "Metaprogramming", "Overcorrecting", "Subresource", "Unshareable", "unreviewed",
-    "Anson", "endgroup", "lycheeverse", "nullglob", "shopt"
+    "Anson", "endgroup", "lycheeverse", "nullglob", "shopt",
+    "contentful", "janky", "unthrottled", "prerender", "prerendering", "overcorrects"
   ],
   "ignorePaths": [
     "_to_delete/**",

@@ -62,9 +62,9 @@ Core Web Vitals are three metrics Google standardized to measure user-perceived 
 
 ## Prerequisites
 
-- [Process & Thread Architecture](../../../00-foundations/web-platform/process-and-thread-architecture.md) (`· The Web Platform`) — INP is about the main thread's ability to paint after input.
-- [Parsing & Bytecode](../../../00-foundations/runtime-execution/parsing-and-bytecode.md) (`· Runtime & Execution`) — script parse and compile time is a large part of LCP and INP.
-- [HTTP/1.1 Semantics](../../../00-foundations/networking-protocols/http-1-1-semantics.md) (`· Networking & Protocols`) — resource delivery latency sets the floor for LCP.
+- Process & Thread Architecture (`· The Web Platform`) — INP is about the main thread's ability to paint after input.
+- Parsing & Bytecode (`· Runtime & Execution`) — script parse and compile time is a large part of LCP and INP.
+- HTTP/1.1 Semantics (`· Networking & Protocols`) — resource delivery latency sets the floor for LCP.
 
 ## Overview
 
@@ -151,8 +151,8 @@ There is no substitute for Core Web Vitals as *the* cross-web, field-measured, r
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
 | Core Web Vitals (this article) | A standardized, user-centered field score for any page | Can't measure app-specific moments | (this article) |
-| [Custom performance metrics](./custom-performance-metrics.md) | You need to time a domain-specific event (chart ready, results shown) | Not standardized or comparable across sites | `Custom Performance Metrics` |
-| [Perceived vs actual performance](./perceived-vs-actual-performance.md) | The felt speed differs from the measured one (skeletons, optimistic UI) | Qualitative; harder to gate on | `Perceived vs Actual Performance` |
+| Custom performance metrics | You need to time a domain-specific event (chart ready, results shown) | Not standardized or comparable across sites | `Custom Performance Metrics` (planned) |
+| Perceived vs actual performance | The felt speed differs from the measured one (skeletons, optimistic UI) | Qualitative; harder to gate on | `Perceived vs Actual Performance` (planned) |
 
 ## Bad Example
 
@@ -300,9 +300,9 @@ See the [Performance Engineering anti-patterns](../../../anti-patterns/README.md
 
 ## Related Articles
 
-- [Lab vs Field Measurement](./lab-vs-field-measurement.md) — why the lab estimate and the field score diverge, and when each is right.
-- [Perceived vs Actual Performance](./perceived-vs-actual-performance.md) — the gap between what the metrics say and what users feel.
-- [Custom Performance Metrics](./custom-performance-metrics.md) — measuring app-specific moments the Vitals can't see.
+- Lab vs Field Measurement (planned) — why the lab estimate and the field score diverge, and when each is right.
+- Perceived vs Actual Performance (planned) — the gap between what the metrics say and what users feel.
+- Custom Performance Metrics (planned) — measuring app-specific moments the Vitals can't see.
 - [Code Splitting](./code-splitting.md) — the main lever for the JavaScript that hurts LCP and INP.
 
 ## References

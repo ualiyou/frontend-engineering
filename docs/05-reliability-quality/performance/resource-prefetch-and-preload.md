@@ -142,8 +142,8 @@ Hints don't reduce how much has to load; they change *when*. Their alternatives 
 | --- | --- | --- | --- |
 | Resource hints (this article) | A critical resource is discovered late, or a next nav is predictable | Adds bandwidth cost; brittle if mis-typed | (this article) |
 | [Code Splitting](./code-splitting.md) | The problem is too much JavaScript, not its timing | Adds requests and loading states | `Code Splitting` |
-| [Critical CSS & Above-the-Fold](./critical-css-and-above-the-fold.md) | Render-blocking CSS delays first paint | Build complexity | `Critical CSS & Above-the-Fold` |
-| [Font & Asset Loading Strategy](./font-and-asset-loading-strategy.md) | Fonts/assets need a full loading policy, not one hint | Broader effort than a single tag | `Font & Asset Loading Strategy` |
+| Critical CSS & Above-the-Fold | Render-blocking CSS delays first paint | Build complexity | `Critical CSS & Above-the-Fold` (planned) |
+| Font & Asset Loading Strategy | Fonts/assets need a full loading policy, not one hint | Broader effort than a single tag | `Font & Asset Loading Strategy` (planned) |
 
 ## Bad Example
 
@@ -258,7 +258,7 @@ See the [Performance Engineering anti-patterns](../../../anti-patterns/README.md
 
 - [The Critical Rendering Path](./the-critical-rendering-path.md) — why late-discovered critical resources need a hint at all.
 - [Code Splitting](./code-splitting.md) — pairs with `modulepreload`/prefetch to load chunks at the right time.
-- [Font & Asset Loading Strategy](./font-and-asset-loading-strategy.md) — the full policy that font preloading is one part of.
+- Font & Asset Loading Strategy (planned) — the full policy that font preloading is one part of.
 - [Core Web Vitals (LCP, INP, CLS)](./core-web-vitals-lcp-inp-cls.md) — preloading the LCP element is a direct lever on LCP.
 
 ## References
