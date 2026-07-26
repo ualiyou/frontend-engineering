@@ -102,7 +102,7 @@ The model tells you where each lever acts. `defer` moves a script off the parser
 
 Get scripts off the parser-blocking path. Add `defer` to scripts that touch the DOM (they run in order after parsing) and `async` to independent third-party scripts. A plain `<script>` in the `<head>` is the most common render-blocking mistake; there is almost always a better attribute for it.
 
-Inline critical CSS and defer the rest. Extract the styles needed for above-the-fold content, inline them in a `<style>` in the head, and load the full stylesheet without blocking (for example with a `media`-swap `<link>` or an async loader). This cuts the render-blocking CSS to the minimum. See [Critical CSS & Above-the-Fold](./critical-css-and-above-the-fold.md).
+Inline critical CSS and defer the rest. Extract the styles needed for above-the-fold content, inline them in a `<style>` in the head, and load the full stylesheet without blocking (for example with a `media`-swap `<link>` or an async loader). This cuts the render-blocking CSS to the minimum. See Critical CSS & Above-the-Fold (planned).
 
 Minimize the number and size of critical resources. Every render- or parser-blocking file is a round trip before paint. Bundle where it reduces requests, drop `@import` (which serializes CSS fetches), and delete blocking resources that don't affect the first view. Fewer critical bytes and fewer critical files both shorten the path.
 
@@ -141,7 +141,7 @@ The critical rendering path is a browser mechanism, not a choice — `alternativ
 | --- | --- | --- | --- |
 | Critical-path analysis (this article) | Understanding *what* blocks first paint | Conceptual; needs the levers below to act | (this article) |
 | [Code Splitting](./code-splitting.md) | Script bytes dominate the path | Adds requests and loading states | `Code Splitting` |
-| [Critical CSS & Above-the-Fold](./critical-css-and-above-the-fold.md) | Render-blocking CSS delays paint | Build complexity, byte duplication | `Critical CSS & Above-the-Fold` |
+| Critical CSS & Above-the-Fold | Render-blocking CSS delays paint | Build complexity, byte duplication | `Critical CSS & Above-the-Fold` (planned) |
 | [Resource Prefetch & Preload](./resource-prefetch-and-preload.md) | A critical resource is discovered too late | Over-hinting wastes bandwidth | `Resource Prefetch & Preload` |
 
 ## Bad Example
@@ -253,7 +253,7 @@ See the [Performance Engineering anti-patterns](../../../anti-patterns/README.md
 ## Related Articles
 
 - [Code Splitting](./code-splitting.md) — cuts the JavaScript bytes that sit on the path.
-- [Critical CSS & Above-the-Fold](./critical-css-and-above-the-fold.md) — how to build the inlined critical set.
+- Critical CSS & Above-the-Fold (planned) — how to build the inlined critical set.
 - [Resource Prefetch & Preload](./resource-prefetch-and-preload.md) — hints that fix late-discovered critical resources.
 - [Core Web Vitals (LCP, INP, CLS)](./core-web-vitals-lcp-inp-cls.md) — LCP is the metric the path most directly moves.
 

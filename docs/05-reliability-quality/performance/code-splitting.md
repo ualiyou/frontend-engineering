@@ -142,8 +142,8 @@ Code splitting is one of several loading-performance levers, and the best result
 | --- | --- | --- | --- |
 | Code splitting (this article) | Heavy JS most users don't need at first paint | Adds requests and loading states | (this article) |
 | [Resource Prefetch & Preload](./resource-prefetch-and-preload.md) | You know the next resource and want to hide its request | Prefetching too much wastes bandwidth | `Resource Prefetch & Preload` |
-| [Critical CSS & Above-the-Fold](./critical-css-and-above-the-fold.md) | Render-blocking CSS, not JS, is delaying first paint | Inlining critical CSS complicates the build | `Critical CSS & Above-the-Fold` |
-| [Font & Asset Loading Strategy](./font-and-asset-loading-strategy.md) | Fonts and static assets dominate the loading budget | Doesn't address script cost | `Font & Asset Loading Strategy` |
+| Critical CSS & Above-the-Fold | Render-blocking CSS, not JS, is delaying first paint | Inlining critical CSS complicates the build | `Critical CSS & Above-the-Fold` (planned) |
+| Font & Asset Loading Strategy | Fonts and static assets dominate the loading budget | Doesn't address script cost | `Font & Asset Loading Strategy` (planned) |
 
 ## Bad Example
 
@@ -280,7 +280,7 @@ See the [Performance Engineering anti-patterns](../../../anti-patterns/README.md
 
 - [The Critical Rendering Path](./the-critical-rendering-path.md) — where render-blocking JavaScript sits and why shrinking it matters.
 - [Resource Prefetch & Preload](./resource-prefetch-and-preload.md) — how to hide a split chunk's request behind user intent.
-- [Bundle Size Optimization](./bundle-size-optimization.md) — tree-shaking and dependency trimming that pair with splitting.
+- Bundle Size Optimization (planned) — tree-shaking and dependency trimming that pair with splitting.
 - [Core Web Vitals (LCP, INP, CLS)](./core-web-vitals-lcp-inp-cls.md) — the metrics oversized bundles degrade.
 
 ## References
