@@ -1,4 +1,3 @@
-<!-- markdownlint-disable MD007 MD032 -->
 ---
 title: "Lexical Scope"
 slug: lexical-scope
@@ -32,7 +31,6 @@ references:
   - { title: "MDN — Closures", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures" }
   - { title: "ECMAScript — Environment Records", url: "https://tc39.es/ecma262/#sec-environment-records" }
 ---
-<!-- markdownlint-enable MD007 MD032 -->
 
 # Lexical Scope
 
