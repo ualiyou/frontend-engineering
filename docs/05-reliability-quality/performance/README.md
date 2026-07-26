@@ -4,6 +4,13 @@
 
 **Part:** [05 · Reliability & Quality](../) · **Priority:** Critical
 
+## Published articles
+
+- [Core Web Vitals (LCP, INP, CLS)](core-web-vitals-lcp-inp-cls.md)
+- [The Critical Rendering Path](the-critical-rendering-path.md)
+- [Code Splitting](code-splitting.md)
+- [Resource Prefetch & Preload](resource-prefetch-and-preload.md)
+
 ## Taxonomy
 
 Second-level groups and their articles. Each article is a standalone entry following [the template](../../../templates/article-template.md); its filename is the kebab-case form of the title.
