@@ -331,7 +331,7 @@ The subtle part is not `useQuery` — it is that the loader and the event handle
 
 ## Common Mistakes
 
-See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#data-server-state) for the domain catalog. Concept-specific:
+See the [Data & Server State anti-patterns](../../../anti-patterns/#data-server-state) for the domain catalog. Concept-specific:
 
 ### Mistake: A key that omits part of the request identity
 

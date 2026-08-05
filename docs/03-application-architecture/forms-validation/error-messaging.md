@@ -315,7 +315,7 @@ export function ContactForm({ onSend }: { onSend: (values: Values) => Promise<vo
 
 ## Common Mistakes
 
-See the [Forms & Validation anti-patterns](../../../anti-patterns/README.md#forms-validation) for the domain catalog. Concept-specific:
+See the [Forms & Validation anti-patterns](../../../anti-patterns/#forms-validation) for the domain catalog. Concept-specific:
 
 ### Mistake: Errors conveyed by color/position only
 
@@ -340,8 +340,8 @@ See the [Forms & Validation anti-patterns](../../../anti-patterns/README.md#form
 ## Related Articles
 
 - [Schema Validation](./schema-validation.md) — the source of per-field messages and paths.
-- [Accessibility](../../04-interface-engineering/accessibility/README.md) (`· Accessibility`) — the broader ARIA and focus model.
-- Alongside this: *Inline vs Submit Validation*, *Dirty, Touched & Submit State* (see the [Forms & Validation index](./README.md)).
+- [Accessibility](../../04-interface-engineering/accessibility/) (`· Accessibility`) — the broader ARIA and focus model.
+- Alongside this: *Inline vs Submit Validation*, *Dirty, Touched & Submit State* (see the [Forms & Validation index](./)).
 
 ## Related Recipes
 

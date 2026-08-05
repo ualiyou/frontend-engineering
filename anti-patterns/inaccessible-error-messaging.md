@@ -1,6 +1,6 @@
 # Anti-Pattern: Inaccessible Error Messaging
 
-**Domain:** [Forms & Validation](./README.md#forms-validation) · **The right way:** [Error Messaging](../docs/03-application-architecture/forms-validation/error-messaging.md)
+**Domain:** [Forms & Validation](./#forms-validation) · **The right way:** [Error Messaging](../docs/03-application-architecture/forms-validation/error-messaging.md)
 
 The validation is correct and the errors are shown — as a red border and a loose message. But nothing ties the message to its field, nothing announces it, and focus never moves. To a screen-reader or keyboard user, the error is invisible, and the form is a dead end.
 
@@ -50,4 +50,4 @@ Write messages as actionable text ("Enter a valid email", not "Invalid"), never 
 
 - Canonical article: [Error Messaging](../docs/03-application-architecture/forms-validation/error-messaging.md)
 - Example: [Accessible field error](../examples/accessible-field-error.tsx)
-- Related domain: [Accessibility](../docs/04-interface-engineering/accessibility/README.md)
+- Related domain: [Accessibility](../docs/04-interface-engineering/accessibility/)

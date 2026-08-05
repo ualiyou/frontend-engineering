@@ -143,7 +143,7 @@ Parallel fetching is the better default for independent requests, but "fire ever
 
 ## Alternative Approaches
 
-Parallelizing is one lever on the request timeline; two others solve adjacent problems and often combine with it rather than replacing it. *Request Deduplication* addresses the case where the *same* request is issued more than once concurrently — it collapses duplicates into one in-flight promise, which cuts load but does not reshape independent requests into parallel ones. *Data Prefetching* attacks the timeline from the other end: it starts requests *earlier* (on hover, on route match) so they are already resolving by the time they are needed. Both are planned — see the [Data & Server State index](./README.md). Use deduplication when the waste is repetition, prefetching when the waste is late starts, and parallelization when the waste is needless ordering; a well-tuned data layer usually uses all three.
+Parallelizing is one lever on the request timeline; two others solve adjacent problems and often combine with it rather than replacing it. *Request Deduplication* addresses the case where the *same* request is issued more than once concurrently — it collapses duplicates into one in-flight promise, which cuts load but does not reshape independent requests into parallel ones. *Data Prefetching* attacks the timeline from the other end: it starts requests *earlier* (on hover, on route match) so they are already resolving by the time they are needed. Both are planned — see the [Data & Server State index](./). Use deduplication when the waste is repetition, prefetching when the waste is late starts, and parallelization when the waste is needless ordering; a well-tuned data layer usually uses all three.
 
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
@@ -243,7 +243,7 @@ async function loadPostScreen(
 
 ## Common Mistakes
 
-See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#data-server-state) for the domain catalog. The concept-specific mistakes:
+See the [Data & Server State anti-patterns](../../../anti-patterns/#data-server-state) for the domain catalog. The concept-specific mistakes:
 
 ### Mistake: `await` inside a loop
 
@@ -276,7 +276,7 @@ See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#dat
 
 - [Fetch-on-Render vs Render-as-You-Fetch](./fetch-on-render-vs-render-as-you-fetch.md) — the render-driven form of the same waterfall, and how fetch timing removes it.
 - [Cache Keys & Query Identity](./cache-keys-and-query-identity.md) — stable keys are what let parallel queries dedupe and share results instead of colliding.
-- Alongside this sit *Request Deduplication* and *Data Prefetching* (planned — see the [Data & Server State index](./README.md)).
+- Alongside this sit *Request Deduplication* and *Data Prefetching* (planned — see the [Data & Server State index](./)).
 
 ## Related Recipes
 

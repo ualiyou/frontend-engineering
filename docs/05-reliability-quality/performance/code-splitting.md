@@ -253,7 +253,7 @@ function Router({ current }: { current: RouteKey }) {
 
 ## Common Mistakes
 
-See the [Performance Engineering anti-patterns](../../../anti-patterns/README.md#performance-engineering) for the domain catalog. Concept-specific:
+See the [Performance Engineering anti-patterns](../../../anti-patterns/#performance-engineering) for the domain catalog. Concept-specific:
 
 ### Mistake: Guarding a static import at runtime
 

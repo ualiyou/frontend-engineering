@@ -170,7 +170,7 @@ Local state has no substitute for its own job — one owner, one reader. The alt
 | --- | --- | --- | --- |
 | Local state (this article) | One component authors and reads the value | Invisible to siblings; lost on unmount | (this article) |
 | [Lifting State Up](./lifting-state-up.md) | A sibling or ancestor needs the same value | Re-renders the owner's subtree; prop plumbing | `Lifting State Up · State Management` |
-| [Global State](./README.md) (planned) | The value crosses routes or has no common owner | Broad re-renders; app-wide coupling | `Global State · State Management` |
+| [Global State](./) (planned) | The value crosses routes or has no common owner | Broad re-renders; app-wide coupling | `Global State · State Management` |
 | URL state | The user should be able to link or reload into it | Serialisable values only | [Categories of State](./categories-of-state.md) |
 | Server-state cache | The value's authority is a server | Not for locally authored values | [Server vs Client State](./server-vs-client-state.md) |
 
@@ -444,7 +444,7 @@ Two things make this worth the reducer. Range selection needs the anchor and the
 
 ## Common Mistakes
 
-See the [State Management anti-patterns](../../../anti-patterns/README.md#state-management) for the domain catalog. Concept-specific:
+See the [State Management anti-patterns](../../../anti-patterns/#state-management) for the domain catalog. Concept-specific:
 
 ### Mistake: Storing derived values
 

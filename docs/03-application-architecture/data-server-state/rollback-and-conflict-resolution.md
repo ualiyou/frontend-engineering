@@ -313,7 +313,7 @@ export function useSaveDoc(onConflict: (current: Doc, mine: string) => void) {
 
 ## Common Mistakes
 
-See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#data-server-state) for the domain catalog. Concept-specific:
+See the [Data & Server State anti-patterns](../../../anti-patterns/#data-server-state) for the domain catalog. Concept-specific:
 
 ### Mistake: One snapshot restoring over a concurrent write
 

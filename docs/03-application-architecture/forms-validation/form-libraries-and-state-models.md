@@ -56,7 +56,7 @@ A form library's core decision is where field values live and when the component
 
 ## Prerequisites
 
-- [Controlled inputs](./README.md) — the baseline model React Hook Form optimizes away (see the Forms & Validation index).
+- [Controlled inputs](./) — the baseline model React Hook Form optimizes away (see the Forms & Validation index).
 
 ## Overview
 
@@ -135,7 +135,7 @@ The alternatives are the two models without a library, and the controlled model 
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
 | Uncontrolled library (RHF) | Non-trivial forms; performance matters | Different mental model | (this article) |
-| Hand-rolled controlled state | One or two fields; you need values live everywhere | Re-renders per keystroke; scales poorly | *Controlled Inputs* (see the [Forms & Validation index](./README.md)) |
+| Hand-rolled controlled state | One or two fields; you need values live everywhere | Re-renders per keystroke; scales poorly | *Controlled Inputs* (see the [Forms & Validation index](./)) |
 | Hand-rolled uncontrolled + refs | Truly minimal forms, no validation | Reinvents registration, validation, submit | *Uncontrolled Inputs & Refs* (planned — see the index) |
 
 ## Bad Example
@@ -277,7 +277,7 @@ export function ProfileForm({ onSave }: { onSave: (values: ProfileValues) => Pro
 
 ## Common Mistakes
 
-See the [Forms & Validation anti-patterns](../../../anti-patterns/README.md#forms-validation) for the domain catalog. Concept-specific:
+See the [Forms & Validation anti-patterns](../../../anti-patterns/#forms-validation) for the domain catalog. Concept-specific:
 
 ### Mistake: Mirroring form values into `useState`
 
@@ -303,7 +303,7 @@ See the [Forms & Validation anti-patterns](../../../anti-patterns/README.md#form
 
 - [Schema Validation](./schema-validation.md) — plugging Zod into the model via a resolver.
 - [Mutation Lifecycle](../data-server-state/mutation-lifecycle.md) — where a submitted form's values go.
-- Alongside this: *Controlled Inputs*, *Uncontrolled Inputs & Refs*, *Field Arrays & Dynamic Fields* (see the [Forms & Validation index](./README.md)).
+- Alongside this: *Controlled Inputs*, *Uncontrolled Inputs & Refs*, *Field Arrays & Dynamic Fields* (see the [Forms & Validation index](./)).
 
 ## Related Recipes
 

@@ -42,7 +42,7 @@ Not sure where something fits? Open an issue and ask, or start a [Discussion](ht
 
 ## Documentation Standards
 
-The full content framework lives in [`standards/`](standards/README.md): the [content philosophy](standards/content-framework.md), the [tone of voice](standards/writing-style.md), the [article quality checklist](standards/article-quality.md), the [code](standards/code-example-standard.md) and [diagram](standards/diagram-guide.md) rules, the [review pipeline](standards/review-process.md), the [evergreen policy](standards/evergreen-policy.md), the [AI writing rules](standards/ai-writing-guide.md), and the [health metrics](standards/quality-metrics.md). New and returning contributors should start with the [contributor writing guide](standards/contributor-writing-guide.md). The essentials are summarized below.
+The full content framework lives in [`standards/`](standards/): the [content philosophy](standards/content-framework.md), the [tone of voice](standards/writing-style.md), the [article quality checklist](standards/article-quality.md), the [code](standards/code-example-standard.md) and [diagram](standards/diagram-guide.md) rules, the [review pipeline](standards/review-process.md), the [evergreen policy](standards/evergreen-policy.md), the [AI writing rules](standards/ai-writing-guide.md), and the [health metrics](standards/quality-metrics.md). New and returning contributors should start with the [contributor writing guide](standards/contributor-writing-guide.md). The essentials are summarized below.
 
 - **Every article follows [`templates/article-template.md`](templates/article-template.md).** The section order is fixed so readers and reviewers know what to expect.
 - **Keep graph metadata in sync.** Each article has an entry in its domain's `graph.json` (difficulty, reading time, prerequisites, related, order). Update that entry when you add or change an article, and mirror it in the article's frontmatter. See [GRAPH.md](GRAPH.md).
@@ -104,7 +104,7 @@ By contributing, you agree that your contribution is your own original work and 
 
 ## Related documents
 
-- [Standards](standards/README.md) — the content framework every document follows.
+- [Standards](standards/) — the content framework every document follows.
 - [Code of Conduct](CODE_OF_CONDUCT.md) — community standards.
 - [Governance](GOVERNANCE.md) — roles, decision-making, and the RFC process.
 - [Support](SUPPORT.md) — where to ask what.

@@ -1,6 +1,6 @@
 # Anti-Pattern: Validation Re-Render Storm
 
-**Domain:** [Forms & Validation](./README.md#forms-validation) · **The right way:** [Form Libraries & State Models](../docs/03-application-architecture/forms-validation/form-libraries-and-state-models.md)
+**Domain:** [Forms & Validation](./#forms-validation) · **The right way:** [Form Libraries & State Models](../docs/03-application-architecture/forms-validation/form-libraries-and-state-models.md)
 
 A large form re-renders every field (and re-runs validation on all of them) on every keystroke, because its values live in controlled React state or are mirrored there. Typing lags, and the reflex fix — memoizing every field — treats the symptom, not the model.
 

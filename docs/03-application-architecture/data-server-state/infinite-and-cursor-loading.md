@@ -407,7 +407,7 @@ Note what is deliberately *not* here: `invalidateQueries`. Invalidating an infin
 
 ## Common Mistakes
 
-See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#data-server-state) for the domain catalog. Concept-specific:
+See the [Data & Server State anti-patterns](../../../anti-patterns/#data-server-state) for the domain catalog. Concept-specific:
 
 ### Mistake: Inferring `hasNextPage` from page length
 

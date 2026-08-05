@@ -183,7 +183,7 @@ The same control as a native button with sufficient contrast — satisfying all 
 
 ## Common Mistakes
 
-See the [Accessibility anti-patterns](../../../anti-patterns/README.md#accessibility) for the domain catalog. Concept-specific:
+See the [Accessibility anti-patterns](../../../anti-patterns/#accessibility) for the domain catalog. Concept-specific:
 
 ### Mistake: Treating POUR as the testable thing
 

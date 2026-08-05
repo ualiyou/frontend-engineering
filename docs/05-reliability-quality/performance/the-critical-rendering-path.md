@@ -227,7 +227,7 @@ A head that warms connections early, gets the LCP image discovered on time, and 
 
 ## Common Mistakes
 
-See the [Performance Engineering anti-patterns](../../../anti-patterns/README.md#performance-engineering) for the domain catalog. Concept-specific:
+See the [Performance Engineering anti-patterns](../../../anti-patterns/#performance-engineering) for the domain catalog. Concept-specific:
 
 ### Mistake: Synchronous scripts in the head
 

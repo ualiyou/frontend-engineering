@@ -227,7 +227,7 @@ The returned `allow` and `reset` both close over the same `hits` binding, so the
 
 ## Common Mistakes
 
-See the [JavaScript anti-patterns](../../../anti-patterns/README.md#javascript) for the domain catalog. Concept-specific:
+See the [JavaScript anti-patterns](../../../anti-patterns/#javascript) for the domain catalog. Concept-specific:
 
 ### Mistake: Capturing the loop variable with `var`
 

@@ -111,7 +111,7 @@ export function docsSidebar(): SidebarItem[] {
 
       domains.push({
         text: label,
-        link: `/${domainDir}/README`,
+        link: `/${domainDir}/`,
         collapsed: false,
         items,
       });
@@ -121,7 +121,7 @@ export function docsSidebar(): SidebarItem[] {
 
     parts.push({
       text: firstHeading(path.join(partDir, 'README.md'), titleCase(part)),
-      link: `/${partDir}/README`,
+      link: `/${partDir}/`,
       collapsed: false,
       items: domains,
     });

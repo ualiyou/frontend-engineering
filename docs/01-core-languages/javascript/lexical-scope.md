@@ -236,7 +236,7 @@ The returned `on` and `emit` are written *inside* `createEventBus`, so their sco
 
 ## Common Mistakes
 
-See the [JavaScript anti-patterns](../../../anti-patterns/README.md#javascript) for the domain catalog. Concept-specific:
+See the [JavaScript anti-patterns](../../../anti-patterns/#javascript) for the domain catalog. Concept-specific:
 
 ### Mistake: Expecting a callee to see the caller's variables
 

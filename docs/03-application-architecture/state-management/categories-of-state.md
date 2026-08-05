@@ -59,8 +59,8 @@ State in a frontend application divides along three axes: **who owns it** (the s
 
 ## Prerequisites
 
-- [Elements vs Components](../../02-rendering-frameworks/react/README.md) (`· React`) — what a component owns, and what "re-render" means for state.
-- [Primitives & Wrappers](../../01-core-languages/javascript/README.md) (`· JavaScript`) — value versus reference identity, which decides when state changes are observable.
+- [Elements vs Components](../../02-rendering-frameworks/react/) (`· React`) — what a component owns, and what "re-render" means for state.
+- [Primitives & Wrappers](../../01-core-languages/javascript/) (`· JavaScript`) — value versus reference identity, which decides when state changes are observable.
 
 ## Overview
 
@@ -175,7 +175,7 @@ There is no alternative to *having* a taxonomy — state has an owner, a lifetim
 | By owner, lifetime, scope (this article) | Deciding where a new piece of state should live | Boundary cases need judgment | (this article) |
 | Server vs client split only | The app is mostly a client for one API | Says nothing about URL, derived, or scope | [Server vs Client State](./server-vs-client-state.md) |
 | UI vs domain split | Reasoning about what to test and what to persist | Orthogonal to ownership; not a placement rule by itself | [UI vs Domain State](./ui-vs-domain-state.md) |
-| Ephemeral vs persistent split | Designing storage, hydration, and versioning | Ignores scope and authority | [Ephemeral vs Persistent State](./README.md) (planned) |
+| Ephemeral vs persistent split | Designing storage, hydration, and versioning | Ignores scope and authority | [Ephemeral vs Persistent State](./) (planned) |
 
 ## Bad Example
 
@@ -432,7 +432,7 @@ Both cases follow the same rule: when a piece of state seems to belong to two ca
 
 ## Common Mistakes
 
-See the [State Management anti-patterns](../../../anti-patterns/README.md#state-management) for the domain catalog. Concept-specific:
+See the [State Management anti-patterns](../../../anti-patterns/#state-management) for the domain catalog. Concept-specific:
 
 ### Mistake: Copying server data into client state
 
@@ -456,7 +456,7 @@ See the [State Management anti-patterns](../../../anti-patterns/README.md#state-
 
 - **Symptom:** A total, count, or filtered list kept in state and updated alongside its inputs — and occasionally disagreeing with them.
 - **Why it fails:** A stored derivation is a second source of truth that must be synchronized on every path that touches its inputs.
-- **Fix:** Compute on read, memoized if expensive; see [Computed Values](./README.md) (planned).
+- **Fix:** Compute on read, memoized if expensive; see [Computed Values](./) (planned).
 
 ### Mistake: Persisting without a version or validation
 

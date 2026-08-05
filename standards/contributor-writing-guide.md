@@ -7,4 +7,4 @@ Use this short path before submitting an article.
 3. Add matching metadata to the domain `graph.json`; then run `python scripts/validate-frontmatter.py` and `python scripts/validate-links.py` from the repository root.
 4. Cite authoritative sources, use US English, and check the [article-quality checklist](article-quality.md) before opening a PR.
 
-For the complete rules, start with the [standards index](README.md) and [contributing guide](../CONTRIBUTING.md).
+For the complete rules, start with the [standards index](./) and [contributing guide](../CONTRIBUTING.md).

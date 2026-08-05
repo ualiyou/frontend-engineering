@@ -1,6 +1,6 @@
 # Content Framework
 
-The definitive content system for **Frontend Engineering**. This document defines the philosophy every article obeys, from a single page to the ten-thousandth. It is the constitution of the knowledge base: the other files in [`standards/`](./README.md) are the statutes that implement it.
+The definitive content system for **Frontend Engineering**. This document defines the philosophy every article obeys, from a single page to the ten-thousandth. It is the constitution of the knowledge base: the other files in [`standards/`](./) are the statutes that implement it.
 
 If a rule elsewhere in `standards/` ever contradicts this document, this document wins, and the contradiction is a bug to be fixed.
 
@@ -127,4 +127,4 @@ These hold for **every** document in the repository, forever. They are the check
 
 ---
 
-**Next:** [`writing-style.md`](./writing-style.md) — the voice that carries all of the above · [`article-quality.md`](./article-quality.md) — the mandatory structure · [`standards/README.md`](./README.md) — the full standards index.
+**Next:** [`writing-style.md`](./writing-style.md) — the voice that carries all of the above · [`article-quality.md`](./article-quality.md) — the mandatory structure · [`standards/README.md`](./) — the full standards index.

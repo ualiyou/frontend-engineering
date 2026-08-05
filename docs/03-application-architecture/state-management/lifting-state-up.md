@@ -170,7 +170,7 @@ Lifting answers "two components in one subtree need one value." When the consume
 | Lifting to the closest ancestor (this article) | Consumers share a nearby ancestor | Re-renders the subtree; some prop passing | (this article) |
 | Composition (elements as props) | Props pass through uninterested layers | Requires restructuring the tree | [React docs](https://react.dev/learn/passing-data-deeply-with-context) |
 | Context in a scoped provider | Many unrelated layers between owner and consumers | Implicit flow; all consumers re-render | `Global State · State Management` (planned) |
-| [Global State](./README.md) (planned) | The value crosses routes or has no common ancestor | App-wide coupling; broad re-renders | `Global State · State Management` |
+| [Global State](./) (planned) | The value crosses routes or has no common ancestor | App-wide coupling; broad re-renders | `Global State · State Management` |
 | URL state | The value describes what the user is looking at | Serialisable values only | [Categories of State](./categories-of-state.md) |
 
 ## Bad Example
@@ -469,7 +469,7 @@ Two decisions are worth naming. The state is lifted to the `Accordion` root beca
 
 ## Common Mistakes
 
-See the [State Management anti-patterns](../../../anti-patterns/README.md#state-management) for the domain catalog. Concept-specific:
+See the [State Management anti-patterns](../../../anti-patterns/#state-management) for the domain catalog. Concept-specific:
 
 ### Mistake: Duplicating instead of lifting
 

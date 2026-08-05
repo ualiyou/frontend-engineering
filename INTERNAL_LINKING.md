@@ -50,7 +50,7 @@ The *other* viable ways to solve the same problem — the heart of trade-off thi
 
 Where this concept goes wrong in real code, in **symptom → why it fails → fix** form, so a reviewer can catch it and not just admire the good version. Modeled as *internal links*, not restated prose, so pitfalls live in one canonical place:
 
-- Every article links to **two** targets: its domain's entry in the shared [`anti-patterns/`](anti-patterns/README.md) catalog (cross-cutting mistakes for the whole domain) and the article's own `## Common Mistakes` section (specific to this concept).
+- Every article links to **two** targets: its domain's entry in the shared [`anti-patterns/`](anti-patterns/) catalog (cross-cutting mistakes for the whole domain) and the article's own `## Common Mistakes` section (specific to this concept).
 - As a pitfall recurs across articles, promote it into its own file under `anti-patterns/` and point the link there — the same "link the canonical home, never re-explain" rule the whole wiki follows.
 
 ## Where the links live
@@ -86,7 +86,7 @@ A link target is written as the bare **`Title`** when that title is globally uni
 The baseline is generated, then refined by authors — the same policy already applied to prerequisites and related edges.
 
 - **`scripts/build-links.py`** reads all 35 `graph.json` files and derives `next`, `alternatives`, and `common_mistakes` deterministically from the existing prerequisite DAG and taxonomy. It is idempotent: re-running reproduces byte-identical output.
-- **`scripts/build-anti-patterns.py`** generates the [`anti-patterns/`](anti-patterns/README.md) catalog with stable per-domain anchors that the `common_mistakes` links resolve to.
+- **`scripts/build-anti-patterns.py`** generates the [`anti-patterns/`](anti-patterns/) catalog with stable per-domain anchors that the `common_mistakes` links resolve to.
 - **`scripts/validate-links.py`** enforces every invariant and must pass in CI:
   1. every reference resolves to a real node,
   2. the prerequisite graph is acyclic,

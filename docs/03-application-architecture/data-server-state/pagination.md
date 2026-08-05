@@ -383,7 +383,7 @@ Two production details matter here. Cursors expire — they encode a sort positi
 
 ## Common Mistakes
 
-See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#data-server-state) for the domain catalog. Concept-specific:
+See the [Data & Server State anti-patterns](../../../anti-patterns/#data-server-state) for the domain catalog. Concept-specific:
 
 ### Mistake: Filters and sort outside the query key
 

@@ -37,7 +37,7 @@ Each domain folder contains a `graph.json` with one entry per article:
 }
 ```text
 
-`order` is the global recommended reading position. `prerequisites`, `related`, `next`, and `alternatives` reference article titles; a cross-domain reference is written as `Article · Domain`. `common_mistakes` holds links: the domain's entry in the [`anti-patterns/`](anti-patterns/README.md) catalog and the article's own `#common-mistakes` section.
+`order` is the global recommended reading position. `prerequisites`, `related`, `next`, and `alternatives` reference article titles; a cross-domain reference is written as `Article · Domain`. `common_mistakes` holds links: the domain's entry in the [`anti-patterns/`](anti-patterns/) catalog and the article's own `#common-mistakes` section.
 
 ### The five relations
 

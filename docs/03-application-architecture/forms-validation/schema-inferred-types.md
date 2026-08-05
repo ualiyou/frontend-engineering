@@ -52,7 +52,7 @@ references:
 
 ## Prerequisites
 
-- [Client-side validation strategies](./README.md) — where the schema comes from (see the Forms & Validation index).
+- [Client-side validation strategies](./) — where the schema comes from (see the Forms & Validation index).
 
 ## Overview
 
@@ -247,7 +247,7 @@ export function EditProfileForm({ onSave }: { onSave: (values: ProfileOutput) =>
 
 ## Common Mistakes
 
-See the [Forms & Validation anti-patterns](../../../anti-patterns/README.md#forms-validation) for the domain catalog. Concept-specific:
+See the [Forms & Validation anti-patterns](../../../anti-patterns/#forms-validation) for the domain catalog. Concept-specific:
 
 ### Mistake: Hand-writing a type the schema already describes
 
@@ -272,7 +272,7 @@ See the [Forms & Validation anti-patterns](../../../anti-patterns/README.md#form
 ## Related Articles
 
 - [Schema Validation](./schema-validation.md) — the schema these types are inferred from.
-- *Shared Client/Server Schemas* extends the inferred type across the boundary (see the [Forms & Validation index](./README.md)).
+- *Shared Client/Server Schemas* extends the inferred type across the boundary (see the [Forms & Validation index](./)).
 
 ## Related Recipes
 

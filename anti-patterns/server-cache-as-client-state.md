@@ -1,6 +1,6 @@
 # Anti-Pattern: Treating Server Cache as Client State
 
-**Domain:** [Data & Server State](./README.md#data-server-state) · **The right way:** [Cache Keys & Query Identity](../docs/03-application-architecture/data-server-state/cache-keys-and-query-identity.md), [Fetch-on-Render vs Render-as-You-Fetch](../docs/03-application-architecture/data-server-state/fetch-on-render-vs-render-as-you-fetch.md)
+**Domain:** [Data & Server State](./#data-server-state) · **The right way:** [Cache Keys & Query Identity](../docs/03-application-architecture/data-server-state/cache-keys-and-query-identity.md), [Fetch-on-Render vs Render-as-You-Fetch](../docs/03-application-architecture/data-server-state/fetch-on-render-vs-render-as-you-fetch.md)
 
 Server data is a *cache* of state that lives on the server; it is stale the moment you fetch it. This anti-pattern copies fetched data into local React state (`useState`/`useReducer`/a global store) and treats that copy as the source of truth — reintroducing every problem a server-state cache exists to solve.
 

@@ -60,9 +60,9 @@ Fetch-on-render couples a request to a component's lifecycle: the component moun
 
 ## Prerequisites
 
-- [HTTP semantics](../../00-foundations/networking-protocols/README.md) (`· Networking & Protocols`) — why an extra round trip costs what it costs.
-- [Elements vs Components](../../02-rendering-frameworks/react/README.md) (`· React`) — what "render" means and when effects run.
-- [Categories of State](../state-management/README.md) (`· State Management`) — why server data is not the same as client state.
+- [HTTP semantics](../../00-foundations/networking-protocols/) (`· Networking & Protocols`) — why an extra round trip costs what it costs.
+- [Elements vs Components](../../02-rendering-frameworks/react/) (`· React`) — what "render" means and when effects run.
+- [Categories of State](../state-management/) (`· State Management`) — why server data is not the same as client state.
 
 ## Overview
 
@@ -113,7 +113,7 @@ Prefetch on intent for interactions the router does not own. When a user hovers 
 
 Keep the read and the prefetch on identical keys. Render-as-you-fetch only works if the component's `useQuery` key matches the key you prefetched; a mismatch silently starts a second request and you are back to fetch-on-render with extra load. Centralize keys in a factory so the two sites cannot drift. This is the subject of [Cache Keys & Query Identity](./cache-keys-and-query-identity.md).
 
-Fetch sibling data in parallel, not in sequence. Once you are fetching before render, request everything a screen needs at once rather than chaining. The mechanics of avoiding accidental chaining are covered in *Parallel vs Waterfall Requests* (planned — see the [Data & Server State index](./README.md)).
+Fetch sibling data in parallel, not in sequence. Once you are fetching before render, request everything a screen needs at once rather than chaining. The mechanics of avoiding accidental chaining are covered in *Parallel vs Waterfall Requests* (planned — see the [Data & Server State index](./)).
 
 Fall back to fetch-on-render deliberately, not by default. Some data genuinely cannot be known until render — a value computed from other fetched data, for example. That is a legitimate waterfall; make it explicit and keep it shallow.
 
@@ -323,7 +323,7 @@ export { InvoiceRow, InvoiceDetail };
 
 ## Common Mistakes
 
-See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#data-server-state) for the domain catalog. The concept-specific mistakes:
+See the [Data & Server State anti-patterns](../../../anti-patterns/#data-server-state) for the domain catalog. The concept-specific mistakes:
 
 ### Mistake: Fetching in an effect that depends on a fetched prop
 
@@ -349,7 +349,7 @@ See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#dat
 
 - [Cache Keys & Query Identity](./cache-keys-and-query-identity.md) — the key discipline that makes prefetch and read line up.
 - [Staleness & Revalidation](./staleness-and-revalidation.md) — how long a prefetched entry stays fresh before a background refetch.
-- Alongside this sit *Parallel vs Waterfall Requests*, *Request Deduplication*, and *Data Prefetching* (planned — see the [Data & Server State index](./README.md)).
+- Alongside this sit *Parallel vs Waterfall Requests*, *Request Deduplication*, and *Data Prefetching* (planned — see the [Data & Server State index](./)).
 
 ## Related Recipes
 

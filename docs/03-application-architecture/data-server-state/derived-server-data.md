@@ -399,7 +399,7 @@ Two judgments are worth naming. The page-scoped stats are labelled *on this page
 
 ## Common Mistakes
 
-See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#data-server-state) for the domain catalog. Concept-specific:
+See the [Data & Server State anti-patterns](../../../anti-patterns/#data-server-state) for the domain catalog. Concept-specific:
 
 ### Mistake: Copying derived values into state
 

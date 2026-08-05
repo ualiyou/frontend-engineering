@@ -184,4 +184,4 @@ By completing the required articles you should be able to:
 
 ---
 
-[← All learning paths](README.md) · [Knowledge Map](../KNOWLEDGE_MAP.md) · [Dependency Graph](../GRAPH.md)
+[← All learning paths](./) · [Knowledge Map](../KNOWLEDGE_MAP.md) · [Dependency Graph](../GRAPH.md)

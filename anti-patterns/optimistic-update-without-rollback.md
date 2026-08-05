@@ -1,6 +1,6 @@
 # Anti-Pattern: Optimistic Update Without Rollback
 
-**Domain:** [Data & Server State](./README.md#data-server-state) · **The right way:** [Optimistic Updates](../docs/03-application-architecture/data-server-state/optimistic-updates.md)
+**Domain:** [Data & Server State](./#data-server-state) · **The right way:** [Optimistic Updates](../docs/03-application-architecture/data-server-state/optimistic-updates.md)
 
 An optimistic update writes an expected result into the cache before the server confirms it, so the UI feels instant. This anti-pattern keeps the instant write but omits the rollback — so when the write fails, the UI keeps showing a change that never happened.
 

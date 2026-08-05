@@ -1,6 +1,6 @@
 # Anti-Pattern: Client-Only Validation
 
-**Domain:** [Forms & Validation](./README.md#forms-validation) · **The right way:** [Schema Validation](../docs/03-application-architecture/forms-validation/schema-validation.md)
+**Domain:** [Forms & Validation](./#forms-validation) · **The right way:** [Schema Validation](../docs/03-application-architecture/forms-validation/schema-validation.md)
 
 Client-side validation is a user-experience affordance: it gives fast feedback and stops obvious mistakes before a round trip. It is *not* a security or integrity boundary. This anti-pattern treats the client check as sufficient and lets the server persist whatever it receives.
 

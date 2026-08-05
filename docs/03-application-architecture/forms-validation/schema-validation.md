@@ -57,8 +57,8 @@ Schema validation declares a form's shape and constraints as one object — a Zo
 
 ## Prerequisites
 
-- [Client-side validation strategies](./README.md) — when validation runs (see the Forms & Validation index).
-- [Controlled inputs](./README.md) — how field values reach the validator (see the index).
+- [Client-side validation strategies](./) — when validation runs (see the Forms & Validation index).
+- [Controlled inputs](./) — how field values reach the validator (see the index).
 
 ## Overview
 
@@ -136,7 +136,7 @@ The alternatives are imperative validation and the form library's built-in rules
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
 | Schema validation (this article) | Non-trivial forms; client + server share rules | A dependency; overkill for one field | (this article) |
-| RHF built-in rules (`register` options) | A couple of simple fields | Rules live in JSX; no server reuse or inferred type | *Client-Side Validation Strategies* (see the [index](./README.md)) |
+| RHF built-in rules (`register` options) | A couple of simple fields | Rules live in JSX; no server reuse or inferred type | *Client-Side Validation Strategies* (see the [index](./)) |
 | Hand-written imperative checks | One rule, one field | Duplicated, drift-prone, untyped | *Client-Side Validation Strategies* (see the index) |
 
 ## Bad Example
@@ -270,7 +270,7 @@ export async function createInvoiceHandler(rawBody: unknown): Promise<Response> 
 
 ## Common Mistakes
 
-See the [Forms & Validation anti-patterns](../../../anti-patterns/README.md#forms-validation) for the domain catalog. Concept-specific:
+See the [Forms & Validation anti-patterns](../../../anti-patterns/#forms-validation) for the domain catalog. Concept-specific:
 
 ### Mistake: Client-only schema validation
 
@@ -296,7 +296,7 @@ See the [Forms & Validation anti-patterns](../../../anti-patterns/README.md#form
 
 - [Schema-Inferred Types](./schema-inferred-types.md) — deriving the form's type from the schema.
 - [Error Messaging](./error-messaging.md) — turning schema issues into accessible field errors.
-- Alongside this: *Async & Server Validation*, *Cross-Field Validation* (see the [Forms & Validation index](./README.md)).
+- Alongside this: *Async & Server Validation*, *Cross-Field Validation* (see the [Forms & Validation index](./)).
 
 ## Related Recipes
 

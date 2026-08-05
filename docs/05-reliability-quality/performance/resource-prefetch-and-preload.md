@@ -231,7 +231,7 @@ Current-page preloads for the LCP path, plus the Speculation Rules API to prefet
 
 ## Common Mistakes
 
-See the [Performance Engineering anti-patterns](../../../anti-patterns/README.md#performance-engineering) for the domain catalog. Concept-specific:
+See the [Performance Engineering anti-patterns](../../../anti-patterns/#performance-engineering) for the domain catalog. Concept-specific:
 
 ### Mistake: Preloading everything
 

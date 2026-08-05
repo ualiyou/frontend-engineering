@@ -2,7 +2,7 @@
 
 The single source of truth for how every article in this knowledge base is structured. All entries follow [`article-template.md`](article-template.md); the section order is fixed so readers and reviewers always know what to expect. This guide explains the frontmatter, how each section serves the project's goals, and the rules that keep articles consistent, discoverable, and durable.
 
-> The template is the copyable shape; the [`standards/`](../standards/README.md) directory is the specification behind it — the [article quality standard](../standards/article-quality.md) defines each section's acceptance criteria, and [`metadata-schema.md`](../standards/metadata-schema.md) is the authoritative frontmatter reference.
+> The template is the copyable shape; the [`standards/`](../standards/) directory is the specification behind it — the [article quality standard](../standards/article-quality.md) defines each section's acceptance criteria, and [`metadata-schema.md`](../standards/metadata-schema.md) is the authoritative frontmatter reference.
 
 ## Files
 
@@ -85,7 +85,7 @@ Every section earns its place by advancing at least one of the project's eight g
 
 **Trade-off thinking.** Trade-offs (advantages *and* disadvantages, plus a cost table) and Alternatives & Comparisons force an honest decision: the recommendation must follow from the stated costs, and every alternative names when it wins.
 
-**Anti-pattern detection.** A dedicated Common Mistakes section names the smells in symptom → why-it-fails → fix form, links the domain's entry in the shared [`anti-patterns/`](../anti-patterns/README.md) catalog, and the Bad Example shows one in realistic code — so reviewers can catch them, not just admire the good version.
+**Anti-pattern detection.** A dedicated Common Mistakes section names the smells in symptom → why-it-fails → fix form, links the domain's entry in the shared [`anti-patterns/`](../anti-patterns/) catalog, and the Bad Example shows one in realistic code — so reviewers can catch them, not just admire the good version.
 
 **Production examples.** Bad and Good examples must be realistic and runnable, with real error handling, edge cases, cancellation, and cleanup — reinforced by Real-World Usage and Production Notes so the example reflects how the pattern actually lives in a system.
 

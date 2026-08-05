@@ -165,7 +165,7 @@ This is one of three orthogonal cuts. They answer different questions about the 
 | --- | --- | --- | --- |
 | UI vs domain meaning (this article) | Deciding what to test, persist, submit, and redesign freely | Says nothing about who may change the value | (this article) |
 | [Server vs Client State](./server-vs-client-state.md) | Deciding the mechanism for a fetched value | Orthogonal to meaning | `Server vs Client State · State Management` |
-| [Ephemeral vs Persistent State](./README.md) (planned) | Designing storage, hydration, and versioning | Ignores meaning and authority | `Ephemeral vs Persistent State · State Management` |
+| [Ephemeral vs Persistent State](./) (planned) | Designing storage, hydration, and versioning | Ignores meaning and authority | `Ephemeral vs Persistent State · State Management` |
 | Modeling UI with state machines | UI behavior itself is complex enough to need formalizing | Overhead for simple toggles | `Modeling UI with State Machines · State Management` (planned) |
 
 ## Bad Example
@@ -485,7 +485,7 @@ Two things are only possible because the categories are separate. The stored sch
 
 ## Common Mistakes
 
-See the [State Management anti-patterns](../../../anti-patterns/README.md#state-management) for the domain catalog. Concept-specific:
+See the [State Management anti-patterns](../../../anti-patterns/#state-management) for the domain catalog. Concept-specific:
 
 ### Mistake: Business rules branching on UI state
 

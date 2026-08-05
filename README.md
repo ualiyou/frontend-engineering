@@ -172,7 +172,7 @@ Contributions are welcome and encouraged. Every entry follows the standard [arti
 Before opening a pull request, read:
 
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** — how to contribute, standards, naming, and review criteria.
-- **[standards/](standards/README.md)** — the content framework every document follows: philosophy, voice, quality bar, code and diagram rules, review pipeline, and health metrics.
+- **[standards/](standards/)** — the content framework every document follows: philosophy, voice, quality bar, code and diagram rules, review pipeline, and health metrics.
 - **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** — community standards.
 - **[GOVERNANCE.md](GOVERNANCE.md)** — roles, decision-making, and the RFC process.
 

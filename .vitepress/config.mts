@@ -77,16 +77,16 @@ const config = withMermaid(
 
       nav: [
         { text: 'Knowledge Map', link: '/KNOWLEDGE_MAP' },
-        { text: 'Learning Paths', link: '/paths/README' },
+        { text: 'Learning Paths', link: '/paths/' },
         {
           text: 'Reference',
           items: [
             { text: 'Article Inventory', link: '/ARTICLE_INVENTORY' },
             { text: 'Dependency Graph', link: '/GRAPH' },
             { text: 'Internal Linking Model', link: '/INTERNAL_LINKING' },
-            { text: 'Anti-Patterns', link: '/anti-patterns/README' },
-            { text: 'Recipes', link: '/recipes/README' },
-            { text: 'Standards', link: '/standards/README' },
+            { text: 'Anti-Patterns', link: '/anti-patterns/' },
+            { text: 'Recipes', link: '/recipes/' },
+            { text: 'Standards', link: '/standards/' },
           ],
         },
         {

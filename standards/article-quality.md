@@ -106,7 +106,7 @@ Each section passes only if it meets **all** of its criteria.
 
 - At least two mistakes, each as **Symptom → Why it fails → Fix**.
 - The `Why it fails` names the mechanism, especially under load, concurrency, or growth.
-- Links the domain's entry in [`anti-patterns/`](../anti-patterns/README.md); recurring pitfalls are promoted to their own anti-pattern file.
+- Links the domain's entry in [`anti-patterns/`](../anti-patterns/); recurring pitfalls are promoted to their own anti-pattern file.
 - The heading is the anchor `#common-mistakes` that the frontmatter `common_mistakes` points at — do not rename it.
 
 ### Bad Example

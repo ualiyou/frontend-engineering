@@ -155,7 +155,7 @@ Retrying has no substitute as a category — a transient failure either gets ano
 | Exponential backoff with jitter (this article) | Failures are a mix of transient and deterministic | Failure latency grows; needs classification | (this article) |
 | Fail fast + manual retry | Deterministic errors dominate, or the user must decide | Transient blips become visible errors | [Loading & Error States](./loading-and-error-states.md) |
 | Circuit breaker | A dependency is failing consistently, not occasionally | Adds state and a half-open probe path; coarse-grained | (this article) |
-| Queue and replay when online | Writes must survive a genuine offline period | Ordering, conflicts, and expiry become your problem | [Offline & Local-First Sync](./README.md) (planned) |
+| Queue and replay when online | Writes must survive a genuine offline period | Ordering, conflicts, and expiry become your problem | [Offline & Local-First Sync](./) (planned) |
 
 ## Bad Example
 
@@ -352,7 +352,7 @@ Two production caveats. The duplicate-guard key must be created when the *intent
 
 ## Common Mistakes
 
-See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#data-server-state) for the domain catalog. Concept-specific:
+See the [Data & Server State anti-patterns](../../../anti-patterns/#data-server-state) for the domain catalog. Concept-specific:
 
 ### Mistake: Retrying deterministic errors
 
@@ -402,7 +402,7 @@ See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#dat
 - [Rollback & Conflict Resolution](./rollback-and-conflict-resolution.md) — what to do when a retried write conflicts with a newer state.
 - [Background Refetching](./background-refetching.md) — the reconnect trigger that pairs with "stop retrying while offline."
 - [Loading & Error States](./loading-and-error-states.md) — rendering the failure once the budget is exhausted.
-- [Offline & Local-First Sync](./README.md) — persisting and replaying intents beyond a bounded retry (planned).
+- [Offline & Local-First Sync](./) — persisting and replaying intents beyond a bounded retry (planned).
 
 ## Related Examples
 

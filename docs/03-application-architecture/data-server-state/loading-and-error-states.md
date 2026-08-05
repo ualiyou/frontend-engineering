@@ -164,7 +164,7 @@ There is no way to avoid having these states — a request either has an answer 
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
 | Explicit state taxonomy (this article) | Any view over server data | More branches to write and test | (this article) |
-| [Offline & Local-First Sync](./README.md) (planned) | Data can live locally and sync in the background | Substantial architecture; conflict resolution | `Offline & Local-First Sync · Data & Server State` |
+| [Offline & Local-First Sync](./) (planned) | Data can live locally and sync in the background | Substantial architecture; conflict resolution | `Offline & Local-First Sync · Data & Server State` |
 | Suspense + error boundaries | You want states declared at the boundary, not per component | Coarser granularity; boundaries need reset paths | [React docs](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary) |
 | Placeholder / previous data | Paginated or filtered views with a prior result | Shows stale content that must be marked as such | [Pagination](./pagination.md) |
 
@@ -466,7 +466,7 @@ Two production points. Fetch failures are handled *inside* `QuerySection` as ord
 
 ## Common Mistakes
 
-See the [Data & Server State anti-patterns](../../../anti-patterns/README.md#data-server-state) for the domain catalog. Concept-specific:
+See the [Data & Server State anti-patterns](../../../anti-patterns/#data-server-state) for the domain catalog. Concept-specific:
 
 ### Mistake: Gating the view on `isFetching`
 

@@ -65,7 +65,7 @@ Two properties matter most: **descriptive** (a reader knows the content from the
 
 ## Anti-patterns
 
-- **Location:** [`anti-patterns/`](../anti-patterns/README.md).
+- **Location:** [`anti-patterns/`](../anti-patterns/).
 - **Named for the smell, plainly:** `use-effect-as-data-fetcher.md`, `prop-drilling.md`, `index-as-key.md` — name the mistake so it is greppable and memorable.
 - **Do not name by the fix** (`avoid-prop-drilling.md`) — name the anti-pattern itself; the file explains why it fails and links the correct approach.
 - Per-domain catalog anchors are generated (`#javascript`, `#data-server-state`); do not hand-author anchor names that links depend on.

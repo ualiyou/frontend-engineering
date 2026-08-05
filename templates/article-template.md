@@ -118,7 +118,7 @@ The situations where this approach adds unnecessary complexity, hurts performanc
 
 ## Common Mistakes
 
-The `Common Mistakes` relation (see [`INTERNAL_LINKING.md`](../INTERNAL_LINKING.md)). The mistakes that show up around this concept, so a reader can spot them in review. For each: the symptom (what the code or behavior looks like), why it fails at scale, and the fix. This heading is the anchor the article's `common_mistakes` link points at (`#common-mistakes`); keep it. For cross-cutting pitfalls, link the domain's entry in the shared catalog: [`anti-patterns/README.md#<domain>`](../../../anti-patterns/README.md). Promote a recurring pitfall into its own file under `anti-patterns/` and link it here.
+The `Common Mistakes` relation (see [`INTERNAL_LINKING.md`](../INTERNAL_LINKING.md)). The mistakes that show up around this concept, so a reader can spot them in review. For each: the symptom (what the code or behavior looks like), why it fails at scale, and the fix. This heading is the anchor the article's `common_mistakes` link points at (`#common-mistakes`); keep it. For cross-cutting pitfalls, link the domain's entry in the shared catalog: [`anti-patterns/README.md#<domain>`](../../../anti-patterns/). Promote a recurring pitfall into its own file under `anti-patterns/` and link it here.
 
 ### Mistake: Name the smell
 

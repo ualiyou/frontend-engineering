@@ -275,7 +275,7 @@ onCLS((metric: CLSMetricWithAttribution) => {
 
 ## Common Mistakes
 
-See the [Performance Engineering anti-patterns](../../../anti-patterns/README.md#performance-engineering) for the domain catalog. Concept-specific:
+See the [Performance Engineering anti-patterns](../../../anti-patterns/#performance-engineering) for the domain catalog. Concept-specific:
 
 ### Mistake: Certifying on a lab score instead of field data
 
