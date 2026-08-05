@@ -31,6 +31,9 @@ jobs:
   link-check:
     # WHY: catch broken internal links before they reach a reader. Fast, offline-friendly.
     # `index.md` is the site home page: its links are site routes, not repo paths.
+    # `anti-patterns/#<domain>` links point at a folder index, so lychee can't read
+    # the fragment out of a directory. Those anchors are validated instead by
+    # `scripts/validate-links.py` ("catalog anchors present").
     name: Internal link check
     runs-on: ubuntu-latest
     steps:
@@ -41,6 +44,7 @@ jobs:
             --offline
             --include-fragments
             --no-progress
+            --exclude 'anti-patterns/?#'
             --exclude-path '(^|/)(paths|templates)/'
             --exclude-path '^(\./)?index\.md$'
             './**/*.md'
