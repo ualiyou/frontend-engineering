@@ -28,6 +28,8 @@
 
 </div>
 
+In memory of [**Saber Rastikerdar**](https://fa.wikipedia.org/wiki/%D8%B5%D8%A7%D8%A8%D8%B1_%D8%B1%D8%A7%D8%B3%D8%AA%DB%8C%E2%80%8C%DA%A9%D8%B1%D8%AF%D8%A7%D8%B1) — creator of [**Vazirmatn**](https://github.com/rastikerdar/vazirmatn), the open typeface he gave the Persian web and asked nothing for.
+
 ---
 
 ## Table of Contents
