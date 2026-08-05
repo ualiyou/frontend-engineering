@@ -4,6 +4,13 @@
 
 <h1>Frontend Engineering</h1>
 
+</div>
+
+> [!NOTE] In memory of [Saber Rastikerdar](https://fa.wikipedia.org/wiki/%D8%B5%D8%A7%D8%A8%D8%B1_%D8%B1%D8%A7%D8%B3%D8%AA%DB%8C%E2%80%8C%DA%A9%D8%B1%D8%AF%D8%A7%D8%B1)
+> Creator of [Vazirmatn](https://github.com/rastikerdar/vazirmatn), the open typeface he gave the Persian web and asked nothing for.
+
+<div align="center">
+
 <strong>Engineering decisions, not tutorials.</strong>
 
 <p>A long-term, community-driven, peer-reviewed knowledge base of frontend engineering<br/>patterns, trade-offs, and production-ready practices — framework-aware, not framework-bound.</p>
@@ -27,9 +34,6 @@
 </p>
 
 </div>
-
-> [!NOTE] In memory of [Saber Rastikerdar](https://fa.wikipedia.org/wiki/%D8%B5%D8%A7%D8%A8%D8%B1_%D8%B1%D8%A7%D8%B3%D8%AA%DB%8C%E2%80%8C%DA%A9%D8%B1%D8%AF%D8%A7%D8%B1)
-> Creator of [Vazirmatn](https://github.com/rastikerdar/vazirmatn), the open typeface he gave the Persian web and asked nothing for.
 
 ---
 
