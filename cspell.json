@@ -34,11 +34,13 @@
     "focusable", "focusability", "perceivable", "conformance", "swappable", "currying",
     "reachability", "teardown", "collectable", "unsubscribe", "dropdown", "ECMAScript", "callee",
     "renderable", "unmemoized", "mismeasured", "superlinear", "normalizr",
-    "vitepress", "VitePress", "picomatch"
+    "vitepress", "VitePress", "picomatch", "cytoscape", "braintree", "bilkent", "dayjs", "favicon"
   ],
   "ignorePaths": [
     "_to_delete/**",
     "node_modules/**",
+    ".vitepress/dist/**",
+    ".vitepress/cache/**",
     "**/*.json",
     "**/graph.json",
     "assets/**",
