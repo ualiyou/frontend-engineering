@@ -8,6 +8,8 @@
 
 - [Fetch-on-Render vs Render-as-You-Fetch](fetch-on-render-vs-render-as-you-fetch.md)
 - [Parallel vs Waterfall Requests](parallel-vs-waterfall-requests.md)
+- [Request Deduplication](request-deduplication.md)
+- [Data Prefetching](data-prefetching.md)
 - [Cache Keys & Query Identity](cache-keys-and-query-identity.md)
 - [Staleness & Revalidation](staleness-and-revalidation.md)
 - [Cache Invalidation](cache-invalidation.md)
@@ -15,6 +17,14 @@
 - [Mutation Lifecycle](mutation-lifecycle.md)
 - [Optimistic Updates](optimistic-updates.md)
 - [Rollback & Conflict Resolution](rollback-and-conflict-resolution.md)
+- [Pagination](pagination.md)
+- [Infinite & Cursor Loading](infinite-and-cursor-loading.md)
+- [List Virtualization](list-virtualization.md)
+- [Normalizing Server Responses](normalizing-server-responses.md)
+- [Client-Side Relations](client-side-relations.md)
+- [Derived Server Data](derived-server-data.md)
+- [Retries & Backoff](retries-and-backoff.md)
+- [Loading & Error States](loading-and-error-states.md)
 
 ## Taxonomy
 

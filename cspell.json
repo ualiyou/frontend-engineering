@@ -30,9 +30,10 @@
     "unfocusable", "unrepresentable", "unsanitized", "unsourced", "userbase", "versionable",
     "Clickjacking", "Metaprogramming", "Overcorrecting", "Subresource", "Unshareable", "unreviewed",
     "Anson", "endgroup", "lycheeverse", "nullglob", "shopt",
-    "contentful", "janky", "unthrottled", "prerender", "prerendering", "overcorrects",
+    "contentful", "janky", "unthrottled", "prerender", "prerendering", "overcorrect", "overcorrects",
     "focusable", "focusability", "perceivable", "conformance", "swappable", "currying",
-    "reachability", "teardown", "collectable", "unsubscribe", "dropdown", "ECMAScript", "callee"
+    "reachability", "teardown", "collectable", "unsubscribe", "dropdown", "ECMAScript", "callee",
+    "renderable", "unmemoized", "mismeasured", "superlinear", "normalizr"
   ],
   "ignorePaths": [
     "_to_delete/**",
