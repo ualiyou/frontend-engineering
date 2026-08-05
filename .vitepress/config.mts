@@ -43,9 +43,13 @@ const config = withMermaid(
     ignoreDeadLinks: true,
 
     head: [
-      // `.vitepress/public/logo.svg` is a copy of assets/branding/logo.svg —
-      // only files under public/ are served as static site paths.
-      ['link', { rel: 'icon', href: '/frontend-engineering/logo.svg' }],
+      // `.vitepress/public/` holds the site's static files: only paths under
+      // it are served. logo.svg is a copy of assets/branding/logo.svg, and
+      // favicon.ico is rendered from it (browsers request /favicon.ico
+      // regardless of the declared icon).
+      ['link', { rel: 'icon', type: 'image/svg+xml', href: '/frontend-engineering/logo.svg' }],
+      ['link', { rel: 'alternate icon', type: 'image/x-icon', href: '/frontend-engineering/favicon.ico' }],
+      ['link', { rel: 'apple-touch-icon', href: '/frontend-engineering/logo.svg' }],
       ['meta', { name: 'theme-color', content: '#38BDF8' }],
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { property: 'og:title', content: 'Frontend Engineering' }],
