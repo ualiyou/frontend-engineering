@@ -78,7 +78,7 @@ The **cascade** decides, for each element and each property, which declared valu
 - **B** — the number of class selectors (`.card`), attribute selectors (`[data-open]`), and pseudo-classes (`:hover`, `:nth-child()`).
 - **C** — the number of type selectors (`div`, `input`) and pseudo-elements (`::before`).
 
-Comparison is lexicographic: `(1,0,0)` beats `(0,99,0)`. Combinators (` `, `>`, `+`, `~`) and the universal selector `*` add nothing. Three functional pseudo-classes bend the rules deliberately: `:is()` and `:not()` take the specificity of their *most specific* argument, `:has()` does the same, and **`:where()` always contributes zero** — which makes it the tool for shipping low-specificity defaults that any consumer can override.
+Comparison is lexicographic: `(1,0,0)` beats `(0,99,0)`. Combinators (a space, `>`, `+`, `~`) and the universal selector `*` add nothing. Three functional pseudo-classes bend the rules deliberately: `:is()` and `:not()` take the specificity of their *most specific* argument, `:has()` does the same, and **`:where()` always contributes zero** — which makes it the tool for shipping low-specificity defaults that any consumer can override.
 
 The distinction most often confused: `!important` is *not* "very high specificity". It moves the declaration into a separate importance bucket that is compared before specificity ever runs, which is why nothing you add to a normal selector can beat it, and why the only counter to an `!important` is another `!important` of higher origin, layer, or specificity.
 
