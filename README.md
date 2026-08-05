@@ -14,6 +14,10 @@
 <img src="assets/branding/banner.svg" alt="Frontend Engineering" width="100%" />
 
 <p>
+  <strong><a href="https://ualiyou.github.io/frontend-engineering/">Read it on the web →</a></strong>
+</p>
+
+<p>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
   <a href="https://github.com/ualiyou/frontend-engineering/actions"><img alt="CI" src="https://github.com/ualiyou/frontend-engineering/actions/workflows/ci.yml/badge.svg"></a>
   <a href="CONTRIBUTING.md"><img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg"></a>
@@ -173,6 +177,18 @@ Before opening a pull request, read:
 - **[GOVERNANCE.md](GOVERNANCE.md)** — roles, decision-making, and the RFC process.
 
 Work is organized with a scalable [label system](.github/LABELS.md), a [project board](.github/PROJECT_BOARD.md), and [milestones](.github/MILESTONES.md).
+
+### Previewing the site
+
+The published site is built from this repository with [VitePress](https://vitepress.dev) — the markdown is the source, so there is nothing to duplicate. To preview a change locally:
+
+```bash
+npm install
+npm run docs:dev      # local server with hot reload
+npm run docs:build    # production build into .vitepress/dist
+```
+
+Sidebar navigation is generated from each domain's `graph.json`, so a new article appears once its file exists — no navigation file to update.
 
 ## Roadmap
 

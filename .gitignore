@@ -8,6 +8,10 @@ node_modules/
 dist/
 coverage/
 
+# VitePress site build artifacts
+.vitepress/cache/
+.vitepress/dist/
+
 # Python tooling
 __pycache__/
 *.py[cod]

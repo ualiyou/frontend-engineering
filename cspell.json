@@ -33,7 +33,8 @@
     "contentful", "janky", "unthrottled", "prerender", "prerendering", "overcorrect", "overcorrects",
     "focusable", "focusability", "perceivable", "conformance", "swappable", "currying",
     "reachability", "teardown", "collectable", "unsubscribe", "dropdown", "ECMAScript", "callee",
-    "renderable", "unmemoized", "mismeasured", "superlinear", "normalizr"
+    "renderable", "unmemoized", "mismeasured", "superlinear", "normalizr",
+    "vitepress", "VitePress", "picomatch"
   ],
   "ignorePaths": [
     "_to_delete/**",
