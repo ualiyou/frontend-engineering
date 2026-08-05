@@ -86,15 +86,19 @@ Mid-level to senior frontend engineers making architectural and design decisions
 
 ## Start with a decision
 
-🧭 **Ten peer-reviewed articles are already available.** Start with the decision currently slowing your team down.
+🧭 **45 peer-reviewed articles are already available.** Start with the decision currently slowing your team down.
 
 | If you're deciding… | Start here | You will leave with |
 | --- | --- | --- |
 | When to start a request | [Fetch-on-Render vs Render-as-You-Fetch](docs/03-application-architecture/data-server-state/fetch-on-render-vs-render-as-you-fetch.md) | A loading model that matches the user experience you need. |
 | What makes cached data the same data | [Cache Keys & Query Identity](docs/03-application-architecture/data-server-state/cache-keys-and-query-identity.md) | A stable cache identity that avoids subtle duplication and invalidation bugs. |
 | How to keep form input trustworthy | [Schema Validation](docs/03-application-architecture/forms-validation/schema-validation.md) | A contract between UI, validation, and inferred types. |
+| Where a piece of work should run | [Process & Thread Architecture](docs/00-foundations/web-platform/process-and-thread-architecture.md) | A main-thread budget, and the rule for what to offload. |
+| Which client store to reach for | [Web Storage](docs/00-foundations/browser-apis/web-storage.md) | The size and access-pattern thresholds that decide it. |
+| How to stop the CSS override arms race | [Specificity](docs/01-core-languages/css/specificity.md) | A flat, layered precedence model instead of `!important`. |
+| What actually protects a logged-in user | [Same-Origin Policy](docs/05-reliability-quality/security/same-origin-policy.md) | The read/write asymmetry, and the defenses each side needs. |
 
-Browse the complete published collections: [Data & Server State](docs/03-application-architecture/data-server-state/) and [Forms & Validation](docs/03-application-architecture/forms-validation/). If this would save your team a future debate, [star the repository](https://github.com/ualiyou/frontend-engineering/stargazers) and come back when the next one begins.
+Browse the published collections: [Data & Server State](docs/03-application-architecture/data-server-state/), [Forms & Validation](docs/03-application-architecture/forms-validation/), [State Management](docs/03-application-architecture/state-management/), and [Performance](docs/05-reliability-quality/performance/) — plus the entry-point articles now open across [Foundations](docs/00-foundations/) and [Core Languages](docs/01-core-languages/). If this would save your team a future debate, [star the repository](https://github.com/ualiyou/frontend-engineering/stargazers) and come back when the next one begins.
 
 ### ⚡ The familiar feeling
 

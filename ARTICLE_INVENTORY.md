@@ -9,7 +9,7 @@
 - **Total estimated reading time:** ~8459 min (~141 h)
 - **Total expected code examples:** ~1816
 - **Difficulty distribution:** Foundational 169 · Intermediate 288 · Advanced 160 · Staff 34
-- **Status:** 35 Published · 616 Planned.
+- **Status:** 45 Published · 606 Planned.
 
 ### Column reference
 
@@ -35,7 +35,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Storage | `web-storage.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | IndexedDB; The Cache Storage API; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Planned |
+| Web Storage | `web-storage.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | IndexedDB; The Cache Storage API; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Published |
 | IndexedDB | `indexeddb.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; The Cache Storage API; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Planned |
 | The Cache Storage API | `the-cache-storage-api.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; IndexedDB; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Planned |
 | Cookies & Partitioned Storage | `cookies-and-partitioned-storage.md` | Browser APIs | Storage | Critical | Foundational | 11 min | Web Storage | Web Storage; IndexedDB; The Cache Storage API; Storage Quotas & Eviction | 2 | Planned |
@@ -63,7 +63,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Trees & the DOM as a Tree | `trees-and-the-dom-as-a-tree.md` | Computer Science for Frontend | Data Structures | Critical | Foundational | 8 min | — | Graphs & Dependency Modeling; Hash Maps & Sets; Stacks & Queues; Linked & Persistent Lists | 2 | Planned |
+| Trees & the DOM as a Tree | `trees-and-the-dom-as-a-tree.md` | Computer Science for Frontend | Data Structures | Critical | Foundational | 8 min | — | Graphs & Dependency Modeling; Hash Maps & Sets; Stacks & Queues; Linked & Persistent Lists | 2 | Published |
 | Graphs & Dependency Modeling | `graphs-and-dependency-modeling.md` | Computer Science for Frontend | Data Structures | Critical | Foundational | 11 min | Trees & the DOM as a Tree | Trees & the DOM as a Tree; Hash Maps & Sets; Stacks & Queues; Linked & Persistent Lists | 2 | Planned |
 | Hash Maps & Sets | `hash-maps-and-sets.md` | Computer Science for Frontend | Data Structures | Critical | Foundational | 8 min | Trees & the DOM as a Tree | Trees & the DOM as a Tree; Graphs & Dependency Modeling; Stacks & Queues; Linked & Persistent Lists | 2 | Planned |
 | Stacks & Queues | `stacks-and-queues.md` | Computer Science for Frontend | Data Structures | Critical | Foundational | 8 min | Trees & the DOM as a Tree | Trees & the DOM as a Tree; Graphs & Dependency Modeling; Hash Maps & Sets; Linked & Persistent Lists | 2 | Planned |
@@ -86,7 +86,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| HTTP/1.1 Semantics | `http-1-1-semantics.md` | Networking & Protocols | HTTP | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | HTTP/2 Multiplexing; HTTP/3 & QUIC; Methods, Status Codes & Headers | 2 | Planned |
+| HTTP/1.1 Semantics | `http-1-1-semantics.md` | Networking & Protocols | HTTP | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | HTTP/2 Multiplexing; HTTP/3 & QUIC; Methods, Status Codes & Headers | 2 | Published |
 | HTTP/2 Multiplexing | `http-2-multiplexing.md` | Networking & Protocols | HTTP | Critical | Foundational | 8 min | HTTP/1.1 Semantics | HTTP/1.1 Semantics; HTTP/3 & QUIC; Methods, Status Codes & Headers | 2 | Planned |
 | HTTP/3 & QUIC | `http-3-and-quic.md` | Networking & Protocols | HTTP | Critical | Foundational | 8 min | HTTP/1.1 Semantics | HTTP/1.1 Semantics; HTTP/2 Multiplexing; Methods, Status Codes & Headers | 2 | Planned |
 | Methods, Status Codes & Headers | `methods-status-codes-and-headers.md` | Networking & Protocols | HTTP | Critical | Foundational | 11 min | HTTP/1.1 Semantics | HTTP/1.1 Semantics; HTTP/2 Multiplexing; HTTP/3 & QUIC | 2 | Planned |
@@ -110,7 +110,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Parsing & Bytecode | `parsing-and-bytecode.md` | Runtime & Execution | Engine Internals | Critical | Intermediate | 12 min | Process & Thread Architecture · The Web Platform | JIT Compilation & Deoptimization; Hidden Classes & Shapes; Inline Caches | 3 | Planned |
+| Parsing & Bytecode | `parsing-and-bytecode.md` | Runtime & Execution | Engine Internals | Critical | Intermediate | 12 min | Process & Thread Architecture · The Web Platform | JIT Compilation & Deoptimization; Hidden Classes & Shapes; Inline Caches | 3 | Published |
 | JIT Compilation & Deoptimization | `jit-compilation-and-deoptimization.md` | Runtime & Execution | Engine Internals | Critical | Intermediate | 15 min | Parsing & Bytecode | Parsing & Bytecode; Hidden Classes & Shapes; Inline Caches | 3 | Planned |
 | Hidden Classes & Shapes | `hidden-classes-and-shapes.md` | Runtime & Execution | Engine Internals | Critical | Intermediate | 12 min | Parsing & Bytecode | Parsing & Bytecode; JIT Compilation & Deoptimization; Inline Caches | 3 | Planned |
 | Inline Caches | `inline-caches.md` | Runtime & Execution | Engine Internals | Critical | Intermediate | 12 min | Parsing & Bytecode | Parsing & Bytecode; JIT Compilation & Deoptimization; Hidden Classes & Shapes | 3 | Planned |
@@ -133,7 +133,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Process & Thread Architecture | `process-and-thread-architecture.md` | The Web Platform | Browser Internals | Critical | Foundational | 11 min | Trees & the DOM as a Tree · Computer Science for Frontend | Sandboxing & Site Isolation; The Main Thread | 2 | Planned |
+| Process & Thread Architecture | `process-and-thread-architecture.md` | The Web Platform | Browser Internals | Critical | Foundational | 11 min | Trees & the DOM as a Tree · Computer Science for Frontend | Sandboxing & Site Isolation; The Main Thread | 2 | Published |
 | Sandboxing & Site Isolation | `sandboxing-and-site-isolation.md` | The Web Platform | Browser Internals | Critical | Foundational | 11 min | Process & Thread Architecture | Process & Thread Architecture; The Main Thread | 2 | Planned |
 | The Main Thread | `the-main-thread.md` | The Web Platform | Browser Internals | Critical | Foundational | 8 min | Process & Thread Architecture | Process & Thread Architecture; Sandboxing & Site Isolation | 2 | Planned |
 | HTML Parsing & DOM Construction | `html-parsing-and-dom-construction.md` | The Web Platform | The Rendering Pipeline | Critical | Foundational | 11 min | Process & Thread Architecture | Style Calculation; Layout & Reflow; Paint & Layerization; Compositing | 2 | Planned |
@@ -160,7 +160,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Specificity | `specificity.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | Inheritance & Initial Values; Cascade Layers (@layer); Custom Properties | 2 | Planned |
+| Specificity | `specificity.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | Inheritance & Initial Values; Cascade Layers (@layer); Custom Properties | 2 | Published |
 | Inheritance & Initial Values | `inheritance-and-initial-values.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 11 min | Specificity | Specificity; Cascade Layers (@layer); Custom Properties | 2 | Planned |
 | Cascade Layers (@layer) | `cascade-layers-layer.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Specificity | Specificity; Inheritance & Initial Values; Custom Properties | 2 | Planned |
 | Custom Properties | `custom-properties.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Specificity | Specificity; Inheritance & Initial Values; Cascade Layers (@layer) | 2 | Planned |
@@ -194,7 +194,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| The Document Outline | `the-document-outline.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | Sectioning & Landmarks; Headings Hierarchy; Tables & Data Semantics | 2 | Planned |
+| The Document Outline | `the-document-outline.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | Sectioning & Landmarks; Headings Hierarchy; Tables & Data Semantics | 2 | Published |
 | Sectioning & Landmarks | `sectioning-and-landmarks.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | The Document Outline | The Document Outline; Headings Hierarchy; Tables & Data Semantics | 2 | Planned |
 | Headings Hierarchy | `headings-hierarchy.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | The Document Outline | The Document Outline; Sectioning & Landmarks; Tables & Data Semantics | 2 | Planned |
 | Tables & Data Semantics | `tables-and-data-semantics.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | The Document Outline | The Document Outline; Sectioning & Landmarks; Headings Hierarchy | 2 | Planned |
@@ -251,7 +251,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Structural Typing | `structural-typing.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Primitives & Wrappers · JavaScript | Assignability; unknown, never & any; Literal & Unit Types | 2 | Planned |
+| Structural Typing | `structural-typing.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Primitives & Wrappers · JavaScript | Assignability; unknown, never & any; Literal & Unit Types | 2 | Published |
 | Assignability | `assignability.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; unknown, never & any; Literal & Unit Types | 2 | Planned |
 | unknown, never & any | `unknown-never-and-any.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; Assignability; Literal & Unit Types | 2 | Planned |
 | Literal & Unit Types | `literal-and-unit-types.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; Assignability; unknown, never & any | 2 | Planned |
@@ -285,7 +285,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Elements vs Components | `elements-vs-components.md` | React | The Component Model | Critical | Intermediate | 12 min | Primitives & Wrappers · JavaScript; The CSR Model · Rendering Architectures; The Document Outline · HTML & Document Semantics | JSX Semantics; Composition & Children | 3 | Planned |
+| Elements vs Components | `elements-vs-components.md` | React | The Component Model | Critical | Intermediate | 12 min | Primitives & Wrappers · JavaScript; The CSR Model · Rendering Architectures; The Document Outline · HTML & Document Semantics | JSX Semantics; Composition & Children | 3 | Published |
 | JSX Semantics | `jsx-semantics.md` | React | The Component Model | Critical | Intermediate | 12 min | Elements vs Components | Elements vs Components; Composition & Children | 3 | Planned |
 | Composition & Children | `composition-and-children.md` | React | The Component Model | Critical | Intermediate | 12 min | Elements vs Components | Elements vs Components; JSX Semantics | 3 | Planned |
 | The Render Phase | `the-render-phase.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | Elements vs Components | Reconciliation & Diffing; Keys & List Reconciliation; The Commit Phase | 3 | Planned |
@@ -633,7 +633,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Same-Origin Policy | `same-origin-policy.md` | Security | The Security Model | Critical | Advanced | 16 min | HTTP/1.1 Semantics · Networking & Protocols; Web Storage · Browser APIs | CORS; Isolation (COOP/COEP) | 4 | Planned |
+| Same-Origin Policy | `same-origin-policy.md` | Security | The Security Model | Critical | Advanced | 16 min | HTTP/1.1 Semantics · Networking & Protocols; Web Storage · Browser APIs | CORS; Isolation (COOP/COEP) | 4 | Published |
 | CORS | `cors.md` | Security | The Security Model | Critical | Advanced | 16 min | Same-Origin Policy | Same-Origin Policy; Isolation (COOP/COEP) | 4 | Planned |
 | Isolation (COOP/COEP) | `isolation-coop-coep.md` | Security | The Security Model | Critical | Advanced | 16 min | Same-Origin Policy | Same-Origin Policy; CORS | 4 | Planned |
 | Cross-Site Scripting (XSS) | `cross-site-scripting-xss.md` | Security | Injection Attacks | Critical | Advanced | 16 min | Same-Origin Policy | DOM-Based XSS; HTML/Template Injection; Sanitization & Encoding | 4 | Planned |

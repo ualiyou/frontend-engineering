@@ -35,7 +35,10 @@
     "reachability", "teardown", "collectable", "unsubscribe", "dropdown", "ECMAScript", "callee",
     "renderable", "unmemoized", "mismeasured", "superlinear", "normalizr",
     "vitepress", "VitePress", "picomatch", "cytoscape", "braintree", "bilkent", "dayjs", "favicon",
-    "Vazirmatn", "Rastikerdar", "noreferrer", "colour", "صابر", "راستی", "کردار", "ویکی", "پدیای", "فارسی"
+    "Vazirmatn", "Rastikerdar", "noreferrer", "colour", "صابر", "راستی", "کردار", "ویکی", "پدیای", "فارسی",
+    "exfiltrates", "visibilitychange", "subresources", "Maglev", "sandboxed", "rasterizes",
+    "longtask", "Embedder", "combinators", "Combinators", "unlayered", "subtyping",
+    "typechecks", "retrys"
   ],
   "ignorePaths": [
     "_to_delete/**",
