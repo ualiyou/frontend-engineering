@@ -148,8 +148,8 @@ Parallelizing is one lever on the request timeline; two others solve adjacent pr
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
 | Parallel fetching | Independent requests are running in sequence | Large fan-outs shift cost to throughput | (this article) |
-| Request Deduplication | The same request fires multiple times at once | Does nothing for distinct requests | *Request Deduplication* (planned) |
-| Data Prefetching | Requests start too late, after render | Speculative fetches can be wasted | *Data Prefetching* (planned) |
+| [Request Deduplication](./request-deduplication.md) | The same request fires multiple times at once | Does nothing for distinct requests | `Request Deduplication · Data & Server State` |
+| [Data Prefetching](./data-prefetching.md) | Requests start too late, after render | Speculative fetches can be wasted | `Data Prefetching · Data & Server State` |
 
 ## Bad Example
 
