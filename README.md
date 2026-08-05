@@ -183,12 +183,14 @@ Work is organized with a scalable [label system](.github/LABELS.md), a [project 
 The published site is built from this repository with [VitePress](https://vitepress.dev) — the markdown is the source, so there is nothing to duplicate. To preview a change locally:
 
 ```bash
-npm install
+npm install           # or pnpm install
 npm run docs:dev      # local server with hot reload
 npm run docs:build    # production build into .vitepress/dist
 ```
 
 Sidebar navigation is generated from each domain's `graph.json`, so a new article appears once its file exists — no navigation file to update.
+
+Two notes on the toolchain: Mermaid's `dayjs`, `cytoscape`, and `@braintree/sanitize-url` are declared as direct devDependencies because the Mermaid plugin pre-bundles them by bare name, which needs them resolvable from the project root under any package manager. And `vitepress dev` prints one harmless `Failed to resolve dependency: debug` warning — that name is on the plugin's pre-bundle list but is not a Mermaid 11 dependency.
 
 ## Roadmap
 
