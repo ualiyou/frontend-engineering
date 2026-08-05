@@ -13,7 +13,8 @@
   --fe-accent-soft: #5ee5ff;
   --fe-accent-secondary: #22d3aa;
 
-  --vp-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --vp-font-family-base: Vazirmatn, Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI',
+    sans-serif;
   --vp-font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --vp-c-brand-1: #0284c7;
@@ -78,10 +79,14 @@
   color: var(--vp-c-text-1);
 }
 
-/* "At a Glance" / trade-off tables carry a lot of weight — keep them readable. */
+/* "At a Glance" / trade-off tables carry a lot of weight — keep them readable.
+   `display: block` is VitePress's default and it is load-bearing: it is what makes
+   `overflow-x` work. `display: table` cannot scroll, so a wide table (the 9-column
+   ARTICLE_INVENTORY grid) spills out of the article column and over the outline. */
 .vp-doc table {
-  display: table;
-  width: 100%;
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
   font-size: 0.94rem;
 }
 
@@ -125,4 +130,94 @@
 .VPSidebarItem.level-2 .link .text {
   font-size: 0.85rem;
   line-height: 1.45;
+}
+
+/* Memorial bar, full-bleed above the nav.
+   --vp-layout-top-height is the theme's own contract for a fixed `layout-top`
+   band: nav, sidebar, hero and doc padding all offset against it. It must match
+   the bar's real height, so the bar is a fixed-height single line at every
+   breakpoint and the copy shortens instead of wrapping. */
+:root {
+  --vp-layout-top-height: 51px;
+}
+
+.dedication {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: var(--vp-z-index-layout-top);
+  /* Not flex: flex would turn each text run into an anonymous item and strip the
+     spaces between them. A block with matching line-height centres just as well. */
+  height: var(--vp-layout-top-height);
+  padding: 0 16px;
+  line-height: var(--vp-layout-top-height);
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgb(34 211 170 / 10%), rgb(56 189 248 / 10%));
+  backdrop-filter: blur(8px);
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  color: var(--vp-c-text-1);
+}
+
+/* Gradient hairline instead of a flat divider — same palette as the hero
+   headline, and a pseudo-element so it can't add to the bar's fixed height. */
+.dedication::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #22d3aa, #38bdf8, #5ee5ff, transparent);
+  opacity: 0.7;
+}
+
+/* His name carries the same gradient as the hero headline — the loudest thing
+   in the bar, by intent. `color` stays a real colour so the underline (which is
+   painted from `color`, not from the clipped fill) still shows on hover. */
+.dedication .dedication-name {
+  font-weight: 700;
+  color: var(--vp-c-brand-1);
+  background: linear-gradient(100deg, #22d3aa, #38bdf8 55%, #5ee5ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.dedication .dedication-name:hover {
+  text-decoration: underline;
+}
+
+.dedication a {
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.dedication a:hover {
+  color: var(--vp-c-brand-2);
+}
+
+.dedication-mark {
+  margin-right: 0.5em;
+  color: var(--vp-c-brand-1);
+  opacity: 0.75;
+}
+
+/* One line, always: drop the long clause before it can wrap. */
+.dedication-short {
+  display: none;
+}
+
+@media (max-width: 820px) {
+  .dedication-long {
+    display: none;
+  }
+
+  .dedication-short {
+    display: inline;
+  }
 }

@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: Start with a decision
-      link: /docs/03-application-architecture/data-server-state/README
+      link: /docs/03-application-architecture/data-server-state/
     - theme: alt
       text: Knowledge Map
       link: /KNOWLEDGE_MAP
@@ -35,13 +35,13 @@ features:
 
 ## Where to start
 
-- **Working on data fetching or caching?** [Data & Server State](/docs/03-application-architecture/data-server-state/README) is the most complete domain — request identity, staleness, mutations, pagination, and resilience.
-- **Deciding where state should live?** [State Management](/docs/03-application-architecture/state-management/README) starts with the classification that makes the rest of the decisions mechanical.
-- **Chasing a performance problem?** [Performance Engineering](/docs/05-reliability-quality/performance/README) covers the critical rendering path, Core Web Vitals, and code splitting.
+- **Working on data fetching or caching?** [Data & Server State](/docs/03-application-architecture/data-server-state/) is the most complete domain — request identity, staleness, mutations, pagination, and resilience.
+- **Deciding where state should live?** [State Management](/docs/03-application-architecture/state-management/) starts with the classification that makes the rest of the decisions mechanical.
+- **Chasing a performance problem?** [Performance Engineering](/docs/05-reliability-quality/performance/) covers the critical rendering path, Core Web Vitals, and code splitting.
 - **Want the whole picture?** The [Knowledge Map](/KNOWLEDGE_MAP) lays out nine Parts and 35 domains; the [Article Inventory](/ARTICLE_INVENTORY) lists every article with its status, difficulty, and prerequisites.
 
 ## What this is not
 
-Not a tutorial site, not a framework comparison scoreboard, and not a link dump. Articles are reviewed against the [standards](/standards/README), carry explicit prerequisites, and are expected to stay useful for years — so anything that only makes sense inside one release cycle does not belong here.
+Not a tutorial site, not a framework comparison scoreboard, and not a link dump. Articles are reviewed against the [standards](/standards/), carry explicit prerequisites, and are expected to stay useful for years — so anything that only makes sense inside one release cycle does not belong here.
 
 Contributions are welcome: read [CONTRIBUTING](/CONTRIBUTING) for the article template, the review criteria, and how the link graph is validated.

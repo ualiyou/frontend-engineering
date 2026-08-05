@@ -60,13 +60,15 @@ const config = withMermaid(
           content: 'Engineering decisions, not tutorials.',
         },
       ],
-      // Inter ships with the VitePress default theme; only the mono face is
-      // fetched.
+      // Vazirmatn is the site's text face, in memory of Saber Rastikerdar.
+      // One request for both families; preconnect because the font host is a
+      // render-blocking third party on first paint.
+      ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
       [
         'link',
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap',
+          href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Vazirmatn:wght@100..900&display=swap',
         },
       ],
     ],
