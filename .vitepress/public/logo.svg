@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Frontend Engineering logo">
+  <defs>
+    <linearGradient id="surface" x1="10" y1="8" x2="110" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101e36"/>
+      <stop offset="1" stop-color="#07111f"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="30" y1="28" x2="92" y2="86" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5ee5ff"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="120" height="120" rx="30" fill="url(#surface)"/>
+  <rect x="1" y="1" width="118" height="118" rx="29" fill="none" stroke="#28415f" stroke-opacity=".75"/>
+  <path d="M60 20v16M60 84v16M20 60h16M84 60h16" stroke="#1e3956" stroke-width="1.5"/>
+  <path d="M35 39 23 60l12 21M85 39l12 21-12 21" fill="none" stroke="url(#signal)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M47 76 60 60l13 16M60 60V38" fill="none" stroke="#7dd3fc" stroke-opacity=".65" stroke-width="2"/>
+  <circle cx="60" cy="37" r="7" fill="#22d3aa" filter="url(#glow)"/>
+  <circle cx="47" cy="77" r="5" fill="#38bdf8"/>
+  <circle cx="73" cy="77" r="5" fill="#38bdf8"/>
+  <circle cx="60" cy="60" r="6" fill="#f5f7fa"/>
+  <circle cx="60" cy="60" r="2.5" fill="#0b1220"/>
+</svg>

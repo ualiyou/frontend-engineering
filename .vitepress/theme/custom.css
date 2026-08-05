@@ -1,0 +1,128 @@
+/*
+ * Frontend Engineering — site theme.
+ * Tokens mirror assets/branding/README.md so the site and the brand assets
+ * cannot drift apart.
+ */
+
+:root {
+  --fe-bg: #0b1220;
+  --fe-surface: #111a2e;
+  --fe-text: #f5f7fa;
+  --fe-muted: #94a3b8;
+  --fe-accent: #38bdf8;
+  --fe-accent-soft: #5ee5ff;
+  --fe-accent-secondary: #22d3aa;
+
+  --vp-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --vp-c-brand-1: #0284c7;
+  --vp-c-brand-2: #0369a1;
+  --vp-c-brand-3: #38bdf8;
+  --vp-c-brand-soft: rgb(56 189 248 / 14%);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+}
+
+.dark {
+  --vp-c-bg: var(--fe-bg);
+  --vp-c-bg-alt: #080e1a;
+  --vp-c-bg-elv: var(--fe-surface);
+  --vp-c-bg-soft: var(--fe-surface);
+
+  --vp-c-brand-1: var(--fe-accent);
+  --vp-c-brand-2: var(--fe-accent-soft);
+  --vp-c-brand-3: var(--fe-accent);
+
+  --vp-c-text-1: var(--fe-text);
+  --vp-c-text-2: var(--fe-muted);
+}
+
+/* Hero: brand gradient on the headline, subtle glow behind the mark. */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #22d3aa 10%, #38bdf8 60%, #5ee5ff);
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    rgb(34 211 170 / 45%),
+    rgb(56 189 248 / 45%)
+  );
+  --vp-home-hero-image-filter: blur(48px);
+}
+
+/* Typography: tighter headings, comfortable measure for long-form articles. */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  letter-spacing: -0.015em;
+}
+
+.vp-doc h2 {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+}
+
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.75;
+}
+
+/* The blockquote under each H1 is the article's one-line thesis. */
+.vp-doc h1 + blockquote {
+  border-left-color: var(--vp-c-brand-3);
+  font-size: 1.05rem;
+}
+
+.vp-doc h1 + blockquote p {
+  color: var(--vp-c-text-1);
+}
+
+/* "At a Glance" / trade-off tables carry a lot of weight — keep them readable. */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  font-size: 0.94rem;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+  white-space: nowrap;
+}
+
+.vp-doc tr:hover td {
+  background-color: var(--vp-c-bg-soft);
+}
+
+/* Mermaid diagrams: centered, breathing room, no stretched labels. */
+.vp-doc .mermaid {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background-color: var(--vp-c-bg-soft);
+}
+
+/* Bad/Good example fences read better with a hairline accent. */
+.vp-doc div[class*='language-'] {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+}
+
+/* Deep sidebar (Part → Domain → Article) needs a compact rhythm. */
+.VPSidebarItem.level-0 > .item > .text {
+  font-weight: 700;
+}
+
+.VPSidebarItem.level-1 > .item > .text {
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.VPSidebarItem.level-2 .link .text {
+  font-size: 0.85rem;
+  line-height: 1.45;
+}

@@ -30,6 +30,7 @@ jobs:
 
   link-check:
     # WHY: catch broken internal links before they reach a reader. Fast, offline-friendly.
+    # `index.md` is the site home page: its links are site routes, not repo paths.
     name: Internal link check
     runs-on: ubuntu-latest
     steps:
@@ -41,6 +42,7 @@ jobs:
             --include-fragments
             --no-progress
             --exclude-path '(^|/)(paths|templates)/'
+            --exclude-path '^(\./)?index\.md$'
             './**/*.md'
           fail: true
 
