@@ -9,7 +9,7 @@
 - **Total estimated reading time:** ~8459 min (~141 h)
 - **Total expected code examples:** ~1816
 - **Difficulty distribution:** Foundational 169 · Intermediate 288 · Advanced 160 · Staff 34
-- **Status:** 60 Published · 591 Planned.
+- **Status:** 72 Published · 579 Planned.
 
 ### Column reference
 
@@ -36,9 +36,9 @@
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Web Storage | `web-storage.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | IndexedDB; The Cache Storage API; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Published |
-| IndexedDB | `indexeddb.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; The Cache Storage API; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Planned |
-| The Cache Storage API | `the-cache-storage-api.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; IndexedDB; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Planned |
-| Cookies & Partitioned Storage | `cookies-and-partitioned-storage.md` | Browser APIs | Storage | Critical | Foundational | 11 min | Web Storage | Web Storage; IndexedDB; The Cache Storage API; Storage Quotas & Eviction | 2 | Planned |
+| IndexedDB | `indexeddb.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; The Cache Storage API; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Published |
+| The Cache Storage API | `the-cache-storage-api.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; IndexedDB; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Published |
+| Cookies & Partitioned Storage | `cookies-and-partitioned-storage.md` | Browser APIs | Storage | Critical | Foundational | 11 min | Web Storage | Web Storage; IndexedDB; The Cache Storage API; Storage Quotas & Eviction | 2 | Published |
 | Storage Quotas & Eviction | `storage-quotas-and-eviction.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; IndexedDB; The Cache Storage API; Cookies & Partitioned Storage | 2 | Planned |
 | Intersection Observer | `intersection-observer.md` | Browser APIs | Observers | Critical | Foundational | 8 min | Web Storage | Resize Observer; Mutation Observer; Performance Observer | 2 | Planned |
 | Resize Observer | `resize-observer.md` | Browser APIs | Observers | Critical | Foundational | 8 min | Intersection Observer; Web Storage | Intersection Observer; Mutation Observer; Performance Observer | 2 | Planned |
@@ -215,14 +215,14 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Primitives & Wrappers | `primitives-and-wrappers.md` | JavaScript | Runtime Types | Critical | Foundational | 8 min | Trees & the DOM as a Tree · Computer Science for Frontend; Parsing & Bytecode · Runtime & Execution | Coercion & Conversion; Equality & Comparison; null, undefined & Nullish | 2 | Planned |
+| Primitives & Wrappers | `primitives-and-wrappers.md` | JavaScript | Runtime Types | Critical | Foundational | 8 min | Trees & the DOM as a Tree · Computer Science for Frontend; Parsing & Bytecode · Runtime & Execution | Coercion & Conversion; Equality & Comparison; null, undefined & Nullish | 2 | Published |
 | Coercion & Conversion | `coercion-and-conversion.md` | JavaScript | Runtime Types | Critical | Foundational | 8 min | Primitives & Wrappers | Primitives & Wrappers; Equality & Comparison; null, undefined & Nullish | 2 | Planned |
 | Equality & Comparison | `equality-and-comparison.md` | JavaScript | Runtime Types | Critical | Foundational | 8 min | Primitives & Wrappers | Primitives & Wrappers; Coercion & Conversion; null, undefined & Nullish | 2 | Planned |
 | null, undefined & Nullish | `null-undefined-and-nullish.md` | JavaScript | Runtime Types | Critical | Foundational | 8 min | Primitives & Wrappers | Primitives & Wrappers; Coercion & Conversion; Equality & Comparison | 2 | Planned |
 | Lexical Scope | `lexical-scope.md` | JavaScript | Scope & Closures | Critical | Foundational | 8 min | Primitives & Wrappers | Closures; Hoisting & TDZ; Block vs Function Scope | 2 | Published |
 | Closures | `closures.md` | JavaScript | Scope & Closures | Critical | Foundational | 8 min | Lexical Scope; Primitives & Wrappers | Lexical Scope; Hoisting & TDZ; Block vs Function Scope | 2 | Published |
-| Hoisting & TDZ | `hoisting-and-tdz.md` | JavaScript | Scope & Closures | Critical | Foundational | 8 min | Lexical Scope; Primitives & Wrappers | Lexical Scope; Closures; Block vs Function Scope | 2 | Planned |
-| Block vs Function Scope | `block-vs-function-scope.md` | JavaScript | Scope & Closures | Critical | Foundational | 8 min | Lexical Scope; Primitives & Wrappers | Lexical Scope; Closures; Hoisting & TDZ | 2 | Planned |
+| Hoisting & TDZ | `hoisting-and-tdz.md` | JavaScript | Scope & Closures | Critical | Foundational | 8 min | Lexical Scope; Primitives & Wrappers | Lexical Scope; Closures; Block vs Function Scope | 2 | Published |
+| Block vs Function Scope | `block-vs-function-scope.md` | JavaScript | Scope & Closures | Critical | Foundational | 8 min | Lexical Scope; Primitives & Wrappers | Lexical Scope; Closures; Hoisting & TDZ | 2 | Published |
 | Property Descriptors | `property-descriptors.md` | JavaScript | Objects & Prototypes | Critical | Foundational | 8 min | Lexical Scope | The Prototype Chain; Inheritance Patterns; Proxies & Reflect | 2 | Planned |
 | The Prototype Chain | `the-prototype-chain.md` | JavaScript | Objects & Prototypes | Critical | Foundational | 8 min | Property Descriptors; Lexical Scope | Property Descriptors; Inheritance Patterns; Proxies & Reflect | 2 | Planned |
 | Inheritance Patterns | `inheritance-patterns.md` | JavaScript | Objects & Prototypes | Critical | Foundational | 8 min | Property Descriptors; Lexical Scope | Property Descriptors; The Prototype Chain; Proxies & Reflect | 2 | Planned |
@@ -289,9 +289,9 @@
 | JSX Semantics | `jsx-semantics.md` | React | The Component Model | Critical | Intermediate | 12 min | Elements vs Components | Elements vs Components; Composition & Children | 3 | Published |
 | Composition & Children | `composition-and-children.md` | React | The Component Model | Critical | Intermediate | 12 min | Elements vs Components | Elements vs Components; JSX Semantics | 3 | Published |
 | The Render Phase | `the-render-phase.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | Elements vs Components | Reconciliation & Diffing; Keys & List Reconciliation; The Commit Phase | 3 | Published |
-| Reconciliation & Diffing | `reconciliation-and-diffing.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Keys & List Reconciliation; The Commit Phase | 3 | Planned |
-| Keys & List Reconciliation | `keys-and-list-reconciliation.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Reconciliation & Diffing; The Commit Phase | 3 | Planned |
-| The Commit Phase | `the-commit-phase.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Reconciliation & Diffing; Keys & List Reconciliation | 3 | Planned |
+| Reconciliation & Diffing | `reconciliation-and-diffing.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Keys & List Reconciliation; The Commit Phase | 3 | Published |
+| Keys & List Reconciliation | `keys-and-list-reconciliation.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Reconciliation & Diffing; The Commit Phase | 3 | Published |
+| The Commit Phase | `the-commit-phase.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Reconciliation & Diffing; Keys & List Reconciliation | 3 | Published |
 | useState | `usestate.md` | React | State & Hooks | Critical | Intermediate | 12 min | The Render Phase | useReducer; The Rules of Hooks; State Batching & Updates | 3 | Planned |
 | useReducer | `usereducer.md` | React | State & Hooks | Critical | Intermediate | 12 min | useState; The Render Phase | useState; The Rules of Hooks; State Batching & Updates | 3 | Planned |
 | The Rules of Hooks | `the-rules-of-hooks.md` | React | State & Hooks | Critical | Intermediate | 12 min | useState; The Render Phase | useState; useReducer; State Batching & Updates | 3 | Planned |
@@ -499,9 +499,9 @@
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | WCAG Principles (POUR) | `wcag-principles-pour.md` | Accessibility | Standards | High | Intermediate | 12 min | The Document Outline · HTML & Document Semantics; Prop Design & Contracts · Component & Interaction Design | Conformance Levels; The ARIA Model; Accessible Name Computation | 3 | Published |
-| Conformance Levels | `conformance-levels.md` | Accessibility | Standards | High | Intermediate | 12 min | WCAG Principles (POUR) | WCAG Principles (POUR); The ARIA Model; Accessible Name Computation | 3 | Planned |
-| The ARIA Model | `the-aria-model.md` | Accessibility | Standards | High | Intermediate | 12 min | WCAG Principles (POUR) | WCAG Principles (POUR); Conformance Levels; Accessible Name Computation | 3 | Planned |
-| Accessible Name Computation | `accessible-name-computation.md` | Accessibility | Standards | High | Intermediate | 15 min | WCAG Principles (POUR) | WCAG Principles (POUR); Conformance Levels; The ARIA Model | 3 | Planned |
+| Conformance Levels | `conformance-levels.md` | Accessibility | Standards | High | Intermediate | 12 min | WCAG Principles (POUR) | WCAG Principles (POUR); The ARIA Model; Accessible Name Computation | 3 | Published |
+| The ARIA Model | `the-aria-model.md` | Accessibility | Standards | High | Intermediate | 12 min | WCAG Principles (POUR) | WCAG Principles (POUR); Conformance Levels; Accessible Name Computation | 3 | Published |
+| Accessible Name Computation | `accessible-name-computation.md` | Accessibility | Standards | High | Intermediate | 15 min | WCAG Principles (POUR) | WCAG Principles (POUR); Conformance Levels; The ARIA Model | 3 | Published |
 | Role, Name, State | `role-name-state.md` | Accessibility | The Accessibility Tree | High | Intermediate | 12 min | WCAG Principles (POUR) | The Tree & Assistive Tech; Screen Reader Behavior | 3 | Planned |
 | The Tree & Assistive Tech | `the-tree-and-assistive-tech.md` | Accessibility | The Accessibility Tree | High | Intermediate | 12 min | Role, Name, State; WCAG Principles (POUR) | Role, Name, State; Screen Reader Behavior | 3 | Planned |
 | Screen Reader Behavior | `screen-reader-behavior.md` | Accessibility | The Accessibility Tree | High | Intermediate | 12 min | Role, Name, State; WCAG Principles (POUR) | Role, Name, State; The Tree & Assistive Tech | 3 | Planned |

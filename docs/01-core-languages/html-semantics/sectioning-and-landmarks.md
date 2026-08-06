@@ -349,7 +349,7 @@ See the [HTML & Document Semantics anti-patterns](../../../anti-patterns/) for t
 - [The Document Outline](./the-document-outline.md) — the structure landmarks and headings jointly expose.
 - [Headings Hierarchy](./headings-hierarchy.md) — the other navigation axis assistive technology relies on.
 - Tables & Data Semantics (planned) — structure for tabular regions inside `<main>`.
-- The ARIA Model · Accessibility (planned) — how implicit roles relate to explicit ones.
+- [The ARIA Model · Accessibility](../../04-interface-engineering/accessibility/the-aria-model.md) — how implicit roles relate to explicit ones.
 
 ## References
 

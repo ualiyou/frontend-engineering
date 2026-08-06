@@ -171,7 +171,7 @@ There is no substitute for a correct native outline. ARIA can *describe* structu
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
 | Native headings + landmarks | Always the default | Requires discipline; no compiler enforcement | (this article) |
-| `role="heading" aria-level="n"` | Retrofitting markup you genuinely cannot change | No default styling, no browser features, easy to get `aria-level` wrong | `The ARIA Model · Accessibility` (planned) |
+| `role="heading" aria-level="n"` | Retrofitting markup you genuinely cannot change | No default styling, no browser features, easy to get `aria-level` wrong | [The ARIA Model](../../04-interface-engineering/accessibility/the-aria-model.md) |
 | `aria-labelledby` on regions | Naming a landmark from visible text already on the page | Requires stable IDs; breaks silently if the target moves | [Sectioning & Landmarks](./sectioning-and-landmarks.md) |
 | Visually hidden headings | A region needs a name in the outline but the design has no visible title | Overuse creates an outline that doesn't match what sighted users see | (this article) |
 

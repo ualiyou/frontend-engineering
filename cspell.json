@@ -40,7 +40,9 @@
     "longtask", "Embedder", "combinators", "Combinators", "unlayered", "subtyping",
     "contravariance", "bivariance", "bivariant", "stringly", "discardable",
     "untaken", "triaging", "Goodhart", "Dodds", "Cohn",
-    "typechecks", "retrys"
+    "typechecks", "retrys",
+    "indexeddb", "microtask", "readwrite", "precached", "autoboxing", "unforgeable",
+    "granularities", "interruptible", "accname", "VPAT"
   ],
   "ignorePaths": [
     "_to_delete/**",

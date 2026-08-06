@@ -59,7 +59,7 @@ A *closure* is the pairing of a function with the lexical environment in which i
 This article assumes you understand how a function body resolves variable names against its surrounding scope, and the difference between a value and a reference.
 
 - Lexical Scope (planned) — closures are the runtime consequence of lexical scoping, so the scoping rules come first.
-- Primitives & Wrappers (planned) — what is captured "by reference" versus what behaves as a copied value.
+- [Primitives & Wrappers](./primitives-and-wrappers.md) — what is captured "by reference" versus what behaves as a copied value.
 
 ## Overview
 
@@ -252,8 +252,8 @@ See the [JavaScript anti-patterns](../../../anti-patterns/#javascript) for the d
 ## Related Articles
 
 - Lexical Scope (planned) — the name-resolution rules that closures are built on.
-- Hoisting & TDZ (planned) — how bindings come into existence within a scope before a closure reads them.
-- Block vs Function Scope (planned) — why `let` and `var` capture so differently in loops.
+- [Hoisting & TDZ](./hoisting-and-tdz.md) — how bindings come into existence within a scope before a closure reads them.
+- [Block vs Function Scope](./block-vs-function-scope.md) — why `let` and `var` capture so differently in loops.
 
 ## References
 

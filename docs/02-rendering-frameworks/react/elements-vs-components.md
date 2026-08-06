@@ -188,7 +188,7 @@ These aren't alternatives to the element model — they're the choices available
 | Element props (`icon={<Icon />}`) | Multiple named slots; caller owns the props | Element props break shallow `memo` comparison | (this article) |
 | Component props (`renderRow={Row}`) | The receiver must supply props the caller can't know | Caller must not define the component inline | (this article) |
 | Render props (`children={(item) => …}`) | The receiver has data the caller needs, per item | Verbose; function identity must be stable to memoize | [Composition & Children](./composition-and-children.md) |
-| `key` for reset | You *want* a fresh instance on identity change | Full remount cost; loses any intentional carry-over | `Keys & List Reconciliation · React` (planned) |
+| `key` for reset | You *want* a fresh instance on identity change | Full remount cost; loses any intentional carry-over | [Keys & List Reconciliation](./keys-and-list-reconciliation.md) |
 
 The default ordering: `children` first, named element props when you need more slots, render props only when the receiver owns data the caller needs.
 
@@ -345,8 +345,8 @@ See the [React anti-patterns](../../../anti-patterns/) for the domain catalog. C
 
 - [JSX Semantics](./jsx-semantics.md) — exactly what JSX compiles to, and why the transform matters here.
 - [Composition & Children](./composition-and-children.md) — slot patterns, render props, and choosing between them.
-- [The Render Phase](./the-render-phase.md) and Reconciliation & Diffing (planned) — what React does with the elements you return.
-- [Keys & List Reconciliation](./) (planned) — the key rule in the context where it bites most often.
+- [The Render Phase](./the-render-phase.md) and [Reconciliation & Diffing](./reconciliation-and-diffing.md) — what React does with the elements you return.
+- [Keys & List Reconciliation](./keys-and-list-reconciliation.md) — the key rule in the context where it bites most often.
 - **Canonical home:** the DOM structure these elements ultimately produce is owned by [The Document Outline · HTML & Document Semantics](../../01-core-languages/html-semantics/the-document-outline.md).
 
 ## References

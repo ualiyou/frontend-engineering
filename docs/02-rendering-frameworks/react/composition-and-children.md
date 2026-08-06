@@ -360,7 +360,7 @@ See the [React anti-patterns](../../../anti-patterns/) for the domain catalog. C
 - [Elements vs Components](./elements-vs-components.md) — why passing an element differs from passing a component.
 - [JSX Semantics](./jsx-semantics.md) — how `children` is assembled by the transform.
 - [The Render Phase](./the-render-phase.md) — why `children` created by a parent let React skip a subtree.
-- Context (planned) and Keys & List Reconciliation (planned) — the mechanisms compound components rely on.
+- Context (planned) and [Keys & List Reconciliation](./keys-and-list-reconciliation.md) — the mechanisms compound components rely on.
 
 ## References
 

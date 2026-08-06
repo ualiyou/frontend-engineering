@@ -154,9 +154,9 @@ The right store depends on size, access pattern, and who needs to read it.
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
 | Web Storage | A few small scalars, read rarely, needed synchronously | Blocking, string-only, ~5 MB, script-readable | (this article) |
-| [IndexedDB](./) (planned) | Collections, binary data, large or frequently written state | Async, verbose API (use a thin wrapper) | `IndexedDB · Browser APIs` |
-| [The Cache Storage API](./) (planned) | Whole HTTP responses for offline or performance | Only models Request/Response pairs | `The Cache Storage API · Browser APIs` |
-| [Cookies](./) (planned) | The **server** must see the value; or the value is a session token | Sent on every request; ~4 KB; needs `HttpOnly`/`Secure`/`SameSite` | `Cookies & Partitioned Storage · Browser APIs` |
+| [IndexedDB](./indexeddb.md) | Collections, binary data, large or frequently written state | Async, verbose API (use a thin wrapper) | `IndexedDB · Browser APIs` |
+| [The Cache Storage API](./the-cache-storage-api.md) | Whole HTTP responses for offline or performance | Only models Request/Response pairs | `The Cache Storage API · Browser APIs` |
+| [Cookies](./cookies-and-partitioned-storage.md) | The **server** must see the value; or the value is a session token | Sent on every request; ~4 KB; needs `HttpOnly`/`Secure`/`SameSite` | `Cookies & Partitioned Storage · Browser APIs` |
 | In-memory (module state) | The value need not survive reload | Lost on navigation and refresh | `Categories of State · State Management` |
 
 The practical rule: **small and synchronous → Web Storage; anything else → IndexedDB; the server needs it → a cookie.**
@@ -293,7 +293,7 @@ See the [Browser API anti-patterns](../../../anti-patterns/) for the domain cata
 
 - **Symptom:** A list endpoint's response is stringified into `localStorage`; page load slows as the dataset grows, and `QuotaExceededError` appears in error reports.
 - **Why it fails:** Serializing and parsing a growing payload is synchronous main-thread work on every load, and 5 MB arrives faster than anyone expects. There are no indexes, so any query means parsing everything.
-- **Fix:** Use [IndexedDB](./) (planned) for structured collections or [the Cache Storage API](./) (planned) for whole responses; keep server data in a query cache rather than hand-rolled persistence.
+- **Fix:** Use [IndexedDB](./indexeddb.md) for structured collections or [the Cache Storage API](./the-cache-storage-api.md) for whole responses; keep server data in a query cache rather than hand-rolled persistence.
 
 ### Mistake: Expecting the `storage` event in the writing tab
 
@@ -315,9 +315,9 @@ See the [Browser API anti-patterns](../../../anti-patterns/) for the domain cata
 
 ## Related Articles
 
-- [IndexedDB](./) (planned) — the asynchronous, structured, worker-accessible store to graduate to.
-- [The Cache Storage API](./) (planned) — response-level storage for offline and performance.
-- [Cookies & Partitioned Storage](./) (planned) — the store the server can see, and the one that holds session tokens.
+- [IndexedDB](./indexeddb.md) — the asynchronous, structured, worker-accessible store to graduate to.
+- [The Cache Storage API](./the-cache-storage-api.md) — response-level storage for offline and performance.
+- [Cookies & Partitioned Storage](./cookies-and-partitioned-storage.md) — the store the server can see, and the one that holds session tokens.
 - [Storage Quotas & Eviction](./) (planned) — how much you get and when the browser takes it back.
 - **Canonical home:** what "origin" means for storage isolation is owned by [Same-Origin Policy · Security](../../05-reliability-quality/security/same-origin-policy.md).
 

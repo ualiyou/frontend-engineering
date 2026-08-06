@@ -335,7 +335,7 @@ See the [React anti-patterns](../../../anti-patterns/) for the domain catalog. C
 - [Elements vs Components](./elements-vs-components.md) — the objects JSX produces and the identity rules that follow.
 - [Composition & Children](./composition-and-children.md) — how `children` and slot props are typed and passed.
 - [The Render Phase](./the-render-phase.md) — what React does with the elements a component returns, and why expressions must stay pure.
-- Keys & List Reconciliation (planned) — the `key` rule in the context where it matters most.
+- [Keys & List Reconciliation](./keys-and-list-reconciliation.md) — the `key` rule in the context where it matters most.
 
 ## References
 

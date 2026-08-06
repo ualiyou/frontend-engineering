@@ -372,7 +372,7 @@ See the [HTML & Document Semantics anti-patterns](../../../anti-patterns/) for t
 - [The Document Outline](./the-document-outline.md) — why the outline algorithm does not exist and what replaced it.
 - [Sectioning & Landmarks](./sectioning-and-landmarks.md) — the region-level navigation that complements headings.
 - Tables & Data Semantics (planned) — captions and header cells, which are labels rather than headings.
-- Accessible Name Computation · Accessibility (planned) — how a heading's text becomes its accessible name.
+- [Accessible Name Computation · Accessibility](../../04-interface-engineering/accessibility/accessible-name-computation.md) — how a heading's text becomes its accessible name.
 
 ## References
 

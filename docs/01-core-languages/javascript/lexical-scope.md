@@ -58,7 +58,7 @@ references:
 
 This article assumes you can tell a declaration from a reference, and that you know a variable holds a value that other code may read or reassign.
 
-- Primitives & Wrappers (planned) — what a binding actually holds, which clarifies what a nested scope is reaching for when it reads an outer name.
+- [Primitives & Wrappers](./primitives-and-wrappers.md) — what a binding actually holds, which clarifies what a nested scope is reaching for when it reads an outer name.
 
 ## Overview
 
@@ -261,8 +261,8 @@ See the [JavaScript anti-patterns](../../../anti-patterns/#javascript) for the d
 ## Related Articles
 
 - [Closures](./closures.md) — lexical scope that outlives its enclosing call; the direct follow-on to this article.
-- Hoisting & TDZ (planned) — how bindings come into existence within a scope before code reads them.
-- Block vs Function Scope (planned) — why `let` and `var` resolve so differently inside blocks and loops.
+- [Hoisting & TDZ](./hoisting-and-tdz.md) — how bindings come into existence within a scope before code reads them.
+- [Block vs Function Scope](./block-vs-function-scope.md) — why `let` and `var` resolve so differently inside blocks and loops.
 
 ## References
 
