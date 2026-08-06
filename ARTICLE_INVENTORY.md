@@ -9,7 +9,7 @@
 - **Total estimated reading time:** ~8459 min (~141 h)
 - **Total expected code examples:** ~1816
 - **Difficulty distribution:** Foundational 169 · Intermediate 288 · Advanced 160 · Staff 34
-- **Status:** 55 Published · 596 Planned.
+- **Status:** 60 Published · 591 Planned.
 
 ### Column reference
 
@@ -161,9 +161,9 @@
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Specificity | `specificity.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | Inheritance & Initial Values; Cascade Layers (@layer); Custom Properties | 2 | Published |
-| Inheritance & Initial Values | `inheritance-and-initial-values.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 11 min | Specificity | Specificity; Cascade Layers (@layer); Custom Properties | 2 | Planned |
-| Cascade Layers (@layer) | `cascade-layers-layer.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Specificity | Specificity; Inheritance & Initial Values; Custom Properties | 2 | Planned |
-| Custom Properties | `custom-properties.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Specificity | Specificity; Inheritance & Initial Values; Cascade Layers (@layer) | 2 | Planned |
+| Inheritance & Initial Values | `inheritance-and-initial-values.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 11 min | Specificity | Specificity; Cascade Layers (@layer); Custom Properties | 2 | Published |
+| Cascade Layers (@layer) | `cascade-layers-layer.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Specificity | Specificity; Inheritance & Initial Values; Custom Properties | 2 | Published |
+| Custom Properties | `custom-properties.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Specificity | Specificity; Inheritance & Initial Values; Cascade Layers (@layer) | 2 | Published |
 | The Box Model | `the-box-model.md` | CSS & Visual Systems | Box & Formatting | Critical | Foundational | 8 min | Specificity | Formatting Contexts; Stacking Contexts & z-index; Containment & content-visibility | 2 | Planned |
 | Formatting Contexts | `formatting-contexts.md` | CSS & Visual Systems | Box & Formatting | Critical | Foundational | 8 min | The Box Model; Specificity | The Box Model; Stacking Contexts & z-index; Containment & content-visibility | 2 | Planned |
 | Stacking Contexts & z-index | `stacking-contexts-and-z-index.md` | CSS & Visual Systems | Box & Formatting | Critical | Foundational | 11 min | The Box Model; Specificity | The Box Model; Formatting Contexts; Containment & content-visibility | 2 | Planned |
@@ -195,8 +195,8 @@
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | The Document Outline | `the-document-outline.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | Sectioning & Landmarks; Headings Hierarchy; Tables & Data Semantics | 2 | Published |
-| Sectioning & Landmarks | `sectioning-and-landmarks.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | The Document Outline | The Document Outline; Headings Hierarchy; Tables & Data Semantics | 2 | Planned |
-| Headings Hierarchy | `headings-hierarchy.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | The Document Outline | The Document Outline; Sectioning & Landmarks; Tables & Data Semantics | 2 | Planned |
+| Sectioning & Landmarks | `sectioning-and-landmarks.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | The Document Outline | The Document Outline; Headings Hierarchy; Tables & Data Semantics | 2 | Published |
+| Headings Hierarchy | `headings-hierarchy.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | The Document Outline | The Document Outline; Sectioning & Landmarks; Tables & Data Semantics | 2 | Published |
 | Tables & Data Semantics | `tables-and-data-semantics.md` | HTML & Document Semantics | Document Structure | Critical | Foundational | 8 min | The Document Outline | The Document Outline; Sectioning & Landmarks; Headings Hierarchy | 2 | Planned |
 | Native Form Controls | `native-form-controls.md` | HTML & Document Semantics | Interactive Elements | Critical | Foundational | 8 min | The Document Outline | Buttons, Links & Actions; Dialog, Details & Popover; The Contenteditable Model | 2 | Planned |
 | Buttons, Links & Actions | `buttons-links-and-actions.md` | HTML & Document Semantics | Interactive Elements | Critical | Foundational | 8 min | Native Form Controls; The Document Outline | Native Form Controls; Dialog, Details & Popover; The Contenteditable Model | 2 | Planned |

@@ -172,7 +172,7 @@ There is no substitute for a correct native outline. ARIA can *describe* structu
 | --- | --- | --- | --- |
 | Native headings + landmarks | Always the default | Requires discipline; no compiler enforcement | (this article) |
 | `role="heading" aria-level="n"` | Retrofitting markup you genuinely cannot change | No default styling, no browser features, easy to get `aria-level` wrong | `The ARIA Model · Accessibility` (planned) |
-| `aria-labelledby` on regions | Naming a landmark from visible text already on the page | Requires stable IDs; breaks silently if the target moves | `Sectioning & Landmarks · HTML & Document Semantics` (planned) |
+| `aria-labelledby` on regions | Naming a landmark from visible text already on the page | Requires stable IDs; breaks silently if the target moves | [Sectioning & Landmarks](./sectioning-and-landmarks.md) |
 | Visually hidden headings | A region needs a name in the outline but the design has no visible title | Overuse creates an outline that doesn't match what sighted users see | (this article) |
 
 The first rule of ARIA applies verbatim: don't use ARIA if a native element with the semantics you need already exists.
@@ -318,8 +318,8 @@ See the [HTML anti-patterns](../../../anti-patterns/) for the domain catalog. Co
 
 ## Related Articles
 
-- [Sectioning & Landmarks](./) (planned) — the full landmark set and how each maps to an ARIA role.
-- [Headings Hierarchy](./) (planned) — level selection and component heading APIs in depth.
+- [Sectioning & Landmarks](./sectioning-and-landmarks.md) — the full landmark set and how each maps to an ARIA role.
+- [Headings Hierarchy](./headings-hierarchy.md) — level selection and component heading APIs in depth.
 - [Tables & Data Semantics](./) (planned) — structure for tabular content, which has its own outline rules.
 - Native Form Controls (planned) and Buttons, Links & Actions (planned) — choosing the element that carries the right semantics.
 - **Canonical home:** the conformance criteria this structure satisfies are owned by [WCAG Principles (POUR) · Accessibility](../../04-interface-engineering/accessibility/wcag-principles-pour.md).

@@ -174,10 +174,10 @@ The alternatives don't replace specificity — they let you stop *using* it as y
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
 | Flat specificity by convention | Any codebase; the baseline discipline | Requires review to enforce; nothing prevents escalation | (this article) |
-| [Cascade layers (`@layer`)](./) (planned) | You need precedence between whole bodies of CSS (reset vs components vs utilities) | Layer order is global config; must be declared once, up front | `Cascade Layers (@layer) · CSS & Visual Systems` |
+| [Cascade layers (`@layer`)](./cascade-layers-layer.md) | You need precedence between whole bodies of CSS (reset vs components vs utilities) | Layer order is global config; must be declared once, up front | `Cascade Layers (@layer) · CSS & Visual Systems` |
 | `:where()` for defaults | Library and design-system authors shipping overridable styles | Zero specificity means source order becomes the only tiebreaker among peers | (this article) |
 | Scoped CSS (CSS Modules, Shadow DOM, `@scope`) | Component isolation matters more than cross-cutting themes | Theming across the boundary needs custom properties | `Styling Strategies · Design Systems` (planned) |
-| [Custom properties](./) (planned) | The variation is a *value*, not a rule (color, spacing, radius) | Only works for values; can't restructure layout | `Custom Properties · CSS & Visual Systems` |
+| [Custom properties](./custom-properties.md) | The variation is a *value*, not a rule (color, spacing, radius) | Only works for values; can't restructure layout | `Custom Properties · CSS & Visual Systems` |
 
 The strongest combination in practice: **layers for precedence, one class for specificity, custom properties for variation.** Specificity stops being a lever you pull at all.
 
@@ -306,9 +306,9 @@ See the [CSS anti-patterns](../../../anti-patterns/) for the domain catalog. Con
 
 ## Related Articles
 
-- [Inheritance & Initial Values](./) (planned) — what happens when *no* rule matches, and how inherited values interact with the cascade.
-- [Cascade Layers (@layer)](./) (planned) — the modern way to control precedence between bodies of CSS.
-- [Custom Properties](./) (planned) — moving variation from rules to values, which sidesteps specificity entirely.
+- [Inheritance & Initial Values](./inheritance-and-initial-values.md) — what happens when *no* rule matches, and how inherited values interact with the cascade.
+- [Cascade Layers (@layer)](./cascade-layers-layer.md) — the modern way to control precedence between bodies of CSS.
+- [Custom Properties](./custom-properties.md) — moving variation from rules to values, which sidesteps specificity entirely.
 - The Box Model (planned) and Formatting Contexts (planned) — what the winning declarations actually do once resolved.
 - **Canonical home:** the cost of style recalculation on the main thread is owned by [Process & Thread Architecture · The Web Platform](../../00-foundations/web-platform/process-and-thread-architecture.md).
 
