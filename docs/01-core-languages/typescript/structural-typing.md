@@ -171,7 +171,7 @@ You can't switch TypeScript to nominal typing, but you can opt individual types 
 | Plain structural types | The default for all data shapes | Same-shaped types interchange freely | (this article) |
 | Branded types | Ids, units, currency, validated strings | Requires a constructor/validator; brand is compile-time only | (this article) |
 | `private`/`#` class fields | You already model the concept as a class | Forces class instantiation; awkward for plain data and JSON | `Classes · TypeScript` (planned) |
-| Discriminated unions | A value has several distinct *states* | Requires a literal discriminant property on every member | `Unions & Intersections · TypeScript` (planned) |
+| Discriminated unions | A value has several distinct *states* | Requires a literal discriminant property on every member | [Unions & Intersections](./unions-and-intersections.md) |
 | Runtime schema (Zod, Valibot) | Data crosses a trust boundary | Runtime cost; schema and type must stay in sync (infer the type from the schema) | [`Schema-Inferred Types · Forms & Validation`](../../03-application-architecture/forms-validation/schema-inferred-types.md) |
 
 ## Bad Example
@@ -298,10 +298,10 @@ See the [TypeScript anti-patterns](../../../anti-patterns/) for the domain catal
 
 ## Related Articles
 
-- [Assignability](./) (planned) — the full rules for when one type can be used as another, including variance.
-- [unknown, never & any](./) (planned) — the types at the edges of the assignability lattice.
-- [Literal & Unit Types](./) (planned) — narrowing a shape down to specific values, the basis of discriminated unions.
-- Unions & Intersections (planned) and Generics (planned) — composing shapes rather than inheriting them.
+- [Assignability](./assignability.md) — the full rules for when one type can be used as another, including variance.
+- [unknown, never & any](./unknown-never-and-any.md) — the types at the edges of the assignability lattice.
+- [Literal & Unit Types](./literal-and-unit-types.md) — narrowing a shape down to specific values, the basis of discriminated unions.
+- [Unions & Intersections](./unions-and-intersections.md) and Generics (planned) — composing shapes rather than inheriting them.
 - [Schema-Inferred Types](../../03-application-architecture/forms-validation/schema-inferred-types.md) (`· Forms & Validation`) — deriving compile-time types from runtime validators so the two can't drift.
 
 ## References

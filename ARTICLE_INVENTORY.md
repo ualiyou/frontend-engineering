@@ -9,7 +9,7 @@
 - **Total estimated reading time:** ~8459 min (~141 h)
 - **Total expected code examples:** ~1816
 - **Difficulty distribution:** Foundational 169 · Intermediate 288 · Advanced 160 · Staff 34
-- **Status:** 45 Published · 606 Planned.
+- **Status:** 55 Published · 596 Planned.
 
 ### Column reference
 
@@ -252,10 +252,10 @@
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Structural Typing | `structural-typing.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Primitives & Wrappers · JavaScript | Assignability; unknown, never & any; Literal & Unit Types | 2 | Published |
-| Assignability | `assignability.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; unknown, never & any; Literal & Unit Types | 2 | Planned |
-| unknown, never & any | `unknown-never-and-any.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; Assignability; Literal & Unit Types | 2 | Planned |
-| Literal & Unit Types | `literal-and-unit-types.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; Assignability; unknown, never & any | 2 | Planned |
-| Unions & Intersections | `unions-and-intersections.md` | TypeScript | Composition | Critical | Foundational | 8 min | Structural Typing | Generics; Generic Constraints; Indexed Access & keyof | 2 | Planned |
+| Assignability | `assignability.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; unknown, never & any; Literal & Unit Types | 2 | Published |
+| unknown, never & any | `unknown-never-and-any.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; Assignability; Literal & Unit Types | 2 | Published |
+| Literal & Unit Types | `literal-and-unit-types.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; Assignability; unknown, never & any | 2 | Published |
+| Unions & Intersections | `unions-and-intersections.md` | TypeScript | Composition | Critical | Foundational | 8 min | Structural Typing | Generics; Generic Constraints; Indexed Access & keyof | 2 | Published |
 | Generics | `generics.md` | TypeScript | Composition | Critical | Foundational | 8 min | Unions & Intersections; Structural Typing | Unions & Intersections; Generic Constraints; Indexed Access & keyof | 2 | Planned |
 | Generic Constraints | `generic-constraints.md` | TypeScript | Composition | Critical | Foundational | 8 min | Unions & Intersections; Structural Typing | Unions & Intersections; Generics; Indexed Access & keyof | 2 | Planned |
 | Indexed Access & keyof | `indexed-access-and-keyof.md` | TypeScript | Composition | Critical | Foundational | 8 min | Unions & Intersections; Structural Typing | Unions & Intersections; Generics; Generic Constraints | 2 | Planned |
@@ -286,9 +286,9 @@
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Elements vs Components | `elements-vs-components.md` | React | The Component Model | Critical | Intermediate | 12 min | Primitives & Wrappers · JavaScript; The CSR Model · Rendering Architectures; The Document Outline · HTML & Document Semantics | JSX Semantics; Composition & Children | 3 | Published |
-| JSX Semantics | `jsx-semantics.md` | React | The Component Model | Critical | Intermediate | 12 min | Elements vs Components | Elements vs Components; Composition & Children | 3 | Planned |
-| Composition & Children | `composition-and-children.md` | React | The Component Model | Critical | Intermediate | 12 min | Elements vs Components | Elements vs Components; JSX Semantics | 3 | Planned |
-| The Render Phase | `the-render-phase.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | Elements vs Components | Reconciliation & Diffing; Keys & List Reconciliation; The Commit Phase | 3 | Planned |
+| JSX Semantics | `jsx-semantics.md` | React | The Component Model | Critical | Intermediate | 12 min | Elements vs Components | Elements vs Components; Composition & Children | 3 | Published |
+| Composition & Children | `composition-and-children.md` | React | The Component Model | Critical | Intermediate | 12 min | Elements vs Components | Elements vs Components; JSX Semantics | 3 | Published |
+| The Render Phase | `the-render-phase.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | Elements vs Components | Reconciliation & Diffing; Keys & List Reconciliation; The Commit Phase | 3 | Published |
 | Reconciliation & Diffing | `reconciliation-and-diffing.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Keys & List Reconciliation; The Commit Phase | 3 | Planned |
 | Keys & List Reconciliation | `keys-and-list-reconciliation.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Reconciliation & Diffing; The Commit Phase | 3 | Planned |
 | The Commit Phase | `the-commit-phase.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Reconciliation & Diffing; Keys & List Reconciliation | 3 | Planned |
@@ -662,10 +662,10 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| The Testing Pyramid/Trophy | `the-testing-pyramid-trophy.md` | Testing & Quality | Strategy | Critical | Intermediate | 12 min | Elements vs Components · React; Primitives & Wrappers · JavaScript | What to Test & Coverage Goals; Test Doubles (mocks, stubs, fakes) | 3 | Planned |
-| What to Test & Coverage Goals | `what-to-test-and-coverage-goals.md` | Testing & Quality | Strategy | Critical | Intermediate | 15 min | The Testing Pyramid/Trophy | The Testing Pyramid/Trophy; Test Doubles (mocks, stubs, fakes) | 3 | Planned |
+| The Testing Pyramid/Trophy | `the-testing-pyramid-trophy.md` | Testing & Quality | Strategy | Critical | Intermediate | 12 min | Elements vs Components · React; Primitives & Wrappers · JavaScript | What to Test & Coverage Goals; Test Doubles (mocks, stubs, fakes) | 3 | Published |
+| What to Test & Coverage Goals | `what-to-test-and-coverage-goals.md` | Testing & Quality | Strategy | Critical | Intermediate | 15 min | The Testing Pyramid/Trophy | The Testing Pyramid/Trophy; Test Doubles (mocks, stubs, fakes) | 3 | Published |
 | Test Doubles (mocks, stubs, fakes) | `test-doubles-mocks-stubs-fakes.md` | Testing & Quality | Strategy | Critical | Intermediate | 15 min | The Testing Pyramid/Trophy | The Testing Pyramid/Trophy; What to Test & Coverage Goals | 3 | Planned |
-| Pure Logic Testing | `pure-logic-testing.md` | Testing & Quality | Unit Testing | Critical | Intermediate | 12 min | The Testing Pyramid/Trophy | Testing Hooks & Utilities; Property-Based Testing | 3 | Planned |
+| Pure Logic Testing | `pure-logic-testing.md` | Testing & Quality | Unit Testing | Critical | Intermediate | 12 min | The Testing Pyramid/Trophy | Testing Hooks & Utilities; Property-Based Testing | 3 | Published |
 | Testing Hooks & Utilities | `testing-hooks-and-utilities.md` | Testing & Quality | Unit Testing | Critical | Intermediate | 12 min | Pure Logic Testing; The Testing Pyramid/Trophy | Pure Logic Testing; Property-Based Testing | 3 | Planned |
 | Property-Based Testing | `property-based-testing.md` | Testing & Quality | Unit Testing | Critical | Intermediate | 12 min | Pure Logic Testing; The Testing Pyramid/Trophy | Pure Logic Testing; Testing Hooks & Utilities | 3 | Planned |
 | Rendering & Querying | `rendering-and-querying.md` | Testing & Quality | Component Testing | Critical | Intermediate | 12 min | Pure Logic Testing | User-Event Simulation; Accessibility-Tree Assertions | 3 | Planned |

@@ -184,10 +184,10 @@ These aren't alternatives to the element model — they're the choices available
 
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
-| `children` | One slot; the natural nesting reads well in JSX | Only one unnamed slot | `Composition & Children · React` (planned) |
+| `children` | One slot; the natural nesting reads well in JSX | Only one unnamed slot | [Composition & Children](./composition-and-children.md) |
 | Element props (`icon={<Icon />}`) | Multiple named slots; caller owns the props | Element props break shallow `memo` comparison | (this article) |
 | Component props (`renderRow={Row}`) | The receiver must supply props the caller can't know | Caller must not define the component inline | (this article) |
-| Render props (`children={(item) => …}`) | The receiver has data the caller needs, per item | Verbose; function identity must be stable to memoize | `Composition & Children · React` (planned) |
+| Render props (`children={(item) => …}`) | The receiver has data the caller needs, per item | Verbose; function identity must be stable to memoize | [Composition & Children](./composition-and-children.md) |
 | `key` for reset | You *want* a fresh instance on identity change | Full remount cost; loses any intentional carry-over | `Keys & List Reconciliation · React` (planned) |
 
 The default ordering: `children` first, named element props when you need more slots, render props only when the receiver owns data the caller needs.
@@ -343,9 +343,9 @@ See the [React anti-patterns](../../../anti-patterns/) for the domain catalog. C
 
 ## Related Articles
 
-- [JSX Semantics](./) (planned) — exactly what JSX compiles to, and why the transform matters here.
-- [Composition & Children](./) (planned) — slot patterns, render props, and choosing between them.
-- The Render Phase (planned) and Reconciliation & Diffing (planned) — what React does with the elements you return.
+- [JSX Semantics](./jsx-semantics.md) — exactly what JSX compiles to, and why the transform matters here.
+- [Composition & Children](./composition-and-children.md) — slot patterns, render props, and choosing between them.
+- [The Render Phase](./the-render-phase.md) and Reconciliation & Diffing (planned) — what React does with the elements you return.
 - [Keys & List Reconciliation](./) (planned) — the key rule in the context where it bites most often.
 - **Canonical home:** the DOM structure these elements ultimately produce is owned by [The Document Outline · HTML & Document Semantics](../../01-core-languages/html-semantics/the-document-outline.md).
 
