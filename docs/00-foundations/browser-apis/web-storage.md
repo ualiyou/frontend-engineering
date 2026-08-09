@@ -318,7 +318,7 @@ See the [Browser API anti-patterns](../../../anti-patterns/) for the domain cata
 - [IndexedDB](./indexeddb.md) — the asynchronous, structured, worker-accessible store to graduate to.
 - [The Cache Storage API](./the-cache-storage-api.md) — response-level storage for offline and performance.
 - [Cookies & Partitioned Storage](./cookies-and-partitioned-storage.md) — the store the server can see, and the one that holds session tokens.
-- [Storage Quotas & Eviction](./) (planned) — how much you get and when the browser takes it back.
+- [Storage Quotas & Eviction](./storage-quotas-and-eviction.md) — how much you get and when the browser takes it back.
 - **Canonical home:** what "origin" means for storage isolation is owned by [Same-Origin Policy · Security](../../05-reliability-quality/security/same-origin-policy.md).
 
 ## References

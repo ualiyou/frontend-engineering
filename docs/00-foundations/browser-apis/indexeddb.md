@@ -405,7 +405,7 @@ See the [Browser APIs anti-patterns](../../../anti-patterns/) for the domain cat
 - [Web Storage](./web-storage.md) — the simpler store, and the limits that lead here.
 - [The Cache Storage API](./the-cache-storage-api.md) — response-level storage for offline assets, alongside this for data.
 - [Cookies & Partitioned Storage](./cookies-and-partitioned-storage.md) — the store the server can see, and its partitioning rules.
-- [Storage Quotas & Eviction](./) (planned) — how much space you get and when the browser reclaims it.
+- [Storage Quotas & Eviction](./storage-quotas-and-eviction.md) — how much space you get and when the browser reclaims it.
 - [Cache Invalidation · Data & Server State](../../03-application-architecture/data-server-state/cache-invalidation.md) — keeping persisted client data consistent with the server.
 - **Canonical home:** what "origin" means for storage isolation is owned by [Same-Origin Policy · Security](../../05-reliability-quality/security/same-origin-policy.md).
 

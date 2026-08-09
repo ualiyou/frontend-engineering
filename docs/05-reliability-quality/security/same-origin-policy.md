@@ -194,7 +194,7 @@ You never turn SOP off. You choose how to cross it.
 | Approach | Best when | Weakness | See |
 | --- | --- | --- | --- |
 | Same-origin (reverse proxy) | You control both app and API | Infrastructure work; couples deployment | (this article) |
-| [CORS](./) (planned) | A browser must read a cross-origin HTTP response | Preflight latency; misconfiguration is a breach | `CORS · Security` |
+| [CORS](./cors.md) | A browser must read a cross-origin HTTP response | Preflight latency; misconfiguration is a breach | `CORS · Security` |
 | `postMessage` | Window-to-window messaging with an embed or opener | Requires explicit origin checks on both ends | `Isolation (COOP/COEP) · Security` |
 | Server-side proxy / BFF | Third-party API with secrets the browser must not hold | Adds a hop; the server becomes the trust boundary | `API Design & Contracts` (planned) |
 | Sandboxed iframe (opaque origin) | Rendering untrusted content | Loses storage and cookies by design | `Isolation (COOP/COEP) · Security` |
@@ -372,7 +372,7 @@ See the [Security anti-patterns](../../../anti-patterns/) for the domain catalog
 
 ## Related Articles
 
-- [CORS](./) (planned) — the full preflight mechanism, simple vs non-simple requests, and configuration patterns.
+- [CORS](./cors.md) — the full preflight mechanism, simple vs non-simple requests, and configuration patterns.
 - [Isolation (COOP/COEP)](./) (planned) — cross-origin isolation, the post-Spectre extension of this boundary.
 - Cross-Site Scripting (XSS) (planned), DOM-Based XSS (planned), HTML/Template Injection (planned) — the attacks that defeat SOP from *inside* your origin.
 - [HTTP/1.1 Semantics](../../00-foundations/networking-protocols/http-1-1-semantics.md) (`· Networking & Protocols`) — which methods and headers avoid a preflight.

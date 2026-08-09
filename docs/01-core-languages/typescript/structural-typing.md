@@ -301,7 +301,7 @@ See the [TypeScript anti-patterns](../../../anti-patterns/) for the domain catal
 - [Assignability](./assignability.md) — the full rules for when one type can be used as another, including variance.
 - [unknown, never & any](./unknown-never-and-any.md) — the types at the edges of the assignability lattice.
 - [Literal & Unit Types](./literal-and-unit-types.md) — narrowing a shape down to specific values, the basis of discriminated unions.
-- [Unions & Intersections](./unions-and-intersections.md) and Generics (planned) — composing shapes rather than inheriting them.
+- [Unions & Intersections](./unions-and-intersections.md) and [Generics](./generics.md) — composing shapes rather than inheriting them.
 - [Schema-Inferred Types](../../03-application-architecture/forms-validation/schema-inferred-types.md) (`· Forms & Validation`) — deriving compile-time types from runtime validators so the two can't drift.
 
 ## References

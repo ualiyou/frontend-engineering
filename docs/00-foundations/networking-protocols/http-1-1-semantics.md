@@ -316,7 +316,7 @@ See the [Networking anti-patterns](../../../anti-patterns/) for the domain catal
 
 ## Related Articles
 
-- [HTTP/2 Multiplexing](./) (planned) — how multiplexing removes the connection limit and inverts bundling advice.
+- [HTTP/2 Multiplexing](./http-2-multiplexing.md) — how multiplexing removes the connection limit and inverts bundling advice.
 - [HTTP/3 & QUIC](./) (planned) — moving off TCP to remove transport-level head-of-line blocking.
 - [Methods, Status Codes & Headers](./) (planned) — the full reference for the semantics summarized here.
 - The HTTP Cache (planned) and Cache-Control & Validators (ETag) (planned) — the caching model these semantics enable.

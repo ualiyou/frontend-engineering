@@ -330,7 +330,7 @@ See the [CSS & Visual Systems anti-patterns](../../../anti-patterns/) for the do
 - [Specificity](./specificity.md) — how the winning declaration is chosen before this fallback applies.
 - [Cascade Layers (@layer)](./cascade-layers-layer.md) — controlling precedence between bodies of CSS, and what `revert-layer` rolls back to.
 - [Custom Properties](./custom-properties.md) — inheritance used deliberately as a theming mechanism.
-- The Box Model (planned) — what the resolved values do once the cascade is finished.
+- [The Box Model](./the-box-model.md) — what the resolved values do once the cascade is finished.
 
 ## References
 

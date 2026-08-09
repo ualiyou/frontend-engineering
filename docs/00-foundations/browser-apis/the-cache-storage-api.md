@@ -386,7 +386,7 @@ See the [Browser APIs anti-patterns](../../../anti-patterns/) for the domain cat
 - [Web Storage](./web-storage.md) — the simplest store, and the origin/quota model shared here.
 - [IndexedDB](./indexeddb.md) — where structured application data belongs, alongside cached responses.
 - [Cookies & Partitioned Storage](./cookies-and-partitioned-storage.md) — the credentials that affect what a cached response should contain.
-- [Storage Quotas & Eviction](./) (planned) — the shared budget an unbounded cache consumes.
+- [Storage Quotas & Eviction](./storage-quotas-and-eviction.md) — the shared budget an unbounded cache consumes.
 - [Resource Prefetch & Preload · Performance Engineering](../../05-reliability-quality/performance/resource-prefetch-and-preload.md) — the declarative side of getting resources early.
 - [The Critical Rendering Path · Performance Engineering](../../05-reliability-quality/performance/the-critical-rendering-path.md) — what a cache hit removes from the startup path.
 

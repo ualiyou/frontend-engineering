@@ -309,7 +309,7 @@ See the [CSS anti-patterns](../../../anti-patterns/) for the domain catalog. Con
 - [Inheritance & Initial Values](./inheritance-and-initial-values.md) — what happens when *no* rule matches, and how inherited values interact with the cascade.
 - [Cascade Layers (@layer)](./cascade-layers-layer.md) — the modern way to control precedence between bodies of CSS.
 - [Custom Properties](./custom-properties.md) — moving variation from rules to values, which sidesteps specificity entirely.
-- The Box Model (planned) and Formatting Contexts (planned) — what the winning declarations actually do once resolved.
+- [The Box Model](./the-box-model.md) and Formatting Contexts (planned) — what the winning declarations actually do once resolved.
 - **Canonical home:** the cost of style recalculation on the main thread is owned by [Process & Thread Architecture · The Web Platform](../../00-foundations/web-platform/process-and-thread-architecture.md).
 
 ## References

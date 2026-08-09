@@ -163,7 +163,7 @@ Ownership is the primary cut. The other taxonomy articles cut the same state alo
 | --- | --- | --- | --- |
 | Server vs client ownership (this article) | Deciding the mechanism for a fetched value | Says nothing about scope or persistence | (this article) |
 | [UI vs Domain State](./ui-vs-domain-state.md) | Deciding what to test, persist, and share | Orthogonal to authority | `UI vs Domain State · State Management` |
-| [Ephemeral vs Persistent State](./) (planned) | Designing storage, hydration, and versioning | Ignores who may change the value | `Ephemeral vs Persistent State · State Management` |
+| [Ephemeral vs Persistent State](./ephemeral-vs-persistent-state.md) | Designing storage, hydration, and versioning | Ignores who may change the value | `Ephemeral vs Persistent State · State Management` |
 | Server-driven UI | The server can own view state as well as data | Round trip per interaction; less client autonomy | `Rendering Architectures · Rendering & Frameworks` |
 
 ## Bad Example

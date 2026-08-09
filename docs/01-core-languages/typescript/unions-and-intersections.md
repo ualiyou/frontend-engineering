@@ -336,7 +336,7 @@ See the [TypeScript anti-patterns](../../../anti-patterns/) for the domain catal
 - [Structural Typing](./structural-typing.md) — the member comparison composition is built on.
 - [Assignability](./assignability.md) — the asymmetric union rules that explain `|` and `&`.
 - [Literal & Unit Types](./literal-and-unit-types.md) — the discriminants that make narrowing work.
-- Generics (planned), Conditional Types (planned), and Mapped Types (planned) — the composition tools that build on unions, including distribution.
+- [Generics](./generics.md), Conditional Types (planned), and Mapped Types (planned) — the composition tools that build on unions, including distribution.
 
 ## References
 

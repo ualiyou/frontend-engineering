@@ -342,7 +342,7 @@ See the [Testing & Quality anti-patterns](../../../anti-patterns/) for the domai
 ## Related Articles
 
 - [The Testing Pyramid/Trophy](./the-testing-pyramid-trophy.md) — which layer a chosen test belongs in.
-- Test Doubles (mocks, stubs, fakes) (planned) — how to keep the risky paths testable without mocking away the code under test.
+- [Test Doubles (mocks, stubs, fakes)](./test-doubles-mocks-stubs-fakes.md) — how to keep the risky paths testable without mocking away the code under test.
 - Pure Logic Testing (planned) — the table-driven style the high-risk examples above use.
 
 ## References

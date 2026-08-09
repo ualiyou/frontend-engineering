@@ -334,7 +334,7 @@ See the [Testing & Quality anti-patterns](../../../anti-patterns/) for the domai
 ## Related Articles
 
 - What to Test & Coverage Goals (planned) — choosing what deserves a test once the shape is settled.
-- Test Doubles (mocks, stubs, fakes) (planned) — which kind of double belongs at which boundary.
+- [Test Doubles (mocks, stubs, fakes)](./test-doubles-mocks-stubs-fakes.md) — which kind of double belongs at which boundary.
 - Pure Logic Testing (planned) — the unit layer this article deliberately keeps small.
 - [Elements vs Components · React](../../02-rendering-frameworks/react/elements-vs-components.md) — what a component test renders.
 

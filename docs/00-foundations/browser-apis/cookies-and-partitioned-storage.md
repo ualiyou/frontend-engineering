@@ -343,7 +343,7 @@ See the [Browser APIs anti-patterns](../../../anti-patterns/) for the domain cat
 - [Web Storage](./web-storage.md) — where client-only preferences belong, with no per-request cost.
 - [IndexedDB](./indexeddb.md) — structured client data, also subject to partitioning in third-party contexts.
 - [The Cache Storage API](./the-cache-storage-api.md) — cached responses, which must not be shared across credential states.
-- [Storage Quotas & Eviction](./) (planned) — the partitioned bucket cookies and storage now share.
+- [Storage Quotas & Eviction](./storage-quotas-and-eviction.md) — the partitioned bucket cookies and storage now share.
 - **Canonical home:** origin isolation, CSRF, and cross-site request rules are owned by [Same-Origin Policy · Security](../../05-reliability-quality/security/same-origin-policy.md).
 - [HTTP/1.1 Semantics · Networking & Protocols](../networking-protocols/http-1-1-semantics.md) — the header mechanics `Set-Cookie` and `Cookie` ride on.
 

@@ -176,7 +176,7 @@ The alternatives are about *where the work goes*, not whether to render.
 | Event handler | The work responds to a user action | Does not cover changes from props or external sources | [React — You Might Not Need an Effect](https://react.dev/learn/you-might-not-need-an-effect) |
 | `useEffect` | Synchronizing with an external system | Runs after paint; overuse creates render loops | [The Commit Phase](./the-commit-phase.md) |
 | `useLayoutEffect` | You must measure or mutate before paint | Blocks paint; misuse causes jank | [The Commit Phase](./the-commit-phase.md) |
-| State + setter | The value cannot be derived (it is user input) | Duplicating derivable data creates two sources of truth | useState (planned) |
+| State + setter | The value cannot be derived (it is user input) | Duplicating derivable data creates two sources of truth | [useState](./usestate.md) |
 
 ## Bad Example
 
@@ -323,7 +323,7 @@ See the [React anti-patterns](../../../anti-patterns/) for the domain catalog. C
 - [Elements vs Components](./elements-vs-components.md) — identity rules that decide re-render versus remount.
 - [JSX Semantics](./jsx-semantics.md) — why expressions in the returned tree run during render.
 - [Composition & Children](./composition-and-children.md) — passing `children` so a subtree can be skipped without `memo`.
-- [Reconciliation & Diffing](./reconciliation-and-diffing.md), [The Commit Phase](./the-commit-phase.md), and useState (planned) — what happens on either side of this phase.
+- [Reconciliation & Diffing](./reconciliation-and-diffing.md), [The Commit Phase](./the-commit-phase.md), and [useState](./usestate.md) — what happens on either side of this phase.
 
 ## References
 

@@ -298,7 +298,7 @@ See the [Web Platform anti-patterns](../../../anti-patterns/) for the domain cat
 
 ## Related Articles
 
-- [Sandboxing & Site Isolation](./) (planned) — how the process boundary becomes a security boundary.
+- [Sandboxing & Site Isolation](./sandboxing-and-site-isolation.md) — how the process boundary becomes a security boundary.
 - [The Main Thread](./) (planned) — the task queue, long tasks, and the frame budget in detail.
 - HTML Parsing & DOM Construction (planned) — the first main-thread job of any page load.
 - Style Calculation (planned) and Layout & Reflow (planned) — the pipeline stages that make main-thread work expensive.

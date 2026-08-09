@@ -361,7 +361,7 @@ See the [CSS & Visual Systems anti-patterns](../../../anti-patterns/) for the do
 - [Specificity](./specificity.md) — how a custom property's own value is chosen among competing rules.
 - [Inheritance & Initial Values](./inheritance-and-initial-values.md) — the inheritance that makes subtree theming work.
 - [Cascade Layers (@layer)](./cascade-layers-layer.md) — controlling which body of CSS defines a token.
-- The Box Model (planned) — the properties these tokens most often feed.
+- [The Box Model](./the-box-model.md) — the properties these tokens most often feed.
 
 ## References
 

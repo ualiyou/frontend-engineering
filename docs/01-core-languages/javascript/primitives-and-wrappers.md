@@ -344,7 +344,7 @@ See the [JavaScript anti-patterns](../../../anti-patterns/) for the domain catal
 
 ## Related Articles
 
-- [Coercion & Conversion](./) (planned) — what happens when a primitive of one type is asked to behave as another.
+- [Coercion & Conversion](./coercion-and-conversion.md) — what happens when a primitive of one type is asked to behave as another.
 - [Equality & Comparison](./) (planned) — `==`, `===`, and `Object.is` in full, including the boxing rules.
 - [null, undefined & Nullish](./) (planned) — the two absence primitives and the operators built for them.
 - [Lexical Scope](./lexical-scope.md) — where these values live and how long they stay reachable.

@@ -175,7 +175,7 @@ There is no alternative to *having* a taxonomy — state has an owner, a lifetim
 | By owner, lifetime, scope (this article) | Deciding where a new piece of state should live | Boundary cases need judgment | (this article) |
 | Server vs client split only | The app is mostly a client for one API | Says nothing about URL, derived, or scope | [Server vs Client State](./server-vs-client-state.md) |
 | UI vs domain split | Reasoning about what to test and what to persist | Orthogonal to ownership; not a placement rule by itself | [UI vs Domain State](./ui-vs-domain-state.md) |
-| Ephemeral vs persistent split | Designing storage, hydration, and versioning | Ignores scope and authority | [Ephemeral vs Persistent State](./) (planned) |
+| Ephemeral vs persistent split | Designing storage, hydration, and versioning | Ignores scope and authority | [Ephemeral vs Persistent State](./ephemeral-vs-persistent-state.md) |
 
 ## Bad Example
 

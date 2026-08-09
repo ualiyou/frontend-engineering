@@ -9,7 +9,7 @@
 - **Total estimated reading time:** ~8459 min (~141 h)
 - **Total expected code examples:** ~1816
 - **Difficulty distribution:** Foundational 169 · Intermediate 288 · Advanced 160 · Staff 34
-- **Status:** 72 Published · 579 Planned.
+- **Status:** 84 Published · 567 Planned.
 
 ### Column reference
 
@@ -39,7 +39,7 @@
 | IndexedDB | `indexeddb.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; The Cache Storage API; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Published |
 | The Cache Storage API | `the-cache-storage-api.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; IndexedDB; Cookies & Partitioned Storage; Storage Quotas & Eviction | 2 | Published |
 | Cookies & Partitioned Storage | `cookies-and-partitioned-storage.md` | Browser APIs | Storage | Critical | Foundational | 11 min | Web Storage | Web Storage; IndexedDB; The Cache Storage API; Storage Quotas & Eviction | 2 | Published |
-| Storage Quotas & Eviction | `storage-quotas-and-eviction.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; IndexedDB; The Cache Storage API; Cookies & Partitioned Storage | 2 | Planned |
+| Storage Quotas & Eviction | `storage-quotas-and-eviction.md` | Browser APIs | Storage | Critical | Foundational | 8 min | Web Storage | Web Storage; IndexedDB; The Cache Storage API; Cookies & Partitioned Storage | 2 | Published |
 | Intersection Observer | `intersection-observer.md` | Browser APIs | Observers | Critical | Foundational | 8 min | Web Storage | Resize Observer; Mutation Observer; Performance Observer | 2 | Planned |
 | Resize Observer | `resize-observer.md` | Browser APIs | Observers | Critical | Foundational | 8 min | Intersection Observer; Web Storage | Intersection Observer; Mutation Observer; Performance Observer | 2 | Planned |
 | Mutation Observer | `mutation-observer.md` | Browser APIs | Observers | Critical | Foundational | 8 min | Intersection Observer; Web Storage | Intersection Observer; Resize Observer; Performance Observer | 2 | Planned |
@@ -87,7 +87,7 @@
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | HTTP/1.1 Semantics | `http-1-1-semantics.md` | Networking & Protocols | HTTP | Critical | Foundational | 8 min | Process & Thread Architecture · The Web Platform | HTTP/2 Multiplexing; HTTP/3 & QUIC; Methods, Status Codes & Headers | 2 | Published |
-| HTTP/2 Multiplexing | `http-2-multiplexing.md` | Networking & Protocols | HTTP | Critical | Foundational | 8 min | HTTP/1.1 Semantics | HTTP/1.1 Semantics; HTTP/3 & QUIC; Methods, Status Codes & Headers | 2 | Planned |
+| HTTP/2 Multiplexing | `http-2-multiplexing.md` | Networking & Protocols | HTTP | Critical | Foundational | 8 min | HTTP/1.1 Semantics | HTTP/1.1 Semantics; HTTP/3 & QUIC; Methods, Status Codes & Headers | 2 | Published |
 | HTTP/3 & QUIC | `http-3-and-quic.md` | Networking & Protocols | HTTP | Critical | Foundational | 8 min | HTTP/1.1 Semantics | HTTP/1.1 Semantics; HTTP/2 Multiplexing; Methods, Status Codes & Headers | 2 | Planned |
 | Methods, Status Codes & Headers | `methods-status-codes-and-headers.md` | Networking & Protocols | HTTP | Critical | Foundational | 11 min | HTTP/1.1 Semantics | HTTP/1.1 Semantics; HTTP/2 Multiplexing; HTTP/3 & QUIC | 2 | Planned |
 | The HTTP Cache | `the-http-cache.md` | Networking & Protocols | Transport Caching | Critical | Foundational | 8 min | HTTP/1.1 Semantics | Cache-Control & Validators (ETag); CDN Caching Model; Vary & Cache Keys | 2 | Planned |
@@ -134,7 +134,7 @@
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Process & Thread Architecture | `process-and-thread-architecture.md` | The Web Platform | Browser Internals | Critical | Foundational | 11 min | Trees & the DOM as a Tree · Computer Science for Frontend | Sandboxing & Site Isolation; The Main Thread | 2 | Published |
-| Sandboxing & Site Isolation | `sandboxing-and-site-isolation.md` | The Web Platform | Browser Internals | Critical | Foundational | 11 min | Process & Thread Architecture | Process & Thread Architecture; The Main Thread | 2 | Planned |
+| Sandboxing & Site Isolation | `sandboxing-and-site-isolation.md` | The Web Platform | Browser Internals | Critical | Foundational | 11 min | Process & Thread Architecture | Process & Thread Architecture; The Main Thread | 2 | Published |
 | The Main Thread | `the-main-thread.md` | The Web Platform | Browser Internals | Critical | Foundational | 8 min | Process & Thread Architecture | Process & Thread Architecture; Sandboxing & Site Isolation | 2 | Planned |
 | HTML Parsing & DOM Construction | `html-parsing-and-dom-construction.md` | The Web Platform | The Rendering Pipeline | Critical | Foundational | 11 min | Process & Thread Architecture | Style Calculation; Layout & Reflow; Paint & Layerization; Compositing | 2 | Planned |
 | Style Calculation | `style-calculation.md` | The Web Platform | The Rendering Pipeline | Critical | Foundational | 8 min | HTML Parsing & DOM Construction; Process & Thread Architecture | HTML Parsing & DOM Construction; Layout & Reflow; Paint & Layerization; Compositing | 2 | Planned |
@@ -164,7 +164,7 @@
 | Inheritance & Initial Values | `inheritance-and-initial-values.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 11 min | Specificity | Specificity; Cascade Layers (@layer); Custom Properties | 2 | Published |
 | Cascade Layers (@layer) | `cascade-layers-layer.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Specificity | Specificity; Inheritance & Initial Values; Custom Properties | 2 | Published |
 | Custom Properties | `custom-properties.md` | CSS & Visual Systems | The Cascade | Critical | Foundational | 8 min | Specificity | Specificity; Inheritance & Initial Values; Cascade Layers (@layer) | 2 | Published |
-| The Box Model | `the-box-model.md` | CSS & Visual Systems | Box & Formatting | Critical | Foundational | 8 min | Specificity | Formatting Contexts; Stacking Contexts & z-index; Containment & content-visibility | 2 | Planned |
+| The Box Model | `the-box-model.md` | CSS & Visual Systems | Box & Formatting | Critical | Foundational | 8 min | Specificity | Formatting Contexts; Stacking Contexts & z-index; Containment & content-visibility | 2 | Published |
 | Formatting Contexts | `formatting-contexts.md` | CSS & Visual Systems | Box & Formatting | Critical | Foundational | 8 min | The Box Model; Specificity | The Box Model; Stacking Contexts & z-index; Containment & content-visibility | 2 | Planned |
 | Stacking Contexts & z-index | `stacking-contexts-and-z-index.md` | CSS & Visual Systems | Box & Formatting | Critical | Foundational | 11 min | The Box Model; Specificity | The Box Model; Formatting Contexts; Containment & content-visibility | 2 | Planned |
 | Containment & content-visibility | `containment-and-content-visibility.md` | CSS & Visual Systems | Box & Formatting | Critical | Foundational | 11 min | The Box Model; Specificity | The Box Model; Formatting Contexts; Stacking Contexts & z-index | 2 | Planned |
@@ -216,7 +216,7 @@
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Primitives & Wrappers | `primitives-and-wrappers.md` | JavaScript | Runtime Types | Critical | Foundational | 8 min | Trees & the DOM as a Tree · Computer Science for Frontend; Parsing & Bytecode · Runtime & Execution | Coercion & Conversion; Equality & Comparison; null, undefined & Nullish | 2 | Published |
-| Coercion & Conversion | `coercion-and-conversion.md` | JavaScript | Runtime Types | Critical | Foundational | 8 min | Primitives & Wrappers | Primitives & Wrappers; Equality & Comparison; null, undefined & Nullish | 2 | Planned |
+| Coercion & Conversion | `coercion-and-conversion.md` | JavaScript | Runtime Types | Critical | Foundational | 8 min | Primitives & Wrappers | Primitives & Wrappers; Equality & Comparison; null, undefined & Nullish | 2 | Published |
 | Equality & Comparison | `equality-and-comparison.md` | JavaScript | Runtime Types | Critical | Foundational | 8 min | Primitives & Wrappers | Primitives & Wrappers; Coercion & Conversion; null, undefined & Nullish | 2 | Planned |
 | null, undefined & Nullish | `null-undefined-and-nullish.md` | JavaScript | Runtime Types | Critical | Foundational | 8 min | Primitives & Wrappers | Primitives & Wrappers; Coercion & Conversion; Equality & Comparison | 2 | Planned |
 | Lexical Scope | `lexical-scope.md` | JavaScript | Scope & Closures | Critical | Foundational | 8 min | Primitives & Wrappers | Closures; Hoisting & TDZ; Block vs Function Scope | 2 | Published |
@@ -256,7 +256,7 @@
 | unknown, never & any | `unknown-never-and-any.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; Assignability; Literal & Unit Types | 2 | Published |
 | Literal & Unit Types | `literal-and-unit-types.md` | TypeScript | Type Foundations | Critical | Foundational | 8 min | Structural Typing | Structural Typing; Assignability; unknown, never & any | 2 | Published |
 | Unions & Intersections | `unions-and-intersections.md` | TypeScript | Composition | Critical | Foundational | 8 min | Structural Typing | Generics; Generic Constraints; Indexed Access & keyof | 2 | Published |
-| Generics | `generics.md` | TypeScript | Composition | Critical | Foundational | 8 min | Unions & Intersections; Structural Typing | Unions & Intersections; Generic Constraints; Indexed Access & keyof | 2 | Planned |
+| Generics | `generics.md` | TypeScript | Composition | Critical | Foundational | 8 min | Unions & Intersections; Structural Typing | Unions & Intersections; Generic Constraints; Indexed Access & keyof | 2 | Published |
 | Generic Constraints | `generic-constraints.md` | TypeScript | Composition | Critical | Foundational | 8 min | Unions & Intersections; Structural Typing | Unions & Intersections; Generics; Indexed Access & keyof | 2 | Planned |
 | Indexed Access & keyof | `indexed-access-and-keyof.md` | TypeScript | Composition | Critical | Foundational | 8 min | Unions & Intersections; Structural Typing | Unions & Intersections; Generics; Generic Constraints | 2 | Planned |
 | Conditional Types | `conditional-types.md` | TypeScript | Type Transformation | Critical | Intermediate | 12 min | Unions & Intersections | Mapped Types; Template Literal Types; infer & Type Extraction | 3 | Planned |
@@ -292,7 +292,7 @@
 | Reconciliation & Diffing | `reconciliation-and-diffing.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Keys & List Reconciliation; The Commit Phase | 3 | Published |
 | Keys & List Reconciliation | `keys-and-list-reconciliation.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Reconciliation & Diffing; The Commit Phase | 3 | Published |
 | The Commit Phase | `the-commit-phase.md` | React | Rendering & Reconciliation | Critical | Intermediate | 12 min | The Render Phase; Elements vs Components | The Render Phase; Reconciliation & Diffing; Keys & List Reconciliation | 3 | Published |
-| useState | `usestate.md` | React | State & Hooks | Critical | Intermediate | 12 min | The Render Phase | useReducer; The Rules of Hooks; State Batching & Updates | 3 | Planned |
+| useState | `usestate.md` | React | State & Hooks | Critical | Intermediate | 12 min | The Render Phase | useReducer; The Rules of Hooks; State Batching & Updates | 3 | Published |
 | useReducer | `usereducer.md` | React | State & Hooks | Critical | Intermediate | 12 min | useState; The Render Phase | useState; The Rules of Hooks; State Batching & Updates | 3 | Planned |
 | The Rules of Hooks | `the-rules-of-hooks.md` | React | State & Hooks | Critical | Intermediate | 12 min | useState; The Render Phase | useState; useReducer; State Batching & Updates | 3 | Planned |
 | State Batching & Updates | `state-batching-and-updates.md` | React | State & Hooks | Critical | Intermediate | 12 min | useState; The Render Phase | useState; useReducer; The Rules of Hooks | 3 | Planned |
@@ -450,7 +450,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Controlled Inputs | `controlled-inputs.md` | Forms & Validation | Form State | Critical | Intermediate | 12 min | Elements vs Components · React; Structural Typing · TypeScript; Categories of State · State Management | Uncontrolled Inputs & Refs; Form Libraries & State Models; Field Arrays & Dynamic Fields | 3 | Planned |
+| Controlled Inputs | `controlled-inputs.md` | Forms & Validation | Form State | Critical | Intermediate | 12 min | Elements vs Components · React; Structural Typing · TypeScript; Categories of State · State Management | Uncontrolled Inputs & Refs; Form Libraries & State Models; Field Arrays & Dynamic Fields | 3 | Published |
 | Uncontrolled Inputs & Refs | `uncontrolled-inputs-and-refs.md` | Forms & Validation | Form State | Critical | Intermediate | 12 min | Controlled Inputs | Controlled Inputs; Form Libraries & State Models; Field Arrays & Dynamic Fields | 3 | Planned |
 | Form Libraries & State Models | `form-libraries-and-state-models.md` | Forms & Validation | Form State | Critical | Intermediate | 15 min | Controlled Inputs | Controlled Inputs; Uncontrolled Inputs & Refs; Field Arrays & Dynamic Fields | 3 | Published |
 | Field Arrays & Dynamic Fields | `field-arrays-and-dynamic-fields.md` | Forms & Validation | Form State | Critical | Intermediate | 15 min | Controlled Inputs | Controlled Inputs; Uncontrolled Inputs & Refs; Form Libraries & State Models | 3 | Planned |
@@ -474,7 +474,7 @@
 | Categories of State | `categories-of-state.md` | State Management | State Taxonomy | Critical | Intermediate | 12 min | Elements vs Components · React; Primitives & Wrappers · JavaScript | Server vs Client State; UI vs Domain State; Ephemeral vs Persistent State | 3 | Published |
 | Server vs Client State | `server-vs-client-state.md` | State Management | State Taxonomy | Critical | Intermediate | 12 min | Categories of State | Categories of State; UI vs Domain State; Ephemeral vs Persistent State | 3 | Published |
 | UI vs Domain State | `ui-vs-domain-state.md` | State Management | State Taxonomy | Critical | Intermediate | 12 min | Categories of State | Categories of State; Server vs Client State; Ephemeral vs Persistent State | 3 | Published |
-| Ephemeral vs Persistent State | `ephemeral-vs-persistent-state.md` | State Management | State Taxonomy | Critical | Intermediate | 15 min | Categories of State | Categories of State; Server vs Client State; UI vs Domain State | 3 | Planned |
+| Ephemeral vs Persistent State | `ephemeral-vs-persistent-state.md` | State Management | State Taxonomy | Critical | Intermediate | 15 min | Categories of State | Categories of State; Server vs Client State; UI vs Domain State | 3 | Published |
 | Local State | `local-state.md` | State Management | State Ownership | Critical | Intermediate | 12 min | Categories of State | Lifting State Up; Global State; Colocation vs Centralization | 3 | Published |
 | Lifting State Up | `lifting-state-up.md` | State Management | State Ownership | Critical | Intermediate | 12 min | Local State; Categories of State | Local State; Global State; Colocation vs Centralization | 3 | Published |
 | Global State | `global-state.md` | State Management | State Ownership | Critical | Intermediate | 12 min | Local State; Categories of State | Local State; Lifting State Up; Colocation vs Centralization | 3 | Planned |
@@ -502,7 +502,7 @@
 | Conformance Levels | `conformance-levels.md` | Accessibility | Standards | High | Intermediate | 12 min | WCAG Principles (POUR) | WCAG Principles (POUR); The ARIA Model; Accessible Name Computation | 3 | Published |
 | The ARIA Model | `the-aria-model.md` | Accessibility | Standards | High | Intermediate | 12 min | WCAG Principles (POUR) | WCAG Principles (POUR); Conformance Levels; Accessible Name Computation | 3 | Published |
 | Accessible Name Computation | `accessible-name-computation.md` | Accessibility | Standards | High | Intermediate | 15 min | WCAG Principles (POUR) | WCAG Principles (POUR); Conformance Levels; The ARIA Model | 3 | Published |
-| Role, Name, State | `role-name-state.md` | Accessibility | The Accessibility Tree | High | Intermediate | 12 min | WCAG Principles (POUR) | The Tree & Assistive Tech; Screen Reader Behavior | 3 | Planned |
+| Role, Name, State | `role-name-state.md` | Accessibility | The Accessibility Tree | High | Intermediate | 12 min | WCAG Principles (POUR) | The Tree & Assistive Tech; Screen Reader Behavior | 3 | Published |
 | The Tree & Assistive Tech | `the-tree-and-assistive-tech.md` | Accessibility | The Accessibility Tree | High | Intermediate | 12 min | Role, Name, State; WCAG Principles (POUR) | Role, Name, State; Screen Reader Behavior | 3 | Planned |
 | Screen Reader Behavior | `screen-reader-behavior.md` | Accessibility | The Accessibility Tree | High | Intermediate | 12 min | Role, Name, State; WCAG Principles (POUR) | Role, Name, State; The Tree & Assistive Tech | 3 | Planned |
 | Keyboard Navigation | `keyboard-navigation.md` | Accessibility | Keyboard & Focus | High | Intermediate | 12 min | Role, Name, State | Focus Management; Focus Order & Tab Trapping; Skip Links & Landmarks | 3 | Planned |
@@ -634,7 +634,7 @@
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Same-Origin Policy | `same-origin-policy.md` | Security | The Security Model | Critical | Advanced | 16 min | HTTP/1.1 Semantics · Networking & Protocols; Web Storage · Browser APIs | CORS; Isolation (COOP/COEP) | 4 | Published |
-| CORS | `cors.md` | Security | The Security Model | Critical | Advanced | 16 min | Same-Origin Policy | Same-Origin Policy; Isolation (COOP/COEP) | 4 | Planned |
+| CORS | `cors.md` | Security | The Security Model | Critical | Advanced | 16 min | Same-Origin Policy | Same-Origin Policy; Isolation (COOP/COEP) | 4 | Published |
 | Isolation (COOP/COEP) | `isolation-coop-coep.md` | Security | The Security Model | Critical | Advanced | 16 min | Same-Origin Policy | Same-Origin Policy; CORS | 4 | Planned |
 | Cross-Site Scripting (XSS) | `cross-site-scripting-xss.md` | Security | Injection Attacks | Critical | Advanced | 16 min | Same-Origin Policy | DOM-Based XSS; HTML/Template Injection; Sanitization & Encoding | 4 | Planned |
 | DOM-Based XSS | `dom-based-xss.md` | Security | Injection Attacks | Critical | Advanced | 16 min | Cross-Site Scripting (XSS); Same-Origin Policy | Cross-Site Scripting (XSS); HTML/Template Injection; Sanitization & Encoding | 4 | Planned |
@@ -664,7 +664,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | The Testing Pyramid/Trophy | `the-testing-pyramid-trophy.md` | Testing & Quality | Strategy | Critical | Intermediate | 12 min | Elements vs Components · React; Primitives & Wrappers · JavaScript | What to Test & Coverage Goals; Test Doubles (mocks, stubs, fakes) | 3 | Published |
 | What to Test & Coverage Goals | `what-to-test-and-coverage-goals.md` | Testing & Quality | Strategy | Critical | Intermediate | 15 min | The Testing Pyramid/Trophy | The Testing Pyramid/Trophy; Test Doubles (mocks, stubs, fakes) | 3 | Published |
-| Test Doubles (mocks, stubs, fakes) | `test-doubles-mocks-stubs-fakes.md` | Testing & Quality | Strategy | Critical | Intermediate | 15 min | The Testing Pyramid/Trophy | The Testing Pyramid/Trophy; What to Test & Coverage Goals | 3 | Planned |
+| Test Doubles (mocks, stubs, fakes) | `test-doubles-mocks-stubs-fakes.md` | Testing & Quality | Strategy | Critical | Intermediate | 15 min | The Testing Pyramid/Trophy | The Testing Pyramid/Trophy; What to Test & Coverage Goals | 3 | Published |
 | Pure Logic Testing | `pure-logic-testing.md` | Testing & Quality | Unit Testing | Critical | Intermediate | 12 min | The Testing Pyramid/Trophy | Testing Hooks & Utilities; Property-Based Testing | 3 | Published |
 | Testing Hooks & Utilities | `testing-hooks-and-utilities.md` | Testing & Quality | Unit Testing | Critical | Intermediate | 12 min | Pure Logic Testing; The Testing Pyramid/Trophy | Pure Logic Testing; Property-Based Testing | 3 | Planned |
 | Property-Based Testing | `property-based-testing.md` | Testing & Quality | Unit Testing | Critical | Intermediate | 12 min | Pure Logic Testing; The Testing Pyramid/Trophy | Pure Logic Testing; Testing Hooks & Utilities | 3 | Planned |

@@ -2,6 +2,8 @@
   "version": "0.2",
   "language": "en",
   "words": [
+    "HPACK", "credentialless", "mispredicted", "minmax", "usestate", "beforeunload",
+    "preflights", "preflighted", "safelist", "safelisted", "Meszaros",
     "frontend", "kebab", "middleware", "monorepo", "monorepos", "hydration",
     "reactivity", "memoize", "memoization", "runtimes", "toolchain", "bundlers",
     "treeshaking", "serverless", "webhooks", "changelog", "changelogs",
