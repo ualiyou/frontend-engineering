@@ -4,6 +4,10 @@
 
 **Part:** [03 · Application Architecture](../) · **Priority:** Critical
 
+## Published articles
+
+- [Separation of Concerns](separation-of-concerns.md)
+
 ## Taxonomy
 
 Second-level groups and their articles. Each article is a standalone entry following [the template](../../../templates/article-template.md); its filename is the kebab-case form of the title.

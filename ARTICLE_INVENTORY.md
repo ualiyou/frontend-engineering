@@ -9,7 +9,7 @@
 - **Total estimated reading time:** ~8459 min (~141 h)
 - **Total expected code examples:** ~1816
 - **Difficulty distribution:** Foundational 169 · Intermediate 288 · Advanced 160 · Staff 34
-- **Status:** 84 Published · 567 Planned.
+- **Status:** 94 Published · 557 Planned.
 
 ### Column reference
 
@@ -338,7 +338,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| The CSR Model | `the-csr-model.md` | Rendering Architectures | Client Rendering | Critical | Intermediate | 12 min | Process & Thread Architecture · The Web Platform; HTTP/1.1 Semantics · Networking & Protocols | The App Shell Pattern; Client-Side Data Loading | 3 | Planned |
+| The CSR Model | `the-csr-model.md` | Rendering Architectures | Client Rendering | Critical | Intermediate | 12 min | Process & Thread Architecture · The Web Platform; HTTP/1.1 Semantics · Networking & Protocols | The App Shell Pattern; Client-Side Data Loading | 3 | Published |
 | The App Shell Pattern | `the-app-shell-pattern.md` | Rendering Architectures | Client Rendering | Critical | Intermediate | 12 min | The CSR Model | The CSR Model; Client-Side Data Loading | 3 | Planned |
 | Client-Side Data Loading | `client-side-data-loading.md` | Rendering Architectures | Client Rendering | Critical | Intermediate | 12 min | The CSR Model | The CSR Model; The App Shell Pattern | 3 | Planned |
 | The SSR Model | `the-ssr-model.md` | Rendering Architectures | Server Rendering | Critical | Intermediate | 12 min | The CSR Model | Hydration; Selective & Progressive Hydration; Hydration Mismatches | 3 | Planned |
@@ -360,7 +360,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Client-Side Routing | `client-side-routing.md` | Routing | Routing Models | Critical | Intermediate | 12 min | The CSR Model · Rendering Architectures; Web Storage · Browser APIs | File-Based & Server Routing; Hybrid Routing | 3 | Planned |
+| Client-Side Routing | `client-side-routing.md` | Routing | Routing Models | Critical | Intermediate | 12 min | The CSR Model · Rendering Architectures; Web Storage · Browser APIs | File-Based & Server Routing; Hybrid Routing | 3 | Published |
 | File-Based & Server Routing | `file-based-and-server-routing.md` | Routing | Routing Models | Critical | Intermediate | 15 min | Client-Side Routing | Client-Side Routing; Hybrid Routing | 3 | Planned |
 | Hybrid Routing | `hybrid-routing.md` | Routing | Routing Models | Critical | Intermediate | 12 min | Client-Side Routing | Client-Side Routing; File-Based & Server Routing | 3 | Planned |
 | Route Matching & Params | `route-matching-and-params.md` | Routing | Route Structure | Critical | Intermediate | 12 min | Client-Side Routing | Nested Routes & Layouts; Parallel & Intercepting Routes; The URL as State | 3 | Planned |
@@ -385,7 +385,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| REST | `rest.md` | API Design & Contracts | Paradigms | Critical | Advanced | 16 min | HTTP/1.1 Semantics · Networking & Protocols; Structural Typing · TypeScript | GraphQL; RPC; Realtime & Subscriptions | 4 | Planned |
+| REST | `rest.md` | API Design & Contracts | Paradigms | Critical | Advanced | 16 min | HTTP/1.1 Semantics · Networking & Protocols; Structural Typing · TypeScript | GraphQL; RPC; Realtime & Subscriptions | 4 | Published |
 | GraphQL | `graphql.md` | API Design & Contracts | Paradigms | Critical | Advanced | 16 min | REST | REST; RPC; Realtime & Subscriptions | 4 | Planned |
 | RPC | `rpc.md` | API Design & Contracts | Paradigms | Critical | Advanced | 16 min | REST | REST; GraphQL; Realtime & Subscriptions | 4 | Planned |
 | Realtime & Subscriptions | `realtime-and-subscriptions.md` | API Design & Contracts | Paradigms | Critical | Advanced | 16 min | REST | REST; GraphQL; RPC | 4 | Planned |
@@ -404,7 +404,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Separation of Concerns | `separation-of-concerns.md` | Frontend Architecture | Structure & Boundaries | Critical | Intermediate | 12 min | Elements vs Components · React; Structural Typing · TypeScript | Layered Architecture; Module Boundaries; Dependency Direction & Inversion | 3 | Planned |
+| Separation of Concerns | `separation-of-concerns.md` | Frontend Architecture | Structure & Boundaries | Critical | Intermediate | 12 min | Elements vs Components · React; Structural Typing · TypeScript | Layered Architecture; Module Boundaries; Dependency Direction & Inversion | 3 | Published |
 | Layered Architecture | `layered-architecture.md` | Frontend Architecture | Structure & Boundaries | Critical | Intermediate | 12 min | Separation of Concerns | Separation of Concerns; Module Boundaries; Dependency Direction & Inversion | 3 | Planned |
 | Module Boundaries | `module-boundaries.md` | Frontend Architecture | Structure & Boundaries | Critical | Intermediate | 12 min | Separation of Concerns | Separation of Concerns; Layered Architecture; Dependency Direction & Inversion | 3 | Planned |
 | Dependency Direction & Inversion | `dependency-direction-and-inversion.md` | Frontend Architecture | Structure & Boundaries | Critical | Intermediate | 15 min | Separation of Concerns | Separation of Concerns; Layered Architecture; Module Boundaries | 3 | Planned |
@@ -541,7 +541,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Prop Design & Contracts | `prop-design-and-contracts.md` | Component & Interaction Design | Component APIs | High | Intermediate | 12 min | Elements vs Components · React; Specificity · CSS & Visual Systems | Composition vs Configuration; Polymorphic Components (as); Slots & Children APIs | 3 | Planned |
+| Prop Design & Contracts | `prop-design-and-contracts.md` | Component & Interaction Design | Component APIs | High | Intermediate | 12 min | Elements vs Components · React; Specificity · CSS & Visual Systems | Composition vs Configuration; Polymorphic Components (as); Slots & Children APIs | 3 | Published |
 | Composition vs Configuration | `composition-vs-configuration.md` | Component & Interaction Design | Component APIs | High | Intermediate | 15 min | Prop Design & Contracts | Prop Design & Contracts; Polymorphic Components (as); Slots & Children APIs | 3 | Planned |
 | Polymorphic Components (as) | `polymorphic-components-as.md` | Component & Interaction Design | Component APIs | High | Intermediate | 15 min | Prop Design & Contracts | Prop Design & Contracts; Composition vs Configuration; Slots & Children APIs | 3 | Planned |
 | Slots & Children APIs | `slots-and-children-apis.md` | Component & Interaction Design | Component APIs | High | Intermediate | 12 min | Prop Design & Contracts | Prop Design & Contracts; Composition vs Configuration; Polymorphic Components (as) | 3 | Planned |
@@ -562,7 +562,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Design Primitives | `design-primitives.md` | Design Systems | Foundations | High | Intermediate | 12 min | Specificity · CSS & Visual Systems; Prop Design & Contracts · Component & Interaction Design | Spacing & Layout Scales; Elevation & Surfaces | 3 | Planned |
+| Design Primitives | `design-primitives.md` | Design Systems | Foundations | High | Intermediate | 12 min | Specificity · CSS & Visual Systems; Prop Design & Contracts · Component & Interaction Design | Spacing & Layout Scales; Elevation & Surfaces | 3 | Published |
 | Spacing & Layout Scales | `spacing-and-layout-scales.md` | Design Systems | Foundations | High | Intermediate | 12 min | Design Primitives | Design Primitives; Elevation & Surfaces | 3 | Planned |
 | Elevation & Surfaces | `elevation-and-surfaces.md` | Design Systems | Foundations | High | Intermediate | 12 min | Design Primitives | Design Primitives; Spacing & Layout Scales | 3 | Planned |
 | Token Architecture | `token-architecture.md` | Design Systems | Tokens | High | Intermediate | 12 min | Design Primitives | Semantic Token Layers; Token Transformation & Distribution | 3 | Planned |
@@ -689,7 +689,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| The Dependency Graph | `the-dependency-graph.md` | Build Systems & Tooling | Module Bundling | High | Intermediate | 12 min | Primitives & Wrappers · JavaScript; Dependency Resolution · Package Architecture | Bundler Models; Entry Points & Output | 3 | Planned |
+| The Dependency Graph | `the-dependency-graph.md` | Build Systems & Tooling | Module Bundling | High | Intermediate | 12 min | Primitives & Wrappers · JavaScript; Dependency Resolution · Package Architecture | Bundler Models; Entry Points & Output | 3 | Published |
 | Bundler Models | `bundler-models.md` | Build Systems & Tooling | Module Bundling | High | Intermediate | 12 min | The Dependency Graph | The Dependency Graph; Entry Points & Output | 3 | Planned |
 | Entry Points & Output | `entry-points-and-output.md` | Build Systems & Tooling | Module Bundling | High | Intermediate | 12 min | The Dependency Graph | The Dependency Graph; Bundler Models | 3 | Planned |
 | Transpilation & Targets | `transpilation-and-targets.md` | Build Systems & Tooling | Compilation | High | Advanced | 16 min | The Dependency Graph | Source-to-Source Compilers; AST Transforms & Plugins | 4 | Planned |
@@ -760,7 +760,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Dependency Resolution | `dependency-resolution.md` | Package Architecture | Package Management | High | Advanced | 16 min | Primitives & Wrappers · JavaScript | Lockfiles & Determinism; Node Modules & Hoisting Models | 4 | Planned |
+| Dependency Resolution | `dependency-resolution.md` | Package Architecture | Package Management | High | Advanced | 16 min | Primitives & Wrappers · JavaScript | Lockfiles & Determinism; Node Modules & Hoisting Models | 4 | Published |
 | Lockfiles & Determinism | `lockfiles-and-determinism.md` | Package Architecture | Package Management | High | Advanced | 16 min | Dependency Resolution | Dependency Resolution; Node Modules & Hoisting Models | 4 | Planned |
 | Node Modules & Hoisting Models | `node-modules-and-hoisting-models.md` | Package Architecture | Package Management | High | Advanced | 19 min | Dependency Resolution | Dependency Resolution; Lockfiles & Determinism | 4 | Planned |
 | Exports Map & Entry Points | `exports-map-and-entry-points.md` | Package Architecture | Package Design | High | Advanced | 16 min | Dependency Resolution | Module Formats (ESM/CJS/UMD); Conditional & Dual Exports; Types Distribution | 4 | Planned |
@@ -822,7 +822,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| The Service Worker Lifecycle | `the-service-worker-lifecycle.md` | Progressive & Cross-Platform Web | Service Workers | Medium | Advanced | 19 min | Web Storage · Browser APIs; HTTP/1.1 Semantics · Networking & Protocols; Core Web Vitals (LCP, INP, CLS) · Performance Engineering | Fetch Interception; Update & Activation Strategy | 4 | Planned |
+| The Service Worker Lifecycle | `the-service-worker-lifecycle.md` | Progressive & Cross-Platform Web | Service Workers | Medium | Advanced | 19 min | Web Storage · Browser APIs; HTTP/1.1 Semantics · Networking & Protocols; Core Web Vitals (LCP, INP, CLS) · Performance Engineering | Fetch Interception; Update & Activation Strategy | 4 | Published |
 | Fetch Interception | `fetch-interception.md` | Progressive & Cross-Platform Web | Service Workers | Medium | Advanced | 16 min | The Service Worker Lifecycle | The Service Worker Lifecycle; Update & Activation Strategy | 4 | Planned |
 | Update & Activation Strategy | `update-and-activation-strategy.md` | Progressive & Cross-Platform Web | Service Workers | Medium | Advanced | 19 min | The Service Worker Lifecycle | The Service Worker Lifecycle; Fetch Interception | 4 | Planned |
 | Runtime Caching Strategies | `runtime-caching-strategies.md` | Progressive & Cross-Platform Web | Offline | Medium | Advanced | 16 min | The Service Worker Lifecycle | Precaching & Offline Shell; Background Sync; Cache Versioning & Cleanup | 4 | Planned |
@@ -846,7 +846,7 @@
 
 | Title | Slug | Category | Subcategory | Priority | Difficulty | Est. Reading Time | Prerequisites | Related Articles | Expected Code Examples | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Naming | `naming.md` | Engineering Practices | Readable Code | High | Advanced | 16 min | Separation of Concerns · Frontend Architecture; The Testing Pyramid/Trophy · Testing & Quality | Function & Module Size; Comments & Intent | 1 | Planned |
+| Naming | `naming.md` | Engineering Practices | Readable Code | High | Advanced | 16 min | Separation of Concerns · Frontend Architecture; The Testing Pyramid/Trophy · Testing & Quality | Function & Module Size; Comments & Intent | 1 | Published |
 | Function & Module Size | `function-and-module-size.md` | Engineering Practices | Readable Code | High | Advanced | 16 min | Naming | Naming; Comments & Intent | 1 | Planned |
 | Comments & Intent | `comments-and-intent.md` | Engineering Practices | Readable Code | High | Advanced | 16 min | Naming | Naming; Function & Module Size | 1 | Planned |
 | Refactoring | `refactoring.md` | Engineering Practices | Change & Debt | High | Advanced | 16 min | Naming | Managing Technical Debt; Legacy Code Strategy | 1 | Planned |

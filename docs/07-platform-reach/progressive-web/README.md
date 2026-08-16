@@ -4,6 +4,10 @@
 
 **Part:** [07 · Platform Reach](../) · **Priority:** Medium
 
+## Published articles
+
+- [The Service Worker Lifecycle](the-service-worker-lifecycle.md)
+
 ## Taxonomy
 
 Second-level groups and their articles. Each article is a standalone entry following [the template](../../../templates/article-template.md); its filename is the kebab-case form of the title.
